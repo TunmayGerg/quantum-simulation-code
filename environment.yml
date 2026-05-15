@@ -1,0 +1,22 @@
+name: quantum_simulation
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - numpy==2.2.6
+      - scipy==1.13.1
+      - matplotlib==3.10.7
+      - qutip==5.2.2
+      - qutip-qtrl==0.1.5
+      - scqubits==4.3.1
+      - sympy==1.14.0
+      - pandas==2.3.4
+      - ipywidgets==8.1.8
+      - ipyvuetify==1.11.3
+      - tqdm==4.67.1
+      - pathos==0.3.4
+      - multiprocess==0.70.18
+      - jupyterlab-widgets==3.0.16
