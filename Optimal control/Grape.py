@@ -82,6 +82,7 @@ class GrapeLBFGS:
         derivative: str = "frechet",           # "frechet" (exact slice derivative) or "approx"
         gauge_ops: Optional[Sequence[qt.Qobj]] = None,  # operators defining gauge unitary
         hbar: float = 1.0,                     # ħ (often set to 1)
+        adiabatic_unitary: Optional[qt.Qobj] = None,  # optional basis-change unitary Ad; if provided, U_corr = G Ad† U_final Ad
     ):
         # ---- Store discretization parameters ----
         self.dt = float(dt)                    # ensure dt is a Python float
@@ -146,6 +147,17 @@ class GrapeLBFGS:
 
         # ---- Cancellation flag (set via opt.cancel() from another cell/thread) ----
         self._cancel_event = threading.Event()
+
+        # ---- Adiabatic unitary: optional basis-change sandwich Ad† U_final Ad ----
+        # When provided, the corrected unitary is G @ Ad† @ U_final @ Ad instead of G @ U_final.
+        # This lets you account for a known adiabatic or frame-change transformation on both sides.
+        if adiabatic_unitary is not None:
+            if not isinstance(adiabatic_unitary, qt.Qobj):
+                raise TypeError("adiabatic_unitary must be a QuTiP Qobj.")
+            if adiabatic_unitary.shape != (self.dim, self.dim):
+                raise ValueError("adiabatic_unitary must match the Hilbert space dimension.")
+        self._Ad     = None if adiabatic_unitary is None else adiabatic_unitary.full()
+        self._Ad_dag = None if adiabatic_unitary is None else adiabatic_unitary.full().conj().T
 
         # ---- For speed: cache dense numpy arrays of the operators (math is identical) ----
         # example: self.H0 is a QuTiP Qobj. Then .full() returns its dense numpy matrix (complex array). Math with numpy can be faster than with Qobj.
@@ -453,11 +465,14 @@ class GrapeLBFGS:
         # ---- Build gauge unitary G(theta) and derivatives (if enabled) ----
         G, _ = self._gauge_unitary(theta, False)                  # gauge unitary
 
+        # ---- Apply adiabatic frame (if set): U_ad = Ad† U_final Ad ----
+        U_ad = U_final if self._Ad is None else self._Ad_dag @ U_final @ self._Ad
+
         # ---- Apply gauge freedom to define what we compare to target ----
         if self.n_gauge == 0:                                    # no gauge variables
-            U_corr = U_final                                     # corrected unitary = achieved unitary
+            U_corr = U_ad
         else:
-            U_corr = G @ U_final                                 # left gauge: U_corr = G U
+            U_corr = G @ U_ad                                    # left gauge: U_corr = G Ad† U Ad
 
         # ---- Compute overlap and base fidelity ----
         c = self._overlap(U_corr)                                # overlap c = Tr(Ut† U_corr) (maybe projected which gives Tr(Ut† U_corr P))``
@@ -492,15 +507,18 @@ class GrapeLBFGS:
         # ---- Build gauge unitary G(theta) and derivatives (if enabled) ----
         G, dG_list = self._gauge_unitary(theta)                  # gauge unitary + dG/dtheta
 
+        # ---- Apply adiabatic frame (if set): U_ad = Ad† U_final Ad ----
+        U_ad = U_final if self._Ad is None else self._Ad_dag @ U_final @ self._Ad
+
         # ---- Apply gauge freedom to define what we compare to target ----
         if self.n_gauge == 0:                                    # no gauge variables
-            U_corr = U_final                                     # corrected unitary = achieved unitary
+            U_corr = U_ad
         else:
-            U_corr = G @ U_final                                 # left gauge: U_corr = G U
+            U_corr = G @ U_ad                                    # left gauge: U_corr = G Ad† U Ad
 
         # ---- Compute overlap and base fidelity ----
         c = self._overlap(U_corr)                                # overlap c = Tr(Ut† U_corr) (maybe projected which gives Tr(Ut† U_corr P))``
-        
+
         # ---- Allocate gradient arrays ----
         grad_p = np.zeros((self.n_steps, self.n_ctrl), dtype=float)   # gradient wrt pulses u[n,k] in array format
         grad_t = None if self.n_gauge == 0 else np.zeros((self.n_gauge,), dtype=float)  # gradient wrt theta, gauge angles
@@ -539,11 +557,12 @@ class GrapeLBFGS:
                 #   dU = post[n] * dU_n * prefix[n]
                 dUfinal = postn @ dUn @ pre                         # derivative of U_final wrt u[n,k]. we don't use prefix[n_steps] because that is U_final itself
 
-                # Apply gauge mapping to get dU_corr.
-                if self.n_gauge == 0:                               # no gauge -> same derivative
-                    dUcorr = dUfinal
+                # Apply adiabatic frame to get dU_ad = Ad† dU_final Ad, then gauge.
+                dU_ad = dUfinal if self._Ad is None else self._Ad_dag @ dUfinal @ self._Ad
+                if self.n_gauge == 0:
+                    dUcorr = dU_ad
                 else:
-                    dUcorr = G @ dUfinal                        # gauge multiplies derivative on left U_corr = G U
+                    dUcorr = G @ dU_ad
 
                 dc = dc_from_dUcorr(dUcorr)                         # compute overlap differential dc
                 dF = self._dF_from_dc(c, dc)                        # convert dc -> dF
@@ -553,8 +572,8 @@ class GrapeLBFGS:
         if self.n_gauge > 0:
             for j in range(self.n_gauge):                           # for each gauge parameter theta_j
                 dG = dG_list[j]                                     # dG/dtheta_j
-                # If U_corr = G U, then dU_corr = (dG) U
-                dUcorr = dG @ U_final
+                # If U_corr = G @ U_ad, then dU_corr/dtheta_j = dG @ U_ad
+                dUcorr = dG @ U_ad
 
                 dc = dc_from_dUcorr(dUcorr)                         # differential of overlap from gauge
                 dF = self._dF_from_dc(c, dc)                        # convert to fidelity differential
@@ -585,10 +604,11 @@ class GrapeLBFGS:
         U_final = cache["U_final"]                                  # dense final unitary
 
         G, _ = self._gauge_unitary(theta, False)                           # gauge unitary (ignore derivatives)
-        if self.n_gauge == 0:                                       # if no gauge
-            U_corr = U_final                                        # corrected = final
+        U_ad = U_final if self._Ad is None else self._Ad_dag @ U_final @ self._Ad
+        if self.n_gauge == 0:
+            U_corr = U_ad
         else:
-            U_corr = G @ U_final                                  # apply gauge
+            U_corr = G @ U_ad
 
         return qt.Qobj(U_corr, dims=self.H0.dims)                   # wrap dense matrix back into Qobj
 
@@ -861,6 +881,8 @@ class GrapeLBFGS:
         # Optional objects
         _qsave_safe(getattr(self, "P", None), "projector")
         _qsave_safe(getattr(self, "gauge_ops", None), "gauge_op")
+        if self._Ad is not None:
+            _qsave_safe(qt.Qobj(self._Ad, dims=self.H0.dims), "adiabatic_unitary")
 
 # =========================================================================
 # functions outside the Grape class
@@ -979,5 +1001,8 @@ def load_qobjs(run_npz_path: str):
 
     gauge_files = sorted(qdir.glob("gauge_op_*.qu"))
     out["gauge_ops"] = [qt.qload(f.with_suffix("")) for f in gauge_files]
+
+    ad_file = qdir / "adiabatic_unitary.qu"
+    out["adiabatic_unitary"] = qt.qload(ad_file.with_suffix("")) if ad_file.exists() else None
 
     return out
