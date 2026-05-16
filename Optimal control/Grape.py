@@ -17,6 +17,7 @@ from typing import Callable, Dict, List, Optional, Sequence, Tuple, Any  # typin
 
 from pathlib import Path
 import json
+import threading
 
 import numpy as np                # numerical arrays + linear algebra glue
 import qutip as qt                # QuTiP objects for quantum operators / unitaries
@@ -142,6 +143,9 @@ class GrapeLBFGS:
 
         # ---- Extra penalties (optional regularizers / constraints) ----
         self.penalties: List[PenaltyFn] = []  # holds user-added penalty functions
+
+        # ---- Cancellation flag (set via opt.cancel() from another cell/thread) ----
+        self._cancel_event = threading.Event()
 
         # ---- For speed: cache dense numpy arrays of the operators (math is identical) ----
         # example: self.H0 is a QuTiP Qobj. Then .full() returns its dense numpy matrix (complex array). Math with numpy can be faster than with Qobj.
@@ -414,7 +418,6 @@ class GrapeLBFGS:
         elif self.cost_type == "projected":                      # projected fidelity
             d = float(np.real(np.trace(self._P_dense)))                   # effective dimension = Tr(P)
         f = float((abs(c) ** 2) / (d * d))
-        print(f"Fidelity: {f}")
         return f                    # normalize by d^2
 
     def _dF_from_dc(self, c: complex, dc: complex) -> float:
@@ -601,6 +604,10 @@ class GrapeLBFGS:
     # Optimization driver (SciPy L-BFGS-B)
     # =========================================================================
 
+    def cancel(self) -> None:
+        """Signal the running optimize() call to stop after the current iteration."""
+        self._cancel_event.set()
+
     def optimize(
         self,
         pulses0: Optional[np.ndarray] = None,                       # initial guess for pulses as array
@@ -638,10 +645,13 @@ class GrapeLBFGS:
         else:
             theta0 = None                                           # no theta variables if gauge disabled
 
+        self._cancel_event.clear()                                  # reset any previous cancel signal
+
         x0 = self._pack(pulses0, theta0)                            # flatten initial parameters
         bounds = self._build_bounds(pulse_bounds=pulse_bounds, theta_bounds=theta_bounds)  # build L-BFGS bounds
 
         history: List[Dict[str, Any]] = []                          # will store progress if requested
+        _last_x: List[np.ndarray] = [x0]                           # mutable cell to track best iterate
 
         # SciPy expects:
         #   fun(x) -> scalar cost
@@ -656,35 +666,48 @@ class GrapeLBFGS:
             g = self.grad(pulses, theta)                # compute gradient vector
             return g                                                # return gradient for L-BFGS
 
-        # Callback runs after each iteration (useful for logging).
+        # Callback runs after each iteration.
+        # Raising StopIteration here causes scipy L-BFGS-B to exit cleanly with the current best.
         def callback(xk: np.ndarray) -> None:
-            if not store_history:                                   # if user doesn't want history
-                return
-            pulses, theta = self._unpack(xk)                        # unpack current iterate
-            history.append({"pulses": pulses, "theta": theta})                  # store it
+            _last_x[0] = xk                                         # always track latest iterate
+            pulses, theta = self._unpack(xk)
+            f = self.fidelity(pulses, theta)
+            print(f"Fidelity: {f:.8f}", flush=True)
+            if store_history:
+                history.append({"pulses": pulses, "theta": theta, "fidelity": f})
+            if self._cancel_event.is_set():
+                raise StopIteration                                 # signals scipy to stop gracefully
 
         # Options for SciPy optimizer
         options = {"maxiter": int(maxiter)}                         # set iteration limit
         if scipy_options:                                           # allow user overrides
             options.update(dict(scipy_options))                     # merge dictionaries
 
-        # Run L-BFGS-B optimization.
-        res = minimize(
-            fun=fun,                                                # objective function
-            x0=x0,                                                  # initial guess
-            jac=jac,                                                # analytic gradient
-            method="L-BFGS-B",                                      # bounded quasi-Newton
-            bounds=bounds,                                          # variable bounds
-            callback=callback,                                      # optional logging hook
-            options=options,                                        # SciPy control options
-        )
+        cancelled = False
+        try:
+            res = minimize(
+                fun=fun,                                            # objective function
+                x0=x0,                                             # initial guess
+                jac=jac,                                           # analytic gradient
+                method="L-BFGS-B",                                 # bounded quasi-Newton
+                bounds=bounds,                                     # variable bounds
+                callback=callback,                                 # optional logging hook
+                options=options,                                   # SciPy control options
+            )
+            best_x = res.x
+        except StopIteration:
+            cancelled = True
+            best_x = _last_x[0]                                    # return best iterate seen so far
+            res = None
+            print("Optimization cancelled — returning best result so far.")
 
-        pulses_opt, theta_opt = self._unpack(res.x)                 # unpack optimized variables
+        pulses_opt, theta_opt = self._unpack(best_x)               # unpack optimized variables
         return {                                                    # return everything user likely wants
             "result": res,
             "pulses_opt": pulses_opt,
             "theta_opt": theta_opt,
             "history": history,
+            "cancelled": cancelled,
         }
     
 
