@@ -688,7 +688,7 @@ class GrapeLBFGS:
         }
     
 
-    def save_results(self, filename: str, results: Dict[str, Any]) -> None:
+    def save_results(self, filename: str, results: Dict[str, Any], extra_params: Dict[str, Any] = None) -> None:
         """
         Save GRAPE optimization results so they can be reloaded later.
 
@@ -773,6 +773,9 @@ class GrapeLBFGS:
             "derivative": getattr(self, "derivative", None),
             "n_gauge": getattr(self, "n_gauge", 0),
         }
+
+        if extra_params:
+            parameters_dict.update(extra_params)
 
         # Convert dictionary -> JSON string
         parameters_json = json.dumps(parameters_dict)
