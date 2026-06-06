@@ -1,5 +1,21 @@
+import threading
 import numpy as np
 import qutip as qt
+
+
+class RunHandle:
+    """Start an optimization in a background thread; call .stop() to cancel it."""
+
+    def __init__(self, optimizer, target_fn):
+        self._opt = optimizer
+        self._thread = threading.Thread(target=target_fn, daemon=True)
+        self._thread.start()
+
+    def stop(self):
+        self._opt.cancel()
+
+    def is_alive(self):
+        return self._thread.is_alive()
 
 def unitary_projected_fidelity(U_target, U_actual, P):
     return abs((U_target.dag()*U_actual*P).tr())**2 / ((P.tr())**2)
