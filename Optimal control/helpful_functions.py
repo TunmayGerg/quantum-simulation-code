@@ -112,7 +112,7 @@ def dchi_H(drive_parameters, alpha):
     chi_list_numbers = [] # list of (n_r, n_r-1) pairs for calculating chi_list
     for i in range(len(evals_sorted)-1):
         if evals_sorted[i+1][0] is not None and evals_sorted[i][0] is not None and evals_sorted[i+1][1] is not None and evals_sorted[i][1] is not None: # check if states exist
-            chi_list.append(evals_sorted[i+1][1]-evals_sorted[i][1]-(evals_sorted[i+1][0]-evals_sorted[i][0]))
+            chi_list.append(evals_sorted[i+1][1]-evals_sorted[i][1]-(evals_sorted[i+1][0]-evals_sorted[i][0])) # chi is defined as resonator frequency shift when qubit goes from 1 to 0
             chi_list_numbers.append((i+1,i)) # resonator excitation numbers used for this chi
     chi_dict['chi_list'] = chi_list
     chi_dict['chi_list_numbers'] = chi_list_numbers
@@ -174,3 +174,47 @@ def sigma_plus_restricted_01_from_aq(a_q: qt.Qobj, q_index: int = -1) -> qt.Qobj
     sigma_plus_full = qt.tensor(factors)
 
     return sigma_plus_full
+
+
+# ── Perturbative dispersive-approximation formulas ────────────────────────────
+# Parameters for all functions below:
+#   g     : qubit-resonator coupling strength  (= g_BS)
+#   K     : transmon anharmonicity (Kerr), negative for transmon
+#   Delta : qubit-resonator detuning  (omega_q - omega_r)
+
+def chi_e(g, K, Delta):
+    """Dispersive shift χ_e to fourth order in g/Δ."""
+    t1 = -2 * g**2 * K / (Delta * (Delta - K))
+    t2 = 4 * g**4 * K * (K**2 + 2*Delta*(-K + Delta)) / (Delta**3 * (-K + Delta)**3)
+    return t1 + t2
+
+def chi_e_prime(g, K, Delta):
+    """Next-order correction χ'_e."""
+    num = g**4 * K**2 * (-3*K**3 + 11*K**2*Delta - 15*K*Delta**2 + 9*Delta**3) # there might be factor of 2 in numerator here, check
+    den = Delta**3 * (K - 2*Delta) * (3*K - 2*Delta) * (K - Delta)**3
+    return num / den
+
+def K_osc(g, K, Delta):
+    """Oscillator self-Kerr K_osc."""
+    return -2 * g**4 * K / (Delta**3 * (2*Delta - K))
+
+def chi_f(g, K, Delta):
+    """Dispersive shift χ_f (second transmon level) to fourth order in g/Δ."""
+    t1 = -2 * g**2 * K * (2*Delta - K) / (Delta * (Delta - 2*K) * (Delta - K))
+    num2 = 2 * g**4 * (4*K**7 - 26*K**6*Delta + 69*K**5*Delta**2
+                       - 97*K**4*Delta**3 + 103*K**3*Delta**4
+                       - 63*K**2*Delta**5 + 16*K*Delta**6)
+    den2 = Delta**3 * (2*Delta - K) * (2*K**2 - 3*K*Delta + Delta**2)**3
+    return t1 + num2 / den2
+
+def chi_f_prime(g, K, Delta):
+    """Next-order correction χ'_f."""
+    num = -4 * g**4 * K**2 * (20*K**6 - 98*K**5*Delta + 201*K**4*Delta**2
+                               - 223*K**3*Delta**3 + 169*K**2*Delta**4
+                               - 81*K*Delta**5 + 18*Delta**6)
+    den = Delta**3 * (K - 2*Delta) * (K - Delta)**3 * (2*K - Delta)**3 * (5*K - 2*Delta)
+    return num / den
+
+def delta_lamb(g, Delta):
+    """Lamb shift Δ_Lamb to fourth order in g/Δ (no K dependence)."""
+    return g**2 / Delta - g**4 / Delta**3
