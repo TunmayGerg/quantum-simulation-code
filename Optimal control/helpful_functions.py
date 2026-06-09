@@ -184,22 +184,26 @@ def sigma_plus_restricted_01_from_aq(a_q: qt.Qobj, q_index: int = -1) -> qt.Qobj
 
 def chi_e(g, K, Delta):
     """Dispersive shift χ_e to fourth order in g/Δ."""
+    Delta = np.asarray(Delta, dtype=float)
     t1 = -2 * g**2 * K / (Delta * (Delta - K))
     t2 = 4 * g**4 * K * (K**2 + 2*Delta*(-K + Delta)) / (Delta**3 * (-K + Delta)**3)
     return t1 + t2
 
 def chi_e_prime(g, K, Delta):
     """Next-order correction χ'_e."""
-    num = g**4 * K**2 * (-3*K**3 + 11*K**2*Delta - 15*K*Delta**2 + 9*Delta**3) # there might be factor of 2 in numerator here, check
+    Delta = np.asarray(Delta, dtype=float)
+    num = 2 * g**4 * K**2 * (-3*K**3 + 11*K**2*Delta - 15*K*Delta**2 + 9*Delta**3)
     den = Delta**3 * (K - 2*Delta) * (3*K - 2*Delta) * (K - Delta)**3
     return num / den
 
 def K_osc(g, K, Delta):
     """Oscillator self-Kerr K_osc."""
+    Delta = np.asarray(Delta, dtype=float)
     return -2 * g**4 * K / (Delta**3 * (2*Delta - K))
 
 def chi_f(g, K, Delta):
     """Dispersive shift χ_f (second transmon level) to fourth order in g/Δ."""
+    Delta = np.asarray(Delta, dtype=float)
     t1 = -2 * g**2 * K * (2*Delta - K) / (Delta * (Delta - 2*K) * (Delta - K))
     num2 = 2 * g**4 * (4*K**7 - 26*K**6*Delta + 69*K**5*Delta**2
                        - 97*K**4*Delta**3 + 103*K**3*Delta**4
@@ -209,6 +213,7 @@ def chi_f(g, K, Delta):
 
 def chi_f_prime(g, K, Delta):
     """Next-order correction χ'_f."""
+    Delta = np.asarray(Delta, dtype=float)
     num = -4 * g**4 * K**2 * (20*K**6 - 98*K**5*Delta + 201*K**4*Delta**2
                                - 223*K**3*Delta**3 + 169*K**2*Delta**4
                                - 81*K*Delta**5 + 18*Delta**6)
@@ -217,4 +222,5 @@ def chi_f_prime(g, K, Delta):
 
 def delta_lamb(g, Delta):
     """Lamb shift Δ_Lamb to fourth order in g/Δ (no K dependence)."""
+    Delta = np.asarray(Delta, dtype=float)
     return g**2 / Delta - g**4 / Delta**3
