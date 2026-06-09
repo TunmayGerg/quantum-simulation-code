@@ -679,6 +679,7 @@ class GrapeLBFGS:
         def fun(x: np.ndarray) -> float:
             pulses, theta = self._unpack(x)                         # map x back to (pulses, theta)
             c = self.cost(pulses, theta)                # compute cost (and grad, ignored)
+            print(f"Fidelity: {self.fidelity(pulses, theta):.8f}", flush=True)  # print fidelity for monitoring
             return float(c)                                         # return scalar cost
 
         def jac(x: np.ndarray) -> np.ndarray:
