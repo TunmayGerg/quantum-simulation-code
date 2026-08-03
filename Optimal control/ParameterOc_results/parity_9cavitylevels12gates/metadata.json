@@ -1,0 +1,40 @@
+{
+  "ansatz": "parameter",
+  "class": "ParameterOC",
+  "dim": 24,
+  "dims": [
+    [
+      12,
+      2
+    ],
+    [
+      12,
+      2
+    ]
+  ],
+  "cost_type": "projected",
+  "n_gauge": 2,
+  "gauge_mode": "diagonal",
+  "has_adiabatic_unitary": false,
+  "n_penalties": 0,
+  "fidelity": 0.9992554599533745,
+  "method": "dual_annealing",
+  "n_evaluations": 250185,
+  "elapsed_s": 77.68546316603897,
+  "cancelled": false,
+  "starts": [],
+  "notes": "parity check gate from a chain of beamsplitters",
+  "unitary_strings": [
+    "bs"
+  ],
+  "n_base": 1,
+  "num_apply": 12,
+  "n_gates": 12,
+  "optimize_phases": true,
+  "n_c": 12,
+  "n_q": 2,
+  "extra": {
+    "Nc_subspace_dim": 9,
+    "Nq_subspace_dim": 2
+  }
+}
