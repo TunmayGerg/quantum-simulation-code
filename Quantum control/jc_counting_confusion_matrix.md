@@ -2,6 +2,10 @@
 
 **Slide-ready summary of [`jc_counting_confusion_matrix.ipynb`](jc_counting_confusion_matrix.ipynb).**
 
+For the full derivation of *why* inverting a confusion matrix recovers the true photon-number
+distribution despite Lindblad loss — every algebraic step, with the assumptions it does and does
+not rest on — see [`why_confusion_matrix_corrects_loss.md`](why_confusion_matrix_corrects_loss.md).
+
 Every figure is drawn at 16:9 slide proportions with presentation-scale type, and is available as
 both PNG and SVG in [`jc_counting_figs/`](jc_counting_figs/) — drop the SVG into PowerPoint for
 crisp scaling. Every number below is produced by the notebook itself; the figure script re-runs the
