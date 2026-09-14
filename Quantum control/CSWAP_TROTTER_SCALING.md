@@ -479,3 +479,93 @@ Two things are visible only in this form:
    ($\tfrac34, \tfrac{11}{16}, \tfrac{21}{32}, \tfrac{163}{256}$) and the fringe never
    crosses $\tfrac12$. This is the parity of 7.5 showing up as a DC offset: at
    $\Theta=\pi/2$ all $N$ photons have moved, and $k=N$ is even.
+
+### 7.12 The $\sqrt{n}$: where the $N$-photon rate goes wrong
+
+**The commutator is fine.** With $H_A = g_A(a\sigma^+e^{i\phi_A} + \text{h.c.})$ and
+$H_B = g_B(b\sigma^+e^{i\phi_B} + \text{h.c.})$ at $\phi_A - \phi_B = \pi/2$,
+
+$$[H_A, H_B] \;=\; -i\,g_Ag_B\,\sigma^z\big(a^\dagger b + a b^\dagger\big)$$
+
+**exactly** — verified numerically to $0.00$, and it commutes with the total photon number. No
+$\sqrt{n}$, no number operator. The target really is the linear beamsplitter at every photon
+number, and $\Theta = 2n_{\rm Trotter}(gt)^2 = 2n\,\epsilon_A\epsilon_B$ is the right leading
+order for all $N$.
+
+**The $\sqrt{n}$ is in the individual legs, not in their commutator.** The sidebands drive
+$\lvert g,n\rangle\!\leftrightarrow\!\lvert e,n-1\rangle$, matrix element $g\sqrt{n}$, so each
+*leg* is stronger by $\sqrt{n}$ even though $[H_A,H_B]$ is not. The natural reading is that the
+expansion parameter of $W_{\rm sym}$ becomes $\epsilon\sqrt{n}$, so that what the group
+commutator discards grows with photon number while the kept term does not.
+
+> **Status of that reading.** It is a plausible account of the measured law below, NOT a
+> derivation, and it has not been verified. Attempts to pin down the operator form of the
+> neglected term did not produce a trustworthy answer: a Hilbert-Schmidt decomposition over the
+> full truncated space is dominated by Fock levels the experiment never reaches (the
+> "unexplained" fraction grew from 3.0% to 13.8% as the truncation went from $n_{\rm cav}=3$ to
+> 7, i.e. it was measuring the truncation); restricting to one excitation sector makes several
+> natural candidate operators degenerate, so their fitted coefficients are not individually
+> meaningful; and a sector-restricted process fidelity came out at 0.33 for $N=1$, where the
+> train is known to be the beamsplitter to 1.5%, so that metric is mis-specified. **The law
+> below is measured. The mechanism above is a conjecture.** Do not cite it as established.
+
+What IS established is the empirical law -- a fractional error growing linearly in the photon
+number:
+
+$$\boxed{\;\frac{n^*(N)}{n^*(1)} \;\simeq\; 1 + \epsilon^2\,(N-1)\;}$$
+
+Dividing the slowdown measured on the exact train by $\epsilon^2(N-1)$:
+
+| $\epsilon$ | $N=2$ | $N=3$ | $N=5$ | $N=8$ |
+|---|---|---|---|---|
+| 0.050 | 0.985 | 0.987 | 0.990 | 0.996 |
+| 0.100 | 0.984 | 0.992 | 1.007 | 1.030 |
+| 0.150 | 0.984 | 1.000 | 1.035 | 1.093 |
+| 0.213 | 0.985 | 1.016 | 1.093 | 1.227 |
+
+A constant $\approx 1$, drifting up only where $\epsilon^2 N$ stops being small. The
+coefficient is 1 and the law is $\epsilon^2(N-1)$.
+
+**At the deployed areas** ($\epsilon_A = 0.2132$, $\epsilon_B = 0.2112$, $\epsilon^2 = 0.045$):
+
+| $N$ | $n^*$ (exact train) | vs $N=1$ | predicted $1+\epsilon^2(N-1)$ |
+|---|---|---|---|
+| 1 | 8.85 | 1.000 | 1.000 |
+| 2 | 9.25 | 1.045 | 1.045 |
+| 4 | 10.12 | 1.143 | 1.135 |
+| 8 | 12.28 | 1.388 | 1.315 |
+
+**Confirmed on hardware.** Run `260911/231424` (`|8,0>`, 1073 shots/pt) crosses
+$\langle n_1\rangle = \langle n_2\rangle$ at $n^* = 12.45$ against the train's **12.28** — 1.4%.
+The closed form alone would have said 8.72, making a correct gate look 43% wrong. The `|1,0>`
+runs sit at 9.53 against 8.85, a 7.7% residual that is ordinary calibration error.
+
+The distribution narrows for the same reason: at its own $n^*$, $N=8$ gives
+$[0,\,0.006,\,0.068,\,0.228,\,0.330,\,0.244,\,0.100,\,0.022,\,0.002]$ where
+$\binom{8}{j}/2^8$ says $[0.004,\,0.031,\,0.109,\,0.219,\,0.273,\ldots]$.
+
+So: §7's closed forms are exact at $N=1$ and are the right leading order at any $N$. For $N>1$
+the plots build their reference by **running the train** (`train_reference` in
+`controlled_swap_trotter_test.py`), which is exact at every photon number and costs nothing --
+the train conserves $M = n_1+n_2+q$, so a lossless reference lives in a $2N+1$-state sector (17
+states at $N=8$ rather than 200), verified against a full-space solve to $1.3\times10^{-15}$.
+
+### 7.13 What this costs
+
+1. **$n^*$ is photon-number dependent.** Calibrate at $N=1$, use it at $N=8$, and the gate is
+   under-rotated by 39%. Each photon number needs its own $n^*$ — or it must be read off the
+   data, as the $\langle n_1\rangle = \langle n_2\rangle$ crossing does.
+
+2. **It is not a state-independent CSWAP.** A true controlled swap acts identically on any
+   cavity state. Here each Fock component rotates at its own rate, so a superposition over
+   photon number — a coherent state, or $\lvert0\rangle+\lvert1\rangle$ — does not swap: its
+   components arrive at different angles and the superposition dephases. The gate is a genuine
+   conditional beamsplitter **within one photon number**, which is exactly the regime the
+   single-photon herald tests.
+
+3. **The $\epsilon^2$ accuracy knob of §2 is really $\epsilon^2 N$.** §2's
+   error/signal $= (c/2)\epsilon^2$ is independent of the number of *sections*, but not of the
+   photon number. Reaching a target accuracy with $N$ photons needs
+   $\epsilon \propto 1/\sqrt{N}$, and since $T_{\rm phys}\propto 1/\epsilon$ at fixed $\Theta$,
+   the time cost grows as $\sqrt{N}$. A mild penalty, not a wall — but it belongs in the §4
+   comparison, where it is currently absent.
