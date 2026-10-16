@@ -12,15 +12,18 @@ either axis.
     transmon T1 200 us each
     T2 (Ramsey) 150 us for every mode and every transmon
 
-Three curves are produced for each observable:
+Four curves are produced for each observable:
 
-    ideal      exp(-i H t), no Trotterization, no loss -- the answer the experiment is for
-    trotter    the W_sym sideband circuit, lossless -- what Trotterization alone costs
-    lossy      the same circuit with the collapse operators above -- what the device will see
+    ideal          exp(-i H t), no Trotterization, no loss -- the answer the experiment is for
+    trotter_ideal  the TARGET's own Trotter step, exp(-i H_loc dt) exp(-i H_L13 dt)
+                   exp(-i H_L2 dt), with perfect controlled hops -- what splitting H costs
+    trotter        the W_sym sideband circuit, lossless -- what the HARDWARE's Trotter step
+                   costs: the splitting above, plus synthesising each hop from sidebands
+    lossy          the same circuit with the collapse operators above -- what the device sees
 
-The gap between `ideal` and `trotter` is a step-count choice; the gap between `trotter` and
-`lossy` is a coherence budget. Keeping them apart is the point: only the first is something
-more steps can fix.
+ideal -> trotter_ideal is the step-size error, trotter_ideal -> trotter is the cost of building
+the hop out of sideband pulses, and trotter -> lossy is the coherence budget. Keeping them apart
+is the point: only the first two are something a different pulse schedule can fix.
 """
 import numpy as np
 import qutip as qt
@@ -124,10 +127,15 @@ class Lattice:
         self.ZBS = [self.Z[l] * self.BS[l] for l in range(NQ)]
 
     def H(self, g, J, U):
-        """The rotated-frame Hamiltonian the hardware speaks."""
+        """The rotated-frame Hamiltonian the hardware speaks.
+
+        g and J may each be one number or one per link (transmon): the device's links are not
+        identical, and a run whose legs have different pulse areas has a different J per link.
+        """
+        g, J = per_link(g), per_link(J)
         h = 0 * self.n[0]
         for l in range(NQ):
-            h = h - g * self.X[l] - J * self.ZBS[l]
+            h = h - g[l] * self.X[l] - J[l] * self.ZBS[l]
         for i in range(L):
             h = h + 0.5 * U * self.n[i] * self.n[i]
         return h
@@ -162,6 +170,15 @@ class Lattice:
         return c
 
 
+def per_link(x):
+    """A number or a length-NQ sequence -> a length-NQ list (one value per link)."""
+    if np.ndim(x) == 0:
+        return [float(x)] * NQ
+    if len(x) != NQ:
+        raise ValueError(f"expected one value or {NQ}, got {len(x)}")
+    return [float(v) for v in x]
+
+
 # ---------------------------------------------------------------- the circuit
 #: W_sym in time order: (leg kind, sign). The sign is a pi pump phase and nothing else.
 WSYM = (("B", -1), ("A", -1), ("B", +1), ("A", +1),
@@ -179,18 +196,32 @@ def sideband_H(lat, link, cavity, phase, g_side):
     return g_side * (op + op.dag())
 
 
-def step_operators(lat, g, J, U, dt, g_side, eps=None, loc_time=150e-9):
+def step_operators(lat, g, J, U, dt, g_side, eps=None, loc_time=150e-9, pulse_time=None,
+                   relative_pump_phase=np.pi / 2):
     """One Trotter step as [(H, duration), ...] in time order: LOC, then L13, then L2.
 
     LOC is the transmon X rotation with the diagonal U term riding along -- they commute, so
     one exponential does both. L13 drives links 0 and 2 SIMULTANEOUSLY, which is the sum of
     their pulse Hamiltonians because they touch disjoint cavities and disjoint transmons.
+
+    Two ways to give the sideband pulses:
+      eps=None or a number   every leg has area eps (default sqrt(J dt / 2)) at coupling g_side,
+                             so a pulse lasts eps / g_side
+      eps={"A0": ..., ...}   one area per leg, every pulse lasting `pulse_time` -- what a real
+                             run plays when the short pulses share a length but not an amplitude
     """
-    theta = J * dt                               # wanted: exp(+i theta Z BS) per link
-    if eps is None:
-        eps = np.sqrt(theta / 2.0)               # W_sym gives theta = 2 eps^2
-    tau = abs(eps) / g_side                      # one sideband pulse
-    Hloc = -g * sum(lat.X) + 0.5 * U * sum(lat.n[i] * lat.n[i] for i in range(L))
+    g = per_link(g)
+    if isinstance(eps, dict):
+        if pulse_time is None:
+            raise ValueError("per-leg eps needs pulse_time, the length every short pulse plays")
+        leg_eps, tau = dict(eps), pulse_time
+    else:
+        if eps is None:
+            eps = np.sqrt(min(per_link(J)) * dt / 2.0)   # W_sym gives theta = 2 eps^2
+        tau = abs(eps) / g_side                           # one sideband pulse
+        leg_eps = {f"{k}{l}": eps for k in "AB" for l in range(NQ)}
+    Hloc = (-sum(g[q] * lat.X[q] for q in range(NQ))
+            + 0.5 * U * sum(lat.n[i] * lat.n[i] for i in range(L)))
     # The LOC layer wants the rotation exp(-i Hloc dt), but the hardware does it with a pulse
     # that lasts `loc_time` -- a fixed ~150 ns on this device -- not dt. Decoherence acts for
     # the time the pulse really takes, so the segment is the SAME unitary stretched onto its
@@ -199,16 +230,35 @@ def step_operators(lat, g, J, U, dt, g_side, eps=None, loc_time=150e-9):
     # a slow Trotter step is wrong by orders of magnitude and always in the pessimistic
     # direction.
     out = [(Hloc * (dt / loc_time), loc_time)]
-    base = {"A": np.pi / 2, "B": 0.0}
+    # Leg A's pump phase relative to leg B's: which beamsplitter quadrature the commutator gives.
+    # pi/2 is this module's historical default; the runtime's relative_pump_phase_rad is 0.
+    base = {"A": float(relative_pump_phase), "B": 0.0}
     for layer, links in (("L13", (0, 2)), ("L2", (1,))):
         for kind, sign in WSYM:
             H = 0 * Hloc
             for link in links:
                 cav = link if kind == "A" else link + 1
                 H = H + sideband_H(lat, link, cav, base[kind] + (np.pi if sign < 0 else 0.0),
-                                   g_side)
+                                   leg_eps[f"{kind}{link}"] / tau)
             out.append((H, tau))
     return out, eps
+
+
+def ideal_trotter_operators(lat, g, J, U, dt):
+    """The TARGET's Trotter step as [(H, dt), ...]: LOC, then L13, then L2, each for dt.
+
+    The same splitting and the same order as the hardware step, but every hop is the exact
+    controlled beamsplitter exp(+i J dt Z_l BS_l) rather than one synthesised from eight
+    sideband pulses. So against `ideal` it isolates the Trotter (splitting) error, and against
+    the sideband circuit it isolates the cost of building the hop out of pulses. No physical
+    durations here: this is the mathematical step, so nothing should decohere on it.
+    """
+    g, J = per_link(g), per_link(J)
+    Hloc = (-sum(g[q] * lat.X[q] for q in range(NQ))
+            + 0.5 * U * sum(lat.n[i] * lat.n[i] for i in range(L)))
+    H13 = -(J[0] * lat.ZBS[0] + J[2] * lat.ZBS[2])   # links 0 and 2 commute: disjoint sites
+    H2 = -J[1] * lat.ZBS[1]
+    return [(Hloc, dt), (H13, dt), (H2, dt)]
 
 
 # ---------------------------------------------------------------- propagators
@@ -360,9 +410,16 @@ def run_ideal(lat, psi0, H, times):
     return out
 
 
-def run_trotter(lat, psi0, segs, steps_list):
-    """The sideband circuit, lossless. One step is applied and snapshotted repeatedly."""
-    props = build_propagators(lat, segs)
+def run_trotter(lat, psi0, segs, steps_list, props=None):
+    """A Trotter step applied repeatedly from psi0, snapshotted at each count in steps_list.
+
+    `segs` is one step as [(H, t), ...] -- the sideband circuit (step_operators) or the ideal
+    splitting (ideal_trotter_operators). Pass `props` from build_propagators(lat, segs) to reuse
+    them: they depend only on the step, not on the initial state, and building the sideband
+    circuit's takes minutes while applying them takes seconds.
+    """
+    if props is None:
+        props = build_propagators(lat, segs)
     cur, done, out = psi0.full().ravel(), 0, []
     with one_blas_thread():
         for n in steps_list:
@@ -382,7 +439,8 @@ _TRAJ = {}
 
 
 def _one_trajectory(seed):
-    """One quantum-jump trajectory. Returns the photon distribution at each snapshot.
+    """One quantum-jump trajectory. Returns the photon distribution at each snapshot, and each
+    transmon's P(e) there (what the runtime's measure_before_counting records).
 
     POPULATIONS, not state vectors: a worker's result has to travel back through a pipe, and
     the distribution is the only part the observables need -- a few hundred floats per step
@@ -393,6 +451,7 @@ def _one_trajectory(seed):
     rng = np.random.default_rng(seed)
     cur, done, out = v0.copy(), 0, []
     target = rng.random()
+    pe = []
     for n in steps_list:
         while done < n:
             for P in props:
@@ -408,10 +467,12 @@ def _one_trajectory(seed):
                     target = rng.random()
             done += 1
         out.append(populations(lat, cur / np.linalg.norm(cur)))
-    return out
+        pe.append(transmon_excited(lat, cur / np.linalg.norm(cur)))
+    return out, pe
 
 
-def run_lossy(lat, psi0, segs, steps_list, c_ops, ntraj=400, seed=0, substeps=1, workers=None):
+def run_lossy(lat, psi0, segs, steps_list, c_ops, ntraj=400, seed=0, substeps=1, workers=None,
+              props=None, return_transmons=False):
     """The circuit with the device's collapse operators, by quantum trajectories.
 
     Returns the AVERAGE photon distribution at each snapshot -- one array per step, already
@@ -430,6 +491,10 @@ def run_lossy(lat, psi0, segs, steps_list, c_ops, ntraj=400, seed=0, substeps=1,
     segment alone, which silently under-counts loss. Checked against the lossless circuit with
     an empty c_ops: the two agree to 2e-16.
 
+    `props` reuses no-jump propagators already built with
+    build_propagators(lat, segs, c_ops=c_ops) -- they do not depend on the initial state, so a
+    study of several preparations builds them once. (They must match `substeps`.)
+
     `substeps` splits each segment so a jump lands at a finer time than one whole pulse. It
     defaults to 1 because it buys nothing here and costs a lot: a segment is a ~30 ns sideband
     pulse and the worst cavity T1 is 80 us, so the chance of a jump inside one segment is about
@@ -438,9 +503,10 @@ def run_lossy(lat, psi0, segs, steps_list, c_ops, ntraj=400, seed=0, substeps=1,
     expensive part of the run for that non-difference.
     """
     import os, sys, time, multiprocessing as mp
-    fine = [(H, t / substeps) for H, t in segs for _ in range(substeps)]
     t0 = time.time()
-    props = build_propagators(lat, fine, c_ops=c_ops)
+    if props is None:
+        fine = [(H, t / substeps) for H, t in segs for _ in range(substeps)]
+        props = build_propagators(lat, fine, c_ops=c_ops)
     _TRAJ.update(props=props, C=[c.full() for c in c_ops], lat=lat,
                  v0=psi0.full().ravel(), steps_list=list(steps_list))
     print(f"      {len(props)} propagators in {time.time()-t0:.0f}s "
@@ -462,7 +528,11 @@ def run_lossy(lat, psi0, segs, steps_list, c_ops, ntraj=400, seed=0, substeps=1,
         got = [_one_trajectory(sd) for sd in seeds]
     print(f"      {ntraj} trajectories on {workers} workers in {time.time()-t0:.0f}s",
           file=sys.stderr, flush=True)
-    return [np.mean([g[k] for g in got], axis=0) for k in range(len(steps_list))]
+    pops = [np.mean([g[0][k] for g in got], axis=0) for k in range(len(steps_list))]
+    if not return_transmons:
+        return pops
+    # (steps, transmons): each transmon's P(e), averaged over trajectories
+    return pops, np.mean([g[1] for g in got], axis=0)
 
 
 # ---------------------------------------------------------------- observables
@@ -478,6 +548,16 @@ def populations(lat, vec):
     v = np.asarray(vec).ravel()
     p = (np.abs(v) ** 2).reshape(lat.dq, lat.nb).sum(axis=0)
     return p / p.sum()
+
+
+def transmon_excited(lat, vec):
+    """Each transmon's P(e) from a state vector. Basis |q> with transmon 0 the most significant
+    bit and |1> = e (Sm = |0><1| lowers 1 -> 0)."""
+    v = np.asarray(vec).ravel()
+    pq = (np.abs(v) ** 2).reshape(lat.dq, lat.nb).sum(axis=1)
+    pq = pq / pq.sum()
+    return np.array([sum(pq[q] for q in range(lat.dq) if (q >> (NQ - 1 - l)) & 1)
+                     for l in range(NQ)])
 
 
 def observables(lat, p, postselect_N):
@@ -547,7 +627,11 @@ def series(lat, snaps, postselect_N, already_populations=False):
 # measured page can be laid side by side. The one difference is the three curves: the runtime
 # has a single measured curve where each panel here carries ideal / trotter / lossy.
 
-CURVES = (("ideal", "C0", "-"), ("trotter", "C1", "--"), ("lossy", "C3", "-."))
+#: (key in runs, legend label, colour, line style), drawn in this order.
+CURVES = (("ideal", "exact unitary", "C0", "-"),
+          ("trotter_ideal", "ideal Trotter steps", "C2", ":"),
+          ("trotter", "sideband circuit", "C1", "--"),
+          ("lossy", "circuit + decoherence", "C3", "-."))
 
 
 def finish(fig, path):
@@ -565,13 +649,13 @@ def plot_order_parameter(steps, runs, postselect_N, path=None):
     """Page 1: the bunching order parameter F = mean_i Var(n_i). THE measurement."""
     import matplotlib.pyplot as plt
     fig, ax = plt.subplots(1, 3, figsize=(14, 4.2))
-    for name, col, ls in CURVES:
+    for name, label, col, ls in CURVES:
         if name not in runs:
             continue
-        ax[0].plot(steps, runs[name]["F_bunch"], ls, color=col, marker="o", ms=4, label=name)
-        ax[1].plot(steps, runs[name]["ps_F_bunch"], ls, color=col, marker="o", ms=4, label=name)
+        ax[0].plot(steps, runs[name]["F_bunch"], ls, color=col, marker="o", ms=4, label=label)
+        ax[1].plot(steps, runs[name]["ps_F_bunch"], ls, color=col, marker="o", ms=4, label=label)
         ax[2].plot(steps, runs[name]["erased_fraction"], ls, color=col, marker="o", ms=4,
-                   label=name)
+                   label=label)
     for k, title in enumerate(("bunching order parameter, every shot",
                                f"bunching order parameter, exactly {postselect_N} photons",
                                "erased by post-selection")):
@@ -590,11 +674,11 @@ def plot_sites(steps, runs, path=None):
     import matplotlib.pyplot as plt
     fig, ax = plt.subplots(2, 4, figsize=(15, 6.5), sharex=True)
     for i in range(4):
-        for name, col, ls in CURVES:
+        for name, label, col, ls in CURVES:
             if name not in runs:
                 continue
             ax[0, i].plot(steps, runs[name]["ps_mean_n"][:, i], ls, color=col, marker="o", ms=3,
-                          label=name)
+                          label=label)
             ax[1, i].plot(steps, runs[name]["ps_var_n"][:, i], ls, color=col, marker="o", ms=3)
         ax[0, i].set_title(f"C{i+1}", fontsize=10)
         ax[1, i].set_xlabel("Trotter steps")
@@ -616,7 +700,8 @@ def plot_fcs(steps, runs, postselect_N, path=None):
     transmon is locked to and confusing the two hides a real structure.
     """
     import matplotlib.pyplot as plt
-    which = [n for n, _, _ in CURVES if n in runs]
+    which = [n for n, _l, _c, _s in CURVES if n in runs]
+    labels = {n: l for n, l, _c, _s in CURVES}
     fig, ax = plt.subplots(len(which), 4, figsize=(15, 3.4 * len(which)), squeeze=False,
                            sharex=True, sharey=True)
     top = int(postselect_N)
@@ -634,7 +719,7 @@ def plot_fcs(steps, runs, postselect_N, path=None):
                 ax[r, i].set_title(f"C{i+1}", fontsize=10)
             if r == len(which) - 1:
                 ax[r, i].set_xlabel("Trotter steps")
-        ax[r, 0].set_ylabel(f"{name}\nP(n)", fontsize=9)
+        ax[r, 0].set_ylabel(f"{labels[name]}\nP(n)", fontsize=9)
     ax[0, 0].legend(fontsize=6, ncol=2)
     fig.suptitle(f"full counting statistics, post-selected on {postselect_N} photons",
                  fontsize=11)
@@ -646,25 +731,54 @@ def plot_correlations(steps, runs, path=None):
     import matplotlib.pyplot as plt
     fig, ax = plt.subplots(1, 4, figsize=(16, 4.0))
     for b in range(3):
-        for name, col, ls in CURVES:
+        for name, label, col, ls in CURVES:
             if name not in runs:
                 continue
             ax[b].plot(steps, runs[name]["nn_corr"][:, b], ls, color=col, marker="o", ms=3,
-                       label=name)
+                       label=label)
         ax[b].axhline(0.0, color="0.85", lw=0.8, ls=":")
         ax[b].set_title(f"bond C{b+1}-C{b+2}", fontsize=10)
         ax[b].set_xlabel("Trotter steps")
         ax[b].set_ylabel(r"$\langle n_i n_j\rangle - \langle n_i\rangle\langle n_j\rangle$")
         ax[b].grid(True, alpha=0.3)
-    for name, col, ls in CURVES:
+    for name, label, col, ls in CURVES:
         if name not in runs:
             continue
-        ax[3].plot(steps, runs[name]["ipr_mean"], ls, color=col, marker="o", ms=3, label=name)
+        ax[3].plot(steps, runs[name]["ipr_mean"], ls, color=col, marker="o", ms=3, label=label)
     ax[3].axhline(0.25, color="0.85", lw=0.8, ls=":")
     ax[3].set_title("participation (1 = all on one site, 1/4 = even)", fontsize=9)
     ax[3].set_xlabel("Trotter steps"); ax[3].set_ylabel("IPR")
     ax[3].grid(True, alpha=0.3); ax[3].legend(fontsize=8)
     ax[0].legend(fontsize=8)
+    finish(fig, path)
+
+
+def plot_prep_comparison(steps, runs_by_prep, postselect_N, path=None):
+    """Several preparations side by side: the order parameter and its erasure, every curve.
+
+    One column per preparation, so the same curve can be read across them: a flat state and a
+    pre-bunched one should differ in F, and that difference -- not either curve alone -- is the
+    measurement.
+    """
+    import matplotlib.pyplot as plt
+    preps = list(runs_by_prep)
+    fig, ax = plt.subplots(2, len(preps), figsize=(4.6 * len(preps), 7), sharex=True,
+                           sharey="row", squeeze=False)
+    for c, prep in enumerate(preps):
+        runs = runs_by_prep[prep]
+        for name, label, col, ls in CURVES:
+            if name not in runs:
+                continue
+            ax[0, c].plot(steps, runs[name]["ps_F_bunch"], ls, color=col, marker="o", ms=3,
+                          label=label)
+            ax[1, c].plot(steps, runs[name]["erased_fraction"], ls, color=col, marker="o", ms=3)
+        ax[0, c].set_title(f"|{prep}>", fontsize=11)
+        ax[1, c].set_xlabel("Trotter steps")
+        for r in (0, 1):
+            ax[r, c].grid(True, alpha=0.3)
+    ax[0, 0].set_ylabel(rf"$\mathcal{{F}}$, exactly {postselect_N} photons")
+    ax[1, 0].set_ylabel("erased by post-selection")
+    ax[0, 0].legend(fontsize=8)
     finish(fig, path)
 
 
