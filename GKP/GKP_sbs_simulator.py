@@ -395,9 +395,25 @@ class GKPsBsSimulator:
         return grid
 
     # ------------------------------------------------------------------ logical content
-    def codeword(self, mu):
+    def finite_energy_state(self, bloch):
         """
-        Normalized exp(-Delta^2 n)|mu>, |mu> = position comb with peaks at q = (2j + mu) sqrt(pi).
+        Target state with logical Bloch vector (X, Y, Z) = bloch (unit length):
+            exp(-Delta^2 n) [cos(t/2)|0> + e^{i f} sin(t/2)|1>],  t = polar angle, f = azimuth,
+        normalized, with |0>, |1> the ideal position combs (the envelope acts on the whole superposition).
+
+        does not change self attributes
+        """
+        x, y, z = bloch / np.linalg.norm(bloch)
+        polar = np.arccos(np.clip(z, -1, 1))
+        azimuth = np.arctan2(y, x)
+        comb_0 = self.codeword(0, normalize=False)
+        comb_1 = self.codeword(1, normalize=False)
+        ket = np.cos(polar/2) * comb_0 + np.exp(1j*azimuth) * np.sin(polar/2) * comb_1
+        return ket.unit()
+
+    def codeword(self, mu, normalize=True):
+        """
+        exp(-Delta^2 n)|mu>, |mu> = position comb with peaks at q = (2j + mu) sqrt(pi), normalized by default.
         <n|q> from the stable Hermite recurrence.
 
         does not change self attributes
@@ -413,7 +429,9 @@ class GKPsBsSimulator:
                 psi[k] = np.sqrt(2/k) * position * psi[k-1] - np.sqrt((k-1)/k) * psi[k-2]
             comb = comb + psi
         state = np.exp(-self.Delta**2 * np.arange(self.N)) * comb
-        return qt.Qobj(state / np.linalg.norm(state), dims=[[self.N], [1]])
+        if normalize:
+            state = state / np.linalg.norm(state)
+        return qt.Qobj(state, dims=[[self.N], [1]])
 
     def logical_bloch(self, rho):
         """
