@@ -1,0 +1,4 @@
+START PHASE-ONLY CONTROLLED COMPARISON:2fits;durationsandmagnitudesfixed
+PHASE ONLY RESULT phase_only_r3 baselineF 0.9691517366889697 F 0.9691511578524137 durationus 0.20500000000000002 fixedmagnitudes 7
+PHASE ONLY RESULT phase_only_r4 baselineF 0.9937127840681839 F 0.9937749905761399 durationus 0.26 fixedmagnitudes 9
+COMPLETED PHASE-ONLY COMPARISON 2 fits; 1260 inputcolumns

@@ -1,0 +1,63 @@
+START ARC PATTERNS:20 physically motivated fits;all18inputs;workers 3
+ARC FULL RESULT arc_sym_n10_outerhalf_0 F 0.8703703370772088 Tns 310.0 peak_swap 240.24115401337906 eval 19
+ARC FULL RESULT arc_sym_n10_fourhalf_0 F 0.8077566311949251 Tns 310.0 peak_swap 241.01533017701018 eval 32
+ARC FULL FIT arc_sym_n10_outerhalf_1 40 bestF 0.875593203409387
+ARC FULL RESULT arc_sym_n10_middlehalf_0 F 0.8299878253611188 Tns 310.0 peak_swap 242.0651077337822 eval 19
+ARC FULL FIT arc_sym_n10_fourhalf_1 40 bestF 0.7879369720972637
+ARC FULL RESULT arc_free_n10_all5_0 F 0.9851739108451563 Tns 355.0 peak_swap 268.8667840442376 eval 20
+ARC FULL FIT arc_sym_n10_fourhalf_1 80 bestF 0.8407456897838809
+ARC FULL RESULT arc_free_n10_even5_0 F 0.9572303474573121 Tns 330.0 peak_swap 251.34070219409827 eval 23
+ARC FULL FIT arc_free_n10_all5_1 40 bestF 0.9850030556148863
+ARC FULL RESULT arc_free_n10_center5_0 F 0.9771962244606751 Tns 315.0 peak_swap 238.1799437501861 eval 28
+ARC FULL FIT arc_free_n10_even5_1 40 bestF 0.9753995723298952
+ARC FULL FIT arc_free_n10_even5_1 80 bestF 0.9775355015972811
+concurrent.futures.process._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/concurrent/futures/process.py", line 246, in _process_worker
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+  File "/usr/lib/python3.10/concurrent/futures/process.py", line 205, in _process_chunk
+    return [fn(*args) for args in chunk]
+  File "/usr/lib/python3.10/concurrent/futures/process.py", line 205, in <listcomp>
+    return [fn(*args) for args in chunk]
+  File "/home/tunmays_rsl_pc_wsl/boson/quantum-simulation-code/conditional_gaussian_cd/code/phase_arc_cd.py", line 229, in fit
+    recipe=export(model,p,job['name'],dict(initial_fidelity=report['initial_fidelity'],evaluations=len(history),
+  File "/home/tunmays_rsl_pc_wsl/boson/quantum-simulation-code/conditional_gaussian_cd/code/phase_arc_cd.py", line 200, in export
+    path=OUT/(name+'_recipe.json');path.write_text(json.dumps(meta,indent=2)+'\n');return path
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "/usr/lib/python3.10/json/encoder.py", line 431, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/usr/lib/python3.10/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 325, in _iterencode_list
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type int64 is not JSON serializable
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tunmays_rsl_pc_wsl/boson/quantum-simulation-code/conditional_gaussian_cd/code/phase_arc_cd.py", line 317, in <module>
+    else:pattern_study(args.workers)
+  File "/home/tunmays_rsl_pc_wsl/boson/quantum-simulation-code/conditional_gaussian_cd/code/phase_arc_cd.py", line 303, in pattern_study
+    with ProcessPoolExecutor(workers) as pool:results=list(pool.map(fit,jobs))
+  File "/usr/lib/python3.10/concurrent/futures/process.py", line 575, in _chain_from_iterable_of_lists
+    for element in iterable:
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 621, in result_iterator
+    yield _result_or_cancel(fs.pop())
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 319, in _result_or_cancel
+    return fut.result(timeout)
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 458, in result
+    return self.__get_result()
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+TypeError: Object of type int64 is not JSON serializable

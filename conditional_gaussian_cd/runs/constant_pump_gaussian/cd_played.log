@@ -1,0 +1,27 @@
+START SHAPED PLAYBACK FITS 12 jobs;10ns transitions;all18inputs
+PLAYBACK RESULT played_cd_n8_pump0_seed0 F 0.9571547565075741 command 0.25 RFDCwindow 0.29421875000000003 evaluations 27 seconds 9.778922247001901
+PLAYBACK RESULT played_cd_n8_pump0_seed1 F 0.9571402983307674 command 0.25 RFDCwindow 0.29421875000000003 evaluations 35 seconds 12.579778608051129
+PLAYBACK FIT played_cd_n8_pump1_seed0 eval 40 bestF 0.9571727581526591
+PLAYBACK FIT played_cd_n8_pump1_seed1 eval 40 bestF 0.9571460699642508
+PLAYBACK RESULT played_cd_n8_pump1_seed1 F 0.9571460699642508 command 0.25 RFDCwindow 0.29421875000000003 evaluations 46 seconds 16.471405678079464
+PLAYBACK RESULT played_cd_n8_pump1_seed0 F 0.9571727581526591 command 0.25 RFDCwindow 0.29421875000000003 evaluations 55 seconds 19.600712643004954
+PLAYBACK FIT played_cd_n10_pump0_seed0 eval 40 bestF 0.9792448137187482
+PLAYBACK RESULT played_cd_n10_pump0_seed0 F 0.9792448137187482 command 0.31 RFDCwindow 0.35421875 evaluations 44 seconds 18.903753609978594
+PLAYBACK FIT played_cd_n10_pump0_seed1 eval 40 bestF 0.9792396354752197
+PLAYBACK FIT played_cd_n10_pump1_seed0 eval 40 bestF 0.9792236199083074
+PLAYBACK RESULT played_cd_n10_pump0_seed1 F 0.9792396354752197 command 0.31 RFDCwindow 0.35421875 evaluations 47 seconds 21.05767981999088
+PLAYBACK RESULT played_cd_n10_pump1_seed0 F 0.9792236199083074 command 0.31 RFDCwindow 0.35421875 evaluations 46 seconds 19.96250918705482
+PLAYBACK FIT played_cd_n10_pump1_seed1 eval 40 bestF 0.9792472094569591
+PLAYBACK RESULT played_cd_n10_pump1_seed1 F 0.9792472094569591 command 0.31 RFDCwindow 0.35421875 evaluations 45 seconds 19.026063369004987
+PLAYBACK FIT played_cd_n12_pump0_seed0 eval 40 bestF 0.9925273933348832
+PLAYBACK FIT played_cd_n12_pump0_seed1 eval 40 bestF 0.9922717982316492
+PLAYBACK FIT played_cd_n12_pump1_seed0 eval 40 bestF 0.9927023779481673
+PLAYBACK FIT played_cd_n12_pump1_seed1 eval 40 bestF 0.9928008685920483
+PLAYBACK RESULT played_cd_n12_pump0_seed1 F 0.9922717982316492 command 0.37 RFDCwindow 0.41421875 evaluations 55 seconds 27.976165069965646
+PLAYBACK FIT played_cd_n12_pump0_seed0 eval 80 bestF 0.9925549944214498
+PLAYBACK FIT played_cd_n12_pump1_seed0 eval 80 bestF 0.9930791473252039
+PLAYBACK FIT played_cd_n12_pump1_seed1 eval 80 bestF 0.9931491758153802
+PLAYBACK RESULT played_cd_n12_pump0_seed0 F 0.9925550392687499 command 0.37 RFDCwindow 0.41421875 evaluations 104 seconds 54.210386937018484
+PLAYBACK RESULT played_cd_n12_pump1_seed1 F 0.9931491758153802 command 0.37 RFDCwindow 0.41421875 evaluations 99 seconds 49.99796215200331
+PLAYBACK RESULT played_cd_n12_pump1_seed0 F 0.9932916105780567 command 0.37 RFDCwindow 0.41421875 evaluations 112 seconds 57.00059060694184
+FINAL SHAPED FIT COUNTS 12 jobs; 715 actualplaybackevaluations

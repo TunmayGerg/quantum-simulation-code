@@ -1,0 +1,6 @@
+IDEAL PRODUCT REFERENCE:30points;540columns;576densecheckamplitudes;maxerror 1.2560739669470201e-15
+GAIN SENSITIVITY:72points;1296columns; 248832 cutoffcomparisonamplitudes; 4derivatives,2steps each
+QUIBIT GAIN DERIVATIVE {'name': 'baseline', 'qubit_gain_derivative_norm': 1.109584251905747, 'derivative_step_change': 6.090580990658623e-06}
+QUIBIT GAIN DERIVATIVE {'name': 'overlap_strang_r4_s35', 'qubit_gain_derivative_norm': 1.0250897761366227, 'derivative_step_change': 8.713924791070582e-06}
+QUIBIT GAIN DERIVATIVE {'name': 'phasecycle_strang_r4_s35_a0.3', 'qubit_gain_derivative_norm': 1.091935643997565, 'derivative_step_change': 8.446451201349348e-06}
+QUIBIT GAIN DERIVATIVE {'name': 'dcg_strang_r4_a0.2', 'qubit_gain_derivative_norm': 1.0386995618379, 'derivative_step_change': 8.578076222232056e-06}

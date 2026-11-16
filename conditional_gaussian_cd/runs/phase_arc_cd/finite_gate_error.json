@@ -1,0 +1,1518 @@
+[
+  {
+    "name": "cd_constant_reference",
+    "levels": 64,
+    "full_columns": 128,
+    "amplitudes": 16384,
+    "unitarity_error": 4.241896386783434e-13,
+    "fit_relative_residual": 0.6777923319228886,
+    "terms": [
+      {
+        "operator": "sigma_x * i(adag3-a3)",
+        "coefficient": -0.0016738916552669456,
+        "unique_generator_norm": 0.14449864260490766,
+        "contribution_norm": 0.14449864260490786
+      },
+      {
+        "operator": "I * i(adag2-a2)",
+        "coefficient": -0.0036041519089682456,
+        "unique_generator_norm": 0.113745115670906,
+        "contribution_norm": 0.11374511567090594
+      },
+      {
+        "operator": "sigma_y * i(adag2-a2)",
+        "coefficient": -0.003175168608630799,
+        "unique_generator_norm": 0.10020663107031158,
+        "contribution_norm": 0.10020663107031143
+      },
+      {
+        "operator": "sigma_x * {n+1/2,P}/2",
+        "coefficient": -0.002027733374619536,
+        "unique_generator_norm": 0.055077425825372575,
+        "contribution_norm": 0.16525715998171478
+      },
+      {
+        "operator": "sigma_x * P",
+        "coefficient": 0.010204256572719516,
+        "unique_generator_norm": 0.043286475560518275,
+        "contribution_norm": 0.1298789823516726
+      },
+      {
+        "operator": "sigma_y * a3+adag3",
+        "coefficient": -0.0004920056923709228,
+        "unique_generator_norm": 0.04247237536419177,
+        "contribution_norm": 0.0424723753641919
+      },
+      {
+        "operator": "sigma_y * X",
+        "coefficient": -0.008847532126813691,
+        "unique_generator_norm": 0.037531247911003054,
+        "contribution_norm": 0.11261069934544436
+      },
+      {
+        "operator": "I * X",
+        "coefficient": -0.007274947099441756,
+        "unique_generator_norm": 0.03086033926919571,
+        "contribution_norm": 0.09259495968219607
+      },
+      {
+        "operator": "sigma_x * I",
+        "coefficient": -0.007289524442693756,
+        "unique_generator_norm": 0.016772430098679417,
+        "contribution_norm": 0.030926832990323058
+      },
+      {
+        "operator": "sigma_z * i(adag2-a2)",
+        "coefficient": -0.000271723833359218,
+        "unique_generator_norm": 0.008575459535731673,
+        "contribution_norm": 0.008575459535731385
+      },
+      {
+        "operator": "I * a3+adag3",
+        "coefficient": 6.97611601261469e-05,
+        "unique_generator_norm": 0.006022129875041716,
+        "contribution_norm": 0.00602212987504515
+      },
+      {
+        "operator": "sigma_y * {n+1/2,X}/2",
+        "coefficient": -0.0002209664351825214,
+        "unique_generator_norm": 0.006001904686281271,
+        "contribution_norm": 0.018008425558611083
+      },
+      {
+        "operator": "sigma_x * a2+adag2",
+        "coefficient": 0.00011712723900799901,
+        "unique_generator_norm": 0.0036964733134636323,
+        "contribution_norm": 0.0036964733134660093
+      },
+      {
+        "operator": "sigma_z * {n+1/2,X}/2",
+        "coefficient": 0.00011938058602869138,
+        "unique_generator_norm": 0.003242623243411091,
+        "contribution_norm": 0.009729334660557126
+      },
+      {
+        "operator": "sigma_z * a3+adag3",
+        "coefficient": -1.7977229236157438e-05,
+        "unique_generator_norm": 0.0015518837280993026,
+        "contribution_norm": 0.0015518837281064922
+      },
+      {
+        "operator": "I * {n+1/2,X}/2",
+        "coefficient": 2.1615279234638e-05,
+        "unique_generator_norm": 0.0005871156206219879,
+        "contribution_norm": 0.0017616121050422814
+      },
+      {
+        "operator": "sigma_x * n",
+        "coefficient": 4.023616204593917e-05,
+        "unique_generator_norm": 0.00044076507156766935,
+        "contribution_norm": 0.0008127306345673991
+      },
+      {
+        "operator": "sigma_z * X",
+        "coefficient": -4.740767571096619e-05,
+        "unique_generator_norm": 0.00020110344938454453,
+        "contribution_norm": 0.0006034012015593055
+      },
+      {
+        "operator": "I * I",
+        "coefficient": -2.6752376305692108e-17,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 1.1350072019165523e-16
+      },
+      {
+        "operator": "I * P",
+        "coefficient": 1.7727866740867616e-17,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 2.256389061919011e-16
+      },
+      {
+        "operator": "I * n",
+        "coefficient": -8.673617379884035e-19,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 1.7519848312320395e-17
+      },
+      {
+        "operator": "I * a2+adag2",
+        "coefficient": -2.0328790734103208e-19,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 6.4156581406751765e-18
+      },
+      {
+        "operator": "I * {n+1/2,P}/2",
+        "coefficient": -5.990487533842016e-18,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 4.882155460573541e-16
+      },
+      {
+        "operator": "I * i(adag3-a3)",
+        "coefficient": -3.903127820947816e-18,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 3.369373819779676e-16
+      },
+      {
+        "operator": "sigma_x * X",
+        "coefficient": 1.4831909819718854e-16,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 1.8877939220646982e-15
+      },
+      {
+        "operator": "sigma_x * i(adag2-a2)",
+        "coefficient": -9.432558900623889e-18,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 2.9768653772732816e-16
+      },
+      {
+        "operator": "sigma_x * {n+1/2,X}/2",
+        "coefficient": -2.3740391502765414e-17,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 1.9348054954893517e-15
+      },
+      {
+        "operator": "sigma_x * a3+adag3",
+        "coefficient": 2.631569643349319e-18,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 2.271701637246146e-16
+      },
+      {
+        "operator": "sigma_y * I",
+        "coefficient": -6.575582057745647e-17,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 2.7897831979683233e-16
+      },
+      {
+        "operator": "sigma_y * P",
+        "coefficient": 4.369633822442143e-18,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 5.56163587287168e-17
+      },
+      {
+        "operator": "sigma_y * n",
+        "coefficient": 1.2673879297520169e-18,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 2.559998131070197e-17
+      },
+      {
+        "operator": "sigma_y * a2+adag2",
+        "coefficient": -1.111307226797642e-18,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 3.507226450235763e-17
+      },
+      {
+        "operator": "sigma_y * {n+1/2,P}/2",
+        "coefficient": -2.043458204048027e-19,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 1.6653870946207332e-17
+      },
+      {
+        "operator": "sigma_y * i(adag3-a3)",
+        "coefficient": -5.188366977157171e-19,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 4.478856102641716e-17
+      },
+      {
+        "operator": "sigma_z * I",
+        "coefficient": 3.6120853600972505e-17,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 1.5324780314096507e-16
+      },
+      {
+        "operator": "sigma_z * P",
+        "coefficient": -2.2508732183074717e-17,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 2.8648938892615225e-16
+      },
+      {
+        "operator": "sigma_z * n",
+        "coefficient": -1.1857996978691338e-17,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 2.395197980907516e-16
+      },
+      {
+        "operator": "sigma_z * a2+adag2",
+        "coefficient": 3.644328048186931e-18,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 1.1501305323792927e-16
+      },
+      {
+        "operator": "sigma_z * {n+1/2,P}/2",
+        "coefficient": 4.9118861782317816e-18,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 4.00311189887244e-16
+      },
+      {
+        "operator": "sigma_z * i(adag3-a3)",
+        "coefficient": 4.23725642375787e-18,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 3.657810227295117e-16
+      }
+    ]
+  },
+  {
+    "name": "cd_constant_reference",
+    "levels": 96,
+    "full_columns": 192,
+    "amplitudes": 36864,
+    "unitarity_error": 2.842804433868519e-13,
+    "fit_relative_residual": 0.6777923320301352,
+    "terms": [
+      {
+        "operator": "sigma_x * i(adag3-a3)",
+        "coefficient": -0.0016738916553781906,
+        "unique_generator_norm": 0.14449864261451106,
+        "contribution_norm": 0.1444986426145111
+      },
+      {
+        "operator": "I * i(adag2-a2)",
+        "coefficient": -0.003604151909178632,
+        "unique_generator_norm": 0.11374511567754567,
+        "contribution_norm": 0.11374511567754561
+      },
+      {
+        "operator": "sigma_y * i(adag2-a2)",
+        "coefficient": -0.0031751686086235603,
+        "unique_generator_norm": 0.10020663107008314,
+        "contribution_norm": 0.10020663107008299
+      },
+      {
+        "operator": "sigma_x * {n+1/2,P}/2",
+        "coefficient": -0.0020277333747166244,
+        "unique_generator_norm": 0.05507742582800993,
+        "contribution_norm": 0.16525715998962734
+      },
+      {
+        "operator": "sigma_x * P",
+        "coefficient": 0.010204256573136436,
+        "unique_generator_norm": 0.04328647556228672,
+        "contribution_norm": 0.12987898235697914
+      },
+      {
+        "operator": "sigma_y * a3+adag3",
+        "coefficient": -0.000492005692165541,
+        "unique_generator_norm": 0.04247237534646239,
+        "contribution_norm": 0.042472375346462324
+      },
+      {
+        "operator": "sigma_y * X",
+        "coefficient": -0.008847532127317535,
+        "unique_generator_norm": 0.03753124791314067,
+        "contribution_norm": 0.11261069935185725
+      },
+      {
+        "operator": "I * X",
+        "coefficient": -0.0072749470854556264,
+        "unique_generator_norm": 0.03086033920986657,
+        "contribution_norm": 0.0925949595041817
+      },
+      {
+        "operator": "sigma_x * I",
+        "coefficient": -0.007289524431408495,
+        "unique_generator_norm": 0.01677243007271343,
+        "contribution_norm": 0.030926832942443753
+      },
+      {
+        "operator": "sigma_z * i(adag2-a2)",
+        "coefficient": -0.00027172383342685387,
+        "unique_generator_norm": 0.008575459537865421,
+        "contribution_norm": 0.008575459537865938
+      },
+      {
+        "operator": "I * a3+adag3",
+        "coefficient": 6.976115732763887e-05,
+        "unique_generator_norm": 0.006022129633464641,
+        "contribution_norm": 0.006022129633464036
+      },
+      {
+        "operator": "sigma_y * {n+1/2,X}/2",
+        "coefficient": -0.00022096643504654475,
+        "unique_generator_norm": 0.006001904682588639,
+        "contribution_norm": 0.018008425547529194
+      },
+      {
+        "operator": "sigma_x * a2+adag2",
+        "coefficient": 0.00011712723437789976,
+        "unique_generator_norm": 0.0036964731673431533,
+        "contribution_norm": 0.0036964731673425413
+      },
+      {
+        "operator": "sigma_z * {n+1/2,X}/2",
+        "coefficient": 0.00011938058634297233,
+        "unique_generator_norm": 0.003242623251947157,
+        "contribution_norm": 0.00972933468617054
+      },
+      {
+        "operator": "sigma_z * a3+adag3",
+        "coefficient": -1.7977229034992277e-05,
+        "unique_generator_norm": 0.0015518837107373542,
+        "contribution_norm": 0.001551883710740916
+      },
+      {
+        "operator": "I * {n+1/2,X}/2",
+        "coefficient": 2.1615275698426622e-05,
+        "unique_generator_norm": 0.0005871155245957272,
+        "contribution_norm": 0.0017616118168464778
+      },
+      {
+        "operator": "sigma_x * n",
+        "coefficient": 4.023615659063865e-05,
+        "unique_generator_norm": 0.0004407650118393312,
+        "contribution_norm": 0.0008127305243757299
+      },
+      {
+        "operator": "sigma_z * X",
+        "coefficient": -4.740767698206299e-05,
+        "unique_generator_norm": 0.00020110345487069667,
+        "contribution_norm": 0.0006034012177377264
+      },
+      {
+        "operator": "I * I",
+        "coefficient": 1.7818945589324396e-16,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 7.559938355883241e-16
+      },
+      {
+        "operator": "I * P",
+        "coefficient": -5.667380484926415e-17,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 7.21339771042039e-16
+      },
+      {
+        "operator": "I * n",
+        "coefficient": 1.1275702593849246e-17,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 2.2775802806016514e-16
+      },
+      {
+        "operator": "I * a2+adag2",
+        "coefficient": -9.512179997665793e-19,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 3.0019933716575925e-17
+      },
+      {
+        "operator": "I * {n+1/2,P}/2",
+        "coefficient": 1.2336450952085433e-17,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 1.0054018314798806e-15
+      },
+      {
+        "operator": "I * i(adag3-a3)",
+        "coefficient": -1.734723475976807e-18,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 1.4974994754576338e-16
+      },
+      {
+        "operator": "sigma_x * X",
+        "coefficient": 2.2161116505720785e-16,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 2.820649636774853e-15
+      },
+      {
+        "operator": "sigma_x * i(adag2-a2)",
+        "coefficient": -1.4094628242311558e-18,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 4.448189644201455e-17
+      },
+      {
+        "operator": "sigma_x * {n+1/2,X}/2",
+        "coefficient": -3.41853875919067e-17,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 2.7860566566709726e-15
+      },
+      {
+        "operator": "sigma_x * a3+adag3",
+        "coefficient": 2.357465736435375e-18,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 2.0350815289067534e-16
+      },
+      {
+        "operator": "sigma_y * I",
+        "coefficient": 9.658429428455846e-17,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 4.097724566683703e-16
+      },
+      {
+        "operator": "sigma_y * P",
+        "coefficient": 7.363678833658726e-17,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 9.372433027967878e-16
+      },
+      {
+        "operator": "sigma_y * n",
+        "coefficient": -1.210745605018353e-17,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 2.445586243396608e-16
+      },
+      {
+        "operator": "sigma_y * a2+adag2",
+        "coefficient": 9.215718466126788e-19,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 2.908431690439413e-17
+      },
+      {
+        "operator": "sigma_y * {n+1/2,P}/2",
+        "coefficient": -1.120969522651308e-17,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 9.135729680149483e-16
+      },
+      {
+        "operator": "sigma_y * i(adag3-a3)",
+        "coefficient": 5.6378199727201e-19,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 4.866846254627961e-17
+      },
+      {
+        "operator": "sigma_z * I",
+        "coefficient": -8.74900666943698e-19,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 3.711889166763132e-18
+      },
+      {
+        "operator": "sigma_z * P",
+        "coefficient": -7.145622123449709e-17,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 9.094892146718233e-16
+      },
+      {
+        "operator": "sigma_z * n",
+        "coefficient": 8.726571061896732e-18,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 1.7626809506918732e-16
+      },
+      {
+        "operator": "sigma_z * a2+adag2",
+        "coefficient": 3.96800490935796e-18,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 1.2522812267556403e-16
+      },
+      {
+        "operator": "sigma_z * {n+1/2,P}/2",
+        "coefficient": 1.1178457045089654e-17,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 9.110271041407112e-16
+      },
+      {
+        "operator": "sigma_z * i(adag3-a3)",
+        "coefficient": 1.9244977722952561e-19,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 1.661322074925365e-17
+      }
+    ],
+    "low_input_logarithm_cutoff_change": 1.065836952841143e-05,
+    "logarithm_stable": false,
+    "polynomial_coefficient_cutoff_change": 1.3986129962506588e-11,
+    "polynomial_fit_stable": true
+  },
+  {
+    "name": "cd_constant_reference",
+    "levels": 128,
+    "full_columns": 256,
+    "amplitudes": 65536,
+    "unitarity_error": 3.5914444484277704e-13,
+    "fit_relative_residual": 0.6777923320297806,
+    "terms": [
+      {
+        "operator": "sigma_x * i(adag3-a3)",
+        "coefficient": -0.001673891655378853,
+        "unique_generator_norm": 0.14449864261456807,
+        "contribution_norm": 0.14449864261456827
+      },
+      {
+        "operator": "I * i(adag2-a2)",
+        "coefficient": -0.0036041519091783887,
+        "unique_generator_norm": 0.11374511567753803,
+        "contribution_norm": 0.11374511567753794
+      },
+      {
+        "operator": "sigma_y * i(adag2-a2)",
+        "coefficient": -0.00317516860862318,
+        "unique_generator_norm": 0.10020663107007109,
+        "contribution_norm": 0.10020663107007098
+      },
+      {
+        "operator": "sigma_x * {n+1/2,P}/2",
+        "coefficient": -0.002027733374716307,
+        "unique_generator_norm": 0.05507742582800124,
+        "contribution_norm": 0.16525715998960147
+      },
+      {
+        "operator": "sigma_x * P",
+        "coefficient": 0.0102042565731352,
+        "unique_generator_norm": 0.043286475562281754,
+        "contribution_norm": 0.12987898235696343
+      },
+      {
+        "operator": "sigma_y * a3+adag3",
+        "coefficient": -0.0004920056921650566,
+        "unique_generator_norm": 0.04247237534642073,
+        "contribution_norm": 0.04247237534642051
+      },
+      {
+        "operator": "sigma_y * X",
+        "coefficient": -0.008847532127323393,
+        "unique_generator_norm": 0.03753124791316545,
+        "contribution_norm": 0.11261069935193181
+      },
+      {
+        "operator": "I * X",
+        "coefficient": -0.007274947085329359,
+        "unique_generator_norm": 0.030860339209331657,
+        "contribution_norm": 0.09259495950257458
+      },
+      {
+        "operator": "sigma_x * I",
+        "coefficient": -0.007289524431306724,
+        "unique_generator_norm": 0.016772430072479683,
+        "contribution_norm": 0.030926832942011973
+      },
+      {
+        "operator": "sigma_z * i(adag2-a2)",
+        "coefficient": -0.000271723833426839,
+        "unique_generator_norm": 0.008575459537865421,
+        "contribution_norm": 0.00857545953786547
+      },
+      {
+        "operator": "I * a3+adag3",
+        "coefficient": 6.976115730301036e-05,
+        "unique_generator_norm": 0.006022129631341076,
+        "contribution_norm": 0.00602212963133798
+      },
+      {
+        "operator": "sigma_y * {n+1/2,X}/2",
+        "coefficient": -0.00022096643504509745,
+        "unique_generator_norm": 0.0060019046825516426,
+        "contribution_norm": 0.01800842554741124
+      },
+      {
+        "operator": "sigma_x * a2+adag2",
+        "coefficient": 0.00011712723433642686,
+        "unique_generator_norm": 0.0036964731660347684,
+        "contribution_norm": 0.0036964731660336786
+      },
+      {
+        "operator": "sigma_z * {n+1/2,X}/2",
+        "coefficient": 0.00011938058634550915,
+        "unique_generator_norm": 0.0032426232520199137,
+        "contribution_norm": 0.009729334686377288
+      },
+      {
+        "operator": "sigma_z * a3+adag3",
+        "coefficient": -1.7977229032312576e-05,
+        "unique_generator_norm": 0.0015518837105137906,
+        "contribution_norm": 0.001551883710509591
+      },
+      {
+        "operator": "I * {n+1/2,X}/2",
+        "coefficient": 2.1615275666480632e-05,
+        "unique_generator_norm": 0.0005871155237447867,
+        "contribution_norm": 0.0017616118142429285
+      },
+      {
+        "operator": "sigma_x * n",
+        "coefficient": 4.023615654140703e-05,
+        "unique_generator_norm": 0.00044076501130407456,
+        "contribution_norm": 0.0008127305233813
+      },
+      {
+        "operator": "sigma_z * X",
+        "coefficient": -4.740767699207895e-05,
+        "unique_generator_norm": 0.00020110345490520075,
+        "contribution_norm": 0.0006034012178652089
+      },
+      {
+        "operator": "I * n",
+        "coefficient": 1.1275702593849246e-17,
+        "unique_generator_norm": 5.268356063861754e-09,
+        "contribution_norm": 2.2775802806016514e-16
+      },
+      {
+        "operator": "sigma_y * P",
+        "coefficient": -3.7602431496224674e-17,
+        "unique_generator_norm": 5.268356063861754e-09,
+        "contribution_norm": 4.786008174014955e-16
+      },
+      {
+        "operator": "I * I",
+        "coefficient": 9.929155435339256e-17,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 4.212583883870192e-16
+      },
+      {
+        "operator": "I * P",
+        "coefficient": -8.613454318901728e-18,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 1.096313752500474e-16
+      },
+      {
+        "operator": "I * a2+adag2",
+        "coefficient": 1.149508412718811e-17,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 3.627787359462617e-16
+      },
+      {
+        "operator": "I * {n+1/2,P}/2",
+        "coefficient": -1.2002727277144519e-18,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 9.782038638231395e-17
+      },
+      {
+        "operator": "I * i(adag3-a3)",
+        "coefficient": -3.2526065174565133e-19,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 2.8078115164830636e-17
+      },
+      {
+        "operator": "sigma_x * X",
+        "coefficient": 2.0339656855945138e-16,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 2.5888156721723266e-15
+      },
+      {
+        "operator": "sigma_x * i(adag2-a2)",
+        "coefficient": 2.8189256484623115e-18,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 8.89637928840291e-17
+      },
+      {
+        "operator": "sigma_x * {n+1/2,X}/2",
+        "coefficient": -2.886629722919806e-17,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 2.3525589503010367e-15
+      },
+      {
+        "operator": "sigma_x * a3+adag3",
+        "coefficient": -3.2919791665681247e-18,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 2.8417999430009067e-16
+      },
+      {
+        "operator": "sigma_y * I",
+        "coefficient": 7.01792135453273e-17,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 2.977451867774384e-16
+      },
+      {
+        "operator": "sigma_y * n",
+        "coefficient": -2.2543878163394234e-18,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 4.553640176820662e-17
+      },
+      {
+        "operator": "sigma_y * a2+adag2",
+        "coefficient": 1.4365678785432934e-18,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 4.533731752743791e-17
+      },
+      {
+        "operator": "sigma_y * {n+1/2,P}/2",
+        "coefficient": 3.219670541578831e-18,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 2.6239821094720616e-16
+      },
+      {
+        "operator": "sigma_y * i(adag3-a3)",
+        "coefficient": 3.502672724126622e-18,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 3.0236810879185367e-16
+      },
+      {
+        "operator": "sigma_z * I",
+        "coefficient": -5.0078391488050357e-17,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 2.124646212726905e-16
+      },
+      {
+        "operator": "sigma_z * P",
+        "coefficient": -7.414437264169122e-17,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 9.437037962717195e-16
+      },
+      {
+        "operator": "sigma_z * n",
+        "coefficient": 1.7589517931451865e-17,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 3.552908464242129e-16
+      },
+      {
+        "operator": "sigma_z * a2+adag2",
+        "coefficient": 2.737970834914366e-18,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 8.640890206263648e-17
+      },
+      {
+        "operator": "sigma_z * {n+1/2,P}/2",
+        "coefficient": 1.1493834997602562e-17,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 9.367299235574455e-16
+      },
+      {
+        "operator": "sigma_z * i(adag3-a3)",
+        "coefficient": 1.5506885944756666e-18,
+        "unique_generator_norm": 0.0,
+        "contribution_norm": 1.3386314239610216e-16
+      }
+    ],
+    "low_input_logarithm_cutoff_change": 7.798579494728999e-07,
+    "logarithm_stable": false,
+    "polynomial_coefficient_cutoff_change": 1.2626705236939983e-13,
+    "polynomial_fit_stable": true
+  },
+  {
+    "name": "arc_lifted_n12",
+    "levels": 64,
+    "full_columns": 128,
+    "amplitudes": 16384,
+    "unitarity_error": 4.310163657578945e-13,
+    "fit_relative_residual": 0.6262484596759125,
+    "terms": [
+      {
+        "operator": "I * i(adag2-a2)",
+        "coefficient": -0.0037695778897889657,
+        "unique_generator_norm": 0.11896587156540775,
+        "contribution_norm": 0.11896587156540772
+      },
+      {
+        "operator": "sigma_x * i(adag3-a3)",
+        "coefficient": -0.0012820035452245134,
+        "unique_generator_norm": 0.11066891427335467,
+        "contribution_norm": 0.11066891427335494
+      },
+      {
+        "operator": "sigma_x * {n+1/2,P}/2",
+        "coefficient": -0.003600028859511093,
+        "unique_generator_norm": 0.09778421806374192,
+        "contribution_norm": 0.2933968304815429
+      },
+      {
+        "operator": "sigma_y * i(adag2-a2)",
+        "coefficient": -0.0029567194198855426,
+        "unique_generator_norm": 0.09331249095923128,
+        "contribution_norm": 0.0933124909592311
+      },
+      {
+        "operator": "sigma_x * P",
+        "coefficient": 0.019729456905404244,
+        "unique_generator_norm": 0.08369239327451342,
+        "contribution_norm": 0.25111498980490377
+      },
+      {
+        "operator": "sigma_z * i(adag3-a3)",
+        "coefficient": 0.000572719148225098,
+        "unique_generator_norm": 0.049439961811129085,
+        "contribution_norm": 0.04943996181112923
+      },
+      {
+        "operator": "sigma_y * a2+adag2",
+        "coefficient": -0.0013748177360538845,
+        "unique_generator_norm": 0.04338851590154773,
+        "contribution_norm": 0.043388515901547665
+      },
+      {
+        "operator": "sigma_y * i(adag3-a3)",
+        "coefficient": 0.0004615050684489608,
+        "unique_generator_norm": 0.03983940999785037,
+        "contribution_norm": 0.03983940999785018
+      },
+      {
+        "operator": "sigma_z * i(adag2-a2)",
+        "coefficient": -0.0012538449909893696,
+        "unique_generator_norm": 0.03957068046399277,
+        "contribution_norm": 0.03957068046399273
+      },
+      {
+        "operator": "sigma_y * a3+adag3",
+        "coefficient": -0.000372632875009676,
+        "unique_generator_norm": 0.03216752079469314,
+        "contribution_norm": 0.032167520794692955
+      },
+      {
+        "operator": "sigma_z * n",
+        "coefficient": 0.0026895622191269643,
+        "unique_generator_norm": 0.02946267794459004,
+        "contribution_norm": 0.0543264938282097
+      },
+      {
+        "operator": "I * X",
+        "coefficient": -0.0069102479623296634,
+        "unique_generator_norm": 0.029313284844109472,
+        "contribution_norm": 0.08795309748918889
+      },
+      {
+        "operator": "sigma_z * I",
+        "coefficient": -0.010863175538497343,
+        "unique_generator_norm": 0.024995025917192024,
+        "contribution_norm": 0.04608855053094778
+      },
+      {
+        "operator": "sigma_y * I",
+        "coefficient": -0.00895214413615702,
+        "unique_generator_norm": 0.020597943382643202,
+        "contribution_norm": 0.0379807309490161
+      },
+      {
+        "operator": "sigma_x * I",
+        "coefficient": -0.0068681911369671,
+        "unique_generator_norm": 0.015802986416296606,
+        "contribution_norm": 0.029139267164608677
+      },
+      {
+        "operator": "sigma_y * X",
+        "coefficient": -0.003660814146482405,
+        "unique_generator_norm": 0.015529180489929845,
+        "contribution_norm": 0.046594557137544325
+      },
+      {
+        "operator": "sigma_x * a2+adag2",
+        "coefficient": 0.0004774141358047839,
+        "unique_generator_norm": 0.01506693598705321,
+        "contribution_norm": 0.015066935987053363
+      },
+      {
+        "operator": "I * P",
+        "coefficient": 0.003437819480630741,
+        "unique_generator_norm": 0.014583236698265051,
+        "contribution_norm": 0.04375629841048581
+      },
+      {
+        "operator": "sigma_y * {n+1/2,X}/2",
+        "coefficient": -0.0003077259693970316,
+        "unique_generator_norm": 0.008358472798321703,
+        "contribution_norm": 0.025079194529071286
+      },
+      {
+        "operator": "I * {n+1/2,P}/2",
+        "coefficient": -0.0002832118978963472,
+        "unique_generator_norm": 0.007692619993580531,
+        "contribution_norm": 0.023081335300388462
+      },
+      {
+        "operator": "sigma_z * a2+adag2",
+        "coefficient": -0.00022396774414453247,
+        "unique_generator_norm": 0.007068302781822283,
+        "contribution_norm": 0.007068302781822662
+      },
+      {
+        "operator": "sigma_y * P",
+        "coefficient": 0.0013962904043741727,
+        "unique_generator_norm": 0.005923066519702595,
+        "contribution_norm": 0.017771875441896314
+      },
+      {
+        "operator": "sigma_x * {n+1/2,X}/2",
+        "coefficient": 0.00017236167026684233,
+        "unique_generator_norm": 0.004681698899906338,
+        "contribution_norm": 0.014047211765870152
+      },
+      {
+        "operator": "sigma_z * X",
+        "coefficient": 0.001060940430374862,
+        "unique_generator_norm": 0.004500511299701083,
+        "contribution_norm": 0.013503567109554705
+      },
+      {
+        "operator": "I * a2+adag2",
+        "coefficient": -0.00014226275414368282,
+        "unique_generator_norm": 0.004489736790913713,
+        "contribution_norm": 0.004489736790913222
+      },
+      {
+        "operator": "sigma_x * X",
+        "coefficient": -0.001033639744921906,
+        "unique_generator_norm": 0.004384701740700788,
+        "contribution_norm": 0.013156086112887835
+      },
+      {
+        "operator": "sigma_z * {n+1/2,P}/2",
+        "coefficient": 0.00015061702048034664,
+        "unique_generator_norm": 0.004091069307916603,
+        "contribution_norm": 0.012275056159274428
+      },
+      {
+        "operator": "I * i(adag3-a3)",
+        "coefficient": -4.341234775652266e-05,
+        "unique_generator_norm": 0.0037475695056907177,
+        "contribution_norm": 0.003747569505691421
+      },
+      {
+        "operator": "sigma_x * a3+adag3",
+        "coefficient": -3.9512791991296517e-05,
+        "unique_generator_norm": 0.0034109404813067166,
+        "contribution_norm": 0.003410940481307248
+      },
+      {
+        "operator": "sigma_x * n",
+        "coefficient": 0.0003053307020692621,
+        "unique_generator_norm": 0.003344730260446072,
+        "contribution_norm": 0.0061673778667641465
+      },
+      {
+        "operator": "I * a3+adag3",
+        "coefficient": -3.8437252792299244e-05,
+        "unique_generator_norm": 0.0033180945949960665,
+        "contribution_norm": 0.0033180945949952746
+      },
+      {
+        "operator": "sigma_z * a3+adag3",
+        "coefficient": 3.6651291629650515e-05,
+        "unique_generator_norm": 0.0031639215558179647,
+        "contribution_norm": 0.0031639215558169004
+      },
+      {
+        "operator": "sigma_z * {n+1/2,X}/2",
+        "coefficient": 7.212262834104824e-05,
+        "unique_generator_norm": 0.0019589995225761676,
+        "contribution_norm": 0.00587788359122643
+      },
+      {
+        "operator": "sigma_x * i(adag2-a2)",
+        "coefficient": 5.68113769433024e-05,
+        "unique_generator_norm": 0.001792936814275671,
+        "contribution_norm": 0.0017929368142779642
+      },
+      {
+        "operator": "I * {n+1/2,X}/2",
+        "coefficient": 5.353901187739751e-05,
+        "unique_generator_norm": 0.0014542301233218026,
+        "contribution_norm": 0.004363347352186332
+      },
+      {
+        "operator": "sigma_y * {n+1/2,P}/2",
+        "coefficient": 3.769893274029736e-05,
+        "unique_generator_norm": 0.0010239808634027012,
+        "contribution_norm": 0.0030724051973411767
+      },
+      {
+        "operator": "I * n",
+        "coefficient": 3.6883613601214685e-05,
+        "unique_generator_norm": 0.00040403974342835883,
+        "contribution_norm": 0.0007450124754202129
+      },
+      {
+        "operator": "I * I",
+        "coefficient": -0.00015047101765663533,
+        "unique_generator_norm": 0.00034621800714063907,
+        "contribution_norm": 0.0006383944617422853
+      },
+      {
+        "operator": "sigma_z * P",
+        "coefficient": 5.588359913130925e-05,
+        "unique_generator_norm": 0.00023705833255216802,
+        "contribution_norm": 0.0007112820942514696
+      },
+      {
+        "operator": "sigma_y * n",
+        "coefficient": -3.707994436206316e-07,
+        "unique_generator_norm": 4.061905087666596e-06,
+        "contribution_norm": 7.48978162397696e-06
+      }
+    ]
+  },
+  {
+    "name": "arc_lifted_n12",
+    "levels": 96,
+    "full_columns": 192,
+    "amplitudes": 36864,
+    "unitarity_error": 2.702850748067645e-13,
+    "fit_relative_residual": 0.626248459638401,
+    "terms": [
+      {
+        "operator": "I * i(adag2-a2)",
+        "coefficient": -0.0037695778897647576,
+        "unique_generator_norm": 0.1189658715646437,
+        "contribution_norm": 0.11896587156464374
+      },
+      {
+        "operator": "sigma_x * i(adag3-a3)",
+        "coefficient": -0.0012820035455245505,
+        "unique_generator_norm": 0.11066891429925557,
+        "contribution_norm": 0.11066891429925564
+      },
+      {
+        "operator": "sigma_x * {n+1/2,P}/2",
+        "coefficient": -0.0036000288593814847,
+        "unique_generator_norm": 0.09778421806022146,
+        "contribution_norm": 0.29339683047098003
+      },
+      {
+        "operator": "sigma_y * i(adag2-a2)",
+        "coefficient": -0.002956719419945805,
+        "unique_generator_norm": 0.09331249096113309,
+        "contribution_norm": 0.09331249096113295
+      },
+      {
+        "operator": "sigma_x * P",
+        "coefficient": 0.019729456904857036,
+        "unique_generator_norm": 0.08369239327219212,
+        "contribution_norm": 0.25111498979793895
+      },
+      {
+        "operator": "sigma_z * i(adag3-a3)",
+        "coefficient": 0.0005727191481610813,
+        "unique_generator_norm": 0.04943996180560288,
+        "contribution_norm": 0.049439961805603
+      },
+      {
+        "operator": "sigma_y * a2+adag2",
+        "coefficient": -0.0013748177361203218,
+        "unique_generator_norm": 0.043388515903644585,
+        "contribution_norm": 0.0433885159036444
+      },
+      {
+        "operator": "sigma_y * i(adag3-a3)",
+        "coefficient": 0.000461505068485182,
+        "unique_generator_norm": 0.0398394100009771,
+        "contribution_norm": 0.03983941000097697
+      },
+      {
+        "operator": "sigma_z * i(adag2-a2)",
+        "coefficient": -0.0012538449909649963,
+        "unique_generator_norm": 0.03957068046322341,
+        "contribution_norm": 0.03957068046322352
+      },
+      {
+        "operator": "sigma_y * a3+adag3",
+        "coefficient": -0.0003726328750768943,
+        "unique_generator_norm": 0.03216752080049566,
+        "contribution_norm": 0.03216752080049557
+      },
+      {
+        "operator": "sigma_z * n",
+        "coefficient": 0.002689562219146939,
+        "unique_generator_norm": 0.029462677944808714,
+        "contribution_norm": 0.05432649382861316
+      },
+      {
+        "operator": "I * X",
+        "coefficient": -0.006910247962219155,
+        "unique_generator_norm": 0.029313284843640774,
+        "contribution_norm": 0.08795309748778234
+      },
+      {
+        "operator": "sigma_z * I",
+        "coefficient": -0.010863175538560095,
+        "unique_generator_norm": 0.024995025917336242,
+        "contribution_norm": 0.04608855053121401
+      },
+      {
+        "operator": "sigma_y * I",
+        "coefficient": -0.008952144136302053,
+        "unique_generator_norm": 0.020597943382977046,
+        "contribution_norm": 0.03798073094963142
+      },
+      {
+        "operator": "sigma_x * I",
+        "coefficient": -0.006868191136462907,
+        "unique_generator_norm": 0.01580298641513698,
+        "contribution_norm": 0.02913926716246957
+      },
+      {
+        "operator": "sigma_y * X",
+        "coefficient": -0.003660814146562387,
+        "unique_generator_norm": 0.015529180490268989,
+        "contribution_norm": 0.04659455713856233
+      },
+      {
+        "operator": "sigma_x * a2+adag2",
+        "coefficient": 0.0004774141360809831,
+        "unique_generator_norm": 0.015066935995770041,
+        "contribution_norm": 0.015066935995770062
+      },
+      {
+        "operator": "I * P",
+        "coefficient": 0.003437819479909525,
+        "unique_generator_norm": 0.01458323669520581,
+        "contribution_norm": 0.04375629840130623
+      },
+      {
+        "operator": "sigma_y * {n+1/2,X}/2",
+        "coefficient": -0.0003077259693795329,
+        "unique_generator_norm": 0.00835847279784602,
+        "contribution_norm": 0.025079194527645166
+      },
+      {
+        "operator": "I * {n+1/2,P}/2",
+        "coefficient": -0.0002832118977256383,
+        "unique_generator_norm": 0.007692619988944601,
+        "contribution_norm": 0.023081335286475952
+      },
+      {
+        "operator": "sigma_z * a2+adag2",
+        "coefficient": -0.00022396774404403907,
+        "unique_generator_norm": 0.007068302778651911,
+        "contribution_norm": 0.007068302778651145
+      },
+      {
+        "operator": "sigma_y * P",
+        "coefficient": 0.001396290404582871,
+        "unique_generator_norm": 0.00592306652058708,
+        "contribution_norm": 0.01777187544455261
+      },
+      {
+        "operator": "sigma_x * {n+1/2,X}/2",
+        "coefficient": 0.000172361670315244,
+        "unique_generator_norm": 0.004681698901221729,
+        "contribution_norm": 0.014047211769814815
+      },
+      {
+        "operator": "sigma_z * X",
+        "coefficient": 0.0010609404303438216,
+        "unique_generator_norm": 0.004500511299570801,
+        "contribution_norm": 0.013503567109159623
+      },
+      {
+        "operator": "I * a2+adag2",
+        "coefficient": -0.00014226275379511304,
+        "unique_generator_norm": 0.004489736779912063,
+        "contribution_norm": 0.004489736779912545
+      },
+      {
+        "operator": "sigma_x * X",
+        "coefficient": -0.001033639745144927,
+        "unique_generator_norm": 0.004384701741645555,
+        "contribution_norm": 0.013156086115726426
+      },
+      {
+        "operator": "sigma_z * {n+1/2,P}/2",
+        "coefficient": 0.00015061702051461583,
+        "unique_generator_norm": 0.004091069308848614,
+        "contribution_norm": 0.012275056162067316
+      },
+      {
+        "operator": "I * i(adag3-a3)",
+        "coefficient": -4.3412348053575677e-05,
+        "unique_generator_norm": 0.0037475695313349865,
+        "contribution_norm": 0.003747569531334513
+      },
+      {
+        "operator": "sigma_x * a3+adag3",
+        "coefficient": -3.9512791841162996e-05,
+        "unique_generator_norm": 0.0034109404683471756,
+        "contribution_norm": 0.0034109404683469765
+      },
+      {
+        "operator": "sigma_x * n",
+        "coefficient": 0.00030533070183191846,
+        "unique_generator_norm": 0.003344730257846629,
+        "contribution_norm": 0.00616737786197004
+      },
+      {
+        "operator": "I * a3+adag3",
+        "coefficient": -3.84372526534408e-05,
+        "unique_generator_norm": 0.0033180945830101906,
+        "contribution_norm": 0.003318094583008324
+      },
+      {
+        "operator": "sigma_z * a3+adag3",
+        "coefficient": 3.66512916640202e-05,
+        "unique_generator_norm": 0.003163921558784174,
+        "contribution_norm": 0.003163921558783862
+      },
+      {
+        "operator": "sigma_z * {n+1/2,X}/2",
+        "coefficient": 7.212262834735394e-05,
+        "unique_generator_norm": 0.0019589995227461865,
+        "contribution_norm": 0.005877883591740334
+      },
+      {
+        "operator": "sigma_x * i(adag2-a2)",
+        "coefficient": 5.681137700328339e-05,
+        "unique_generator_norm": 0.0017929368161700983,
+        "contribution_norm": 0.0017929368161709325
+      },
+      {
+        "operator": "I * {n+1/2,X}/2",
+        "coefficient": 5.353901184298292e-05,
+        "unique_generator_norm": 0.0014542301223889698,
+        "contribution_norm": 0.004363347349381596
+      },
+      {
+        "operator": "sigma_y * {n+1/2,P}/2",
+        "coefficient": 3.769893269578528e-05,
+        "unique_generator_norm": 0.0010239808622032802,
+        "contribution_norm": 0.003072405193713511
+      },
+      {
+        "operator": "I * n",
+        "coefficient": 3.68836134830193e-05,
+        "unique_generator_norm": 0.00040403974214032453,
+        "contribution_norm": 0.0007450124730327832
+      },
+      {
+        "operator": "I * I",
+        "coefficient": -0.0001504710173921839,
+        "unique_generator_norm": 0.00034621800652935873,
+        "contribution_norm": 0.0006383944606203129
+      },
+      {
+        "operator": "sigma_z * P",
+        "coefficient": 5.5883598975843446e-05,
+        "unique_generator_norm": 0.00023705833190820977,
+        "contribution_norm": 0.0007112820922727131
+      },
+      {
+        "operator": "sigma_y * n",
+        "coefficient": -3.7079938174674995e-07,
+        "unique_generator_norm": 4.061904233523714e-06,
+        "contribution_norm": 7.489780374185814e-06
+      }
+    ],
+    "low_input_logarithm_cutoff_change": 1.7204800231579525e-06,
+    "logarithm_stable": false,
+    "polynomial_coefficient_cutoff_change": 7.212160556269165e-13,
+    "polynomial_fit_stable": true
+  },
+  {
+    "name": "arc_lifted_n12",
+    "levels": 128,
+    "full_columns": 256,
+    "amplitudes": 65536,
+    "unitarity_error": 3.4384537916649506e-13,
+    "fit_relative_residual": 0.6262484596381945,
+    "terms": [
+      {
+        "operator": "I * i(adag2-a2)",
+        "coefficient": -0.0037695778897639505,
+        "unique_generator_norm": 0.11896587156461819,
+        "contribution_norm": 0.11896587156461827
+      },
+      {
+        "operator": "sigma_x * i(adag3-a3)",
+        "coefficient": -0.0012820035455263893,
+        "unique_generator_norm": 0.11066891429941411,
+        "contribution_norm": 0.11066891429941438
+      },
+      {
+        "operator": "sigma_x * {n+1/2,P}/2",
+        "coefficient": -0.0036000288593803944,
+        "unique_generator_norm": 0.09778421806019194,
+        "contribution_norm": 0.29339683047089116
+      },
+      {
+        "operator": "sigma_y * i(adag2-a2)",
+        "coefficient": -0.0029567194199467193,
+        "unique_generator_norm": 0.0933124909611619,
+        "contribution_norm": 0.0933124909611618
+      },
+      {
+        "operator": "sigma_x * P",
+        "coefficient": 0.019729456904852297,
+        "unique_generator_norm": 0.08369239327217205,
+        "contribution_norm": 0.2511149897978786
+      },
+      {
+        "operator": "sigma_z * i(adag3-a3)",
+        "coefficient": 0.0005727191481601949,
+        "unique_generator_norm": 0.04943996180552632,
+        "contribution_norm": 0.049439961805526476
+      },
+      {
+        "operator": "sigma_y * a2+adag2",
+        "coefficient": -0.00137481773612132,
+        "unique_generator_norm": 0.04338851590367593,
+        "contribution_norm": 0.043388515903675894
+      },
+      {
+        "operator": "sigma_y * i(adag3-a3)",
+        "coefficient": 0.00046150506848549464,
+        "unique_generator_norm": 0.0398394100010041,
+        "contribution_norm": 0.03983941000100396
+      },
+      {
+        "operator": "sigma_z * i(adag2-a2)",
+        "coefficient": -0.0012538449909644468,
+        "unique_generator_norm": 0.03957068046320622,
+        "contribution_norm": 0.03957068046320618
+      },
+      {
+        "operator": "sigma_y * a3+adag3",
+        "coefficient": -0.000372632875077877,
+        "unique_generator_norm": 0.03216752080058044,
+        "contribution_norm": 0.0321675208005804
+      },
+      {
+        "operator": "sigma_z * n",
+        "coefficient": 0.0026895622191457948,
+        "unique_generator_norm": 0.029462677944795998,
+        "contribution_norm": 0.054326493828590054
+      },
+      {
+        "operator": "I * X",
+        "coefficient": -0.006910247962216164,
+        "unique_generator_norm": 0.029313284843627992,
+        "contribution_norm": 0.08795309748774427
+      },
+      {
+        "operator": "sigma_z * I",
+        "coefficient": -0.010863175538557411,
+        "unique_generator_norm": 0.024995025917329997,
+        "contribution_norm": 0.04608855053120262
+      },
+      {
+        "operator": "sigma_y * I",
+        "coefficient": -0.00895214413630451,
+        "unique_generator_norm": 0.020597943382982604,
+        "contribution_norm": 0.03798073094964184
+      },
+      {
+        "operator": "sigma_x * I",
+        "coefficient": -0.00686819113645876,
+        "unique_generator_norm": 0.015802986415127097,
+        "contribution_norm": 0.029139267162451975
+      },
+      {
+        "operator": "sigma_y * X",
+        "coefficient": -0.0036608141465650466,
+        "unique_generator_norm": 0.015529180490280159,
+        "contribution_norm": 0.046594557138596185
+      },
+      {
+        "operator": "sigma_x * a2+adag2",
+        "coefficient": 0.00047741413608294505,
+        "unique_generator_norm": 0.015066935995831752,
+        "contribution_norm": 0.015066935995831981
+      },
+      {
+        "operator": "I * P",
+        "coefficient": 0.003437819479901645,
+        "unique_generator_norm": 0.014583236695172266,
+        "contribution_norm": 0.043756298401205936
+      },
+      {
+        "operator": "sigma_y * {n+1/2,X}/2",
+        "coefficient": -0.0003077259693789799,
+        "unique_generator_norm": 0.008358472797830247,
+        "contribution_norm": 0.025079194527600098
+      },
+      {
+        "operator": "I * {n+1/2,P}/2",
+        "coefficient": -0.00028321189772381516,
+        "unique_generator_norm": 0.0076926199888945395,
+        "contribution_norm": 0.02308133528632737
+      },
+      {
+        "operator": "sigma_z * a2+adag2",
+        "coefficient": -0.00022396774404271784,
+        "unique_generator_norm": 0.007068302778610189,
+        "contribution_norm": 0.007068302778609447
+      },
+      {
+        "operator": "sigma_y * P",
+        "coefficient": 0.001396290404584428,
+        "unique_generator_norm": 0.005923066520594109,
+        "contribution_norm": 0.017771875444572427
+      },
+      {
+        "operator": "sigma_x * {n+1/2,X}/2",
+        "coefficient": 0.00017236167031497616,
+        "unique_generator_norm": 0.004681698901214318,
+        "contribution_norm": 0.014047211769792987
+      },
+      {
+        "operator": "sigma_z * X",
+        "coefficient": 0.0010609404303424876,
+        "unique_generator_norm": 0.004500511299564633,
+        "contribution_norm": 0.013503567109142644
+      },
+      {
+        "operator": "I * a2+adag2",
+        "coefficient": -0.00014226275379326784,
+        "unique_generator_norm": 0.004489736779854107,
+        "contribution_norm": 0.004489736779854312
+      },
+      {
+        "operator": "sigma_x * X",
+        "coefficient": -0.0010336397451437915,
+        "unique_generator_norm": 0.004384701741640808,
+        "contribution_norm": 0.013156086115711976
+      },
+      {
+        "operator": "sigma_z * {n+1/2,P}/2",
+        "coefficient": 0.00015061702051493477,
+        "unique_generator_norm": 0.004091069308856247,
+        "contribution_norm": 0.012275056162093309
+      },
+      {
+        "operator": "I * i(adag3-a3)",
+        "coefficient": -4.3412348055458394e-05,
+        "unique_generator_norm": 0.003747569531496999,
+        "contribution_norm": 0.0037475695314970387
+      },
+      {
+        "operator": "sigma_x * a3+adag3",
+        "coefficient": -3.951279184017256e-05,
+        "unique_generator_norm": 0.0034109404682607174,
+        "contribution_norm": 0.0034109404682614772
+      },
+      {
+        "operator": "sigma_x * n",
+        "coefficient": 0.0003053307018300089,
+        "unique_generator_norm": 0.0033447302578227716,
+        "contribution_norm": 0.006167377861931469
+      },
+      {
+        "operator": "I * a3+adag3",
+        "coefficient": -3.843725265161723e-05,
+        "unique_generator_norm": 0.003318094582851257,
+        "contribution_norm": 0.0033180945828509044
+      },
+      {
+        "operator": "sigma_z * a3+adag3",
+        "coefficient": 3.665129166416025e-05,
+        "unique_generator_norm": 0.0031639215587962364,
+        "contribution_norm": 0.0031639215587959523
+      },
+      {
+        "operator": "sigma_z * {n+1/2,X}/2",
+        "coefficient": 7.212262834764154e-05,
+        "unique_generator_norm": 0.0019589995227514995,
+        "contribution_norm": 0.005877883591763774
+      },
+      {
+        "operator": "sigma_x * i(adag2-a2)",
+        "coefficient": 5.681137700478653e-05,
+        "unique_generator_norm": 0.001792936816218475,
+        "contribution_norm": 0.0017929368162183706
+      },
+      {
+        "operator": "I * {n+1/2,X}/2",
+        "coefficient": 5.353901184227237e-05,
+        "unique_generator_norm": 0.0014542301223698837,
+        "contribution_norm": 0.004363347349323687
+      },
+      {
+        "operator": "sigma_y * {n+1/2,P}/2",
+        "coefficient": 3.769893269541919e-05,
+        "unique_generator_norm": 0.0010239808621897275,
+        "contribution_norm": 0.0030724051936836753
+      },
+      {
+        "operator": "I * n",
+        "coefficient": 3.6883613481650604e-05,
+        "unique_generator_norm": 0.00040403974214032453,
+        "contribution_norm": 0.0007450124730051369
+      },
+      {
+        "operator": "I * I",
+        "coefficient": -0.00015047101738872455,
+        "unique_generator_norm": 0.00034621800652935873,
+        "contribution_norm": 0.0006383944606056361
+      },
+      {
+        "operator": "sigma_z * P",
+        "coefficient": 5.58835989743658e-05,
+        "unique_generator_norm": 0.00023705833186430354,
+        "contribution_norm": 0.0007112820922539057
+      },
+      {
+        "operator": "sigma_y * n",
+        "coefficient": -3.707993807597518e-07,
+        "unique_generator_norm": 4.061905087666596e-06,
+        "contribution_norm": 7.489780354249429e-06
+      }
+    ],
+    "low_input_logarithm_cutoff_change": 1.5297740783814646e-07,
+    "logarithm_stable": false,
+    "polynomial_coefficient_cutoff_change": 7.879981389624646e-15,
+    "polynomial_fit_stable": true
+  }
+]

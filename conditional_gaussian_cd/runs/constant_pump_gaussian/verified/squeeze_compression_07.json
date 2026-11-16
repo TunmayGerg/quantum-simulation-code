@@ -1,0 +1,70 @@
+{
+  "name": "squeeze_compression_07",
+  "gate": "squeeze",
+  "strength": 0.9210340371976182,
+  "fidelity": 0.9901830898553786,
+  "worst_basis_fidelity": 0.9592830622288414,
+  "columns": 18,
+  "levels": 256,
+  "complex_amplitudes": 9216,
+  "independent_max_difference": 3.1207747653061754e-15,
+  "command_us": 4.8100000000000005,
+  "RFDC_window_us": 4.85421875,
+  "qubit_frame_Rz": -3.331687648435443,
+  "cutoff_history": [
+    {
+      "levels": 64,
+      "fidelity": 0.9895979837607928
+    },
+    {
+      "levels": 96,
+      "fidelity": 0.9901836990495145,
+      "output_change": 0.08437399712245382,
+      "target_change": 0.14484428431184065
+    },
+    {
+      "levels": 128,
+      "fidelity": 0.9901830898824161,
+      "output_change": 0.001340038099075812,
+      "target_change": 0.004855427499729388
+    },
+    {
+      "levels": 160,
+      "fidelity": 0.990183089855378,
+      "output_change": 2.76772044629574e-06,
+      "target_change": 9.434355667122615e-05
+    },
+    {
+      "levels": 192,
+      "fidelity": 0.9901830898553791,
+      "output_change": 6.272253905737011e-11,
+      "target_change": 1.3834121761600571e-06
+    },
+    {
+      "levels": 224,
+      "fidelity": 0.9901830898553786,
+      "output_change": 5.479622813046652e-25,
+      "target_change": 1.707654535259484e-08
+    },
+    {
+      "levels": 256,
+      "fidelity": 0.9901830898553786,
+      "output_change": 1.670424639913314e-48,
+      "target_change": 1.8763683261109632e-10
+    }
+  ],
+  "compiled": {
+    "arbitrary_commands": 2,
+    "triggers": 1,
+    "int16_values_compared": 15392
+  },
+  "pump_phase_constant": true,
+  "pump_transition_ns": 0,
+  "word_sha256": "fa1d3d531426553463789b8ff41b6f9003bac08d30312419b5d3c5058ee63ebb",
+  "source_record": "squeeze_compression_07.json",
+  "g_rad_per_us": 4.43793757756179,
+  "equivalent_swap_ns": 353.94736842105254,
+  "qubit_pi_DAC_scale": 0.43779166666666675,
+  "pump_plateau_DAC_scale": 0.0762825278810409,
+  "programmed_NCO_changes": false
+}

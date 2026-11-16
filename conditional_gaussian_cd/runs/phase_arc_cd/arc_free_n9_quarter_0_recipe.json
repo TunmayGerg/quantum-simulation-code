@@ -1,0 +1,151 @@
+{
+  "name": "arc_free_n9_quarter_0",
+  "gate": "cd",
+  "strength": 1.0,
+  "sideband_mode": "phase_arc",
+  "controls_file": "runs/phase_arc_cd/arc_free_n9_quarter_0_controls.npz",
+  "qubit_frame_Rz": 0.0,
+  "magnus_justification": "Refinement of mirrored/rotary first-force seeds with phase-only JC control to change cubic errors.",
+  "symmetric": false,
+  "phase_arcs": [
+    {
+      "center_sample": 28,
+      "start_phase_rad": -1.5507600458078759,
+      "end_phase_rad": -0.5383033873515997,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 52,
+      "start_phase_rad": -0.5383033873515997,
+      "end_phase_rad": -1.3244369882508613,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 76,
+      "start_phase_rad": -1.3244369882508613,
+      "end_phase_rad": -1.2090148131934282,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 100,
+      "start_phase_rad": -1.2090148131934282,
+      "end_phase_rad": -0.983036323677268,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 124,
+      "start_phase_rad": -0.983036323677268,
+      "end_phase_rad": -0.9397800104850778,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 148,
+      "start_phase_rad": -0.9397800104850778,
+      "end_phase_rad": -0.784358746680782,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 172,
+      "start_phase_rad": -0.784358746680782,
+      "end_phase_rad": 0.3417747356742876,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 196,
+      "start_phase_rad": 0.3417747356742876,
+      "end_phase_rad": -1.6097226483616613,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    }
+  ],
+  "pump_phases": [
+    -1.5507600458078759,
+    -0.5383033873515997,
+    -1.3244369882508613,
+    -1.2090148131934282,
+    -0.983036323677268,
+    -0.9397800104850778,
+    -0.784358746680782,
+    0.3417747356742876,
+    -1.6097226483616613
+  ],
+  "g_nominal": 7.657632093125119,
+  "pulses": [
+    {
+      "start_sample": 4,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 0.28070175861183855,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 28,
+      "samples": 24,
+      "angle_fraction": 0.5,
+      "phase_rad": 0.5215047188765968,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 52,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.6709265954149823,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 76,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.5839873210181983,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 100,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 0.5402705851434065,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 124,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 0.6452779380094493,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 148,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 4.172120224036212,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 172,
+      "samples": 24,
+      "angle_fraction": 0.5,
+      "phase_rad": 1.1203405288875163,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 196,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 0.5918170648679524,
+      "reversed_envelope": false
+    }
+  ],
+  "research_fit": {
+    "initial_fidelity": 0.0013374068140462603,
+    "evaluations": 94,
+    "final_fidelity": 0.8404411495368965,
+    "seed_reason": "Two pi/2 envelopes make a closed nine-pulse rotary seed near the first-force speed bound."
+  }
+}

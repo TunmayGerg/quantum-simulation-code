@@ -1,0 +1,118 @@
+START 36 strength-continuation paths; tied repeated qubit blocks
+FIXED PUMP FIT squeeze_strength_s0.3_b16_commutator_0 T 3.8499999999999996 initialF 0.006286083158126177 finalF 0.9211875048958837 variables 16 evaluations 70 seconds 1.3657231200486422
+STRENGTH PATH STOP squeeze 0.3 16 commutator fraction 0.0
+FIXED PUMP FIT squeeze_strength_s0.3_b16_xy8_0 T 3.8499999999999996 initialF 0.006387842472681982 finalF 0.10327277979293602 variables 16 evaluations 127 seconds 2.1873125759884715
+STRENGTH PATH STOP squeeze 0.3 16 xy8 fraction 0.0
+FIXED PUMP FIT squeeze_strength_s0.2_b16_commutator_0 T 3.8499999999999996 initialF 0.005174084672161183 finalF 0.38406114352692083 variables 16 evaluations 46 seconds 0.8946093790000305
+STRENGTH PATH STOP squeeze 0.2 16 commutator fraction 0.0
+FIXED PUMP FIT squeeze_strength_s0.2_b16_xy8_0 T 3.8499999999999996 initialF 0.004219283610470526 finalF 0.7733102020175279 variables 16 evaluations 161 seconds 2.7357348520308733
+STRENGTH PATH STOP squeeze 0.2 16 xy8 fraction 0.0
+FIXED PUMP FIT squeeze_strength_s0.2_b32_commutator_0 T 3.8499999999999996 initialF 0.005174084672161294 finalF 0.44571813210757877 variables 32 evaluations 81 seconds 1.2616928599309176
+STRENGTH PATH STOP squeeze 0.2 32 commutator fraction 0.0
+FIXED PUMP FIT squeeze_strength_s0.3_b64_xy8_0 T 3.8499999999999996 initialF 0.0063878424726818706 finalF 0.9990005721926091 variables 64 evaluations 381 seconds 6.35858828399796
+FIXED PUMP FIT squeeze_strength_s0.3_b32_commutator_0 T 3.8499999999999996 initialF 0.006286083158126177 finalF 0.9026879960593887 variables 32 evaluations 427 seconds 6.938694769050926
+STRENGTH PATH STOP squeeze 0.3 32 commutator fraction 0.0
+FIXED PUMP FIT squeeze_strength_s0.2_b32_xy8_0 T 3.8499999999999996 initialF 0.004219283610470526 finalF 0.9752792152242437 variables 32 evaluations 296 seconds 5.2389783969847485
+FIXED PUMP FIT squeeze_strength_s0.2_b32_xy8_1 T 3.8499999999999996 initialF 0.8042923950068329 finalF 0.9645506165118025 variables 32 evaluations 301 seconds 5.089093777001835
+FIXED PUMP FIT squeeze_strength_s0.2_b64_commutator_0 T 3.8499999999999996 initialF 0.005174084672161294 finalF 0.9861849543283474 variables 64 evaluations 588 seconds 9.319844629033469
+FIXED PUMP FIT squeeze_strength_s0.2_b32_xy8_2 T 3.8499999999999996 initialF 0.8081403399379252 finalF 0.9632192375284496 variables 32 evaluations 187 seconds 2.941790711018257
+FIXED PUMP FIT squeeze_strength_s0.3_b64_commutator_0 T 3.8499999999999996 initialF 0.006286083158126177 finalF 0.9990005110720869 variables 64 evaluations 1171 seconds 19.197703871992417
+FIXED PUMP FIT squeeze_strength_s0.2_b32_xy8_3 T 3.8499999999999996 initialF 0.4690783987033864 finalF 0.8901186953498083 variables 32 evaluations 176 seconds 3.0064404930453748
+STRENGTH PATH STOP squeeze 0.2 32 xy8 fraction 0.5
+FIXED PUMP FIT squeeze_strength_s0.15_b16_xy8_0 T 3.8499999999999996 initialF 0.00796384642723269 finalF 0.2068754284147237 variables 16 evaluations 41 seconds 0.8424419040093198
+STRENGTH PATH STOP squeeze 0.15 16 xy8 fraction 0.0
+FIXED PUMP FIT squeeze_strength_s0.15_b16_commutator_0 T 3.8499999999999996 initialF 0.0367175484693405 finalF 0.18699150123112288 variables 16 evaluations 37 seconds 0.63870957295876
+STRENGTH PATH STOP squeeze 0.15 16 commutator fraction 0.0
+FIXED PUMP FIT squeeze_strength_s0.3_b32_xy8_0 T 3.8499999999999996 initialF 0.0063878424726818706 finalF 0.997911354523491 variables 32 evaluations 1351 seconds 21.979729836108163
+FIXED PUMP FIT squeeze_strength_s0.2_b64_xy8_0 T 3.8499999999999996 initialF 0.004219283610470526 finalF 0.9905151331182369 variables 64 evaluations 1158 seconds 18.48633006797172
+FIXED PUMP FIT squeeze_strength_s0.15_b32_xy8_0 T 3.8499999999999996 initialF 0.00796384642723269 finalF 0.7905853137838607 variables 32 evaluations 239 seconds 3.938125360989943
+STRENGTH PATH STOP squeeze 0.15 32 xy8 fraction 0.0
+FIXED PUMP FIT squeeze_strength_s0.15_b32_commutator_0 T 3.8499999999999996 initialF 0.0367175484693405 finalF 0.4495411968813095 variables 32 evaluations 65 seconds 1.0500577670754865
+STRENGTH PATH STOP squeeze 0.15 32 commutator fraction 0.0
+FIXED PUMP FIT squeeze_strength_s0.15_b64_xy8_0 T 3.8499999999999996 initialF 0.00796384642723269 finalF 0.6238610369902788 variables 64 evaluations 227 seconds 3.770558974938467
+STRENGTH PATH STOP squeeze 0.15 64 xy8 fraction 0.0
+FIXED PUMP FIT squeeze_strength_s0.2_b64_commutator_1 T 3.8499999999999996 initialF 0.8235657322673048 finalF 0.9759135923652787 variables 64 evaluations 926 seconds 14.630943204043433
+FIXED PUMP FIT squeeze_strength_s0.15_b64_commutator_0 T 3.8499999999999996 initialF 0.0367175484693405 finalF 0.5196320051952062 variables 64 evaluations 130 seconds 2.113673775922507
+STRENGTH PATH STOP squeeze 0.15 64 commutator fraction 0.0
+FIXED PUMP FIT rotation_strength_s0.3_b16_xy8_0 T 3.8499999999999996 initialF 0.006402416480615902 finalF 0.10309879102380874 variables 16 evaluations 136 seconds 0.9563679330749437
+STRENGTH PATH STOP rotation 0.3 16 xy8 fraction 0.0
+FIXED PUMP FIT squeeze_strength_s0.3_b32_xy8_1 T 3.8499999999999996 initialF 0.8301783725622897 finalF 0.9972653676342343 variables 32 evaluations 663 seconds 10.711227211984806
+FIXED PUMP FIT squeeze_strength_s0.2_b64_xy8_1 T 3.8499999999999996 initialF 0.8284886842588863 finalF 0.9849431021103013 variables 64 evaluations 521 seconds 8.842336199944839
+FIXED PUMP FIT rotation_strength_s0.3_b16_commutator_0 T 3.8499999999999996 initialF 0.007538946410433511 finalF 0.865315182459893 variables 16 evaluations 94 seconds 0.6386164660798386
+STRENGTH PATH STOP rotation 0.3 16 commutator fraction 0.0
+FIXED PUMP FIT squeeze_strength_s0.3_b64_xy8_1 T 3.8499999999999996 initialF 0.834615927992953 finalF 0.9987014671671355 variables 64 evaluations 1715 seconds 27.653535670018755
+FIXED PUMP FIT squeeze_strength_s0.2_b64_commutator_2 T 3.8499999999999996 initialF 0.8064185640468013 finalF 0.9634319754602474 variables 64 evaluations 379 seconds 6.248814456979744
+FIXED PUMP FIT squeeze_strength_s0.3_b32_xy8_2 T 3.8499999999999996 initialF 0.8282860556532037 finalF 0.9933206570551718 variables 32 evaluations 404 seconds 6.343824815005064
+FIXED PUMP FIT squeeze_strength_s0.2_b64_xy8_2 T 3.8499999999999996 initialF 0.8135032161520296 finalF 0.9731465401756119 variables 64 evaluations 411 seconds 6.436799099901691
+FIXED PUMP FIT squeeze_strength_s0.3_b64_commutator_1 T 3.8499999999999996 initialF 0.8299787072784118 finalF 0.993943203166438 variables 64 evaluations 1455 seconds 23.84128968801815
+FIXED PUMP FIT squeeze_strength_s0.3_b32_xy8_3 T 3.8499999999999996 initialF 0.4752457710616481 finalF 0.9856644619805354 variables 32 evaluations 305 seconds 4.960857469937764
+FIXED PUMP FIT squeeze_strength_s0.2_b64_commutator_3 T 3.8499999999999996 initialF 0.45227810119365264 finalF 0.9181064079634622 variables 64 evaluations 444 seconds 7.334276225999929
+STRENGTH PATH STOP squeeze 0.2 64 commutator fraction 0.5
+FIXED PUMP FIT squeeze_strength_s0.2_b64_xy8_3 T 3.8499999999999996 initialF 0.45377128695407976 finalF 0.9273745712914048 variables 64 evaluations 380 seconds 5.9572020209161565
+STRENGTH PATH STOP squeeze 0.2 64 xy8 fraction 0.5
+FIXED PUMP FIT rotation_strength_s0.3_b32_xy8_0 T 3.8499999999999996 initialF 0.006402416480615902 finalF 0.9985604786571144 variables 32 evaluations 1804 seconds 12.613476761966012
+FIXED PUMP FIT rotation_strength_s0.3_b64_xy8_0 T 3.8499999999999996 initialF 0.006402416480615902 finalF 0.9990033054833567 variables 64 evaluations 163 seconds 1.466195647022687
+FIXED PUMP FIT squeeze_strength_s0.3_b32_xy8_4 T 3.8499999999999996 initialF 0.46812414761653853 finalF 0.9279790093424325 variables 32 evaluations 207 seconds 3.4567327309632674
+STRENGTH PATH STOP squeeze 0.3 32 xy8 fraction 0.75
+FIXED PUMP FIT rotation_strength_s0.3_b32_xy8_1 T 3.8499999999999996 initialF 0.76964156388681 finalF 0.995668780953362 variables 32 evaluations 519 seconds 3.7970189839834347
+FIXED PUMP FIT rotation_strength_s0.3_b32_xy8_2 T 3.8499999999999996 initialF 0.7625125900052167 finalF 0.9936543536279205 variables 32 evaluations 246 seconds 1.7250583569984883
+FIXED PUMP FIT rotation_strength_s0.3_b32_commutator_0 T 3.8499999999999996 initialF 0.007538946410433511 finalF 0.9975008701793477 variables 32 evaluations 837 seconds 7.37663524504751
+FIXED PUMP FIT squeeze_strength_s0.3_b64_commutator_2 T 3.8499999999999996 initialF 0.8221215800559134 finalF 0.9844185101976662 variables 64 evaluations 569 seconds 9.296047487994656
+FIXED PUMP FIT rotation_strength_s0.3_b32_xy8_3 T 3.8499999999999996 initialF 0.30819584555682267 finalF 0.9572546092233781 variables 32 evaluations 224 seconds 1.757038749055937
+FIXED PUMP FIT rotation_strength_s0.3_b32_xy8_4 T 3.8499999999999996 initialF 0.2777145393938629 finalF 0.8077182121387702 variables 32 evaluations 143 seconds 1.1477805599570274
+STRENGTH PATH STOP rotation 0.3 32 xy8 fraction 0.75
+FIXED PUMP FIT rotation_strength_s0.3_b32_commutator_1 T 3.8499999999999996 initialF 0.7671731137061527 finalF 0.9906516011337522 variables 32 evaluations 297 seconds 2.524996255990118
+FIXED PUMP FIT rotation_strength_s0.3_b64_commutator_0 T 3.8499999999999996 initialF 0.007538946410433511 finalF 0.9990030191062347 variables 64 evaluations 859 seconds 7.371612867922522
+FIXED PUMP FIT rotation_strength_s0.2_b16_xy8_0 T 3.8499999999999996 initialF 0.0010994883457635662 finalF 0.5537746666252777 variables 16 evaluations 126 seconds 1.0234486950794235
+STRENGTH PATH STOP rotation 0.2 16 xy8 fraction 0.0
+FIXED PUMP FIT rotation_strength_s0.2_b16_commutator_0 T 3.8499999999999996 initialF 0.04172061511436875 finalF 0.23073398632899245 variables 16 evaluations 36 seconds 0.33940306992735714
+STRENGTH PATH STOP rotation 0.2 16 commutator fraction 0.0
+FIXED PUMP FIT rotation_strength_s0.3_b32_commutator_2 T 3.8499999999999996 initialF 0.7538611404940909 finalF 0.9813091491105137 variables 32 evaluations 182 seconds 1.6603134960168973
+FIXED PUMP FIT rotation_strength_s0.3_b64_xy8_1 T 3.8499999999999996 initialF 0.767426443458665 finalF 0.9990021302304121 variables 64 evaluations 1163 seconds 9.925542825018056
+FIXED PUMP FIT rotation_strength_s0.2_b32_xy8_0 T 3.8499999999999996 initialF 0.0010994883457636773 finalF 0.7941043288045809 variables 32 evaluations 375 seconds 2.830773959052749
+STRENGTH PATH STOP rotation 0.2 32 xy8 fraction 0.0
+FIXED PUMP FIT rotation_strength_s0.3_b32_commutator_3 T 3.8499999999999996 initialF 0.29961082569334274 finalF 0.9685914912079984 variables 32 evaluations 415 seconds 3.5705246590077877
+FIXED PUMP FIT rotation_strength_s0.2_b32_commutator_0 T 3.8499999999999996 initialF 0.041720615114369086 finalF 0.5068550659764752 variables 32 evaluations 198 seconds 1.5283980700187385
+STRENGTH PATH STOP rotation 0.2 32 commutator fraction 0.0
+FIXED PUMP FIT rotation_strength_s0.3_b32_commutator_4 T 3.8499999999999996 initialF 0.28010294224037646 finalF 0.8402820911997692 variables 32 evaluations 184 seconds 1.5459582019830123
+STRENGTH PATH STOP rotation 0.3 32 commutator fraction 0.75
+FIXED PUMP FIT squeeze_strength_s0.3_b64_xy8_2 T 3.8499999999999996 initialF 0.8312285877747196 finalF 0.9981446385199798 variables 64 evaluations 1706 seconds 27.554809529916383
+FIXED PUMP FIT squeeze_strength_s0.3_b64_commutator_3 T 3.8499999999999996 initialF 0.45939640647621593 finalF 0.9438665705328377 variables 64 evaluations 760 seconds 12.201204483048059
+FIXED PUMP FIT rotation_strength_s0.2_b64_xy8_0 T 3.8499999999999996 initialF 0.0010994883457636773 finalF 0.987395517571182 variables 64 evaluations 674 seconds 5.713803475024179
+FIXED PUMP FIT rotation_strength_s0.2_b64_commutator_0 T 3.8499999999999996 initialF 0.041720615114368864 finalF 0.9773896507443441 variables 64 evaluations 584 seconds 4.9961987050483
+FIXED PUMP FIT rotation_strength_s0.3_b64_commutator_1 T 3.8499999999999996 initialF 0.7689484049531712 finalF 0.9990005735915566 variables 64 evaluations 1413 seconds 12.501398229971528
+FIXED PUMP FIT rotation_strength_s0.2_b64_xy8_1 T 3.8499999999999996 initialF 0.7543365949289609 finalF 0.9834476378217969 variables 64 evaluations 441 seconds 3.2511091521009803
+FIXED PUMP FIT rotation_strength_s0.2_b64_commutator_1 T 3.8499999999999996 initialF 0.7539621534061232 finalF 0.9433019989734033 variables 64 evaluations 441 seconds 3.8341121189296246
+FIXED PUMP FIT rotation_strength_s0.3_b64_xy8_2 T 3.8499999999999996 initialF 0.7665494852510732 finalF 0.9983944323502668 variables 64 evaluations 1694 seconds 14.461787350010127
+FIXED PUMP FIT rotation_strength_s0.2_b64_xy8_2 T 3.8499999999999996 initialF 0.7473390592206588 finalF 0.9677588944091773 variables 64 evaluations 404 seconds 2.775226893951185
+FIXED PUMP FIT rotation_strength_s0.2_b64_commutator_2 T 3.8499999999999996 initialF 0.67737960278744 finalF 0.8842808446776075 variables 64 evaluations 338 seconds 3.0175494219874963
+STRENGTH PATH STOP rotation 0.2 64 commutator fraction 0.25
+FIXED PUMP FIT rotation_strength_s0.15_b16_xy8_0 T 3.8499999999999996 initialF 0.002730740285340705 finalF 0.08413943206361994 variables 16 evaluations 43 seconds 0.41346431290730834
+STRENGTH PATH STOP rotation 0.15 16 xy8 fraction 0.0
+FIXED PUMP FIT rotation_strength_s0.15_b16_commutator_0 T 3.8499999999999996 initialF 0.014537438802602165 finalF 0.2126189668387753 variables 16 evaluations 32 seconds 0.2828889819793403
+STRENGTH PATH STOP rotation 0.15 16 commutator fraction 0.0
+FIXED PUMP FIT rotation_strength_s0.2_b64_xy8_3 T 3.8499999999999996 initialF 0.28819304347083996 finalF 0.9394046026690503 variables 64 evaluations 344 seconds 2.524901857948862
+STRENGTH PATH STOP rotation 0.2 64 xy8 fraction 0.5
+FIXED PUMP FIT rotation_strength_s0.15_b32_commutator_0 T 3.8499999999999996 initialF 0.014537438802602609 finalF 0.2505097780536611 variables 32 evaluations 64 seconds 0.4441594369709492
+STRENGTH PATH STOP rotation 0.15 32 commutator fraction 0.0
+FIXED PUMP FIT rotation_strength_s0.15_b32_xy8_0 T 3.8499999999999996 initialF 0.0027307402853405938 finalF 0.5315555680271127 variables 32 evaluations 163 seconds 1.4457916129613295
+STRENGTH PATH STOP rotation 0.15 32 xy8 fraction 0.0
+FIXED PUMP FIT squeeze_strength_s0.3_b64_commutator_4 T 3.8499999999999996 initialF 0.4150060635501671 finalF 0.8714935606144246 variables 64 evaluations 675 seconds 10.727553250966594
+STRENGTH PATH STOP squeeze 0.3 64 commutator fraction 0.75
+FIXED PUMP FIT squeeze_strength_s0.3_b64_xy8_3 T 3.8499999999999996 initialF 0.47979612935063587 finalF 0.9949227181983924 variables 64 evaluations 839 seconds 13.73243742797058
+FIXED PUMP FIT rotation_strength_s0.15_b64_xy8_0 T 3.8499999999999996 initialF 0.0027307402853405938 finalF 0.8038889670901467 variables 64 evaluations 267 seconds 1.9489996419288218
+STRENGTH PATH STOP rotation 0.15 64 xy8 fraction 0.0
+FIXED PUMP FIT rotation_strength_s0.15_b64_commutator_0 T 3.8499999999999996 initialF 0.014537438802602498 finalF 0.6920326373735454 variables 64 evaluations 504 seconds 4.181977647007443
+STRENGTH PATH STOP rotation 0.15 64 commutator fraction 0.0
+FIXED PUMP FIT rotation_strength_s0.3_b64_commutator_2 T 3.8499999999999996 initialF 0.7655448863727985 finalF 0.9977891002901109 variables 64 evaluations 1741 seconds 14.515555187943392
+FIXED PUMP FIT rotation_strength_s0.3_b64_xy8_3 T 3.8499999999999996 initialF 0.3104324770549316 finalF 0.989994022436505 variables 64 evaluations 1491 seconds 12.635587241034955
+FIXED PUMP FIT squeeze_strength_s0.3_b64_xy8_4 T 3.8499999999999996 initialF 0.47210144362422013 finalF 0.9764601962186026 variables 64 evaluations 684 seconds 11.223370154039003
+FIXED PUMP FIT rotation_strength_s0.3_b64_commutator_3 T 3.8499999999999996 initialF 0.3095748176188269 finalF 0.9778961948374013 variables 64 evaluations 962 seconds 7.760120513965376
+FIXED PUMP FIT rotation_strength_s0.3_b64_xy8_4 T 3.8499999999999996 initialF 0.2991470783830069 finalF 0.9101382697185243 variables 64 evaluations 731 seconds 6.3523338050581515
+STRENGTH PATH STOP rotation 0.3 64 xy8 fraction 0.75
+FIXED PUMP FIT squeeze_strength_s0.3_b64_xy8_5 T 3.8499999999999996 initialF 0.44649810636694354 finalF 0.8926337875461371 variables 64 evaluations 608 seconds 9.28357228799723
+STRENGTH PATH STOP squeeze 0.3 64 xy8 fraction 1.0
+FIXED PUMP FIT rotation_strength_s0.3_b64_commutator_4 T 3.8499999999999996 initialF 0.2932416414855752 finalF 0.9446264925850594 variables 64 evaluations 1093 seconds 8.36346304602921
+FIXED PUMP FIT rotation_strength_s0.3_b64_commutator_5 T 3.8499999999999996 initialF 0.2735745359166908 finalF 0.8192123080080018 variables 64 evaluations 354 seconds 2.619545820984058
+STRENGTH PATH STOP rotation 0.3 64 commutator fraction 1.0
+STRENGTH COUNTS 36 paths; 80 fits

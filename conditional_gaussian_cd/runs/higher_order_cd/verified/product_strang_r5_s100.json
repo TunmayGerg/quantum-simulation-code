@@ -1,0 +1,33 @@
+{
+  "name": "product_strang_r5_s100",
+  "gate": "cd",
+  "fidelity": 0.9977005073109967,
+  "ideal_device_fidelity": 0.9977005073161322,
+  "accepted": true,
+  "columns": 18,
+  "levels": 96,
+  "independent_amplitudes": 3456,
+  "independent_max_difference": 1.7632415262334313e-38,
+  "command_us": 0.51,
+  "RFDC_window_us": 0.55421875,
+  "qubit_frame_Rz": 0.0,
+  "cutoff_history": [
+    {
+      "levels": 64
+    },
+    {
+      "levels": 96,
+      "output_change": 0.0,
+      "target_change": 7.74340002005588e-16
+    }
+  ],
+  "worst_basis_fidelity": 0.9915699039221305,
+  "word_sha256": "426a2106318fbe69fbb0d2400d46005ef8b29593ccf5fb1f1ddc1a87bf331ce3",
+  "source_record": "product_strang_r5_s100.json",
+  "compiled": {
+    "arbitrary_commands": 2,
+    "triggers": 1,
+    "int16_values_compared": 1632
+  },
+  "pump_peak_DAC_magnitude": 0.26275634765625
+}

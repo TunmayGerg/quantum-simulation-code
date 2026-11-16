@@ -1,0 +1,27 @@
+{
+  "name": "overlap_strang_r3_s75",
+  "gate": "cd",
+  "fidelity": 0.9748467464052362,
+  "ideal_device_fidelity": 0.9748460495724925,
+  "accepted": false,
+  "columns": 18,
+  "levels": 96,
+  "independent_amplitudes": 3456,
+  "independent_max_difference": 2.524354896707238e-28,
+  "command_us": 0.255,
+  "RFDC_window_us": 0.29921875000000003,
+  "qubit_frame_Rz": 0.0,
+  "cutoff_history": [
+    {
+      "levels": 64
+    },
+    {
+      "levels": 96,
+      "output_change": 0.0,
+      "target_change": 7.74340002005588e-16
+    }
+  ],
+  "worst_basis_fidelity": 0.896981356125062,
+  "word_sha256": "cec78daefe69eb57674e84a7cc6f8dde5f3831aa667c391d64e446aeef9166cc",
+  "source_record": "overlap_strang_r3_s75.json"
+}

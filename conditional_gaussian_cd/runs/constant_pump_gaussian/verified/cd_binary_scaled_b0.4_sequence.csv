@@ -1,0 +1,5 @@
+pulse,pi_duration_ns,half_gap_ns,qubit_DAC_deg,pump_plateau_DAC_deg
+1,30,0.0,0.0,270.0
+2,30,0.0,0.0,270.0
+3,30,0.0,180.0,270.0
+4,30,0.0,180.0,270.0

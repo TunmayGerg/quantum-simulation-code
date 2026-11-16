@@ -1,0 +1,212 @@
+[
+  {
+    "method": "first",
+    "repeats": 1,
+    "fidelity": 0.13667766647503077,
+    "output_change": 0.0,
+    "target_change": 7.74340002005588e-16
+  },
+  {
+    "method": "first",
+    "repeats": 2,
+    "fidelity": 0.5423735466336301,
+    "output_change": 0.0,
+    "target_change": 7.74340002005588e-16
+  },
+  {
+    "method": "first",
+    "repeats": 3,
+    "fidelity": 0.8191184540920408,
+    "output_change": 0.0,
+    "target_change": 7.74340002005588e-16
+  },
+  {
+    "method": "first",
+    "repeats": 4,
+    "fidelity": 0.904805477331296,
+    "output_change": 0.0,
+    "target_change": 7.74340002005588e-16
+  },
+  {
+    "method": "first",
+    "repeats": 6,
+    "fidelity": 0.9599166440303167,
+    "output_change": 0.0,
+    "target_change": 7.74340002005588e-16
+  },
+  {
+    "method": "first",
+    "repeats": 8,
+    "fidelity": 0.9779013278152063,
+    "output_change": 0.0,
+    "target_change": 7.74340002005588e-16
+  },
+  {
+    "method": "first",
+    "repeats": 12,
+    "fidelity": 0.99032159348377,
+    "output_change": 0.0,
+    "target_change": 7.74340002005588e-16
+  },
+  {
+    "method": "first",
+    "repeats": 16,
+    "fidelity": 0.9945841751684977,
+    "output_change": 0.0,
+    "target_change": 7.74340002005588e-16
+  },
+  {
+    "method": "first",
+    "repeats": 24,
+    "fidelity": 0.997601953845456,
+    "output_change": 0.0,
+    "target_change": 7.74340002005588e-16
+  },
+  {
+    "method": "first",
+    "repeats": 32,
+    "fidelity": 0.9986528693649246,
+    "output_change": 2.7733879202085623e-37,
+    "target_change": 7.74340002005588e-16
+  },
+  {
+    "method": "strang",
+    "repeats": 1,
+    "fidelity": 0.24204185362817782,
+    "output_change": 0.0,
+    "target_change": 7.74340002005588e-16
+  },
+  {
+    "method": "strang",
+    "repeats": 2,
+    "fidelity": 0.7685853194841359,
+    "output_change": 0.0,
+    "target_change": 7.74340002005588e-16
+  },
+  {
+    "method": "strang",
+    "repeats": 3,
+    "fidelity": 0.9605981890633747,
+    "output_change": 0.0,
+    "target_change": 7.74340002005588e-16
+  },
+  {
+    "method": "strang",
+    "repeats": 4,
+    "fidelity": 0.9885134114820089,
+    "output_change": 0.0,
+    "target_change": 7.74340002005588e-16
+  },
+  {
+    "method": "strang",
+    "repeats": 6,
+    "fidelity": 0.9978723127516296,
+    "output_change": 0.0,
+    "target_change": 7.74340002005588e-16
+  },
+  {
+    "method": "strang",
+    "repeats": 8,
+    "fidelity": 0.9993423697848359,
+    "output_change": 0.0,
+    "target_change": 7.74340002005588e-16
+  },
+  {
+    "method": "strang",
+    "repeats": 12,
+    "fidelity": 0.9998722844493799,
+    "output_change": 0.0,
+    "target_change": 7.74340002005588e-16
+  },
+  {
+    "method": "strang",
+    "repeats": 16,
+    "fidelity": 0.999959831221746,
+    "output_change": 0.0,
+    "target_change": 7.74340002005588e-16
+  },
+  {
+    "method": "strang",
+    "repeats": 24,
+    "fidelity": 0.9999920993954089,
+    "output_change": 0.0,
+    "target_change": 7.74340002005588e-16
+  },
+  {
+    "method": "strang",
+    "repeats": 32,
+    "fidelity": 0.9999975039568528,
+    "output_change": 1.4840176765252024e-37,
+    "target_change": 7.74340002005588e-16
+  },
+  {
+    "method": "yoshida",
+    "repeats": 1,
+    "fidelity": 0.2133824812249551,
+    "output_change": 0.0,
+    "target_change": 7.74340002005588e-16
+  },
+  {
+    "method": "yoshida",
+    "repeats": 2,
+    "fidelity": 0.8772199212761599,
+    "output_change": 0.0,
+    "target_change": 7.74340002005588e-16
+  },
+  {
+    "method": "yoshida",
+    "repeats": 3,
+    "fidelity": 0.9851912279242362,
+    "output_change": 0.0,
+    "target_change": 7.74340002005588e-16
+  },
+  {
+    "method": "yoshida",
+    "repeats": 4,
+    "fidelity": 0.9962542297699265,
+    "output_change": 0.0,
+    "target_change": 7.74340002005588e-16
+  },
+  {
+    "method": "yoshida",
+    "repeats": 6,
+    "fidelity": 0.9996866634355437,
+    "output_change": 0.0,
+    "target_change": 7.74340002005588e-16
+  },
+  {
+    "method": "yoshida",
+    "repeats": 8,
+    "fidelity": 0.9999586586806678,
+    "output_change": 0.0,
+    "target_change": 7.74340002005588e-16
+  },
+  {
+    "method": "yoshida",
+    "repeats": 12,
+    "fidelity": 0.999998035179431,
+    "output_change": 2.977538808464369e-25,
+    "target_change": 7.74340002005588e-16
+  },
+  {
+    "method": "yoshida",
+    "repeats": 16,
+    "fidelity": 0.9999997893083572,
+    "output_change": 6.703138287360278e-28,
+    "target_change": 7.74340002005588e-16
+  },
+  {
+    "method": "yoshida",
+    "repeats": 24,
+    "fidelity": 0.9999999913673707,
+    "output_change": 7.773886532817543e-31,
+    "target_change": 7.74340002005588e-16
+  },
+  {
+    "method": "yoshida",
+    "repeats": 32,
+    "fidelity": 0.9999999991208952,
+    "output_change": 4.215805445098926e-33,
+    "target_change": 7.74340002005588e-16
+  }
+]

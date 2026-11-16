@@ -1,0 +1,44 @@
+START conditional_gaussian_gates.ipynb cell 1
+COMPLETED conditional_gaussian_gates.ipynb cell 1 1 / 6
+START conditional_gaussian_gates.ipynb cell 3
+COMPLETED conditional_gaussian_gates.ipynb cell 3 2 / 6
+START conditional_gaussian_gates.ipynb cell 5
+Search-cutoff starting score and converged final certificate:
+strength_squeeze_swap300 initial F 0.9749480313252554 final F 0.9946012929575878 actual-playback evaluations 42
+strength_rotation_swap150 initial F 0.9515698619901339 final F 0.9950417421246439 actual-playback evaluations 25
+COMPLETED conditional_gaussian_gates.ipynb cell 5 3 / 6
+START conditional_gaussian_gates.ipynb cell 7
+strength_squeeze_swap300 apply final qubit Rz(rad)= 5.788583994694756
+strength_rotation_swap150 apply final qubit Rz(rad)= 0.5847534171111612
+squeeze_lifted_n192_b96 : repeat the identical half twice; final Rz(rad)= -5.542702969501703
+rotation_lifted_n256_b128 : repeat the identical half twice; final Rz(rad)= -4.74419992135117
+COMPLETED conditional_gaussian_gates.ipynb cell 7 4 / 6
+START conditional_gaussian_gates.ipynb cell 9
+Retuned Gaussian map: 12 strength points. Additional shorter screens: 7
+COMPLETED conditional_gaussian_gates.ipynb cell 9 5 / 6
+START conditional_gaussian_gates.ipynb cell 11
+FRESH INDEPENDENT REPLAY strength_squeeze_swap300 18inputcolumns; 9216 amplitudes;maxdifference 1.0454315885429113e-14 F 0.9946012929575887
+FRESH INDEPENDENT REPLAY strength_rotation_swap150 18inputcolumns; 3456 amplitudes;maxdifference 8.16995163024819e-15 F 0.9950417421246424
+Fresh Gaussian totals:2gates;36inputcolumns; 12672 complex amplitudes compared.
+COMPLETED conditional_gaussian_gates.ipynb cell 11 6 / 6
+EXECUTED NOTEBOOK {'file': 'conditional_gaussian_gates.ipynb', 'cells': 13, 'executed_code_cells': 6, 'embedded_figures': 5, 'errors': 0}
+START fast_conditional_displacement.ipynb cell 1
+COMPLETED fast_conditional_displacement.ipynb cell 1 1 / 6
+START fast_conditional_displacement.ipynb cell 3
+COMPLETED fast_conditional_displacement.ipynb cell 3 2 / 6
+START fast_conditional_displacement.ipynb cell 5
+One calibrated coefficient;20signed strengths;360input columns independently checked.
+COMPLETED fast_conditional_displacement.ipynb cell 5 3 / 6
+START fast_conditional_displacement.ipynb cell 7
+COMPLETED fast_conditional_displacement.ipynb cell 7 4 / 6
+START fast_conditional_displacement.ipynb cell 9
+Actual-playback fixed-strength fits: 44 ;each includes all18inputs.
+Enumerated 2728 binary X/Xbar words, modulo exact global-sign symmetry.
+Also tested 20 fractional-angle cases;best F= 0.9587431395047017
+The tested 8/10-pulse schemes did not reach99%;this does not prove impossibility.
+COMPLETED fast_conditional_displacement.ipynb cell 9 5 / 6
+START fast_conditional_displacement.ipynb cell 11
+FRESH INDEPENDENT REPLAY cd_binary_scaled_b1 18inputcolumns; 3456 amplitudes;maxdifference 1.1657341758564144e-15 F 0.9922779449668542
+FRESH ACTUAL400ns CHECK:18inputs; 3456 amplitudes;F 0.9922779408792164 remainingtail operatornorm 7.801061008863723e-07
+COMPLETED fast_conditional_displacement.ipynb cell 11 6 / 6
+EXECUTED NOTEBOOK {'file': 'fast_conditional_displacement.ipynb', 'cells': 13, 'executed_code_cells': 6, 'embedded_figures': 5, 'errors': 0}

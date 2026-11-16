@@ -1,0 +1,6 @@
+START4controlledconvergencecomparisons, g8/e8, larger24x10andhalfdt
+MICROSCOPIC CONVERGENCE constant timestep columns2;amplitudes 640 change 1.469582202527496e-07 seconds 234.11916067707352
+MICROSCOPIC CONVERGENCE cartesian timestep columns2;amplitudes 640 change 1.238510766601289e-07 seconds 234.51500246103387
+MICROSCOPIC CONVERGENCE constant cutoff columns2;amplitudes 960 change 1.955452375966895e-07 seconds 281.4179795640521
+MICROSCOPIC CONVERGENCE cartesian cutoff columns2;amplitudes 960 change 2.247917908162564e-07 seconds 282.3551073730923
+FINAL MICROSCOPIC CONVERGENCE COUNTS 4 comparisons; 8 inputcolumns; 3200 amplitudes

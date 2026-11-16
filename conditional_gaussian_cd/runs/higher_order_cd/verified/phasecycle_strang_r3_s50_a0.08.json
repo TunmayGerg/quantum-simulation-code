@@ -1,0 +1,27 @@
+{
+  "name": "phasecycle_strang_r3_s50_a0.08",
+  "gate": "cd",
+  "fidelity": 0.9746889838888108,
+  "ideal_device_fidelity": 0.9746875222208465,
+  "accepted": false,
+  "columns": 18,
+  "levels": 96,
+  "independent_amplitudes": 3456,
+  "independent_max_difference": 6.668652496727995e-16,
+  "command_us": 0.225,
+  "RFDC_window_us": 0.26921875,
+  "qubit_frame_Rz": 0.0,
+  "cutoff_history": [
+    {
+      "levels": 64
+    },
+    {
+      "levels": 96,
+      "output_change": 0.0,
+      "target_change": 7.74340002005588e-16
+    }
+  ],
+  "worst_basis_fidelity": 0.8964248657186137,
+  "word_sha256": "888dfd208b7e058ff8a4c1efa2fe60a37e0650526ac488681b48ee1180b012c4",
+  "source_record": "phasecycle_strang_r3_s50_a0.08.json"
+}

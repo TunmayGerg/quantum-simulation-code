@@ -1,0 +1,16 @@
+START200CERTIFICATION 14 gates;all18inputs;peaknormbound 7.853981633974483
+VERIFIED200 cd_n8_gap5_phase0 F 0.9709122408422823 Tns 290.0 minswapns 201.7129809192661 18columns; 3456 amplitudes; independenterror 4.652943974291671e-25 accepted False
+VERIFIED200 cd_n10_gap0_phase0 F 0.9901408076999999 Tns 310.0 minswapns 201.70510633971043 18columns; 3456 amplitudes; independenterror 2.710505431213761e-20 accepted True
+VERIFIED200 cd_n8_gap10_phase0 F 0.977864771567143 Tns 330.0 minswapns 201.70369175930483 18columns; 3456 amplitudes; independenterror 8.271806125530277e-25 accepted False
+VERIFIED200 cd_n10_gap2.5_phase0 F 0.9917499351717107 Tns 335.0 minswapns 201.69403721654396 18columns; 3456 amplitudes; independenterror 6.617444900424222e-24 accepted True
+VERIFIED200 cd_n10_gap0_phase1 F 0.9923543325788408 Tns 310.0 minswapns 201.65627551428832 18columns; 3456 amplitudes; independenterror 7.42608051240602e-16 accepted True
+VERIFIED200 cd_n10_gap5_phase0 F 0.9926752467096306 Tns 360.0 minswapns 205.21510533762284 18columns; 3456 amplitudes; independenterror 1.3234889800848443e-23 accepted True
+VERIFIED200 cd_n10_gap2.5_phase1 F 0.9933344637830287 Tns 335.0 minswapns 201.71659632354064 18columns; 3456 amplitudes; independenterror 7.671244563756732e-16 accepted True
+VERIFIED200 cd_n10_gap5_phase1 F 0.9932760454214428 Tns 360.0 minswapns 204.6113991563781 18columns; 3456 amplitudes; independenterror 5.699569871094005e-16 accepted True
+VERIFIED200 cd_n12_gap0_phase0 F 0.9952192116446564 Tns 370.0 minswapns 262.6826807113844 18columns; 3456 amplitudes; independenterror 2.0679515313825692e-25 accepted True
+VERIFIED200 edge_n10_gap0_phase0 F 0.9895952603162361 Tns 300.0 minswapns 201.7552209669443 18columns; 3456 amplitudes; independenterror 3.309291958772805e-24 accepted False
+VERIFIED200 edge_n10_gap0_phase1 F 0.9927202573459261 Tns 300.0 minswapns 200.3894620858736 18columns; 3456 amplitudes; independenterror 6.149539670923232e-16 accepted True
+VERIFIED200 edge_n8_gap5_phase1 F 0.9743759202062429 Tns 280.0 minswapns 200.39953787646957 18columns; 3456 amplitudes; independenterror 7.319346002226396e-16 accepted False
+VERIFIED200 baseline_cd F 0.9922779449668537 Tns 370.0 minswapns 281.33215200080747 18columns; 3456 amplitudes; independenterror 1.0339757656912846e-25 accepted True
+VERIFIED200 squeeze_8db F 0.9907236545300745 Tns 3610.0 minswapns 281.52809032491956 18columns; 11520 amplitudes; independenterror 5.029276602616567e-15 accepted True
+FINAL200COMPARISONS 14 records; 252 columns; 56448 amplitudes

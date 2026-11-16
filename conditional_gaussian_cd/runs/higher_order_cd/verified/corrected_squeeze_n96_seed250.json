@@ -1,0 +1,47 @@
+{
+  "name": "corrected_squeeze_n96_seed250",
+  "gate": "squeeze",
+  "fidelity": 0.9845158981159399,
+  "ideal_device_fidelity": 0.9844867691192155,
+  "accepted": false,
+  "columns": 18,
+  "levels": 320,
+  "independent_amplitudes": 11520,
+  "independent_max_difference": 4.4997442958899385e-15,
+  "command_us": 2.89,
+  "RFDC_window_us": 2.93421875,
+  "qubit_frame_Rz": -0.08747284169812766,
+  "cutoff_history": [
+    {
+      "levels": 64
+    },
+    {
+      "levels": 96,
+      "output_change": 0.030605908978196834,
+      "target_change": 0.14484428431184065
+    },
+    {
+      "levels": 128,
+      "output_change": 4.5331690304014914e-08,
+      "target_change": 0.004855427499729388
+    },
+    {
+      "levels": 192,
+      "output_change": 4.853534283050134e-25,
+      "target_change": 9.434631670509811e-05
+    },
+    {
+      "levels": 256,
+      "output_change": 2.5369624274513998e-76,
+      "target_change": 1.7076982799674414e-08
+    },
+    {
+      "levels": 320,
+      "output_change": 3.5727231306870606e-142,
+      "target_change": 1.8958399991252324e-12
+    }
+  ],
+  "worst_basis_fidelity": 0.9434443357339615,
+  "word_sha256": "0a5083829a42746ec30edf2bac2522c90493dfdab28f3793c1f41ad16f759252",
+  "source_record": "corrected_squeeze_n96_seed250.json"
+}

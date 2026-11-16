@@ -1,0 +1,42 @@
+{
+  "shape": "cartesian",
+  "beta": -0.5,
+  "repeats": 2,
+  "gain": -0.625,
+  "fidelity": 0.9992683395459722,
+  "fidelity_nmax8": 0.9993719077627569,
+  "worst_basis_fidelity": 0.9987230613129715,
+  "levels": 96,
+  "columns": 22,
+  "command_us": 0.49,
+  "RFDC_window_us": 0.53421875,
+  "kind": "cartesian",
+  "parameters": [
+    0.041887902047863905,
+    0.041887902047863905,
+    -0.0017453292519943296,
+    0.022689280275926284,
+    0.34033920413889424,
+    0.2617993877991494,
+    -0.2932153143350474,
+    -0.20943951023931956,
+    0.661958
+  ],
+  "cutoff_history": [
+    {
+      "levels": 64,
+      "fidelity": 0.9992683395459719,
+      "columns": 22
+    },
+    {
+      "levels": 96,
+      "fidelity": 0.9992683395459722,
+      "columns": 22,
+      "output_column_change": 4.4214481439972536e-77,
+      "target_column_change": 5.944306773079311e-16
+    }
+  ],
+  "complex_amplitudes": 4224,
+  "independent_max_difference": 1.6657717744151097e-15,
+  "word_sha256": "402a523c40a575da1bfc5a7438e537e8f827be482e995ab3f53612ca22965fe8"
+}

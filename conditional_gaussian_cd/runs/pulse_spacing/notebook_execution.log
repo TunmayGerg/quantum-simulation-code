@@ -1,0 +1,43 @@
+START fast_conditional_displacement.ipynb cell 1
+Independent replay: 18 input columns; 3456 complex amplitudes; max difference 1.0339757656912846e-25
+COMPLETED fast_conditional_displacement.ipynb cell 1 1 / 8
+START fast_conditional_displacement.ipynb cell 3
+CD SPACING CHECK:8 points;144 input columns; 18432 independent complex amplitudes;fixed duration per curve;no phase/fidelity fit
+COMPLETED fast_conditional_displacement.ipynb cell 3 2 / 8
+START fast_conditional_displacement.ipynb cell 5
+Strength comparison: 5 gates; 90 input columns; 11520 independent amplitudes
+COMPLETED fast_conditional_displacement.ipynb cell 5 3 / 8
+START fast_conditional_displacement.ipynb cell 7
+SCALING CHECK:20 signed targets;360 input columns; 71424 independently compared amplitudes
+COMPLETED fast_conditional_displacement.ipynb cell 7 4 / 8
+START fast_conditional_displacement.ipynb cell 9
+COMPLETED fast_conditional_displacement.ipynb cell 9 5 / 8
+START fast_conditional_displacement.ipynb cell 11
+COMPLETED fast_conditional_displacement.ipynb cell 11 6 / 8
+START fast_conditional_displacement.ipynb cell 13
+COMPLETED fast_conditional_displacement.ipynb cell 13 7 / 8
+START fast_conditional_displacement.ipynb cell 15
+FRESH CD CHECK:18columns; 4608 amplitudes;maxdifference 1.0339757656912846e-25 F 0.9922779449668537
+COMPLETED fast_conditional_displacement.ipynb cell 15 8 / 8
+EXECUTED NOTEBOOK {'file': 'fast_conditional_displacement.ipynb', 'cells': 16, 'executed_code_cells': 8, 'embedded_figures': 7, 'errors': 0}
+START conditional_gaussian_gates.ipynb cell 1
+Independent full-gate check: 18 input columns; 11520 amplitudes;max difference 3.1207747653061754e-15
+COMPLETED conditional_gaussian_gates.ipynb cell 1 1 / 7
+START conditional_gaussian_gates.ipynb cell 3
+SQUEEZING SPACING CHECK:10 points;180 input columns; 115200 independent complex amplitudes;all targets8dB;all durations4.810us
+COMPLETED conditional_gaussian_gates.ipynb cell 3 2 / 7
+START conditional_gaussian_gates.ipynb cell 5
+COMPLETED conditional_gaussian_gates.ipynb cell 5 3 / 7
+START conditional_gaussian_gates.ipynb cell 7
+Arc/chirality terms (complete saved calculations):
+COMPLETED conditional_gaussian_gates.ipynb cell 7 4 / 7
+START conditional_gaussian_gates.ipynb cell 9
+Operator-fit residual: 5.680477470484239e-19
+COMPLETED conditional_gaussian_gates.ipynb cell 9 5 / 7
+START conditional_gaussian_gates.ipynb cell 11
+All160phases are in the linked CSV. Final qubit Rz(rad): -3.331687648435443
+COMPLETED conditional_gaussian_gates.ipynb cell 11 6 / 7
+START conditional_gaussian_gates.ipynb cell 13
+FRESH SQUEEZE CHECK:2boundaryinputs; 1536 amplitudes;maxdifference 1.531987721386466e-15
+COMPLETED conditional_gaussian_gates.ipynb cell 13 7 / 7
+EXECUTED NOTEBOOK {'file': 'conditional_gaussian_gates.ipynb', 'cells': 14, 'executed_code_cells': 7, 'embedded_figures': 6, 'errors': 0}

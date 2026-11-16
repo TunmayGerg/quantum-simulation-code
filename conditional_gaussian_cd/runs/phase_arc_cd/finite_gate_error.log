@@ -1,0 +1,11 @@
+FINITE GATE ERROR cd_constant_reference 64 fullcolumns 128 amplitudes 16384 unitarity 4.241896386783434e-13 fitresidualfraction 0.6777923319228886 seconds 0.8591859340667725
+FINITE GATE ERROR cd_constant_reference 96 fullcolumns 192 amplitudes 36864 unitarity 2.842804433868519e-13 fitresidualfraction 0.6777923320301352 seconds 1.9121625423431396
+ERROR LOG CUTOFF cd_constant_reference maxdifference 1.065836952841143e-05
+FINITE GATE ERROR cd_constant_reference 128 fullcolumns 256 amplitudes 65536 unitarity 3.5914444484277704e-13 fitresidualfraction 0.6777923320297806 seconds 3.1201112270355225
+ERROR LOG CUTOFF cd_constant_reference maxdifference 7.798579494728999e-07
+FINITE GATE ERROR arc_lifted_n12 64 fullcolumns 128 amplitudes 16384 unitarity 4.310163657578945e-13 fitresidualfraction 0.6262484596759125 seconds 0.8081934452056885
+FINITE GATE ERROR arc_lifted_n12 96 fullcolumns 192 amplitudes 36864 unitarity 2.702850748067645e-13 fitresidualfraction 0.626248459638401 seconds 1.849013328552246
+ERROR LOG CUTOFF arc_lifted_n12 maxdifference 1.7204800231579525e-06
+FINITE GATE ERROR arc_lifted_n12 128 fullcolumns 256 amplitudes 65536 unitarity 3.4384537916649506e-13 fitresidualfraction 0.6262484596381945 seconds 3.104994535446167
+ERROR LOG CUTOFF arc_lifted_n12 maxdifference 1.5297740783814646e-07
+FINITE ERROR ANALYSIS:6fullpropagators; 1152 columns; 237568 complex amplitudes

@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/tunmays_rsl_pc_wsl/boson/quantum-simulation-code/conditional_gaussian_cd/code/strategic_cd.py", line 590, in <module>
+    fractional11_search()
+  File "/home/tunmays_rsl_pc_wsl/boson/quantum-simulation-code/conditional_gaussian_cd/code/strategic_cd.py", line 555, in fractional11_search
+    f'({18*scored}inputcolumns). BestnativeF{rows[0]["native_fidelity"]:.10f}, '
+IndexError: list index out of range

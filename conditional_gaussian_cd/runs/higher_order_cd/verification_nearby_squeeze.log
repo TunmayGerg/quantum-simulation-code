@@ -1,0 +1,4 @@
+START NEW-STUDY VERIFICATION 2 records;all18inputs
+CHECKED compressed_squeeze_n120 F 0.9907236545300745 ideal_deviceF 0.9906912542828997 columns18;amplitudes 11520 cutoff 320 independenterror 5.029276602616567e-15 accepted True
+CHECKED compressed_squeeze_n124 F 0.9929565626703832 ideal_deviceF 0.9929370078198206 columns18;amplitudes 11520 cutoff 320 independenterror 4.704467722167978e-15 accepted True
+FINAL NEW-STUDY COMPARISONS 2 records; 36 columns; 23040 amplitudes; 2 above99%

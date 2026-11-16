@@ -1,0 +1,33 @@
+{
+  "name": "product_strang_r5_s35",
+  "gate": "cd",
+  "fidelity": 0.9976934727214118,
+  "ideal_device_fidelity": 0.9976934730799385,
+  "accepted": true,
+  "columns": 18,
+  "levels": 96,
+  "independent_amplitudes": 3456,
+  "independent_max_difference": 1.5407439555097887e-33,
+  "command_us": 0.41000000000000003,
+  "RFDC_window_us": 0.45421875,
+  "qubit_frame_Rz": 0.0,
+  "cutoff_history": [
+    {
+      "levels": 64
+    },
+    {
+      "levels": 96,
+      "output_change": 0.0,
+      "target_change": 7.74340002005588e-16
+    }
+  ],
+  "worst_basis_fidelity": 0.991487973910451,
+  "word_sha256": "6589c30d4537396aa068a230ed8e68dff4bf7ed2a08bc38f7679608faf33beb7",
+  "source_record": "product_strang_r5_s35.json",
+  "compiled": {
+    "arbitrary_commands": 2,
+    "triggers": 1,
+    "int16_values_compared": 1312
+  },
+  "pump_peak_DAC_magnitude": 0.77301025390625
+}

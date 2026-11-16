@@ -1,0 +1,4 @@
+START RESEARCH CERTIFICATION 2 gates;all18inputs
+RESEARCH CERTIFIED best_proper10 F 0.9823705342094754 worstbasis 0.950496915373023 timeus 0.315 18columns; 3456 amplitudes;error 1.0339757656912846e-24 mode fixed accepted False
+RESEARCH CERTIFIED best_mixed_geometric F 0.974376572115986 worstbasis 0.9262940123000586 timeus 0.33 18columns; 3456 amplitudes;error 9.464979401424364e-16 mode fixed accepted False
+FINAL RESEARCH COMPARISONS 2 gates; 36 columns; 6912 amplitudes

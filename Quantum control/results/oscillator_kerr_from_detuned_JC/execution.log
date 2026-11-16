@@ -1,0 +1,73 @@
+RUNNING cell 2: from pathlib import Path
+Helpers: /home/tunmays_rsl_pc_wsl/boson/quantum-simulation-code/Optimal control/helpful_functions.py
+Finished cell 2; elapsed 1.7s
+RUNNING cell 3: # All physical inputs and numerical controls are here. MHz means cycles/us.
+g/2pi = 1.000000 MHz; alpha/2pi = -150.000 MHz
+Fock states n=0..8; 5 transmon levels
+Two lobes: total time = 26.006 us
+Finished cell 3; elapsed 1.7s
+RUNNING cell 5: # Draw the actual waveform and pulse times from the input cell.
+pi at 13.003000 us: detuned-frame phase = -2.638938 rad; final-frame phase = 0
+pi at 26.006000 us: detuned-frame phase = +1.005310 rad; final-frame phase = 0
+Finished cell 5; elapsed 2.0s
+RUNNING cell 7: def analytic_rates(detuning_mhz):
+Finished cell 7; elapsed 2.0s
+RUNNING cell 8: # The analytic poles occur at multiples of K/2. Exact branches also hybridize there.
+Spectra running: 200/1163 detunings
+Spectra running: 400/1163 detunings
+Spectra running: 600/1163 detunings
+Spectra running: 800/1163 detunings
+Spectra running: 1000/1163 detunings
+MEASURED: 1163 detunings, 20934 dressed energies, 8141 photon intervals for EACH Kerr curve.
+Finished cell 8; elapsed 2.5s
+RUNNING cell 9: # Reproduce the paper's magnitude plots, and expose the signed echo sum separately.
+Finished cell 9; elapsed 3.4s
+RUNNING cell 10: rows = []
+Finished cell 10; elapsed 3.7s
+RUNNING cell 12: def full_lobe(detuning_mhz, cavity_levels, transmon_levels, ramp_step_us,
+Time-domain propagation running: coarse Hann ramps...
+Time-domain propagation running: fine Hann ramps...
+MEASURED: dt=0.002 vs 0.001 us, 900 complex matrix elements in 18 input columns; max difference=9.9713e-06
+Full bare Hilbert space: 10 x 5 = 50 states
+COMPARED: 18 g/e Fock return amplitudes; max population outside original product state=9.85486e-06, max adiabatic phase error=0.00873352 rad
+Finished cell 12; elapsed 3.9s
+RUNNING cell 13: # Follow one coherent cavity input and qubit |+> throughout both lobes and pulses.
+MEASURED: 14007 full-H time samples, 700350 state amplitudes; endpoint difference=3.56e-15
+Initial coherent-state probability omitted above n_max: 0.000237447
+Final cavity purity=0.999998120; fidelity to full adiabatic spectrum=0.999996037; fidelity to quadratic Kerr=0.971987999
+Finished cell 13; elapsed 5.3s
+RUNNING cell 14: # Compare the accumulated nonlinear phase after removing constant and linear terms.
+Finished cell 14; elapsed 5.8s
+RUNNING cell 16: def kerr_gate_metrics(unitary, indices, photons, reference_cycles=None):
+COMPARED Kerr fidelity: all 9 ground-input columns and 18 echo g/e columns, using 10 x 5 cutoffs
+Finished cell 16; elapsed 6.0s
+RUNNING cell 18: ramp_rows = []
+Ramp sweep running: completed delta=5 MHz, 8 full-H cases
+Ramp sweep running: completed delta=10 MHz, 16 full-H cases
+Ramp sweep running: completed delta=20 MHz, 24 full-H cases
+Ramp sweep running: completed delta=140 MHz, 32 full-H cases
+COMPARED ramp study: 32 cases, 576 g/e return amplitudes; 288 ground-input return amplitudes
+Finished cell 18; elapsed 14.3s
+RUNNING cell 20: fig, axes = plt.subplots(3, 3, figsize=(15, 10), constrained_layout=True)
+Resonance scan running: completed center=75 MHz; 27 full-H cases
+Resonance scan running: completed center=150 MHz; 54 full-H cases
+Resonance scan running: completed center=225 MHz; 81 full-H cases
+Long-ramp scan running: completed center=75 MHz
+Long-ramp scan running: completed center=150 MHz
+Long-ramp scan running: completed center=225 MHz
+COMPARED near resonances: 960 finite exact spectra and 93 full-H pulse cases, 1674 g/e return amplitudes, including all 3 exact resonance centers
+Finished cell 20; elapsed 54.9s
+RUNNING cell 22: # Independent solve_ivp calculation in both frames, on complete low-excitation blocks.
+COMPARED frames: 30 complex propagator elements, 10 input states across 4 complete blocks; max error=2.10121e-08
+Finished cell 22; elapsed 55.3s
+RUNNING cell 23: # Check the pre-existing full QuTiP Hamiltonian on nonresonant reference points.
+COMPARED existing dchi_H: 54 g/e dressed energies at 3 detunings; max error=3.71328e-13 MHz
+COMPARED exact two-level JC: 90 energies; max error=3.55271e-15 MHz
+COMPARED analytic conventions: 15 chi-prime values and 15 simplified echo sums; 8141 exact echo curvature identities
+COMPARED sweep timesteps: 3600 complex matrix elements at 4 short-ramp/near-pole cases; max error=3.14029e-05
+COMPARED g=0 limit: 18 energies
+COMPARED full time domain: 900 timestep-convergence elements; 14007 state norms (max error 1.47e-14); 2500 unitarity elements (max error 1.06e-13)
+Artifacts saved in /home/tunmays_rsl_pc_wsl/boson/quantum-simulation-code/Quantum control/results/oscillator_kerr_from_detuned_JC
+Finished cell 23; elapsed 56.4s
+EXECUTED 15 code cells in 56.4s
+COMPARED frequency units: 290 rate conversions; max difference=3.55e-15 kHz; 15 executed code cells, 0 errors, 0 visible HTML tables.

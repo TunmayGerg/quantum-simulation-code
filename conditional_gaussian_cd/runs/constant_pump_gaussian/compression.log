@@ -1,0 +1,29 @@
+START two continuation paths:preserve integrated sideband then shorten;all18inputs
+FIXED PUMP FIT rotation_compression_00 T 12.17 initialF 0.9991786890108527 finalF 0.9992117055796538 variables 256 evaluations 4 seconds 0.11385245504789054
+FIXED PUMP FIT rotation_compression_01 T 11.53 initialF 0.9989198262319634 finalF 0.9989978090701214 variables 256 evaluations 4 seconds 0.11001407401636243
+FIXED PUMP FIT squeeze_compression_00 T 7.209999999999999 initialF 0.9937613177547733 finalF 0.9938507763695609 variables 160 evaluations 3 seconds 0.2647132809506729
+FIXED PUMP FIT rotation_compression_02 T 10.889999999999999 initialF 0.9985096540007415 finalF 0.9986617161748829 variables 256 evaluations 4 seconds 0.10925621597561985
+FIXED PUMP FIT rotation_compression_03 T 10.25 initialF 0.9979405458104373 finalF 0.9981351072874646 variables 256 evaluations 3 seconds 0.09143337304703891
+FIXED PUMP FIT rotation_compression_04 T 9.61 initialF 0.9972886015521856 finalF 0.9974356449801304 variables 256 evaluations 3 seconds 0.09153793903533369
+FIXED PUMP FIT squeeze_compression_01 T 6.809999999999999 initialF 0.9927058957896915 finalF 0.9931240588862577 variables 160 evaluations 4 seconds 0.2931874750647694
+FIXED PUMP FIT rotation_compression_05 T 8.969999999999999 initialF 0.9954810929275214 finalF 0.9961470601015585 variables 256 evaluations 4 seconds 0.10940108099021018
+FIXED PUMP FIT rotation_compression_06 T 8.33 initialF 0.9930921777749389 finalF 0.9937245883574907 variables 256 evaluations 4 seconds 0.10864511004183441
+FIXED PUMP FIT rotation_compression_07 T 7.6899999999999995 initialF 0.988997942290707 finalF 0.993031480370986 variables 256 evaluations 7 seconds 0.1647563719889149
+FIXED PUMP FIT rotation_compression_08 T 7.6899999999999995 initialF 0.7022944593926379 finalF 0.993264047727046 variables 256 evaluations 36 seconds 0.7913720450596884
+FIXED PUMP FIT rotation_compression_09 T 7.6899999999999995 initialF 0.6485090676409622 finalF 0.9930464995977565 variables 256 evaluations 92 seconds 2.0312496289843693
+FIXED PUMP FIT rotation_compression_10 T 7.6899999999999995 initialF 0.6215839228215869 finalF 0.9930145142000439 variables 256 evaluations 180 seconds 3.814769290969707
+FIXED PUMP FIT squeeze_compression_02 T 6.41 initialF 0.9914456562080207 finalF 0.9930001072553274 variables 160 evaluations 234 seconds 8.986227076034993
+FIXED PUMP FIT rotation_compression_11 T 7.6899999999999995 initialF 0.5622448142900324 finalF 0.993012543230425 variables 256 evaluations 240 seconds 4.871756584034301
+FIXED PUMP FIT squeeze_compression_03 T 6.01 initialF 0.9916333494588483 finalF 0.9924524383881224 variables 160 evaluations 952 seconds 35.45143260108307
+FIXED PUMP FIT rotation_compression_12 T 7.6899999999999995 initialF 0.49133193243652507 finalF 0.9924167827414523 variables 256 evaluations 1866 seconds 39.78262187296059
+FIXED PUMP FIT squeeze_compression_04 T 5.609999999999999 initialF 0.9906282589880046 finalF 0.9915553197741209 variables 160 evaluations 975 seconds 36.796122961095534
+FIXED PUMP FIT rotation_compression_13 T 7.6899999999999995 initialF 0.417118262035427 finalF 0.9809457018709602 variables 256 evaluations 1818 seconds 39.2765611220384
+COMPRESSION STOP rotation phase-only continuation below98.5%
+FIXED PUMP FIT squeeze_compression_05 T 5.21 initialF 0.9890335604781275 finalF 0.9904467496043251 variables 160 evaluations 923 seconds 31.97758285596501
+FIXED PUMP FIT squeeze_compression_06 T 4.81 initialF 0.9870275622843896 finalF 0.9891034507942957 variables 160 evaluations 744 seconds 24.097797748981975
+FIXED PUMP FIT squeeze_compression_07 T 4.81 initialF 0.8023778811209904 finalF 0.9901632195658588 variables 160 evaluations 1750 seconds 56.359144525951706
+FIXED PUMP FIT squeeze_compression_08 T 4.81 initialF 0.767350173238547 finalF 0.9898384138156652 variables 160 evaluations 1895 seconds 60.98573577404022
+FIXED PUMP FIT squeeze_compression_09 T 4.81 initialF 0.7320073364710655 finalF 0.9876732382815412 variables 160 evaluations 1248 seconds 40.15796818793751
+FIXED PUMP FIT squeeze_compression_10 T 4.81 initialF 0.679591316507571 finalF 0.9811390556802851 variables 160 evaluations 907 seconds 28.944185803062283
+COMPRESSION STOP squeeze phase-only continuation below98.5%
+COMPRESSION COUNTS 2 paths; 25 fits

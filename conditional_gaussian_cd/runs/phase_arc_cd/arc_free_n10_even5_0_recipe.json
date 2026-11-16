@@ -1,0 +1,102 @@
+{
+  "name": "arc_free_n10_even5_0",
+  "gate": "cd",
+  "strength": 1.0,
+  "sideband_mode": "phase_arc",
+  "controls_file": "runs/phase_arc_cd/arc_free_n10_even5_0_controls.npz",
+  "qubit_frame_Rz": 0.0,
+  "magnus_justification": "Refinement of mirrored/rotary first-force seeds with phase-only JC control to change cubic errors.",
+  "symmetric": false,
+  "phase_arcs": [],
+  "pump_phases": [
+    -1.5707963267948966,
+    -1.5707963267948966,
+    -1.5707963267948966,
+    -1.5707963267948966,
+    -1.5707963267948966,
+    -1.5707963267948966,
+    -1.5707963267948966,
+    -1.5707963267948966,
+    -1.5707963267948966,
+    -1.5707963267948966
+  ],
+  "g_nominal": 6.208256949223942,
+  "pulses": [
+    {
+      "start_sample": 4,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": -1.174784942816584e-18,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 28,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": -8.746268756160493e-19,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 56,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.141592653589793,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 80,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.141592653589793,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 108,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": -8.787931095060126e-19,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 132,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": -6.162581735578046e-19,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 160,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.141592653589793,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 184,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.141592653589793,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 212,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": -7.261897471282321e-19,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 236,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 2.5003910571722896e-18,
+      "reversed_envelope": false
+    }
+  ],
+  "research_fit": {
+    "initial_fidelity": 0.9568639441970984,
+    "evaluations": 23,
+    "final_fidelity": 0.9572303474573121,
+    "seed_reason": "Rotary cancellation with pump phase arcs at qubit zeros; optional physical waits and correlated axis harmonics."
+  }
+}

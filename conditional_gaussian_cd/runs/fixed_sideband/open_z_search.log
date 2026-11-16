@@ -1,0 +1,3 @@
+OPEN-Z MOMENT SEARCH: 16777216 implicit words; 4096 half-paths; 855296 Z-endpoint pairs; 4096 exact nearest-neighbor queries; 0 zero-first-average Z endpoints;minimum residual 0.011775830520794207
+OPEN-Z FIRST-MOMENT VALIDATION:16 paths; 2048 complex coefficient amplitudes;max error 1.3351237660032625e-15
+OPEN-Z RESULT: 16777216 words; 0 polynomial checks; 0 proper squeezing pairs; 0.48751211166381836 seconds

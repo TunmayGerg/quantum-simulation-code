@@ -1,0 +1,511 @@
+{
+  "attempts": 72,
+  "scored": 0,
+  "force_maxima": [
+    {
+      "idle_ns": 0,
+      "seed": 0,
+      "force_coefficient": 0.08122677858992362,
+      "direction_error": 1.445286238968658e-14,
+      "success": true
+    },
+    {
+      "idle_ns": 0,
+      "seed": 1,
+      "force_coefficient": 0.10695451841846494,
+      "direction_error": 1.693489357149785e-12,
+      "success": true
+    },
+    {
+      "idle_ns": 0,
+      "seed": 2,
+      "force_coefficient": 0.10639045941004875,
+      "direction_error": 3.5695778169270824e-13,
+      "success": true
+    },
+    {
+      "idle_ns": 0,
+      "seed": 3,
+      "force_coefficient": 0.10901364480214644,
+      "direction_error": 3.119963601225037e-11,
+      "success": true
+    },
+    {
+      "idle_ns": 0,
+      "seed": 4,
+      "force_coefficient": 0.10951457756595662,
+      "direction_error": 7.099968489876501e-13,
+      "success": true
+    },
+    {
+      "idle_ns": 0,
+      "seed": 5,
+      "force_coefficient": 0.10639045941053617,
+      "direction_error": 9.457993914703981e-12,
+      "success": true
+    },
+    {
+      "idle_ns": 0,
+      "seed": 6,
+      "force_coefficient": 0.10284932521475268,
+      "direction_error": 4.361290622610293e-09,
+      "success": false
+    },
+    {
+      "idle_ns": 0,
+      "seed": 7,
+      "force_coefficient": 0.09292667729858733,
+      "direction_error": 5.218410255347967e-12,
+      "success": true
+    },
+    {
+      "idle_ns": 0,
+      "seed": 8,
+      "force_coefficient": 0.08244027175464519,
+      "direction_error": 5.501396202295177e-14,
+      "success": true
+    },
+    {
+      "idle_ns": 0,
+      "seed": 9,
+      "force_coefficient": 0.10818019361513251,
+      "direction_error": 2.3981141547429637e-12,
+      "success": true
+    },
+    {
+      "idle_ns": 0,
+      "seed": 10,
+      "force_coefficient": 0.10695451841825233,
+      "direction_error": 6.7680054373193464e-12,
+      "success": true
+    },
+    {
+      "idle_ns": 0,
+      "seed": 11,
+      "force_coefficient": 0.1063904594100314,
+      "direction_error": 2.8090540226641835e-15,
+      "success": true
+    },
+    {
+      "idle_ns": 0,
+      "seed": 12,
+      "force_coefficient": 0.1069545184171752,
+      "direction_error": 1.4292641514924205e-11,
+      "success": true
+    },
+    {
+      "idle_ns": 0,
+      "seed": 13,
+      "force_coefficient": 0.10951457756597663,
+      "direction_error": 5.720454439308403e-14,
+      "success": true
+    },
+    {
+      "idle_ns": 0,
+      "seed": 14,
+      "force_coefficient": 0.09292667729847107,
+      "direction_error": 4.1739926366785786e-15,
+      "success": true
+    },
+    {
+      "idle_ns": 0,
+      "seed": 15,
+      "force_coefficient": 0.10639045941038434,
+      "direction_error": 8.14581561594115e-12,
+      "success": true
+    },
+    {
+      "idle_ns": 0,
+      "seed": 16,
+      "force_coefficient": 0.10639045941010905,
+      "direction_error": 1.6990060708742553e-12,
+      "success": true
+    },
+    {
+      "idle_ns": 0,
+      "seed": 17,
+      "force_coefficient": 0.10582281548577847,
+      "direction_error": 6.945909105894746e-05,
+      "success": false
+    },
+    {
+      "idle_ns": 10,
+      "seed": 0,
+      "force_coefficient": 0.1102325237776755,
+      "direction_error": 1.5485539464963902e-11,
+      "success": true
+    },
+    {
+      "idle_ns": 10,
+      "seed": 1,
+      "force_coefficient": 0.11023252377460055,
+      "direction_error": 5.763327920162559e-14,
+      "success": true
+    },
+    {
+      "idle_ns": 10,
+      "seed": 2,
+      "force_coefficient": 0.1085272344780745,
+      "direction_error": 2.0484797342709603e-11,
+      "success": true
+    },
+    {
+      "idle_ns": 10,
+      "seed": 3,
+      "force_coefficient": 0.10852723447847597,
+      "direction_error": 1.7351499921974531e-15,
+      "success": true
+    },
+    {
+      "idle_ns": 10,
+      "seed": 4,
+      "force_coefficient": 0.10977242068443682,
+      "direction_error": 4.465542438163157e-12,
+      "success": true
+    },
+    {
+      "idle_ns": 10,
+      "seed": 5,
+      "force_coefficient": 0.10839005997331036,
+      "direction_error": 1.612628530047222e-13,
+      "success": true
+    },
+    {
+      "idle_ns": 10,
+      "seed": 6,
+      "force_coefficient": 0.096364205022645,
+      "direction_error": 2.6095537618065804e-11,
+      "success": true
+    },
+    {
+      "idle_ns": 10,
+      "seed": 7,
+      "force_coefficient": 0.10502886764441081,
+      "direction_error": 9.29378268090403e-15,
+      "success": true
+    },
+    {
+      "idle_ns": 10,
+      "seed": 8,
+      "force_coefficient": 0.10567663297440373,
+      "direction_error": 1.136962227922246e-10,
+      "success": true
+    },
+    {
+      "idle_ns": 10,
+      "seed": 9,
+      "force_coefficient": 0.0839922692056501,
+      "direction_error": 2.2922809843942755e-11,
+      "success": true
+    },
+    {
+      "idle_ns": 10,
+      "seed": 10,
+      "force_coefficient": 0.05473378501050864,
+      "direction_error": 2.983489792204322e-12,
+      "success": true
+    },
+    {
+      "idle_ns": 10,
+      "seed": 11,
+      "force_coefficient": 0.1085272344784985,
+      "direction_error": 9.778631797477365e-13,
+      "success": true
+    },
+    {
+      "idle_ns": 10,
+      "seed": 12,
+      "force_coefficient": 0.08751116112101681,
+      "direction_error": 5.958865702161966e-12,
+      "success": true
+    },
+    {
+      "idle_ns": 10,
+      "seed": 13,
+      "force_coefficient": 0.1097724206847968,
+      "direction_error": 4.815020687217591e-14,
+      "success": true
+    },
+    {
+      "idle_ns": 10,
+      "seed": 14,
+      "force_coefficient": 0.10852723447848733,
+      "direction_error": 3.714052749489422e-13,
+      "success": true
+    },
+    {
+      "idle_ns": 10,
+      "seed": 15,
+      "force_coefficient": 0.10839005997095863,
+      "direction_error": 1.933065208803955e-11,
+      "success": true
+    },
+    {
+      "idle_ns": 10,
+      "seed": 16,
+      "force_coefficient": 0.10959058953034213,
+      "direction_error": 4.78713191351469e-13,
+      "success": true
+    },
+    {
+      "idle_ns": 10,
+      "seed": 17,
+      "force_coefficient": 0.10959058953030723,
+      "direction_error": 3.1702898650310497e-16,
+      "success": true
+    },
+    {
+      "idle_ns": 20,
+      "seed": 0,
+      "force_coefficient": 0.10964555540383862,
+      "direction_error": 6.800651049532153e-15,
+      "success": true
+    },
+    {
+      "idle_ns": 20,
+      "seed": 1,
+      "force_coefficient": 0.11035427160012286,
+      "direction_error": 5.182449320905101e-14,
+      "success": true
+    },
+    {
+      "idle_ns": 20,
+      "seed": 2,
+      "force_coefficient": 0.09232259404670295,
+      "direction_error": 4.898022577766452e-13,
+      "success": true
+    },
+    {
+      "idle_ns": 20,
+      "seed": 3,
+      "force_coefficient": 0.09677634511500713,
+      "direction_error": 5.394092000548754e-11,
+      "success": true
+    },
+    {
+      "idle_ns": 20,
+      "seed": 4,
+      "force_coefficient": 0.11035427160012716,
+      "direction_error": 3.7111251483841615e-14,
+      "success": true
+    },
+    {
+      "idle_ns": 20,
+      "seed": 5,
+      "force_coefficient": 0.1096455554038381,
+      "direction_error": 5.52747111411366e-14,
+      "success": true
+    },
+    {
+      "idle_ns": 20,
+      "seed": 6,
+      "force_coefficient": 0.10605218875894058,
+      "direction_error": 2.355998606238616e-13,
+      "success": true
+    },
+    {
+      "idle_ns": 20,
+      "seed": 7,
+      "force_coefficient": 0.09677634511462609,
+      "direction_error": 5.846291625992442e-15,
+      "success": true
+    },
+    {
+      "idle_ns": 20,
+      "seed": 8,
+      "force_coefficient": 0.11035427159973862,
+      "direction_error": 6.726338990544726e-12,
+      "success": true
+    },
+    {
+      "idle_ns": 20,
+      "seed": 9,
+      "force_coefficient": 0.10831319219014976,
+      "direction_error": 1.4071214026583201e-11,
+      "success": true
+    },
+    {
+      "idle_ns": 20,
+      "seed": 10,
+      "force_coefficient": 0.11073311306590601,
+      "direction_error": 1.4936574037103175e-12,
+      "success": true
+    },
+    {
+      "idle_ns": 20,
+      "seed": 11,
+      "force_coefficient": 0.09401675781145993,
+      "direction_error": 2.323653995090723e-14,
+      "success": true
+    },
+    {
+      "idle_ns": 20,
+      "seed": 12,
+      "force_coefficient": 0.09232259404671414,
+      "direction_error": 1.437787566320305e-14,
+      "success": true
+    },
+    {
+      "idle_ns": 20,
+      "seed": 13,
+      "force_coefficient": 0.08669583126934109,
+      "direction_error": 8.848075199534513e-16,
+      "success": true
+    },
+    {
+      "idle_ns": 20,
+      "seed": 14,
+      "force_coefficient": 0.10605218875893402,
+      "direction_error": 2.94796989027166e-15,
+      "success": true
+    },
+    {
+      "idle_ns": 20,
+      "seed": 15,
+      "force_coefficient": 0.03456183655375212,
+      "direction_error": 1.0892477710521848e-14,
+      "success": true
+    },
+    {
+      "idle_ns": 20,
+      "seed": 16,
+      "force_coefficient": 0.11041525791748814,
+      "direction_error": 4.38031284122837e-12,
+      "success": true
+    },
+    {
+      "idle_ns": 20,
+      "seed": 17,
+      "force_coefficient": 0.09232259404614926,
+      "direction_error": 1.3834249174642933e-11,
+      "success": true
+    },
+    {
+      "idle_ns": 30,
+      "seed": 0,
+      "force_coefficient": 0.10722326215590486,
+      "direction_error": 8.813842364309025e-13,
+      "success": true
+    },
+    {
+      "idle_ns": 30,
+      "seed": 1,
+      "force_coefficient": 0.10446344235280725,
+      "direction_error": 1.8548962924311496e-11,
+      "success": true
+    },
+    {
+      "idle_ns": 30,
+      "seed": 2,
+      "force_coefficient": 0.11109816727689628,
+      "direction_error": 2.696278441981716e-11,
+      "success": true
+    },
+    {
+      "idle_ns": 30,
+      "seed": 3,
+      "force_coefficient": 0.11163953536967995,
+      "direction_error": 6.5504824833936335e-12,
+      "success": true
+    },
+    {
+      "idle_ns": 30,
+      "seed": 4,
+      "force_coefficient": 0.11163953536944875,
+      "direction_error": 3.7171886421058005e-12,
+      "success": true
+    },
+    {
+      "idle_ns": 30,
+      "seed": 5,
+      "force_coefficient": 0.10863119428999397,
+      "direction_error": 1.6777112156453988e-15,
+      "success": true
+    },
+    {
+      "idle_ns": 30,
+      "seed": 6,
+      "force_coefficient": 0.09680549581119384,
+      "direction_error": 3.873934950992376e-14,
+      "success": true
+    },
+    {
+      "idle_ns": 30,
+      "seed": 7,
+      "force_coefficient": 0.11163953536921506,
+      "direction_error": 9.525031759302375e-14,
+      "success": true
+    },
+    {
+      "idle_ns": 30,
+      "seed": 8,
+      "force_coefficient": 0.10863119428999407,
+      "direction_error": 1.2147737734724209e-15,
+      "success": true
+    },
+    {
+      "idle_ns": 30,
+      "seed": 9,
+      "force_coefficient": 0.11163953536933345,
+      "direction_error": 1.2112799387598869e-11,
+      "success": true
+    },
+    {
+      "idle_ns": 30,
+      "seed": 10,
+      "force_coefficient": 0.10722326215587956,
+      "direction_error": 1.0516244371296086e-15,
+      "success": true
+    },
+    {
+      "idle_ns": 30,
+      "seed": 11,
+      "force_coefficient": 0.10306928519382146,
+      "direction_error": 1.0033661509313856e-06,
+      "success": false
+    },
+    {
+      "idle_ns": 30,
+      "seed": 12,
+      "force_coefficient": 0.0968054958111941,
+      "direction_error": 1.8380117942360058e-14,
+      "success": true
+    },
+    {
+      "idle_ns": 30,
+      "seed": 13,
+      "force_coefficient": 0.08929128901329947,
+      "direction_error": 4.1138111913230265e-15,
+      "success": true
+    },
+    {
+      "idle_ns": 30,
+      "seed": 14,
+      "force_coefficient": 0.10722326215590781,
+      "direction_error": 2.6792627468174145e-12,
+      "success": true
+    },
+    {
+      "idle_ns": 30,
+      "seed": 15,
+      "force_coefficient": 0.11109816727847394,
+      "direction_error": 1.9418636711727475e-14,
+      "success": true
+    },
+    {
+      "idle_ns": 30,
+      "seed": 16,
+      "force_coefficient": 0.11163953536920744,
+      "direction_error": 3.4628497374439545e-15,
+      "success": true
+    },
+    {
+      "idle_ns": 30,
+      "seed": 17,
+      "force_coefficient": 0.10722326215588025,
+      "direction_error": 5.7323149910396344e-15,
+      "success": true
+    }
+  ],
+  "rows": []
+}

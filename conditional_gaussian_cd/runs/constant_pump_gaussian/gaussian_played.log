@@ -1,0 +1,4 @@
+START SHAPED PLAYBACK FITS 2 jobs;10ns transitions;all18inputs
+PLAYBACK RESULT played_rotation_smooth F 0.9920553000104723 command 2.89 RFDCwindow 2.93421875 evaluations 25 seconds 43.707166485954076
+PLAYBACK RESULT played_squeeze_smooth F 0.992170933782247 command 3.85 RFDCwindow 3.8942187500000003 evaluations 16 seconds 75.24098641599994
+FINAL SHAPED FIT COUNTS 2 jobs; 41 actualplaybackevaluations

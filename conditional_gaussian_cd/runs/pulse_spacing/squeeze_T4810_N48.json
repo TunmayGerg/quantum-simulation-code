@@ -1,0 +1,83 @@
+{
+  "gate": "squeeze",
+  "duration_us": 4.81,
+  "cells": 48,
+  "gap_ns": 69.99999999999999,
+  "spacing_ns": 99.99999999999999,
+  "name": "squeeze_T4810_N48",
+  "target_strength": 0.9210340371976182,
+  "pulse_word_model_degrees": [
+    90.0,
+    0.0,
+    90.0,
+    0.0,
+    270.0,
+    180.0,
+    270.0,
+    180.0
+  ],
+  "qubit_envelope_ns": 30.0,
+  "pump_phase_rad": 0.0,
+  "sideband_phase_constant": true,
+  "sideband_plateau_amplitude_constant": true,
+  "phases_reoptimized": false,
+  "fidelity_optimized": false,
+  "scalar_coupling_calibrated": true,
+  "g": 1.961691528555683,
+  "nominal_swap_ns": 800.7356426478593,
+  "peak_swap_ns": 795.4256248388202,
+  "command_us": 4.8100000000000005,
+  "quadratic_cycle_coefficient_us2": 0.019944952243003425,
+  "qubit_frame_Rz": 0.006271657050344306,
+  "design_fidelity": 0.6895182885630153,
+  "design_levels": 192,
+  "normalization_evaluations": 1,
+  "normalization_history": [
+    {
+      "g": 1.961691528555683,
+      "coefficient": 0.4606009741646331,
+      "relative_error": 0.00018230719481215907,
+      "first_norm": 0.039242152947847275,
+      "second_norm": 4.512958185668884,
+      "unwanted_at_calibration_order": 0.008881163240837738
+    }
+  ],
+  "wanted_coefficient_target": 0.4605170185988091,
+  "wanted_coefficient_actual": 0.4606009741646331,
+  "relative_coefficient_error": 0.00018230719481215907,
+  "calibration_scope": "One constant g normalizes the wanted first/second Magnus coefficient of the actual SDK/RFDC waveform. No fidelity or phase fit.",
+  "vacuum_displacement_real": -0.003758942733483178,
+  "vacuum_displacement_imag": -0.015204857212760041,
+  "vacuum_target_axis_squeezing_dB": 4.683754167229864,
+  "vacuum_photon_number": 1.080666573984022,
+  "vacuum_ground_qubit_population": 0.9768356653832327,
+  "fidelity": 0.6895182885630174,
+  "worst_basis_fidelity": 0.2846370085535506,
+  "cutoff_history": [
+    {
+      "levels": 128
+    },
+    {
+      "levels": 192,
+      "output_change": 7.951754325520232e-106,
+      "target_change": 9.434631670509811e-05
+    },
+    {
+      "levels": 256,
+      "output_change": 0.0,
+      "target_change": 1.7076982799674414e-08
+    },
+    {
+      "levels": 320,
+      "output_change": 0.0,
+      "target_change": 1.8958399991252324e-12
+    }
+  ],
+  "levels": 320,
+  "columns": 18,
+  "independent_amplitudes": 11520,
+  "independent_max_error": 5.169878828456423e-26,
+  "word_sha256": "5b8a0ab13a010bbc64c9bf7b4b946afc2cb7b561bcb1ed614f6911cf6059215e",
+  "seconds": 43.209479570388794,
+  "frame_calibration_scope": "One declared final qubit Rz for squeezing, common to all18inputs; none for CD."
+}

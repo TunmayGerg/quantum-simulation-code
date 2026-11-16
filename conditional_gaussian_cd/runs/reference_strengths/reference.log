@@ -1,0 +1,7 @@
+FOUR-PULSE AVERAGE: 256 complex amplitudes; maxerror 1.6653509070013633e-16
+REFERENCE cd_beta1_xxmm_k3 Tns 370.0 swapns 283.18084723095717 peak_swapns 281.35690027568967 F 0.9922770473990025 worst 0.9799956193387442 cutoffs 2 backend_amplitudes 2304 maxerror 1.0587911840678754e-22
+REFERENCE cd_beta1_xxmm_k4 Tns 490.0 swapns 378.23755044658964 peak_swapns 375.7815928429205 F 0.9971669248560318 worst 0.9928955485688957 cutoffs 2 backend_amplitudes 2304 maxerror 1.6155871338926322e-27
+REFERENCE cd_beta1_xxmm_k5 Tns 610.0 swapns 472.9503483711329 peak_swapns 469.7736001608278 F 0.9986408554159825 worst 0.9967222847366093 cutoffs 2 backend_amplitudes 2304 maxerror 4.930380657631324e-31
+REFERENCE cd_beta1_xxmm_k6 Tns 730.0 swapns 567.6399344056878 peak_swapns 563.7328866238399 F 0.9992343317838415 worst 0.9982108188173481 cutoffs 2 backend_amplitudes 2304 maxerror 7.703719777548943e-34
+REFERENCE cd_beta1_xxmm_k8 Tns 970.0 swapns 756.4046833452005 peak_swapns 751.1120703228617 F 0.9996725701520867 worst 0.9992889092111352 cutoffs 2 backend_amplitudes 2304 maxerror 5.877471754111438e-39
+REFERENCE COMPLETE 5 gates; 90 targetcolumns; 11520 independentcomplexamplitudes; 1782 designinputcolumnevaluations

@@ -1,0 +1,34 @@
+START CORRECTED CD STUDY 12 fits;all18inputs
+CORRECTED FIT corrected_n6_mirror0_iq1_yoshida eval 40 bestF 0.2487088616358818
+CORRECTED RESULT corrected_n6_mirror0_iq0_baseline F 0.8817352523082084 T 0.19 eval 35 seconds 16.47913505800534
+CORRECTED FIT corrected_n6_mirror1_iq0_baseline eval 40 bestF 0.7869758420093185
+CORRECTED RESULT corrected_n6_mirror1_iq0_baseline F 0.7869758420093185 T 0.19 eval 44 seconds 20.018265203922056
+CORRECTED FIT corrected_n6_mirror0_iq1_yoshida eval 80 bestF 0.7918973037587477
+CORRECTED FIT corrected_n6_mirror0_iq1_xy8 eval 40 bestF 0.7149703289166589
+CORRECTED RESULT corrected_n8_mirror1_iq0_baseline F 0.9583921495459194 T 0.25 eval 24 seconds 15.820023374049924
+CORRECTED FIT corrected_n6_mirror0_iq1_yoshida eval 120 bestF 0.805279771674147
+CORRECTED FIT corrected_n6_mirror0_iq1_xy8 eval 80 bestF 0.7339457913864453
+CORRECTED RESULT corrected_n8_mirror0_iq0_baseline F 0.9595151231346178 T 0.25 eval 34 seconds 15.416548108914867
+CORRECTED RESULT corrected_n6_mirror0_iq1_yoshida F 0.805279771674147 T 0.19 eval 131 seconds 52.7142704379512
+CORRECTED RESULT corrected_n6_mirror0_iq1_xy8 F 0.7339481640601867 T 0.19 eval 101 seconds 40.819521990953945
+CORRECTED FIT corrected_n8_mirror0_iq1_yoshida eval 40 bestF 0.5051720602907965
+CORRECTED FIT corrected_n8_mirror0_iq1_xy8 eval 40 bestF 0.818690816031429
+CORRECTED RESULT corrected_n10_mirror1_iq0_baseline F 0.9607735105509209 T 0.31 eval 34 seconds 19.541628212085925
+CORRECTED FIT corrected_n8_mirror0_iq1_yoshida eval 80 bestF 0.8034264276036922
+CORRECTED FIT corrected_n8_mirror0_iq1_xy8 eval 80 bestF 0.8801955763423526
+CORRECTED RESULT corrected_n10_mirror0_iq0_baseline F 0.9859098816550783 T 0.31 eval 33 seconds 19.06459945102688
+CORRECTED FIT corrected_n8_mirror0_iq1_yoshida eval 120 bestF 0.8383780586670152
+CORRECTED RESULT corrected_n8_mirror0_iq1_yoshida F 0.8383780586670152 T 0.25 eval 133 seconds 53.46819886798039
+CORRECTED FIT corrected_n8_mirror0_iq1_xy8 eval 120 bestF 0.9099867275356154
+CORRECTED FIT corrected_n10_mirror0_iq1_yoshida eval 40 bestF 0.7499872055429142
+CORRECTED FIT corrected_n8_mirror0_iq1_xy8 eval 160 bestF 0.9208180559300091
+CORRECTED FIT corrected_n10_mirror0_iq1_xy8 eval 40 bestF 0.8615837999092067
+CORRECTED FIT corrected_n10_mirror0_iq1_yoshida eval 80 bestF 0.7543069821364989
+CORRECTED FIT corrected_n8_mirror0_iq1_xy8 eval 200 bestF 0.9221020095577235
+CORRECTED RESULT corrected_n10_mirror0_iq1_yoshida F 0.7543201402093358 T 0.31 eval 100 seconds 48.434706086991355
+CORRECTED FIT corrected_n10_mirror0_iq1_xy8 eval 80 bestF 0.958947307875481
+CORRECTED FIT corrected_n8_mirror0_iq1_xy8 eval 240 bestF 0.9234494222673715
+CORRECTED RESULT corrected_n8_mirror0_iq1_xy8 F 0.9234494222673715 T 0.25 eval 253 seconds 106.69180706492625
+CORRECTED FIT corrected_n10_mirror0_iq1_xy8 eval 120 bestF 0.9653486199997315
+CORRECTED RESULT corrected_n10_mirror0_iq1_xy8 F 0.9653488443060719 T 0.31 eval 141 seconds 73.97877368004993
+COMPLETED CORRECTED CD STUDY 12 fits; 19134 input columns evaluated

@@ -1,0 +1,184 @@
+{
+  "name": "cd_beta1_xxmm_k5",
+  "gate": "cd",
+  "strength": 1.0,
+  "input_fock_max": 8,
+  "qubit_levels": 2,
+  "qubit_frame_Rz": 0.0,
+  "repeats": 5,
+  "cells": 20,
+  "qubit_phases": [
+    0.0,
+    0.0,
+    3.141592653589793,
+    3.141592653589793,
+    0.0,
+    0.0,
+    3.141592653589793,
+    3.141592653589793,
+    0.0,
+    0.0,
+    3.141592653589793,
+    3.141592653589793,
+    0.0,
+    0.0,
+    3.141592653589793,
+    3.141592653589793,
+    0.0,
+    0.0,
+    3.141592653589793,
+    3.141592653589793
+  ],
+  "angle_fractions": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "qubit_envelope_ns": 30.0,
+  "pulse_word": [
+    "X",
+    "X",
+    "-X",
+    "-X"
+  ],
+  "pump_phase": -1.5707963267948966,
+  "pump_amplitude_constant": true,
+  "pump_phase_constant": true,
+  "outer_ramp_ns": 5.0,
+  "g_nominal": 3.3212711063747085,
+  "nominal_swap_ns": 472.9503483711329,
+  "actual_plateau_g": 3.3218495996921695,
+  "peak_played_g": 3.3437305252085934,
+  "peak_swap_ns": 469.7736001608278,
+  "command_time_us": 0.61,
+  "RFDC_window_us": 0.65421875,
+  "speed_ratio_to_peak_force_bound": 0.9805480734383127,
+  "same_target_calibration": "One constant g maximizes beta=1 coherent process fidelity; phases unchanged.",
+  "calibrated_beta_independently_fixed": true,
+  "search_bounds_g": [
+    2.9752066115702482,
+    3.7024793388429758
+  ],
+  "evaluations": 19,
+  "search_history": [
+    {
+      "g": 3.2530000742975975,
+      "fidelity": 0.9948992893378507
+    },
+    {
+      "g": 3.4246858761156265,
+      "fidelity": 0.9900928051575294
+    },
+    {
+      "g": 3.146892413388277,
+      "fidelity": 0.9743890025892173
+    },
+    {
+      "g": 3.3212711063747085,
+      "fidelity": 0.9986408554159829
+    },
+    {
+      "g": 3.3213600850239473,
+      "fidelity": 0.9986408554159829
+    },
+    {
+      "g": 3.321315595699328,
+      "fidelity": 0.9986408554159829
+    },
+    {
+      "g": 3.3212986022894597,
+      "fidelity": 0.9986408554159829
+    },
+    {
+      "g": 3.3212880997845766,
+      "fidelity": 0.9986408554159829
+    },
+    {
+      "g": 3.3212816088795916,
+      "fidelity": 0.9986408554159829
+    },
+    {
+      "g": 3.321277597279693,
+      "fidelity": 0.9986408554159829
+    },
+    {
+      "g": 3.3212751179746065,
+      "fidelity": 0.9986408554159829
+    },
+    {
+      "g": 3.3212735856797946,
+      "fidelity": 0.9986408554159829
+    },
+    {
+      "g": 3.3212726386695204,
+      "fidelity": 0.9986408554159829
+    },
+    {
+      "g": 3.321272053384983,
+      "fidelity": 0.9986408554159829
+    },
+    {
+      "g": 3.3212716916592457,
+      "fidelity": 0.9986408554159829
+    },
+    {
+      "g": 3.3212714681004454,
+      "fidelity": 0.9986408554159829
+    },
+    {
+      "g": 3.3212713299335084,
+      "fidelity": 0.9986408554159829
+    },
+    {
+      "g": 3.3212712445416455,
+      "fidelity": 0.9986408554159829
+    },
+    {
+      "g": 3.321271191766572,
+      "fidelity": 0.9986408554159829
+    }
+  ],
+  "fidelity": 0.9986408554159825,
+  "worst_basis_fidelity": 0.9967222847366093,
+  "cutoff_history": [
+    {
+      "levels": 48,
+      "columns": 18,
+      "complex_amplitudes": 1728,
+      "fidelity": 0.9986408554159825,
+      "worst_basis_fidelity": 0.9967222847366093
+    },
+    {
+      "levels": 64,
+      "columns": 18,
+      "complex_amplitudes": 2304,
+      "fidelity": 0.9986408554159825,
+      "worst_basis_fidelity": 0.9967222847366093,
+      "output_column_change": 2.562531110579162e-34,
+      "target_column_change": 1.8997370040064688e-16
+    }
+  ],
+  "levels": 64,
+  "columns": 18,
+  "independent_backend_max_amplitude_error": 4.930380657631324e-31,
+  "independent_amplitudes_compared": 2304,
+  "simulated_filter": "SDK int16 decode and documented RFDC 8x interpolation, full tail",
+  "source_sha256": "0bc7419e1cdfbeb8617e5bbf82f56d23a3fd3d7f93a98a1b4e7afc29f68e0a72"
+}

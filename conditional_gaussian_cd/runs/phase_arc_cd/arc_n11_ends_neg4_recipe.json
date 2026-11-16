@@ -1,0 +1,181 @@
+{
+  "name": "arc_n11_ends_neg4",
+  "gate": "cd",
+  "strength": 1.0,
+  "sideband_mode": "phase_arc",
+  "controls_file": "runs/phase_arc_cd/arc_n11_ends_neg4_controls.npz",
+  "qubit_frame_Rz": 0.0,
+  "magnus_justification": "Refinement of mirrored/rotary first-force seeds with phase-only JC control to change cubic errors.",
+  "symmetric": false,
+  "phase_arcs": [
+    {
+      "center_sample": 28,
+      "start_phase_rad": -2.0527882687158563,
+      "end_phase_rad": -0.5813083952985765,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 52,
+      "start_phase_rad": -0.5813083952985765,
+      "end_phase_rad": -0.9738883497652413,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 76,
+      "start_phase_rad": -0.9738883497652413,
+      "end_phase_rad": -2.217314601800328,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 100,
+      "start_phase_rad": -2.217314601800328,
+      "end_phase_rad": 2.8207963267948966,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 124,
+      "start_phase_rad": 2.8207963267948966,
+      "end_phase_rad": 4.477361229845612,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 148,
+      "start_phase_rad": 4.477361229845612,
+      "end_phase_rad": 5.3313281653623,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 172,
+      "start_phase_rad": 5.3313281653623,
+      "end_phase_rad": 4.7012743937206505,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 196,
+      "start_phase_rad": 4.7012743937206505,
+      "end_phase_rad": 5.96238898038469,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 220,
+      "start_phase_rad": 5.96238898038469,
+      "end_phase_rad": 5.51000214881801,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 244,
+      "start_phase_rad": 5.51000214881801,
+      "end_phase_rad": 3.639684359942449,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    }
+  ],
+  "pump_phases": [
+    -2.0527882687158563,
+    -0.5813083952985765,
+    -0.9738883497652413,
+    -2.217314601800328,
+    2.8207963267948966,
+    4.477361229845612,
+    5.3313281653623,
+    4.7012743937206505,
+    5.96238898038469,
+    5.51000214881801,
+    3.639684359942449
+  ],
+  "g_nominal": 7.508317974981405,
+  "pulses": [
+    {
+      "start_sample": 4,
+      "samples": 24,
+      "angle_fraction": 0.5,
+      "phase_rad": 0.15647536522567757,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 28,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 0.35646786181717066,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 52,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.39716878054928,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 76,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 2.3514618258397,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 100,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": -1.2483400117194017,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 124,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": -0.5311192361914308,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 148,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.26611080634904,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 172,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.5346819953005344,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 196,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 0.6435871243153739,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 220,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 0.3806150650538426,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 244,
+      "samples": 24,
+      "angle_fraction": 0.5,
+      "phase_rad": 6.3149195721807345,
+      "reversed_envelope": false
+    }
+  ],
+  "research_fit": {
+    "initial_fidelity": 0.0021131972975925173,
+    "evaluations": 113,
+    "final_fidelity": 0.905528850734229,
+    "seed_reason": "Closed pi/2 rotary word; one signed JC plateau with same-chirality phase arcs to alter the cubic error."
+  }
+}

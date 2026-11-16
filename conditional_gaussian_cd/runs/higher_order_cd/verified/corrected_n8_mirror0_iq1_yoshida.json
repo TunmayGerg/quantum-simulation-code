@@ -1,0 +1,27 @@
+{
+  "name": "corrected_n8_mirror0_iq1_yoshida",
+  "gate": "cd",
+  "fidelity": 0.8383780586670148,
+  "ideal_device_fidelity": 0.8378786191003603,
+  "accepted": false,
+  "columns": 18,
+  "levels": 96,
+  "independent_amplitudes": 3456,
+  "independent_max_difference": 9.311717050861117e-16,
+  "command_us": 0.25,
+  "RFDC_window_us": 0.29421875000000003,
+  "qubit_frame_Rz": 0.0,
+  "cutoff_history": [
+    {
+      "levels": 64
+    },
+    {
+      "levels": 96,
+      "output_change": 1.2247068241715469e-60,
+      "target_change": 7.74340002005588e-16
+    }
+  ],
+  "worst_basis_fidelity": 0.7105841570803543,
+  "word_sha256": "c3b8fb95896618e3b5dd4df55f1a6e03564db629ff05d02882d4d1e57d81b756",
+  "source_record": "corrected_n8_mirror0_iq1_yoshida.json"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "product_yoshida_r1_s75",
+  "gate": "cd",
+  "fidelity": 0.5615996395684294,
+  "ideal_device_fidelity": 0.5616000953330982,
+  "accepted": false,
+  "columns": 18,
+  "levels": 96,
+  "independent_amplitudes": 3456,
+  "independent_max_difference": 3.009265538105056e-36,
+  "command_us": 0.52,
+  "RFDC_window_us": 0.56421875,
+  "qubit_frame_Rz": 0.0,
+  "cutoff_history": [
+    {
+      "levels": 64
+    },
+    {
+      "levels": 96,
+      "output_change": 0.0,
+      "target_change": 7.74340002005588e-16
+    }
+  ],
+  "worst_basis_fidelity": 0.4211046744459935,
+  "word_sha256": "708d045c4b48785218445c2677e99dd3e3a4da4e0c031c17185b3ab76bd935d5",
+  "source_record": "product_yoshida_r1_s75.json"
+}

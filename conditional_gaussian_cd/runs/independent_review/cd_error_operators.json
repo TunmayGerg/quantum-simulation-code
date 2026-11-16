@@ -1,0 +1,192 @@
+[
+  {
+    "name": "ten_pulse_twirl",
+    "second": {
+      "residual_norm": 1.560360935924805e-16,
+      "terms": [
+        {
+          "operator": "sigma_z * n+1/2",
+          "coefficient_real": -0.004612499999999998,
+          "coefficient_imag": -1.1883099440946928e-18
+        },
+        {
+          "operator": "sigma_y * n+1/2",
+          "coefficient_real": 0.0026210550627942006,
+          "coefficient_imag": -4.5711266190724735e-18
+        },
+        {
+          "operator": "sigma_z * i(adag2-a2)",
+          "coefficient_real": -0.0022468749999999993,
+          "coefficient_imag": 2.2705977059677815e-18
+        },
+        {
+          "operator": "sigma_z * a2+adag2",
+          "coefficient_real": -0.0014437499999999963,
+          "coefficient_imag": 1.925459190857283e-18
+        },
+        {
+          "operator": "sigma_y * i(adag2-a2)",
+          "coefficient_real": 0.0014057395453094443,
+          "coefficient_imag": -5.565246800209354e-19
+        },
+        {
+          "operator": "sigma_y * a2+adag2",
+          "coefficient_real": 0.000754731468014683,
+          "coefficient_imag": 1.219132830182647e-18
+        },
+        {
+          "operator": "I * I",
+          "coefficient_real": 0.0002597373974198166,
+          "coefficient_imag": 1.6141362621843144e-16
+        },
+        {
+          "operator": "sigma_x * i(adag2-a2)",
+          "coefficient_real": -0.00013393785721863837,
+          "coefficient_imag": 5.905946903194934e-20
+        },
+        {
+          "operator": "sigma_x * n+1/2",
+          "coefficient_real": -1.654400241580172e-05,
+          "coefficient_imag": 2.195512544920655e-17
+        },
+        {
+          "operator": "sigma_x * a2+adag2",
+          "coefficient_real": 8.272001207902486e-06,
+          "coefficient_imag": -4.538654139315066e-19
+        }
+      ]
+    },
+    "third": {
+      "residual_norm": 2.3673543387818823e-17,
+      "terms": [
+        {
+          "operator": "sigma_x * {n+1/2,X}/2",
+          "coefficient_real": -0.00015714650825184089,
+          "coefficient_imag": -1.6977724236775783e-19
+        },
+        {
+          "operator": "sigma_x * {n+1/2,P}/2",
+          "coefficient_real": -8.252381093839708e-05,
+          "coefficient_imag": 3.116852865246919e-19
+        },
+        {
+          "operator": "sigma_y * {n+1/2,X}/2",
+          "coefficient_real": 7.979387593431946e-05,
+          "coefficient_imag": -3.463778050226621e-19
+        },
+        {
+          "operator": "sigma_x * i(adag3-a3)",
+          "coefficient_real": -6.231362201125369e-05,
+          "coefficient_imag": -1.337038182284725e-19
+        },
+        {
+          "operator": "sigma_z * a3+adag3",
+          "coefficient_real": 3.026710019491667e-05,
+          "coefficient_imag": 7.308637020273543e-20
+        },
+        {
+          "operator": "sigma_z * {n+1/2,P}/2",
+          "coefficient_real": -2.9123392101833477e-05,
+          "coefficient_imag": 3.2568416821927867e-19
+        },
+        {
+          "operator": "sigma_z * {n+1/2,X}/2",
+          "coefficient_real": 2.910909603817197e-05,
+          "coefficient_imag": -8.357159418878548e-19
+        },
+        {
+          "operator": "sigma_y * a3+adag3",
+          "coefficient_real": 2.8018624065680563e-05,
+          "coefficient_imag": -1.2889919464676771e-20
+        },
+        {
+          "operator": "sigma_z * i(adag3-a3)",
+          "coefficient_real": -1.9084449938876246e-05,
+          "coefficient_imag": 4.340847839263047e-20
+        },
+        {
+          "operator": "I * P",
+          "coefficient_real": 1.7357773355289113e-05,
+          "coefficient_imag": -1.1030486555619126e-18
+        },
+        {
+          "operator": "I * X",
+          "coefficient_real": -1.658070646466453e-05,
+          "coefficient_imag": -9.048906955934055e-20
+        },
+        {
+          "operator": "sigma_y * i(adag3-a3)",
+          "coefficient_real": 1.3339070567434322e-05,
+          "coefficient_imag": -6.944030313743277e-20
+        },
+        {
+          "operator": "sigma_x * a3+adag3",
+          "coefficient_real": 1.2259441371814762e-05,
+          "coefficient_imag": -1.1445421476779542e-20
+        },
+        {
+          "operator": "sigma_y * {n+1/2,P}/2",
+          "coefficient_real": 1.1532567520257968e-05,
+          "coefficient_imag": 5.80780759374621e-19
+        }
+      ]
+    },
+    "second_norm": 0.030324884796911516,
+    "third_norm": 0.002170996160031167
+  },
+  {
+    "name": "eight_pulse_same_axis",
+    "second": {
+      "residual_norm": 1.70928460062099e-16,
+      "terms": [
+        {
+          "operator": "sigma_z * i(adag2-a2)",
+          "coefficient_real": 7.500000000000148e-05,
+          "coefficient_imag": 7.024808471353783e-20
+        }
+      ]
+    },
+    "third": {
+      "residual_norm": 1.3357217370160387e-17,
+      "terms": [
+        {
+          "operator": "I * P",
+          "coefficient_real": 2.8957127372106e-05,
+          "coefficient_imag": 2.710505431213761e-20
+        },
+        {
+          "operator": "sigma_z * i(adag3-a3)",
+          "coefficient_real": 2.102916446482491e-05,
+          "coefficient_imag": -7.50435039538706e-21
+        },
+        {
+          "operator": "sigma_z * {n+1/2,P}/2",
+          "coefficient_real": 2.1029164464824844e-05,
+          "coefficient_imag": -1.8508993386486553e-20
+        },
+        {
+          "operator": "sigma_y * i(adag3-a3)",
+          "coefficient_real": -1.5470032228092874e-05,
+          "coefficient_imag": -7.770725295356726e-21
+        },
+        {
+          "operator": "sigma_x * a3+adag3",
+          "coefficient_real": 7.248751668069415e-06,
+          "coefficient_imag": 1.8633536109278386e-20
+        },
+        {
+          "operator": "sigma_x * {n+1/2,X}/2",
+          "coefficient_real": -7.248751668069098e-06,
+          "coefficient_imag": 5.162564311987544e-19
+        },
+        {
+          "operator": "sigma_y * {n+1/2,P}/2",
+          "coefficient_real": -4.1932878959286284e-06,
+          "coefficient_imag": 2.0732080167559595e-19
+        }
+      ]
+    },
+    "second_norm": 0.0004974937185533107,
+    "third_norm": 0.0004397063658121028
+  }
+]

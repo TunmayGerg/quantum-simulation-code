@@ -1,0 +1,197 @@
+{
+  "name": "arc_lifted_n12",
+  "gate": "cd",
+  "strength": 1.0,
+  "sideband_mode": "phase_arc",
+  "controls_file": "runs/phase_arc_cd/arc_lifted_n12_controls.npz",
+  "qubit_frame_Rz": -0.07039512763572828,
+  "magnus_justification": "Refinement of mirrored/rotary first-force seeds with phase-only JC control to change cubic errors.",
+  "symmetric": false,
+  "phase_arcs": [
+    {
+      "center_sample": 28,
+      "start_phase_rad": -1.2736561790390775,
+      "end_phase_rad": -1.0169156771763517,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 52,
+      "start_phase_rad": -1.0169156771763517,
+      "end_phase_rad": -1.6265853751145636,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 76,
+      "start_phase_rad": -1.6265853751145636,
+      "end_phase_rad": -1.8037853088957203,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 100,
+      "start_phase_rad": -1.8037853088957203,
+      "end_phase_rad": -1.2799318950406706,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 124,
+      "start_phase_rad": -1.2799318950406706,
+      "end_phase_rad": -0.6838196276365213,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 148,
+      "start_phase_rad": -0.6838196276365213,
+      "end_phase_rad": -0.6137802578651412,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 172,
+      "start_phase_rad": -0.6137802578651412,
+      "end_phase_rad": -1.285418894802156,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 196,
+      "start_phase_rad": -1.285418894802156,
+      "end_phase_rad": -1.8294008908654134,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 220,
+      "start_phase_rad": -1.8294008908654134,
+      "end_phase_rad": -1.661111524547509,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 244,
+      "start_phase_rad": -1.661111524547509,
+      "end_phase_rad": -0.883424488048534,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 268,
+      "start_phase_rad": -0.883424488048534,
+      "end_phase_rad": -1.095494112970223,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    }
+  ],
+  "pump_phases": [
+    -1.2736561790390775,
+    -1.0169156771763517,
+    -1.6265853751145636,
+    -1.8037853088957203,
+    -1.2799318950406706,
+    -0.6838196276365213,
+    -0.6137802578651412,
+    -1.285418894802156,
+    -1.8294008908654134,
+    -1.661111524547509,
+    -0.883424488048534,
+    -1.095494112970223
+  ],
+  "g_nominal": 5.849234121194247,
+  "pulses": [
+    {
+      "start_sample": 4,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 0.14800468051213994,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 28,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 0.3627357436705131,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 52,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.393916480088314,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 76,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.1057993461685944,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 100,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 0.26340972578009364,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 124,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 0.9786757517350407,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 148,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 4.13558438137067,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 172,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.3925977955749382,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 196,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 6.1632315757254235,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 220,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 6.471296492086483,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 244,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.516089438605641,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 268,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.350727010771729,
+      "reversed_envelope": false
+    }
+  ],
+  "research_fit": {
+    "initial_fidelity": 0.9932558604617844,
+    "evaluations": 52,
+    "final_fidelity": 0.9935748649951447,
+    "seed_reason": "Lift the already high-fidelity mirrored phase construction; measure whether relaxing exact time symmetry improves the full gate.",
+    "qubit_frame_Rz": -0.07039512763572828
+  }
+}

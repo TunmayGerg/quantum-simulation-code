@@ -1,0 +1,164 @@
+{
+  "gate": "cd",
+  "duration_us": 0.37,
+  "cells": 4,
+  "gap_ns": 60.0,
+  "spacing_ns": 90.0,
+  "name": "cd_T370_N4",
+  "target_strength": 1.0,
+  "pulse_word_model_degrees": [
+    0.0,
+    0.0,
+    180.0,
+    180.0
+  ],
+  "qubit_envelope_ns": 30.0,
+  "pump_phase_rad": -1.5707963267948966,
+  "sideband_phase_constant": true,
+  "sideband_plateau_amplitude_constant": true,
+  "phases_reoptimized": false,
+  "scalar_coupling_calibrated": true,
+  "g": 5.540251373068395,
+  "nominal_swap_ns": 283.5243784119007,
+  "peak_swap_ns": 281.72269086119957,
+  "command_us": 0.37,
+  "quadratic_cycle_coefficient_us2": null,
+  "qubit_frame_Rz": 0.0,
+  "design_fidelity": 0.7747967019657687,
+  "design_levels": 64,
+  "calibration_evaluations": 26,
+  "calibration_history": [
+    {
+      "g": 3.0136986301369864,
+      "fidelity": 0.0872782873352711
+    },
+    {
+      "g": 3.6103300539825045,
+      "fidelity": 0.25229584433729446
+    },
+    {
+      "g": 4.206961477828022,
+      "fidelity": 0.4746675581115458
+    },
+    {
+      "g": 4.803592901673541,
+      "fidelity": 0.6738036870194182
+    },
+    {
+      "g": 5.4002243255190585,
+      "fidelity": 0.7712202422252471
+    },
+    {
+      "g": 5.9968557493645775,
+      "fidelity": 0.7376872032337273
+    },
+    {
+      "g": 6.593487173210095,
+      "fidelity": 0.6066582201213413
+    },
+    {
+      "g": 7.190118597055614,
+      "fidelity": 0.4441245721099496
+    },
+    {
+      "g": 7.786750020901131,
+      "fidelity": 0.30572226053696405
+    },
+    {
+      "g": 5.259378751979028,
+      "fidelity": 0.7599212273298596
+    },
+    {
+      "g": 5.5410698990590905,
+      "fidelity": 0.7747931398421689
+    },
+    {
+      "g": 5.715164602284515,
+      "fidelity": 0.7690256412002997
+    },
+    {
+      "g": 5.540251373068395,
+      "fidelity": 0.7747967019657687
+    },
+    {
+      "g": 5.527434617326681,
+      "fidelity": 0.7747726952978597
+    },
+    {
+      "g": 5.535355808000566,
+      "fidelity": 0.7747945290048918
+    },
+    {
+      "g": 5.538068020513706,
+      "fidelity": 0.7747962112276096
+    },
+    {
+      "g": 5.540550860366064,
+      "fidelity": 0.7747931398421689
+    },
+    {
+      "g": 5.539417406601928,
+      "fidelity": 0.7747952636849731
+    },
+    {
+      "g": 5.539932826223683,
+      "fidelity": 0.7747952636849731
+    },
+    {
+      "g": 5.540129699000724,
+      "fidelity": 0.7747952636849731
+    },
+    {
+      "g": 5.540365767036906,
+      "fidelity": 0.7747931398421689
+    },
+    {
+      "g": 5.540204897710095,
+      "fidelity": 0.7747952636849731
+    },
+    {
+      "g": 5.540295067676259,
+      "fidelity": 0.7747931398421689
+    },
+    {
+      "g": 5.540233621061164,
+      "fidelity": 0.7747952636849731
+    },
+    {
+      "g": 5.540268062923474,
+      "fidelity": 0.7747931398421689
+    },
+    {
+      "g": 5.540244592405002,
+      "fidelity": 0.7747967019657687
+    }
+  ],
+  "search_bounds_g": [
+    3.0136986301369864,
+    7.786750020901131
+  ],
+  "calibration_scope": "One constant g maximizes fidelity to the fixed exact beta1/8dB18-column target. No phase fit.",
+  "vacuum_displacement_real": 0.9825578792390212,
+  "vacuum_displacement_imag": 0.025710094128871326,
+  "vacuum_target_axis_squeezing_dB": 0.2568304443529879,
+  "vacuum_photon_number": 0.9796195583792151,
+  "vacuum_ground_qubit_population": 0.5118891134487512,
+  "fidelity": 0.7747967019657687,
+  "worst_basis_fidelity": 0.3884309705104477,
+  "cutoff_history": [
+    {
+      "levels": 48
+    },
+    {
+      "levels": 64,
+      "output_change": 9.525692888655938e-76,
+      "target_change": 1.8997370040064688e-16
+    }
+  ],
+  "levels": 64,
+  "columns": 18,
+  "independent_amplitudes": 2304,
+  "independent_max_error": 5.169878828456423e-26,
+  "word_sha256": "74bbe57c06a0b2bdbbea4ad33e9714b8de5747376fc8485c5434805e41b43366",
+  "seconds": 2.441500425338745
+}

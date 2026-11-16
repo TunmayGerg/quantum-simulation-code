@@ -1,0 +1,32 @@
+START coupler_phase_transients.ipynb cell 1
+COMPLETED coupler_phase_transients.ipynb cell 1 1 / 9
+START coupler_phase_transients.ipynb cell 3
+COMPLETED coupler_phase_transients.ipynb cell 3 2 / 9
+START coupler_phase_transients.ipynb cell 6
+COMPLETED coupler_phase_transients.ipynb cell 6 3 / 9
+START coupler_phase_transients.ipynb cell 8
+constant rounded eight-row physical DAC motif; pi envelopes30ns
+cartesian rounded eight-row physical DAC motif; pi envelopes30ns
+Independent effective-model check: 40 gates, 880 input columns, 174592 complex amplitudes.
+COMPLETED coupler_phase_transients.ipynb cell 8 4 / 9
+START coupler_phase_transients.ipynb cell 10
+Boundary comparisons: 96 propagated columns.
+COMPLETED coupler_phase_transients.ipynb cell 10 5 / 9
+START coupler_phase_transients.ipynb cell 12
+constant vacuum-only strength calibration:
+cartesian vacuum-only strength calibration:
+COMPLETED coupler_phase_transients.ipynb cell 12 6 / 9
+START coupler_phase_transients.ipynb cell 14
+constant qubit detune GHz -7.585314776736851e-05 pump detune GHz 3.9107753325495764e-05 pump plateau scale 0.052816973133076955
+cartesian qubit detune GHz -9.27660117850948e-05 pump detune GHz 4.752816294573137e-05 pump plateau scale 0.0543695264177492
+Exact microscopic words reconstructed and checked:2gates,2SHA256matches,16pulse rows exported.
+COMPLETED coupler_phase_transients.ipynb cell 14 7 / 9
+START coupler_phase_transients.ipynb cell 16
+Full-model checks: 2 gates; 36 input columns; 11520 complex amplitudes.
+Additional numerical checks: 4 comparisons; 8 input columns; 3200 complex amplitudes.
+COMPLETED coupler_phase_transients.ipynb cell 16 8 / 9
+START coupler_phase_transients.ipynb cell 18
+Fresh full-cosine transition:2inputs; 288 amplitudes; residual-population comparison error 2.794979025977738e-10
+Fresh one-period map: 48 columns; 2304 amplitudes; gGHz 0.0004166646965448451
+COMPLETED coupler_phase_transients.ipynb cell 18 9 / 9
+EXECUTED NOTEBOOK {'file': 'coupler_phase_transients.ipynb', 'cells': 19, 'executed_code_cells': 9, 'embedded_figures': 7, 'errors': 0}

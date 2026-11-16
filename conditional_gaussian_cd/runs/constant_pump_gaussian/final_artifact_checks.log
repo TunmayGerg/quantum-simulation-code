@@ -1,0 +1,13 @@
+LIBRARY ARTIFACT COMPARISONS:16gates;320columns;90240amplitudes;16word hashes
+SHARED FAMILY ARTIFACT COMPARISONS:40gates;880columns;174592amplitudes;40word hashes
+MICROSCOPIC ARTIFACT constant rawF 0.9771801111754685 correctedF 0.9936437929589557 columns18;rawandcorrectedamplitudes11520
+MICROSCOPIC ARTIFACT cartesian rawF 0.9739662374979522 correctedF 0.9928514468002668 columns18;rawandcorrectedamplitudes11520
+SHORT GATE ARTIFACT COUNTS 31 records; 558 columns; 147456 amplitudes; 30 unique word hashes
+BINARY CD FAMILY COUNTS 20 strengths; 360 columns; 71424 amplitudes;minimumF 0.9910375042425945
+PLOT CHECK COUNTS:176fixed-sequence strength points;63retuned/screenedpoints;32idealcommutatorpoints
+ACTUAL400ns CHECK:18columns;4608amplitudes;F 0.9922779408792164 remainingtailoperatornorm 7.801061008863723e-07
+NOTEBOOK OUTPUT CHECK {'file': 'conditional_gaussian_gates.ipynb', 'cells': 13, 'executed_code_cells': 6, 'embedded_figures': 5, 'errors': 0, 'notebook_sha256': 'f8770f0e59f8c50c8d870077ba1af4bbe53da182940f255cb582ba6f7b146fd3', 'execution_log': 'runs/constant_pump_gaussian/notebook_execution.log'}
+NOTEBOOK OUTPUT CHECK {'file': 'fast_conditional_displacement.ipynb', 'cells': 13, 'executed_code_cells': 6, 'embedded_figures': 5, 'errors': 0, 'notebook_sha256': '65ef629a09d26352558fb4063ed9b9923e82448008f6ade1ea28e91ad3737a54', 'execution_log': 'runs/constant_pump_gaussian/notebook_execution.log'}
+NOTEBOOK OUTPUT CHECK {'file': 'higher_order_cd_and_squeezing.ipynb', 'cells': 14, 'executed_code_cells': 7, 'embedded_figures': 6, 'errors': 0, 'notebook_sha256': '01484c64adedc08626d7a1088cafe8e3897f6e635205bc89ea0b3de2f8bc931c', 'execution_log': 'runs/swap200/notebook_execution.log'}
+NOTEBOOK OUTPUT CHECK {'file': 'coupler_phase_transients.ipynb', 'cells': 19, 'executed_code_cells': 9, 'embedded_figures': 7, 'errors': 0, 'notebook_sha256': '191a4c2025f2e5f4256e7f2a3910b1f454deb43640f01cc3f9157686e92a8267', 'execution_log': 'runs/audit/coupler_notebook_execution.log'}
+FINAL COUNTS:allacceptedshortrecordschecked;3mainnotebooks,19codecells,16figures;appendix9codecells7figures;SDKunchanged

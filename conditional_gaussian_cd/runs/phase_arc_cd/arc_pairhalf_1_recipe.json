@@ -1,0 +1,190 @@
+{
+  "name": "arc_pairhalf_1",
+  "gate": "cd",
+  "strength": 1.0,
+  "sideband_mode": "phase_arc",
+  "controls_file": "runs/phase_arc_cd/arc_pairhalf_1_controls.npz",
+  "qubit_frame_Rz": 0.0,
+  "magnus_justification": "Mirrored qubit inverse and even pump phase cancel second order; phase geometry targets principal cubic errors.",
+  "symmetric": true,
+  "phase_arcs": [
+    {
+      "center_sample": 28,
+      "start_phase_rad": -1.6250778822589669,
+      "end_phase_rad": 0.31571841318669785,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 52,
+      "start_phase_rad": 0.31571841318669785,
+      "end_phase_rad": -1.4541056013513918,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 76,
+      "start_phase_rad": -1.4541056013513918,
+      "end_phase_rad": -1.5203988677181262,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 100,
+      "start_phase_rad": -1.5203988677181262,
+      "end_phase_rad": -0.8306119878574241,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 124,
+      "start_phase_rad": -0.8306119878574241,
+      "end_phase_rad": -1.0235292756142822,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 171,
+      "start_phase_rad": -1.0235292756142822,
+      "end_phase_rad": -0.8306119878574241,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 195,
+      "start_phase_rad": -0.8306119878574241,
+      "end_phase_rad": -1.5203988677181262,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 219,
+      "start_phase_rad": -1.5203988677181262,
+      "end_phase_rad": -1.4541056013513918,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 243,
+      "start_phase_rad": -1.4541056013513918,
+      "end_phase_rad": 0.31571841318669785,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 267,
+      "start_phase_rad": 0.31571841318669785,
+      "end_phase_rad": -1.6250778822589669,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    }
+  ],
+  "pump_phases": [
+    -1.6250778822589669,
+    0.31571841318669785,
+    -1.4541056013513918,
+    -1.5203988677181262,
+    -0.8306119878574241,
+    -1.0235292756142822,
+    -1.0235292756142822,
+    -0.8306119878574241,
+    -1.5203988677181262,
+    -1.4541056013513918,
+    0.31571841318669785,
+    -1.6250778822589669
+  ],
+  "g_nominal": 6.429694375132585,
+  "pulses": [
+    {
+      "start_sample": 4,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 0.5526361802912721,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 28,
+      "samples": 24,
+      "angle_fraction": 0.5,
+      "phase_rad": 1.0910457100148678,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 52,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.7827659277306753,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 76,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.2902181401328314,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 100,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 0.3976423190973862,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 124,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 0.6052197386387849,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 148,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.746812392228578,
+      "reversed_envelope": true
+    },
+    {
+      "start_sample": 172,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.5392349726871792,
+      "reversed_envelope": true
+    },
+    {
+      "start_sample": 196,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 6.431810793722624,
+      "reversed_envelope": true
+    },
+    {
+      "start_sample": 220,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 6.924358581320469,
+      "reversed_envelope": true
+    },
+    {
+      "start_sample": 244,
+      "samples": 24,
+      "angle_fraction": 0.5,
+      "phase_rad": 4.232638363604661,
+      "reversed_envelope": true
+    },
+    {
+      "start_sample": 268,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.6942288338810654,
+      "reversed_envelope": true
+    }
+  ],
+  "research_fit": {
+    "initial_fidelity": 0.9298775876107185,
+    "evaluations": 63,
+    "final_fidelity": 0.9842132428260808,
+    "seed_reason": "Reduce one inverse pulse pair to pi/2; continue the verified-neighbor phase geometry.",
+    "qubit_frame_Rz": 0.0
+  }
+}

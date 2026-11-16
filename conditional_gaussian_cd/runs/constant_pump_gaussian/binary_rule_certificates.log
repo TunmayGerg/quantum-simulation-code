@@ -1,0 +1,22 @@
+START20BINARYRULECERTIFICATES,all18inputs,automaticcutoffs,independentorder16
+VERIFIED SHORT GATE cd_binary_scaled_b0.05 F 0.9999646688548354 columns18;amplitudes 3456 cutoff 96 independenterror 2.0679515313825692e-25 commandus 0.13 RFDCwindowus 0.17421875
+VERIFIED SHORT GATE cd_binary_scaled_b-0.5 F 0.9984395668236545 columns18;amplitudes 3456 cutoff 96 independenterror 3.308722450212111e-24 commandus 0.25 RFDCwindowus 0.29421875000000003
+VERIFIED SHORT GATE cd_binary_scaled_b0.1 F 0.9998645979534858 columns18;amplitudes 3456 cutoff 96 independenterror 3.155443620884047e-29 commandus 0.13 RFDCwindowus 0.17421875
+VERIFIED SHORT GATE cd_binary_scaled_b-1 F 0.9922779449668537 columns18;amplitudes 3456 cutoff 96 independenterror 1.0339757656912846e-25 commandus 0.37 RFDCwindowus 0.41421875
+VERIFIED SHORT GATE cd_binary_scaled_b0.125 F 0.9997918935157697 columns18;amplitudes 3456 cutoff 96 independenterror 8.633293746738753e-27 commandus 0.13 RFDCwindowus 0.17421875
+VERIFIED SHORT GATE cd_binary_scaled_b0.2 F 0.9994270387211454 columns18;amplitudes 3456 cutoff 96 independenterror 2.5849394142282115e-26 commandus 0.13 RFDCwindowus 0.17421875
+VERIFIED SHORT GATE cd_binary_scaled_b0.3 F 0.9978430670599631 columns18;amplitudes 3456 cutoff 96 independenterror 1.2924697071141057e-26 commandus 0.13 RFDCwindowus 0.17421875
+VERIFIED SHORT GATE cd_binary_scaled_b0.4 F 0.9924258392171682 columns18;amplitudes 3456 cutoff 96 independenterror 5.421010862427522e-20 commandus 0.13 RFDCwindowus 0.17421875
+VERIFIED SHORT GATE cd_binary_scaled_b0.5 F 0.9984395668236545 columns18;amplitudes 3456 cutoff 96 independenterror 3.308722450212111e-24 commandus 0.25 RFDCwindowus 0.29421875000000003
+VERIFIED SHORT GATE cd_binary_scaled_b0.75 F 0.9922293624943598 columns18;amplitudes 3456 cutoff 96 independenterror 5.421010862427522e-20 commandus 0.25 RFDCwindowus 0.29421875000000003
+VERIFIED SHORT GATE cd_binary_scaled_b1 F 0.9922779449668537 columns18;amplitudes 3456 cutoff 96 independenterror 1.0339757656912846e-25 commandus 0.37 RFDCwindowus 0.41421875
+VERIFIED SHORT GATE cd_binary_scaled_b-2 F 0.9917909868784063 columns18;amplitudes 3456 cutoff 96 independenterror 5.293955920339377e-23 commandus 1.09 RFDCwindowus 1.13421875
+VERIFIED SHORT GATE cd_binary_scaled_b1.25 F 0.9910375042425945 columns18;amplitudes 3456 cutoff 96 independenterror 4.1359030627651384e-25 commandus 0.49 RFDCwindowus 0.53421875
+VERIFIED SHORT GATE cd_binary_scaled_b1.5 F 0.994045820654437 columns18;amplitudes 3456 cutoff 96 independenterror 5.790264287871194e-24 commandus 0.73 RFDCwindowus 0.7742187500000001
+VERIFIED SHORT GATE cd_binary_scaled_b1.75 F 0.9913104777805732 columns18;amplitudes 3456 cutoff 96 independenterror 1.3234889800848443e-22 commandus 0.85 RFDCwindowus 0.8942187500000001
+VERIFIED SHORT GATE cd_binary_scaled_b2 F 0.9917909868784063 columns18;amplitudes 3456 cutoff 96 independenterror 5.293955920339377e-23 commandus 1.09 RFDCwindowus 1.13421875
+VERIFIED SHORT GATE cd_binary_scaled_b2.25 F 0.993641107986031 columns18;amplitudes 3456 cutoff 96 independenterror 3.1554436208840472e-30 commandus 1.45 RFDCwindowus 1.49421875
+VERIFIED SHORT GATE cd_binary_scaled_b2.5 F 0.9941168763639409 columns18;amplitudes 3456 cutoff 96 independenterror 1.5777218104420236e-30 commandus 1.81 RFDCwindowus 1.85421875
+VERIFIED SHORT GATE cd_binary_scaled_b3 F 0.9933792819284571 columns18;amplitudes 4608 cutoff 128 independenterror 5.558653716356346e-22 commandus 2.5300000000000002 RFDCwindowus 2.57421875
+VERIFIED SHORT GATE cd_binary_scaled_b4 F 0.9914768028091392 columns18;amplitudes 4608 cutoff 128 independenterror 5.048709793414476e-29 commandus 4.33 RFDCwindowus 4.37421875
+FINAL BINARY RULE CERTIFICATION COUNTS 20 gates; 360 columns; 71424 independent amplitudes;minF 0.9910375042425945

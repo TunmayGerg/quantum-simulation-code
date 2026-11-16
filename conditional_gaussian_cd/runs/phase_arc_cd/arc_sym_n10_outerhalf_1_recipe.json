@@ -1,0 +1,159 @@
+{
+  "name": "arc_sym_n10_outerhalf_1",
+  "gate": "cd",
+  "strength": 1.0,
+  "sideband_mode": "phase_arc",
+  "controls_file": "runs/phase_arc_cd/arc_sym_n10_outerhalf_1_controls.npz",
+  "qubit_frame_Rz": 0.0,
+  "magnus_justification": "Mirrored qubit inverse and even pump phase cancel second order; phase geometry targets principal cubic errors.",
+  "symmetric": true,
+  "phase_arcs": [
+    {
+      "center_sample": 28,
+      "start_phase_rad": -1.4690995339434014,
+      "end_phase_rad": -1.3797176446582133,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 52,
+      "start_phase_rad": -1.3797176446582133,
+      "end_phase_rad": -1.3510767463457716,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 76,
+      "start_phase_rad": -1.3510767463457716,
+      "end_phase_rad": -2.5887569281879146,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 100,
+      "start_phase_rad": -2.5887569281879146,
+      "end_phase_rad": -1.0151676223243504,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 147,
+      "start_phase_rad": -1.0151676223243504,
+      "end_phase_rad": -2.5887569281879146,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 171,
+      "start_phase_rad": -2.5887569281879146,
+      "end_phase_rad": -1.3510767463457716,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 195,
+      "start_phase_rad": -1.3510767463457716,
+      "end_phase_rad": -1.3797176446582133,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 219,
+      "start_phase_rad": -1.3797176446582133,
+      "end_phase_rad": -1.4690995339434014,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    }
+  ],
+  "pump_phases": [
+    -1.4690995339434014,
+    -1.3797176446582133,
+    -1.3510767463457716,
+    -2.5887569281879146,
+    -1.0151676223243504,
+    -1.0151676223243504,
+    -2.5887569281879146,
+    -1.3510767463457716,
+    -1.3797176446582133,
+    -1.4690995339434014
+  ],
+  "g_nominal": 7.567336333430927,
+  "pulses": [
+    {
+      "start_sample": 4,
+      "samples": 24,
+      "angle_fraction": 0.5,
+      "phase_rad": 0.050570740107332424,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 28,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 0.14368987197117453,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 52,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.274656294098863,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 76,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.1227292193910596,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 100,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": -0.10828877169348827,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 124,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.033303881896305,
+      "reversed_envelope": true
+    },
+    {
+      "start_sample": 148,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 6.264321872980853,
+      "reversed_envelope": true
+    },
+    {
+      "start_sample": 172,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 6.416248947688656,
+      "reversed_envelope": true
+    },
+    {
+      "start_sample": 196,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.2852825255609677,
+      "reversed_envelope": true
+    },
+    {
+      "start_sample": 220,
+      "samples": 24,
+      "angle_fraction": 0.5,
+      "phase_rad": 3.1921633936971254,
+      "reversed_envelope": true
+    }
+  ],
+  "research_fit": {
+    "initial_fidelity": 0.8293400704985949,
+    "evaluations": 68,
+    "final_fidelity": 0.8759577805334832,
+    "seed_reason": "Fractional physical endpoints reshape the cubic path; mirrored inverse cancels second order."
+  }
+}

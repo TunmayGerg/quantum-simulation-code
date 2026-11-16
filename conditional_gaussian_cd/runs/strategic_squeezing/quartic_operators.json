@@ -1,0 +1,205 @@
+{
+  "residual": 5.680477470484239e-19,
+  "norm": 4.3171369700396846e-05,
+  "operators": [
+    {
+      "operator": "Z * adag^3 a^1 - h.c.",
+      "coefficient": 1.0416156956106195e-06,
+      "contribution_norm": 2.2820656509494844e-05
+    },
+    {
+      "operator": "Z * adag^2 a^0 - h.c.",
+      "coefficient": 1.5624235434159294e-06,
+      "contribution_norm": 1.530856177392107e-05
+    },
+    {
+      "operator": "Z * i(adag^4 a^0 + h.c.)",
+      "coefficient": -1.9126350476047067e-07,
+      "contribution_norm": 9.916233435370463e-06
+    },
+    {
+      "operator": "I * adag^2 a^0 - h.c.",
+      "coefficient": 7.838652654117081e-07,
+      "contribution_norm": 7.68027970939997e-06
+    },
+    {
+      "operator": "Y * adag^4 a^0 - h.c.",
+      "coefficient": 8.077382715806372e-08,
+      "contribution_norm": 4.187793832235405e-06
+    },
+    {
+      "operator": "X * adag^4 a^0 - h.c.",
+      "coefficient": 8.077382715806285e-08,
+      "contribution_norm": 4.18779383223536e-06
+    },
+    {
+      "operator": "Z * i adag^1 a^1",
+      "coefficient": 7.650540190418773e-07,
+      "contribution_norm": 4.0482853478305626e-06
+    },
+    {
+      "operator": "Y * adag^3 a^1 - h.c.",
+      "coefficient": 1.615476543161287e-07,
+      "contribution_norm": 3.53933177523962e-06
+    },
+    {
+      "operator": "Y * i(adag^3 a^1 + h.c.)",
+      "coefficient": -1.6154765431612808e-07,
+      "contribution_norm": 3.5393317752396065e-06
+    },
+    {
+      "operator": "X * i(adag^3 a^1 + h.c.)",
+      "coefficient": -1.6154765431612598e-07,
+      "contribution_norm": 3.5393317752395603e-06
+    },
+    {
+      "operator": "X * adag^3 a^1 - h.c.",
+      "coefficient": -1.615476543161258e-07,
+      "contribution_norm": 3.5393317752395565e-06
+    },
+    {
+      "operator": "Z * i adag^2 a^2",
+      "coefficient": 3.825270095209442e-07,
+      "contribution_norm": 3.4214255860741626e-06
+    },
+    {
+      "operator": "Y * i adag^1 a^1",
+      "coefficient": -6.461906172645057e-07,
+      "contribution_norm": 3.4193193456504063e-06
+    },
+    {
+      "operator": "X * i adag^1 a^1",
+      "coefficient": 6.461906172645039e-07,
+      "contribution_norm": 3.419319345650397e-06
+    },
+    {
+      "operator": "X * i adag^2 a^2",
+      "coefficient": 3.2309530863225626e-07,
+      "contribution_norm": 2.889852293251999e-06
+    },
+    {
+      "operator": "Y * i adag^2 a^2",
+      "coefficient": -3.2309530863225525e-07,
+      "contribution_norm": 2.88985229325199e-06
+    },
+    {
+      "operator": "X * i(adag^2 a^0 + h.c.)",
+      "coefficient": -2.4232148147419195e-07,
+      "contribution_norm": 2.374255933308228e-06
+    },
+    {
+      "operator": "X * adag^2 a^0 - h.c.",
+      "coefficient": -2.4232148147419137e-07,
+      "contribution_norm": 2.374255933308223e-06
+    },
+    {
+      "operator": "Y * adag^2 a^0 - h.c.",
+      "coefficient": 2.423214814741892e-07,
+      "contribution_norm": 2.3742559333082014e-06
+    },
+    {
+      "operator": "Y * i(adag^2 a^0 + h.c.)",
+      "coefficient": -2.4232148147418835e-07,
+      "contribution_norm": 2.374255933308193e-06
+    },
+    {
+      "operator": "Z * adag^4 a^0 - h.c.",
+      "coefficient": -3.703902269900631e-08,
+      "contribution_norm": 1.920322414677622e-06
+    },
+    {
+      "operator": "I * i adag^1 a^1",
+      "coefficient": -3.263092870702482e-07,
+      "contribution_norm": 1.7266664481573224e-06
+    },
+    {
+      "operator": "Y * i adag^0 a^0",
+      "coefficient": -4.800796656128707e-07,
+      "contribution_norm": 1.3578703482585244e-06
+    },
+    {
+      "operator": "X * i adag^0 a^0",
+      "coefficient": 4.5459710470912554e-07,
+      "contribution_norm": 1.2857947817903748e-06
+    },
+    {
+      "operator": "Z * i adag^0 a^0",
+      "coefficient": -2.815568584833059e-07,
+      "contribution_norm": 7.96363055692507e-07
+    },
+    {
+      "operator": "I * i adag^0 a^0",
+      "coefficient": -1.6315464353512962e-07,
+      "contribution_norm": 4.6147101930305627e-07
+    },
+    {
+      "operator": "I * i(adag^2 a^0 + h.c.)",
+      "coefficient": -4.3211681426908825e-09,
+      "contribution_norm": 4.233862816945101e-08
+    },
+    {
+      "operator": "I * adag^4 a^0 - h.c.",
+      "coefficient": 1.9322939109238726e-21,
+      "contribution_norm": 1.0018156631848027e-19
+    },
+    {
+      "operator": "I * i adag^2 a^2",
+      "coefficient": -3.8696124360290574e-21,
+      "contribution_norm": 3.4610865814158124e-20
+    },
+    {
+      "operator": "I * adag^3 a^1 - h.c.",
+      "coefficient": -9.704332058916631e-22,
+      "contribution_norm": 2.1261126296756767e-20
+    },
+    {
+      "operator": "Z * i(adag^2 a^0 + h.c.)",
+      "coefficient": -1.4430268693002281e-21,
+      "contribution_norm": 1.413871805964572e-20
+    },
+    {
+      "operator": "X * i(adag^4 a^0 + h.c.)",
+      "coefficient": 2.117582368135751e-22,
+      "contribution_norm": 1.0978801788326605e-20
+    },
+    {
+      "operator": "I * i(adag^3 a^1 + h.c.)",
+      "coefficient": -4.798533994265589e-22,
+      "contribution_norm": 1.0513061246458515e-20
+    },
+    {
+      "operator": "Y * i(adag^4 a^0 + h.c.)",
+      "coefficient": 1.9852334701272664e-22,
+      "contribution_norm": 1.0292626676556193e-20
+    },
+    {
+      "operator": "Z * i(adag^3 a^1 + h.c.)",
+      "coefficient": -7.361505151671245e-24,
+      "contribution_norm": 1.6128249715043322e-22
+    },
+    {
+      "operator": "I * i(adag^4 a^0 + h.c.)",
+      "coefficient": 0.0,
+      "contribution_norm": 0.0
+    }
+  ],
+  "all_16_nonlinear_squeeze_coefficients": [
+    1.0416156956106195e-06,
+    1.0416156956106186e-06,
+    1.0416156956106199e-06,
+    1.0416156956106205e-06,
+    1.240389430174429e-06,
+    1.24038943017443e-06,
+    1.2403894301744284e-06,
+    1.240389430174429e-06,
+    1.2576741027451932e-06,
+    1.2576741027451956e-06,
+    1.2576741027451964e-06,
+    1.257674102745196e-06,
+    1.4564478373090045e-06,
+    1.4564478373090052e-06,
+    1.4564478373090041e-06,
+    1.4564478373090043e-06
+  ],
+  "no_positive_mixture_cancellation": true
+}

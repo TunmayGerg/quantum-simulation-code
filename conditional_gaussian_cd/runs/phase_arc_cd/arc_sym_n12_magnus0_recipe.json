@@ -1,0 +1,190 @@
+{
+  "name": "arc_sym_n12_magnus0",
+  "gate": "cd",
+  "strength": 1.0,
+  "sideband_mode": "phase_arc",
+  "controls_file": "runs/phase_arc_cd/arc_sym_n12_magnus0_controls.npz",
+  "qubit_frame_Rz": 0.0,
+  "magnus_justification": "Mirrored qubit inverse and even pump phase cancel second order; phase geometry targets principal cubic errors.",
+  "symmetric": true,
+  "phase_arcs": [
+    {
+      "center_sample": 28,
+      "start_phase_rad": -1.452074023452154,
+      "end_phase_rad": -1.4788238038852963,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 52,
+      "start_phase_rad": -1.4788238038852963,
+      "end_phase_rad": -1.2657128515168188,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 76,
+      "start_phase_rad": -1.2657128515168188,
+      "end_phase_rad": -1.4247350882721093,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 100,
+      "start_phase_rad": -1.4247350882721093,
+      "end_phase_rad": -1.840914242867657,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 124,
+      "start_phase_rad": -1.840914242867657,
+      "end_phase_rad": -2.05999153835646,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 171,
+      "start_phase_rad": -2.05999153835646,
+      "end_phase_rad": -1.840914242867657,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 195,
+      "start_phase_rad": -1.840914242867657,
+      "end_phase_rad": -1.4247350882721093,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 219,
+      "start_phase_rad": -1.4247350882721093,
+      "end_phase_rad": -1.2657128515168188,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 243,
+      "start_phase_rad": -1.2657128515168188,
+      "end_phase_rad": -1.4788238038852963,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 267,
+      "start_phase_rad": -1.4788238038852963,
+      "end_phase_rad": -1.452074023452154,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    }
+  ],
+  "pump_phases": [
+    -1.452074023452154,
+    -1.4788238038852963,
+    -1.2657128515168188,
+    -1.4247350882721093,
+    -1.840914242867657,
+    -2.05999153835646,
+    -2.05999153835646,
+    -1.840914242867657,
+    -1.4247350882721093,
+    -1.2657128515168188,
+    -1.4788238038852963,
+    -1.452074023452154
+  ],
+  "g_nominal": 5.599169265916573,
+  "pulses": [
+    {
+      "start_sample": 4,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 0.04877502847335334,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 28,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 0.20912337072959447,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 52,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.422125351071048,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 76,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.182585539299104,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 100,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": -0.2777513985298115,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 124,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": -0.3855291552295545,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 148,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 2.7560634983602386,
+      "reversed_envelope": true
+    },
+    {
+      "start_sample": 172,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 2.8638412550599814,
+      "reversed_envelope": true
+    },
+    {
+      "start_sample": 196,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 6.324178192888898,
+      "reversed_envelope": true
+    },
+    {
+      "start_sample": 220,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 6.563718004660841,
+      "reversed_envelope": true
+    },
+    {
+      "start_sample": 244,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.3507160243193876,
+      "reversed_envelope": true
+    },
+    {
+      "start_sample": 268,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.1903676820631466,
+      "reversed_envelope": true
+    }
+  ],
+  "research_fit": {
+    "initial_fidelity": 0.96843001017051,
+    "evaluations": 71,
+    "final_fidelity": 0.991884732625068,
+    "seed_reason": "First-force and principal-cubic least-squares design with exact interaction-frame time symmetry.",
+    "qubit_frame_Rz": 0.0
+  }
+}

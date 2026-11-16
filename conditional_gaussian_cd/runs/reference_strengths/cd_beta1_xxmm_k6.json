@@ -1,0 +1,200 @@
+{
+  "name": "cd_beta1_xxmm_k6",
+  "gate": "cd",
+  "strength": 1.0,
+  "input_fock_max": 8,
+  "qubit_levels": 2,
+  "qubit_frame_Rz": 0.0,
+  "repeats": 6,
+  "cells": 24,
+  "qubit_phases": [
+    0.0,
+    0.0,
+    3.141592653589793,
+    3.141592653589793,
+    0.0,
+    0.0,
+    3.141592653589793,
+    3.141592653589793,
+    0.0,
+    0.0,
+    3.141592653589793,
+    3.141592653589793,
+    0.0,
+    0.0,
+    3.141592653589793,
+    3.141592653589793,
+    0.0,
+    0.0,
+    3.141592653589793,
+    3.141592653589793,
+    0.0,
+    0.0,
+    3.141592653589793,
+    3.141592653589793
+  ],
+  "angle_fractions": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "qubit_envelope_ns": 30.0,
+  "pulse_word": [
+    "X",
+    "X",
+    "-X",
+    "-X"
+  ],
+  "pump_phase": -1.5707963267948966,
+  "pump_amplitude_constant": true,
+  "pump_phase_constant": true,
+  "outer_ramp_ns": 5.0,
+  "g_nominal": 2.7672406953529465,
+  "nominal_swap_ns": 567.6399344056878,
+  "actual_plateau_g": 2.7679120929556884,
+  "peak_played_g": 2.78641953319824,
+  "peak_swap_ns": 563.7328866238399,
+  "command_time_us": 0.73,
+  "RFDC_window_us": 0.7742187500000001,
+  "speed_ratio_to_peak_force_bound": 0.9832424711194206,
+  "same_target_calibration": "One constant g maximizes beta=1 coherent process fidelity; phases unchanged.",
+  "calibrated_beta_independently_fixed": true,
+  "search_bounds_g": [
+    2.4827586206896552,
+    3.0896551724137935
+  ],
+  "evaluations": 21,
+  "search_history": [
+    {
+      "g": 2.7145724757931675,
+      "fidelity": 0.9959922787738767
+    },
+    {
+      "g": 2.8578413173102812,
+      "fidelity": 0.9897209318027753
+    },
+    {
+      "g": 2.626027462206769,
+      "fidelity": 0.9761816114403962
+    },
+    {
+      "g": 2.7672406953529465,
+      "fidelity": 0.9992343317838415
+    },
+    {
+      "g": 2.7673807897048777,
+      "fidelity": 0.9992343317838415
+    },
+    {
+      "g": 2.7673107425289123,
+      "fidelity": 0.9992343317838415
+    },
+    {
+      "g": 2.7672839868885095,
+      "fidelity": 0.9992343317838415
+    },
+    {
+      "g": 2.7672674509933497,
+      "fidelity": 0.9992343317838415
+    },
+    {
+      "g": 2.7672572312481063,
+      "fidelity": 0.9992343317838415
+    },
+    {
+      "g": 2.7672509150981894,
+      "fidelity": 0.9992343317838415
+    },
+    {
+      "g": 2.767247011502863,
+      "fidelity": 0.9992343317838415
+    },
+    {
+      "g": 2.767244598948273,
+      "fidelity": 0.9992343317838415
+    },
+    {
+      "g": 2.767243107907537,
+      "fidelity": 0.9992343317838415
+    },
+    {
+      "g": 2.767242186393683,
+      "fidelity": 0.9992343317838415
+    },
+    {
+      "g": 2.7672416168668,
+      "fidelity": 0.9992343317838415
+    },
+    {
+      "g": 2.767241264879829,
+      "fidelity": 0.9992343317838415
+    },
+    {
+      "g": 2.7672410473399176,
+      "fidelity": 0.9992343317838415
+    },
+    {
+      "g": 2.7672409128928583,
+      "fidelity": 0.9992343317838415
+    },
+    {
+      "g": 2.7672408298000057,
+      "fidelity": 0.9992343317838415
+    },
+    {
+      "g": 2.7672407784457986,
+      "fidelity": 0.9992343317838415
+    },
+    {
+      "g": 2.7672407370676515,
+      "fidelity": 0.9992343317838415
+    }
+  ],
+  "fidelity": 0.9992343317838415,
+  "worst_basis_fidelity": 0.9982108188173481,
+  "cutoff_history": [
+    {
+      "levels": 48,
+      "columns": 18,
+      "complex_amplitudes": 1728,
+      "fidelity": 0.9992343317838415,
+      "worst_basis_fidelity": 0.9982108188173481
+    },
+    {
+      "levels": 64,
+      "columns": 18,
+      "complex_amplitudes": 2304,
+      "fidelity": 0.9992343317838415,
+      "worst_basis_fidelity": 0.9982108188173481,
+      "output_column_change": 1.5757293020439262e-31,
+      "target_column_change": 1.8997370040064688e-16
+    }
+  ],
+  "levels": 64,
+  "columns": 18,
+  "independent_backend_max_amplitude_error": 7.703719777548943e-34,
+  "independent_amplitudes_compared": 2304,
+  "simulated_filter": "SDK int16 decode and documented RFDC 8x interpolation, full tail",
+  "source_sha256": "0bc7419e1cdfbeb8617e5bbf82f56d23a3fd3d7f93a98a1b4e7afc29f68e0a72"
+}

@@ -1,0 +1,326 @@
+[
+  {
+    "circuit": {
+      "f_coupler_GHz": 6.8,
+      "full_tuning_GHz": 4.0,
+      "EC_GHz": 0.1,
+      "loops": 1,
+      "f_qubit_GHz": 4.630267134,
+      "f_cavity_GHz": 5.035155906,
+      "coupling_qc_GHz": 0.12,
+      "coupling_ac_GHz": 0.05,
+      "pump_drive_GHz": null,
+      "qubit_drive_GHz": null,
+      "flux_per_DAC_override": null
+    },
+    "inferred": {
+      "EL_GHz": 57.79999999999999,
+      "EJ_GHz": 16.248076809271918,
+      "ratio_2EJ_EL": 0.5622171906322464,
+      "lambda_c": 0.242535625036333,
+      "lambda_q": 0.01341375957401383,
+      "lambda_a": 0.006871304549248559,
+      "flux_at_DAC_0045": 0.2895878282277838,
+      "flux_per_DAC": 6.435285071728528,
+      "inferred_fmin_GHz": 4.499230723708768,
+      "inferred_fmax_GHz": 8.499230723708768
+    },
+    "cavity_levels": 20,
+    "coupler_levels": 10,
+    "cosine_projection": "infinite_oscillator_projected",
+    "duration_ns": 104.21875,
+    "timestep_ns": 0.004999940030704279,
+    "steps": 20844,
+    "taylor_order": 21,
+    "columns": 6,
+    "sparse_entries": 37727,
+    "sparse_discard_amplitude_bound": 5.1979905179783804e-11,
+    "norm_error": 2.2003510125045977e-12,
+    "final_coupler_excitation": [
+      8.979200911190562e-08,
+      0.001747261768554915,
+      0.0035025697103698945,
+      5.438214715615316e-05,
+      0.0017351184625627356,
+      0.00341266035349218
+    ],
+    "max_final_coupler_excitation": 0.0035025697103698945,
+    "elapsed_seconds": 129.76371143804863,
+    "shape": "abrupt",
+    "delta_rad": 0.5235987755982988,
+    "convergence_history": [
+      {
+        "cavity_levels": 12,
+        "coupler_levels": 4,
+        "timestep_ns": 0.005,
+        "coupler_excitation": 0.0035047641140195243,
+        "column_change": null
+      },
+      {
+        "cavity_levels": 16,
+        "coupler_levels": 6,
+        "timestep_ns": 0.005,
+        "coupler_excitation": 0.0035026657034684405,
+        "column_change": 0.003331247492333759
+      },
+      {
+        "cavity_levels": 20,
+        "coupler_levels": 8,
+        "timestep_ns": 0.005,
+        "coupler_excitation": 0.0035025702410589454,
+        "column_change": 6.459297868252994e-05
+      },
+      {
+        "cavity_levels": 20,
+        "coupler_levels": 10,
+        "timestep_ns": 0.005,
+        "coupler_excitation": 0.0035025697103698945,
+        "column_change": 3.483086036517887e-07
+      }
+    ],
+    "converged_1e6": true
+  },
+  {
+    "circuit": {
+      "f_coupler_GHz": 6.8,
+      "full_tuning_GHz": 4.0,
+      "EC_GHz": 0.1,
+      "loops": 1,
+      "f_qubit_GHz": 4.630267134,
+      "f_cavity_GHz": 5.035155906,
+      "coupling_qc_GHz": 0.12,
+      "coupling_ac_GHz": 0.05,
+      "pump_drive_GHz": null,
+      "qubit_drive_GHz": null,
+      "flux_per_DAC_override": null
+    },
+    "inferred": {
+      "EL_GHz": 57.79999999999999,
+      "EJ_GHz": 16.248076809271918,
+      "ratio_2EJ_EL": 0.5622171906322464,
+      "lambda_c": 0.242535625036333,
+      "lambda_q": 0.01341375957401383,
+      "lambda_a": 0.006871304549248559,
+      "flux_at_DAC_0045": 0.2895878282277838,
+      "flux_per_DAC": 6.435285071728528,
+      "inferred_fmin_GHz": 4.499230723708768,
+      "inferred_fmax_GHz": 8.499230723708768
+    },
+    "cavity_levels": 20,
+    "coupler_levels": 10,
+    "cosine_projection": "infinite_oscillator_projected",
+    "duration_ns": 104.21875,
+    "timestep_ns": 0.004999940030704279,
+    "steps": 20844,
+    "taylor_order": 20,
+    "columns": 6,
+    "sparse_entries": 37727,
+    "sparse_discard_amplitude_bound": 5.126376054911102e-11,
+    "norm_error": 2.1960211427085596e-12,
+    "final_coupler_excitation": [
+      3.90232174704326e-09,
+      0.0017023192027434079,
+      0.0033942546917452195,
+      0.00010427695100867136,
+      0.0017685135023487557,
+      0.0034302127170970803
+    ],
+    "max_final_coupler_excitation": 0.0034302127170970803,
+    "elapsed_seconds": 123.3393421069486,
+    "shape": "phase",
+    "delta_rad": 0.5235987755982988,
+    "convergence_history": [
+      {
+        "cavity_levels": 12,
+        "coupler_levels": 4,
+        "timestep_ns": 0.005,
+        "coupler_excitation": 0.0034382809752583903,
+        "column_change": null
+      },
+      {
+        "cavity_levels": 16,
+        "coupler_levels": 6,
+        "timestep_ns": 0.005,
+        "coupler_excitation": 0.0034303339093206954,
+        "column_change": 0.0034389528400047492
+      },
+      {
+        "cavity_levels": 20,
+        "coupler_levels": 8,
+        "timestep_ns": 0.005,
+        "coupler_excitation": 0.0034302132951904755,
+        "column_change": 6.210389557972157e-05
+      },
+      {
+        "cavity_levels": 20,
+        "coupler_levels": 10,
+        "timestep_ns": 0.005,
+        "coupler_excitation": 0.0034302127170970803,
+        "column_change": 3.2076964424284393e-07
+      }
+    ],
+    "converged_1e6": true
+  },
+  {
+    "circuit": {
+      "f_coupler_GHz": 6.8,
+      "full_tuning_GHz": 4.0,
+      "EC_GHz": 0.1,
+      "loops": 1,
+      "f_qubit_GHz": 4.630267134,
+      "f_cavity_GHz": 5.035155906,
+      "coupling_qc_GHz": 0.12,
+      "coupling_ac_GHz": 0.05,
+      "pump_drive_GHz": null,
+      "qubit_drive_GHz": null,
+      "flux_per_DAC_override": null
+    },
+    "inferred": {
+      "EL_GHz": 57.79999999999999,
+      "EJ_GHz": 16.248076809271918,
+      "ratio_2EJ_EL": 0.5622171906322464,
+      "lambda_c": 0.242535625036333,
+      "lambda_q": 0.01341375957401383,
+      "lambda_a": 0.006871304549248559,
+      "flux_at_DAC_0045": 0.2895878282277838,
+      "flux_per_DAC": 6.435285071728528,
+      "inferred_fmin_GHz": 4.499230723708768,
+      "inferred_fmax_GHz": 8.499230723708768
+    },
+    "cavity_levels": 20,
+    "coupler_levels": 10,
+    "cosine_projection": "infinite_oscillator_projected",
+    "duration_ns": 104.21875,
+    "timestep_ns": 0.004999940030704279,
+    "steps": 20844,
+    "taylor_order": 20,
+    "columns": 6,
+    "sparse_entries": 37727,
+    "sparse_discard_amplitude_bound": 5.126376049990111e-11,
+    "norm_error": 2.174593838333294e-12,
+    "final_coupler_excitation": [
+      3.6514094233363732e-09,
+      0.001375178987213143,
+      0.002742932817752133,
+      8.125252749427572e-05,
+      0.0014223512031142124,
+      0.0027634861362521167
+    ],
+    "max_final_coupler_excitation": 0.0027634861362521167,
+    "elapsed_seconds": 124.03615077200811,
+    "shape": "cartesian",
+    "delta_rad": 0.5235987755982988,
+    "convergence_history": [
+      {
+        "cavity_levels": 12,
+        "coupler_levels": 4,
+        "timestep_ns": 0.005,
+        "coupler_excitation": 0.002775086352445847,
+        "column_change": null
+      },
+      {
+        "cavity_levels": 16,
+        "coupler_levels": 6,
+        "timestep_ns": 0.005,
+        "coupler_excitation": 0.002763623915667281,
+        "column_change": 0.002946715572890394
+      },
+      {
+        "cavity_levels": 20,
+        "coupler_levels": 8,
+        "timestep_ns": 0.005,
+        "coupler_excitation": 0.0027634867191468405,
+        "column_change": 4.736924017988258e-05
+      },
+      {
+        "cavity_levels": 20,
+        "coupler_levels": 10,
+        "timestep_ns": 0.005,
+        "coupler_excitation": 0.0027634861362521167,
+        "column_change": 2.490010666970289e-07
+      }
+    ],
+    "converged_1e6": true
+  },
+  {
+    "circuit": {
+      "f_coupler_GHz": 6.8,
+      "full_tuning_GHz": 4.0,
+      "EC_GHz": 0.1,
+      "loops": 1,
+      "f_qubit_GHz": 4.630267134,
+      "f_cavity_GHz": 5.035155906,
+      "coupling_qc_GHz": 0.12,
+      "coupling_ac_GHz": 0.05,
+      "pump_drive_GHz": null,
+      "qubit_drive_GHz": null,
+      "flux_per_DAC_override": null
+    },
+    "inferred": {
+      "EL_GHz": 57.79999999999999,
+      "EJ_GHz": 16.248076809271918,
+      "ratio_2EJ_EL": 0.5622171906322464,
+      "lambda_c": 0.242535625036333,
+      "lambda_q": 0.01341375957401383,
+      "lambda_a": 0.006871304549248559,
+      "flux_at_DAC_0045": 0.2895878282277838,
+      "flux_per_DAC": 6.435285071728528,
+      "inferred_fmin_GHz": 4.499230723708768,
+      "inferred_fmax_GHz": 8.499230723708768
+    },
+    "cavity_levels": 20,
+    "coupler_levels": 10,
+    "cosine_projection": "infinite_oscillator_projected",
+    "duration_ns": 104.21875,
+    "timestep_ns": 0.004999940030704279,
+    "steps": 20844,
+    "taylor_order": 20,
+    "columns": 6,
+    "sparse_entries": 37727,
+    "sparse_discard_amplitude_bound": 5.126375745431807e-11,
+    "norm_error": 2.203237592368623e-12,
+    "final_coupler_excitation": [
+      1.143491563827171e-08,
+      7.727571350276787e-06,
+      1.5670548779913402e-05,
+      1.6904141135129185e-07,
+      9.922422235365479e-06,
+      1.8411653696452326e-05
+    ],
+    "max_final_coupler_excitation": 1.8411653696452326e-05,
+    "elapsed_seconds": 123.39869396097492,
+    "shape": "zero",
+    "delta_rad": 0.5235987755982988,
+    "convergence_history": [
+      {
+        "cavity_levels": 12,
+        "coupler_levels": 4,
+        "timestep_ns": 0.005,
+        "coupler_excitation": 1.7128842652133867e-05,
+        "column_change": null
+      },
+      {
+        "cavity_levels": 16,
+        "coupler_levels": 6,
+        "timestep_ns": 0.005,
+        "coupler_excitation": 1.8406663235846363e-05,
+        "column_change": 0.0004626310736063833
+      },
+      {
+        "cavity_levels": 20,
+        "coupler_levels": 8,
+        "timestep_ns": 0.005,
+        "coupler_excitation": 1.8411638766567825e-05,
+        "column_change": 1.1148535884359203e-05
+      },
+      {
+        "cavity_levels": 20,
+        "coupler_levels": 10,
+        "timestep_ns": 0.005,
+        "coupler_excitation": 1.8411653696452326e-05,
+        "column_change": 9.575178929606921e-08
+      }
+    ],
+    "converged_1e6": true
+  }
+]

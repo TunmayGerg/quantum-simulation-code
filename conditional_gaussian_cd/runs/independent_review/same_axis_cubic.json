@@ -1,0 +1,19 @@
+{
+  "word": [
+    "X",
+    "X",
+    "-X",
+    "-X",
+    "X",
+    "X",
+    "-X",
+    "-X"
+  ],
+  "first_transverse_integral_abs": 8.15599446337334e-17,
+  "integral_abs_F_squared_us3": 2.8995006672276358e-05,
+  "predicted_sigma_x_Weyl_XP2_coefficient_us3": -7.2487516680690895e-06,
+  "native_coefficient_us3": -7.248751668069098e-06,
+  "coefficient_error": 8.470329472543003e-21,
+  "coefficient_comparisons": 2,
+  "conclusion": "The longitudinal principal cubic coefficient is strictly negative for finite X-only control; another X twirl cannot cancel it."
+}

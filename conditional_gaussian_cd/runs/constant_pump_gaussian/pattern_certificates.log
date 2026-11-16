@@ -1,0 +1,4 @@
+START SHORT GATE CERTIFICATION 2 gates;all18inputs
+VERIFIED SHORT GATE squeeze_lifted_n192_b96 F 0.990333225734462 columns18;amplitudes 9216 cutoff 256 independenterror 7.057779543286364e-15 commandus 5.7700000000000005 RFDCwindowus 5.81421875
+VERIFIED SHORT GATE rotation_lifted_n256_b128 F 0.9905141703806688 columns18;amplitudes 11520 cutoff 320 independenterror 8.954389192832035e-15 commandus 7.69 RFDCwindowus 7.73421875
+FINAL SHORT CERTIFICATION COUNTS 2 newgates; 36 columns; 20736 independentamplitudes

@@ -1,0 +1,70 @@
+{
+  "name": "rotation_compression_10",
+  "gate": "rotation",
+  "strength": 1.5707963267948966,
+  "fidelity": 0.9930327121342334,
+  "worst_basis_fidelity": 0.9895612021161423,
+  "columns": 18,
+  "levels": 256,
+  "complex_amplitudes": 9216,
+  "independent_max_difference": 5.7902148899581444e-15,
+  "command_us": 7.69,
+  "RFDC_window_us": 7.73421875,
+  "qubit_frame_Rz": 3.429114104181034,
+  "cutoff_history": [
+    {
+      "levels": 64,
+      "fidelity": 0.993032709062594
+    },
+    {
+      "levels": 96,
+      "fidelity": 0.9930327121483004,
+      "output_change": 0.008123652055911522,
+      "target_change": 0.0
+    },
+    {
+      "levels": 128,
+      "fidelity": 0.9930327121341236,
+      "output_change": 0.0025027021990492305,
+      "target_change": 0.0
+    },
+    {
+      "levels": 160,
+      "fidelity": 0.9930327121342334,
+      "output_change": 0.0009340617427261517,
+      "target_change": 0.0
+    },
+    {
+      "levels": 192,
+      "fidelity": 0.9930327121342334,
+      "output_change": 4.4362914638868414e-05,
+      "target_change": 0.0
+    },
+    {
+      "levels": 224,
+      "fidelity": 0.9930327121342334,
+      "output_change": 1.2946116670651946e-07,
+      "target_change": 0.0
+    },
+    {
+      "levels": 256,
+      "fidelity": 0.9930327121342334,
+      "output_change": 5.806424902398758e-12,
+      "target_change": 0.0
+    }
+  ],
+  "compiled": {
+    "arbitrary_commands": 2,
+    "triggers": 1,
+    "int16_values_compared": 24608
+  },
+  "pump_phase_constant": true,
+  "pump_transition_ns": 0,
+  "word_sha256": "c6a64bcdc95c3be5fc0e20e6287c0afedc5a7331c95de03aa255f5b85919db99",
+  "source_record": "rotation_compression_10.json",
+  "g_rad_per_us": 5.511566058929464,
+  "equivalent_swap_ns": 284.99999999999983,
+  "qubit_pi_DAC_scale": 0.43779166666666675,
+  "pump_plateau_DAC_scale": 0.0947368421052632,
+  "programmed_NCO_changes": false
+}

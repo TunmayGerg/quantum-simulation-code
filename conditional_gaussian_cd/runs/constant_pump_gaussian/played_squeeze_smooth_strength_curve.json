@@ -1,0 +1,229 @@
+{
+  "name": "played_squeeze_smooth",
+  "gate": "squeeze",
+  "nominal_swap_ns": 300.51810626258685,
+  "fixed_sequence": true,
+  "fixed_final_frame": true,
+  "results": [
+    {
+      "swap_ns": 100.0,
+      "fidelity": 0.003175147773096359,
+      "levels": 320,
+      "output_change": 1.3735215600526177e-69,
+      "target_change": 1.8958399991252324e-12,
+      "columns": 18,
+      "amplitudes": 11520,
+      "command_us": 3.85
+    },
+    {
+      "swap_ns": 125.0,
+      "fidelity": 0.0007210088975542094,
+      "levels": 320,
+      "output_change": 3.870303208596161e-73,
+      "target_change": 1.8958399991252324e-12,
+      "columns": 18,
+      "amplitudes": 11520,
+      "command_us": 3.85
+    },
+    {
+      "swap_ns": 150.0,
+      "fidelity": 0.00035920098595592953,
+      "levels": 320,
+      "output_change": 7.329084366234367e-75,
+      "target_change": 1.8958399991252324e-12,
+      "columns": 18,
+      "amplitudes": 11520,
+      "command_us": 3.85
+    },
+    {
+      "swap_ns": 175.0,
+      "fidelity": 0.0025816957668666047,
+      "levels": 320,
+      "output_change": 4.33525016418678e-78,
+      "target_change": 1.8958399991252324e-12,
+      "columns": 18,
+      "amplitudes": 11520,
+      "command_us": 3.85
+    },
+    {
+      "swap_ns": 200.0,
+      "fidelity": 0.006676766085544229,
+      "levels": 320,
+      "output_change": 1.0188541490354881e-82,
+      "target_change": 1.8958399991252324e-12,
+      "columns": 18,
+      "amplitudes": 11520,
+      "command_us": 3.85
+    },
+    {
+      "swap_ns": 225.0,
+      "fidelity": 0.012241908074200997,
+      "levels": 320,
+      "output_change": 2.1852426253646632e-88,
+      "target_change": 1.8958399991252324e-12,
+      "columns": 18,
+      "amplitudes": 11520,
+      "command_us": 3.85
+    },
+    {
+      "swap_ns": 250.0,
+      "fidelity": 0.13160304381254112,
+      "levels": 320,
+      "output_change": 9.209455649289628e-95,
+      "target_change": 1.8958399991252324e-12,
+      "columns": 18,
+      "amplitudes": 11520,
+      "command_us": 3.85
+    },
+    {
+      "swap_ns": 275.0,
+      "fidelity": 0.6655392259575947,
+      "levels": 320,
+      "output_change": 2.6258783887452334e-101,
+      "target_change": 1.8958399991252324e-12,
+      "columns": 18,
+      "amplitudes": 11520,
+      "command_us": 3.85
+    },
+    {
+      "swap_ns": 288.4973820120834,
+      "fidelity": 0.9183326130372866,
+      "levels": 320,
+      "output_change": 7.32222513503961e-105,
+      "target_change": 1.8958399991252324e-12,
+      "columns": 18,
+      "amplitudes": 11520,
+      "command_us": 3.85
+    },
+    {
+      "swap_ns": 291.50256307470926,
+      "fidelity": 0.9511669889142752,
+      "levels": 320,
+      "output_change": 1.1768762886782744e-105,
+      "target_change": 1.8958399991252324e-12,
+      "columns": 18,
+      "amplitudes": 11520,
+      "command_us": 3.85
+    },
+    {
+      "swap_ns": 294.5077441373351,
+      "fidelity": 0.9742684453168019,
+      "levels": 320,
+      "output_change": 1.912126169505044e-106,
+      "target_change": 1.8958399991252324e-12,
+      "columns": 18,
+      "amplitudes": 11520,
+      "command_us": 3.85
+    },
+    {
+      "swap_ns": 297.512925199961,
+      "fidelity": 0.9877977167291428,
+      "levels": 320,
+      "output_change": 3.111201421925828e-107,
+      "target_change": 1.8958399991252324e-12,
+      "columns": 18,
+      "amplitudes": 11520,
+      "command_us": 3.85
+    },
+    {
+      "swap_ns": 300.0,
+      "fidelity": 0.99204116437615,
+      "levels": 320,
+      "output_change": 6.935495600143116e-108,
+      "target_change": 1.8958399991252324e-12,
+      "columns": 18,
+      "amplitudes": 11520,
+      "command_us": 3.85
+    },
+    {
+      "swap_ns": 300.51810626258685,
+      "fidelity": 0.9921709946443726,
+      "levels": 320,
+      "output_change": 5.048572640546116e-108,
+      "target_change": 1.8958399991252324e-12,
+      "columns": 18,
+      "amplitudes": 11520,
+      "command_us": 3.85
+    },
+    {
+      "swap_ns": 303.5232873252127,
+      "fidelity": 0.9879833487281512,
+      "levels": 320,
+      "output_change": 8.282104486771063e-109,
+      "target_change": 1.8958399991252324e-12,
+      "columns": 18,
+      "amplitudes": 11520,
+      "command_us": 3.85
+    },
+    {
+      "swap_ns": 306.5284683878386,
+      "fidelity": 0.976046306197804,
+      "levels": 320,
+      "output_change": 1.36244949271951e-109,
+      "target_change": 1.8958399991252324e-12,
+      "columns": 18,
+      "amplitudes": 11520,
+      "command_us": 3.85
+    },
+    {
+      "swap_ns": 309.53364945046445,
+      "fidelity": 0.9572730081946913,
+      "levels": 320,
+      "output_change": 2.2409806959765946e-110,
+      "target_change": 1.8958399991252324e-12,
+      "columns": 18,
+      "amplitudes": 11520,
+      "command_us": 3.85
+    },
+    {
+      "swap_ns": 312.5388305130903,
+      "fidelity": 0.9325056491364123,
+      "levels": 320,
+      "output_change": 3.719748167451947e-111,
+      "target_change": 1.8958399991252324e-12,
+      "columns": 18,
+      "amplitudes": 11520,
+      "command_us": 3.85
+    },
+    {
+      "swap_ns": 350.0,
+      "fidelity": 0.45914255942310306,
+      "levels": 320,
+      "output_change": 1.0349997426013727e-120,
+      "target_change": 1.8958399991252324e-12,
+      "columns": 18,
+      "amplitudes": 11520,
+      "command_us": 3.85
+    },
+    {
+      "swap_ns": 400.0,
+      "fidelity": 0.11739719439032054,
+      "levels": 320,
+      "output_change": 9.390735044745258e-133,
+      "target_change": 1.8958399991252324e-12,
+      "columns": 18,
+      "amplitudes": 11520,
+      "command_us": 3.85
+    },
+    {
+      "swap_ns": 500.0,
+      "fidelity": 0.017265472105297414,
+      "levels": 320,
+      "output_change": 3.801327583774458e-154,
+      "target_change": 1.8958399991252324e-12,
+      "columns": 18,
+      "amplitudes": 11520,
+      "command_us": 3.85
+    },
+    {
+      "swap_ns": 600.0,
+      "fidelity": 0.011218917054983962,
+      "levels": 320,
+      "output_change": 0.0,
+      "target_change": 1.8958399991252324e-12,
+      "columns": 18,
+      "amplitudes": 11520,
+      "command_us": 3.85
+    }
+  ]
+}

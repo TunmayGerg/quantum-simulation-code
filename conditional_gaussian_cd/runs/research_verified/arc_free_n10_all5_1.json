@@ -1,0 +1,35 @@
+{
+  "name": "arc_free_n10_all5_1",
+  "gate": "cd",
+  "strength": 1.0,
+  "fidelity": 0.9850030556148859,
+  "worst_basis_fidelity": 0.9542296577400051,
+  "accepted": false,
+  "sideband_mode": "phase_arc",
+  "command_us": 0.355,
+  "columns": 18,
+  "levels": 96,
+  "complex_amplitudes": 3456,
+  "independent_max_difference": 8.045527044939628e-16,
+  "peak_g": 5.91895429039456,
+  "peak_swap_ns": 265.38409484662304,
+  "qubit_frame_Rz": 0.0,
+  "cutoff_history": [
+    {
+      "levels": 64
+    },
+    {
+      "levels": 96,
+      "output_change": 7.419585752941448e-77,
+      "target_change": 7.74340002005588e-16
+    }
+  ],
+  "recipe_file": "runs/phase_arc_cd/arc_free_n10_all5_1_recipe.json",
+  "controls_file": "runs/phase_arc_cd/arc_free_n10_all5_1_controls.npz",
+  "word_sha256": "9a6289d1abde2264589fff3ac1ea46dda0c115e4b3411dd4bac4cf1c17e17ecb",
+  "compiled": {
+    "arbitrary_commands": 2,
+    "triggers": 1,
+    "int16_values_compared": 1136
+  }
+}

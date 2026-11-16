@@ -1,0 +1,102 @@
+{
+  "name": "arc_sym_n10_rotary0",
+  "gate": "cd",
+  "strength": 1.0,
+  "sideband_mode": "phase_arc",
+  "controls_file": "runs/phase_arc_cd/arc_sym_n10_rotary0_controls.npz",
+  "qubit_frame_Rz": 0.0,
+  "magnus_justification": "Mirrored qubit inverse and even pump phase cancel second order; phase geometry targets principal cubic errors.",
+  "symmetric": true,
+  "phase_arcs": [],
+  "pump_phases": [
+    -1.5707963267948966,
+    -1.5707963267948966,
+    -1.5707963267948966,
+    -1.5707963267948966,
+    -1.5707963267948966,
+    -1.5707963267948966,
+    -1.5707963267948966,
+    -1.5707963267948966,
+    -1.5707963267948966,
+    -1.5707963267948966
+  ],
+  "g_nominal": 6.580317401789389,
+  "pulses": [
+    {
+      "start_sample": 4,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": -4.39271463722881e-19,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 28,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 5.546633409229446e-19,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 52,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.141592653589793,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 76,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.141592653589793,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 100,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 1.2399463012031756e-18,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 124,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.141592653589793,
+      "reversed_envelope": true
+    },
+    {
+      "start_sample": 148,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 6.283185307179586,
+      "reversed_envelope": true
+    },
+    {
+      "start_sample": 172,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 6.283185307179586,
+      "reversed_envelope": true
+    },
+    {
+      "start_sample": 196,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.141592653589793,
+      "reversed_envelope": true
+    },
+    {
+      "start_sample": 220,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.141592653589793,
+      "reversed_envelope": true
+    }
+  ],
+  "research_fit": {
+    "initial_fidelity": 0.9130538832304278,
+    "evaluations": 23,
+    "final_fidelity": 0.9131522381934218,
+    "seed_reason": "Mirrored finite-pulse rotary path; fixed pump phase initially."
+  }
+}

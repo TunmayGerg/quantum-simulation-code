@@ -1,0 +1,198 @@
+{
+  "gates_compared": 8,
+  "native_amplitudes_compared": 2048,
+  "results": [
+    {
+      "N": 1,
+      "psi": 0.0,
+      "qubit_closure_error": 8.881784197001252e-16,
+      "native_closure_error": 1.2213085154064631e-15,
+      "first_coefficients": [
+        [
+          0.15499999999999944,
+          -3.196293131631252e-34,
+          1.0184594632516244e-32
+        ],
+        [
+          -7.347880794884112e-18,
+          1.3552527156068805e-18,
+          -2.7974321874257337e-18
+        ]
+      ],
+      "unwanted_first_force_norm": 3.1084299519862675e-18,
+      "first_native_max_error": 1.2351679623508494e-15,
+      "useful_first_force": 0.15499999999999944,
+      "beta1_leading_swap_ns": 243.47343065320808,
+      "second_unwanted_norm": 0.006215385961443115,
+      "native_amplitudes_compared": 256
+    },
+    {
+      "N": 1,
+      "psi": 0.7853981633974483,
+      "qubit_closure_error": 2.2223864096693313e-15,
+      "native_closure_error": 1.1145314042856432e-15,
+      "first_coefficients": [
+        [
+          0.12499999999999997,
+          -3.849901169919551e-18,
+          -2.0584869995088544e-18
+        ],
+        [
+          0.02999999999999994,
+          -1.5720931501039814e-17,
+          -1.1785934065451555e-17
+        ]
+      ],
+      "unwanted_first_force_norm": 2.0127469706867086e-17,
+      "first_native_max_error": 8.671119018262734e-16,
+      "useful_first_force": 0.12854960132182439,
+      "beta1_leading_swap_ns": 201.92524156727012,
+      "second_unwanted_norm": 0.025439792755108593,
+      "native_amplitudes_compared": 256
+    },
+    {
+      "N": 2,
+      "psi": 0.0,
+      "qubit_closure_error": 1.4432899320127035e-15,
+      "native_closure_error": 1.7763568765653936e-15,
+      "first_coefficients": [
+        [
+          0.15499999999999944,
+          9.491012693391963e-18,
+          -9.49101269339197e-18
+        ],
+        [
+          -7.040100729744717e-18,
+          5.204170427930421e-18,
+          -1.9737879374274927e-17
+        ]
+      ],
+      "unwanted_first_force_norm": 2.443002079263601e-17,
+      "first_native_max_error": 1.8107949047392735e-15,
+      "useful_first_force": 0.15499999999999944,
+      "beta1_leading_swap_ns": 243.47343065320808,
+      "second_unwanted_norm": 0.02499379848808444,
+      "native_amplitudes_compared": 256
+    },
+    {
+      "N": 2,
+      "psi": 0.7853981633974483,
+      "qubit_closure_error": 1.509796319330559e-15,
+      "native_closure_error": 1.7763860750312377e-15,
+      "first_coefficients": [
+        [
+          0.12499999999999999,
+          3.031165870892959e-17,
+          -2.1846472072151335e-17
+        ],
+        [
+          0.029999999999999957,
+          4.206704429243757e-17,
+          -2.3314264235819396e-17
+        ]
+      ],
+      "unwanted_first_force_norm": 6.090366268169285e-17,
+      "first_native_max_error": 6.597030518073369e-16,
+      "useful_first_force": 0.12854960132182439,
+      "beta1_leading_swap_ns": 201.92524156727012,
+      "second_unwanted_norm": 0.04513841965001712,
+      "native_amplitudes_compared": 256
+    },
+    {
+      "N": 3,
+      "psi": 0.0,
+      "qubit_closure_error": 1.2949344544387388e-15,
+      "native_closure_error": 9.99294257062887e-16,
+      "first_coefficients": [
+        [
+          0.1550000000000008,
+          1.4236519040087996e-17,
+          -8.219458100118068e-18
+        ],
+        [
+          -5.816284676352337e-18,
+          4.174178364069192e-18,
+          5.1837251701660706e-17
+        ]
+      ],
+      "unwanted_first_force_norm": 5.4541382406708155e-17,
+      "first_native_max_error": 2.665661370400803e-15,
+      "useful_first_force": 0.1550000000000008,
+      "beta1_leading_swap_ns": 243.47343065321022,
+      "second_unwanted_norm": 0.030137862600508127,
+      "native_amplitudes_compared": 256
+    },
+    {
+      "N": 3,
+      "psi": 0.7853981633974483,
+      "qubit_closure_error": 1.777424680771626e-15,
+      "native_closure_error": 1.0016676249980428e-15,
+      "first_coefficients": [
+        [
+          0.12500000000000014,
+          -2.656654800264275e-17,
+          -2.38190583566243e-17
+        ],
+        [
+          0.03000000000000004,
+          -5.979374981257557e-17,
+          4.4764314833850485e-17
+        ]
+      ],
+      "unwanted_first_force_norm": 8.277841151511644e-17,
+      "first_native_max_error": 1.055077015130091e-15,
+      "useful_first_force": 0.12854960132182455,
+      "beta1_leading_swap_ns": 201.92524156727038,
+      "second_unwanted_norm": 0.045988912509460265,
+      "native_amplitudes_compared": 256
+    },
+    {
+      "N": 4,
+      "psi": 0.0,
+      "qubit_closure_error": 1.3322676295501878e-15,
+      "native_closure_error": 1.3322690407638292e-15,
+      "first_coefficients": [
+        [
+          0.1550000000000008,
+          1.6202172129217092e-17,
+          -6.711159435825063e-18
+        ],
+        [
+          -5.100198244001612e-18,
+          -1.452830911130576e-17,
+          2.6888425635877324e-17
+        ]
+      ],
+      "unwanted_first_force_norm": 3.5236476008358124e-17,
+      "first_native_max_error": 2.8315252281819097e-15,
+      "useful_first_force": 0.1550000000000008,
+      "beta1_leading_swap_ns": 243.47343065321022,
+      "second_unwanted_norm": 0.03223615685834414,
+      "native_amplitudes_compared": 256
+    },
+    {
+      "N": 4,
+      "psi": 0.7853981633974483,
+      "qubit_closure_error": 1.554347951160297e-15,
+      "native_closure_error": 1.333042838688942e-15,
+      "first_coefficients": [
+        [
+          0.12500000000000014,
+          -4.1499067553148386e-17,
+          8.775669424145955e-18
+        ],
+        [
+          0.030000000000000047,
+          -2.0111950299606107e-17,
+          7.272624885125423e-17
+        ]
+      ],
+      "unwanted_first_force_norm": 8.656086181670701e-17,
+      "first_native_max_error": 1.0087920413118926e-15,
+      "useful_first_force": 0.12854960132182455,
+      "beta1_leading_swap_ns": 201.92524156727038,
+      "second_unwanted_norm": 0.04582648005448382,
+      "native_amplitudes_compared": 256
+    }
+  ]
+}

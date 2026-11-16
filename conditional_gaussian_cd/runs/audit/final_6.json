@@ -1,0 +1,69 @@
+{
+  "fidelity": 0.9992862573064768,
+  "worst_input_fidelity": 0.9993846044060398,
+  "levels": 256,
+  "cutoff_history": [
+    {
+      "levels": 64,
+      "fidelity": 0.999286257306346,
+      "columns": 18
+    },
+    {
+      "levels": 96,
+      "fidelity": 0.9992862573064766,
+      "columns": 18,
+      "output_column_change": 4.867952162927895e-05,
+      "target_column_change": 0.0
+    },
+    {
+      "levels": 128,
+      "fidelity": 0.9992862573064768,
+      "columns": 18,
+      "output_column_change": 3.834683383194407e-06,
+      "target_column_change": 0.0
+    },
+    {
+      "levels": 160,
+      "fidelity": 0.9992862573064768,
+      "columns": 18,
+      "output_column_change": 4.954928249432965e-07,
+      "target_column_change": 0.0
+    },
+    {
+      "levels": 192,
+      "fidelity": 0.9992862573064768,
+      "columns": 18,
+      "output_column_change": 1.88179562912159e-07,
+      "target_column_change": 0.0
+    },
+    {
+      "levels": 224,
+      "fidelity": 0.9992862573064768,
+      "columns": 18,
+      "output_column_change": 1.4367582134799385e-08,
+      "target_column_change": 0.0
+    },
+    {
+      "levels": 256,
+      "fidelity": 0.9992862573064768,
+      "columns": 18,
+      "output_column_change": 7.449838073240711e-11,
+      "target_column_change": 0.0
+    }
+  ],
+  "command_time_us": 12.81,
+  "simulated_time_us": 12.854218750000001,
+  "columns": 18,
+  "complex_amplitudes": 9216,
+  "RFDC_samples": 82267,
+  "group": "final",
+  "index": 6,
+  "independent_max_difference": 6.798753113497235e-15,
+  "compiled": {
+    "arbitrary_commands": 2,
+    "triggers": 1,
+    "int16_values_compared": 40992
+  },
+  "qubit_DAC_phase_sign": -1,
+  "word_sha256": "fab927fac9f5c2b080ee225fc0df6ccac6ba2e63d49afd503ea0ca74801755bd"
+}

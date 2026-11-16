@@ -1,0 +1,687 @@
+{
+  "gates": 16,
+  "columns": 320,
+  "independent_amplitudes": 90240,
+  "int16_values": 223232,
+  "arbitrary_commands": 32,
+  "triggers": 16,
+  "fundamentals": {
+    "independent_target_amplitudes": 1728,
+    "cell_vs_direct_amplitudes": 576,
+    "cell_vs_direct_max_difference": 1.2165050633956079e-14,
+    "gradient_directions": 12,
+    "gradient_max_difference": 2.9250379895984224e-11
+  },
+  "results": [
+    {
+      "fidelity": 0.9995488184824812,
+      "worst_input_fidelity": 0.9980954792263447,
+      "levels": 256,
+      "cutoff_history": [
+        {
+          "levels": 128,
+          "fidelity": 0.9995488184814776,
+          "columns": 18
+        },
+        {
+          "levels": 160,
+          "fidelity": 0.9995488184824817,
+          "columns": 18,
+          "output_column_change": 6.6312816836131215e-09,
+          "target_column_change": 9.434355667122615e-05
+        },
+        {
+          "levels": 192,
+          "fidelity": 0.9995488184824817,
+          "columns": 18,
+          "output_column_change": 4.230880308321171e-18,
+          "target_column_change": 1.3834121761600571e-06
+        },
+        {
+          "levels": 224,
+          "fidelity": 0.9995488184824812,
+          "columns": 18,
+          "output_column_change": 2.759660033475175e-33,
+          "target_column_change": 1.707654535259484e-08
+        },
+        {
+          "levels": 256,
+          "fidelity": 0.9995488184824812,
+          "columns": 18,
+          "output_column_change": 3.6003150550541976e-54,
+          "target_column_change": 1.8763683261109632e-10
+        }
+      ],
+      "command_time_us": 4.8100000000000005,
+      "simulated_time_us": 4.85421875,
+      "columns": 18,
+      "complex_amplitudes": 9216,
+      "RFDC_samples": 31067,
+      "group": "final",
+      "index": 3,
+      "independent_max_difference": 1.1611273459543844e-14,
+      "compiled": {
+        "arbitrary_commands": 2,
+        "triggers": 1,
+        "int16_values_compared": 15392
+      },
+      "qubit_DAC_phase_sign": -1,
+      "word_sha256": "5bcef1cb925202fc000dd1893597eb8f8b4a5397a4e26c6b6cfc397ffd004f7d"
+    },
+    {
+      "fidelity": 0.9968800671882325,
+      "worst_input_fidelity": 0.9856127076242335,
+      "levels": 256,
+      "cutoff_history": [
+        {
+          "levels": 128,
+          "fidelity": 0.9968800671880528,
+          "columns": 18
+        },
+        {
+          "levels": 160,
+          "fidelity": 0.9968800671882334,
+          "columns": 18,
+          "output_column_change": 1.1920838473393878e-11,
+          "target_column_change": 9.434355667122615e-05
+        },
+        {
+          "levels": 192,
+          "fidelity": 0.996880067188233,
+          "columns": 18,
+          "output_column_change": 7.359553049915938e-30,
+          "target_column_change": 1.3834121761600571e-06
+        },
+        {
+          "levels": 224,
+          "fidelity": 0.996880067188233,
+          "columns": 18,
+          "output_column_change": 5.579800064556173e-60,
+          "target_column_change": 1.707654535259484e-08
+        },
+        {
+          "levels": 256,
+          "fidelity": 0.9968800671882325,
+          "columns": 18,
+          "output_column_change": 5.351106122978965e-92,
+          "target_column_change": 1.8763683261109632e-10
+        }
+      ],
+      "command_time_us": 6.73,
+      "simulated_time_us": 6.77421875,
+      "columns": 18,
+      "complex_amplitudes": 9216,
+      "RFDC_samples": 43355,
+      "group": "final",
+      "index": 1,
+      "independent_max_difference": 6.0785700729133435e-15,
+      "compiled": {
+        "arbitrary_commands": 2,
+        "triggers": 1,
+        "int16_values_compared": 21536
+      },
+      "qubit_DAC_phase_sign": -1,
+      "word_sha256": "f384bb21db44d5cb24be48cdefa95d41f6d3ffa74072ba8f384466b978a46fac"
+    },
+    {
+      "fidelity": 0.9996815610497007,
+      "worst_input_fidelity": 0.9998666430970459,
+      "levels": 96,
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.999681561049701,
+          "columns": 18
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.9996815610497007,
+          "columns": 18,
+          "output_column_change": 1.2150211268572773e-14,
+          "target_column_change": 0.0
+        }
+      ],
+      "command_time_us": 8.81,
+      "simulated_time_us": 8.85421875,
+      "columns": 18,
+      "complex_amplitudes": 3456,
+      "RFDC_samples": 56667,
+      "group": "final",
+      "index": 4,
+      "independent_max_difference": 9.360174372633698e-15,
+      "compiled": {
+        "arbitrary_commands": 2,
+        "triggers": 1,
+        "int16_values_compared": 28192
+      },
+      "qubit_DAC_phase_sign": -1,
+      "word_sha256": "7717a94b18b8e002916f3cc5e3f45154ae5769b76bce19c880cd517125450965"
+    },
+    {
+      "fidelity": 0.9993040026384101,
+      "worst_input_fidelity": 0.9968574413787281,
+      "levels": 256,
+      "cutoff_history": [
+        {
+          "levels": 128,
+          "fidelity": 0.9993040026399429,
+          "columns": 18
+        },
+        {
+          "levels": 160,
+          "fidelity": 0.9993040026384106,
+          "columns": 18,
+          "output_column_change": 2.757261971262667e-08,
+          "target_column_change": 9.434355667122615e-05
+        },
+        {
+          "levels": 192,
+          "fidelity": 0.9993040026384106,
+          "columns": 18,
+          "output_column_change": 4.317916063004242e-16,
+          "target_column_change": 1.3834121761600571e-06
+        },
+        {
+          "levels": 224,
+          "fidelity": 0.9993040026384101,
+          "columns": 18,
+          "output_column_change": 1.5767154328424544e-35,
+          "target_column_change": 1.707654535259484e-08
+        },
+        {
+          "levels": 256,
+          "fidelity": 0.9993040026384101,
+          "columns": 18,
+          "output_column_change": 3.2760556633388424e-65,
+          "target_column_change": 1.8763683261109632e-10
+        }
+      ],
+      "command_time_us": 7.61,
+      "simulated_time_us": 7.65421875,
+      "columns": 18,
+      "complex_amplitudes": 9216,
+      "RFDC_samples": 48987,
+      "group": "final",
+      "index": 0,
+      "independent_max_difference": 7.740699757211915e-15,
+      "compiled": {
+        "arbitrary_commands": 2,
+        "triggers": 1,
+        "int16_values_compared": 24352
+      },
+      "qubit_DAC_phase_sign": -1,
+      "word_sha256": "d02f60f3ab491ffd54f11e6288df49eed1c8e471c0ef4f936ae1907a28ab3148"
+    },
+    {
+      "fidelity": 0.9944384104156853,
+      "worst_input_fidelity": 0.9775204046100686,
+      "levels": 256,
+      "cutoff_history": [
+        {
+          "levels": 128,
+          "fidelity": 0.9944384104312061,
+          "columns": 18
+        },
+        {
+          "levels": 160,
+          "fidelity": 0.9944384104156848,
+          "columns": 18,
+          "output_column_change": 2.49672138575222e-06,
+          "target_column_change": 9.434355667122615e-05
+        },
+        {
+          "levels": 192,
+          "fidelity": 0.9944384104156857,
+          "columns": 18,
+          "output_column_change": 1.6753575862476735e-11,
+          "target_column_change": 1.3834121761600571e-06
+        },
+        {
+          "levels": 224,
+          "fidelity": 0.9944384104156853,
+          "columns": 18,
+          "output_column_change": 2.928686906284322e-28,
+          "target_column_change": 1.707654535259484e-08
+        },
+        {
+          "levels": 256,
+          "fidelity": 0.9944384104156853,
+          "columns": 18,
+          "output_column_change": 5.291052608459671e-57,
+          "target_column_change": 1.8763683261109632e-10
+        }
+      ],
+      "command_time_us": 7.61,
+      "simulated_time_us": 7.65421875,
+      "columns": 18,
+      "complex_amplitudes": 9216,
+      "RFDC_samples": 48987,
+      "group": "final",
+      "index": 2,
+      "independent_max_difference": 1.1195500192315882e-15,
+      "compiled": {
+        "arbitrary_commands": 2,
+        "triggers": 1,
+        "int16_values_compared": 24352
+      },
+      "qubit_DAC_phase_sign": -1,
+      "word_sha256": "dae80a462c2f511e2719c62a422419426fc9b9e158a0e8ec30dfae25d8f4f4ae"
+    },
+    {
+      "fidelity": 0.9993256710424002,
+      "worst_input_fidelity": 0.9978236899929653,
+      "levels": 96,
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.9993256710424004,
+          "columns": 22
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.9993256710424002,
+          "columns": 22,
+          "output_column_change": 1.892337467774906e-40,
+          "target_column_change": 8.791502922121676e-16
+        }
+      ],
+      "command_time_us": 0.73,
+      "simulated_time_us": 0.7742187500000001,
+      "columns": 22,
+      "complex_amplitudes": 4224,
+      "RFDC_samples": 4955,
+      "group": "cd_final",
+      "index": 0,
+      "independent_max_difference": 1.3345526589318008e-15,
+      "compiled": {
+        "arbitrary_commands": 2,
+        "triggers": 1,
+        "int16_values_compared": 2336
+      },
+      "qubit_DAC_phase_sign": -1,
+      "word_sha256": "6c370fd7c309ddeb9d041d479d236ade6be2195356c776560360ed0120bd9ab8"
+    },
+    {
+      "fidelity": 0.9965620473468699,
+      "worst_input_fidelity": 0.9877449689100279,
+      "levels": 96,
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.9965620473468704,
+          "columns": 22
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.9965620473468699,
+          "columns": 22,
+          "output_column_change": 4.799528992897155e-56,
+          "target_column_change": 8.791502922121676e-16
+        }
+      ],
+      "command_time_us": 0.49,
+      "simulated_time_us": 0.53421875,
+      "columns": 22,
+      "complex_amplitudes": 4224,
+      "RFDC_samples": 3419,
+      "group": "cd_final",
+      "index": 1,
+      "independent_max_difference": 1.1046797549572284e-15,
+      "compiled": {
+        "arbitrary_commands": 2,
+        "triggers": 1,
+        "int16_values_compared": 1568
+      },
+      "qubit_DAC_phase_sign": -1,
+      "word_sha256": "17cacde7bc893e2db7abf78c7ff09a616c7c22aca55c55316e237aa588917e5e"
+    },
+    {
+      "fidelity": 0.9993323929374771,
+      "worst_input_fidelity": 0.9972994054791345,
+      "levels": 96,
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.9993323929374771,
+          "columns": 22
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.9993323929374771,
+          "columns": 22,
+          "output_column_change": 2.699324682138211e-16,
+          "target_column_change": 1.9477112038517278e-15
+        }
+      ],
+      "command_time_us": 1.45,
+      "simulated_time_us": 1.49421875,
+      "columns": 22,
+      "complex_amplitudes": 4224,
+      "RFDC_samples": 9563,
+      "group": "cd_final",
+      "index": 2,
+      "independent_max_difference": 1.3494152894624619e-15,
+      "compiled": {
+        "arbitrary_commands": 2,
+        "triggers": 1,
+        "int16_values_compared": 4640
+      },
+      "qubit_DAC_phase_sign": -1,
+      "word_sha256": "f46a33bede032b6f30513ae84b5cf56f375afba38bd8e677073dc08344dc8ca1"
+    },
+    {
+      "fidelity": 0.9998244992381216,
+      "worst_input_fidelity": 0.9998727327145022,
+      "levels": 96,
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.9998244992381216,
+          "columns": 18
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.9998244992381216,
+          "columns": 18,
+          "output_column_change": 3.4097919730345636e-12,
+          "target_column_change": 0.0
+        }
+      ],
+      "command_time_us": 4.8100000000000005,
+      "simulated_time_us": 4.85421875,
+      "columns": 18,
+      "complex_amplitudes": 3456,
+      "RFDC_samples": 31067,
+      "group": "final",
+      "index": 7,
+      "independent_max_difference": 6.786905133705689e-15,
+      "compiled": {
+        "arbitrary_commands": 2,
+        "triggers": 1,
+        "int16_values_compared": 15392
+      },
+      "qubit_DAC_phase_sign": -1,
+      "word_sha256": "1aca34bb6c9f9d2c502c000c821dd522c3090ea735fb0615e3e512e8670d1c37"
+    },
+    {
+      "fidelity": 0.9932877255133397,
+      "worst_input_fidelity": 0.9777840322142595,
+      "levels": 96,
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.9932877255133399,
+          "columns": 22
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.9932877255133397,
+          "columns": 22,
+          "output_column_change": 7.901861978315365e-25,
+          "target_column_change": 1.9477112038517278e-15
+        }
+      ],
+      "command_time_us": 0.97,
+      "simulated_time_us": 1.01421875,
+      "columns": 22,
+      "complex_amplitudes": 4224,
+      "RFDC_samples": 6491,
+      "group": "cd_final",
+      "index": 3,
+      "independent_max_difference": 1.2351231148954867e-15,
+      "compiled": {
+        "arbitrary_commands": 2,
+        "triggers": 1,
+        "int16_values_compared": 3104
+      },
+      "qubit_DAC_phase_sign": -1,
+      "word_sha256": "9eb2dabe3dcdb54e52a11a49a1f8768d551776175542252f976069b027db8afa"
+    },
+    {
+      "fidelity": 0.9959729862425999,
+      "worst_input_fidelity": 0.9976134123785075,
+      "levels": 96,
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.9959729862426003,
+          "columns": 18
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.9959729862425999,
+          "columns": 18,
+          "output_column_change": 1.7921383165728708e-12,
+          "target_column_change": 0.0
+        }
+      ],
+      "command_time_us": 7.61,
+      "simulated_time_us": 7.65421875,
+      "columns": 18,
+      "complex_amplitudes": 3456,
+      "RFDC_samples": 48987,
+      "group": "final",
+      "index": 5,
+      "independent_max_difference": 1.0431961803302743e-14,
+      "compiled": {
+        "arbitrary_commands": 2,
+        "triggers": 1,
+        "int16_values_compared": 24352
+      },
+      "qubit_DAC_phase_sign": -1,
+      "word_sha256": "2debd940404b5a957c81fd8d540645037966a2306a6e20b00c96ec42049af12c"
+    },
+    {
+      "fidelity": 0.9999617054633285,
+      "worst_input_fidelity": 0.9998694639434775,
+      "levels": 96,
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.9999617054633281,
+          "columns": 22
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.9999617054633285,
+          "columns": 22,
+          "output_column_change": 9.896228326088955e-42,
+          "target_column_change": 8.791502922121676e-16
+        }
+      ],
+      "command_time_us": 0.97,
+      "simulated_time_us": 1.01421875,
+      "columns": 22,
+      "complex_amplitudes": 4224,
+      "RFDC_samples": 6491,
+      "group": "cd_final",
+      "index": 4,
+      "independent_max_difference": 3.751651677682203e-15,
+      "compiled": {
+        "arbitrary_commands": 2,
+        "triggers": 1,
+        "int16_values_compared": 3104
+      },
+      "qubit_DAC_phase_sign": -1,
+      "word_sha256": "4bc141065cb1a2ba3d3afab7d6292dc7c2376cee2bee964aeea62e870c7a3eb8"
+    },
+    {
+      "fidelity": 0.9989017837521021,
+      "worst_input_fidelity": 0.9965196610514127,
+      "levels": 96,
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.9989017837521026,
+          "columns": 22
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.9989017837521021,
+          "columns": 22,
+          "output_column_change": 9.5523816089423e-66,
+          "target_column_change": 8.791502922121676e-16
+        }
+      ],
+      "command_time_us": 0.81,
+      "simulated_time_us": 0.85421875,
+      "columns": 22,
+      "complex_amplitudes": 4224,
+      "RFDC_samples": 5467,
+      "group": "cd_final",
+      "index": 5,
+      "independent_max_difference": 1.3340734093775518e-15,
+      "compiled": {
+        "arbitrary_commands": 2,
+        "triggers": 1,
+        "int16_values_compared": 2592
+      },
+      "qubit_DAC_phase_sign": -1,
+      "word_sha256": "c4259427e5534544af3e8a6316e52cb80e4c9ce400e18636ed2382c8231d907e"
+    },
+    {
+      "fidelity": 0.995082373171894,
+      "worst_input_fidelity": 0.9839272203466767,
+      "levels": 96,
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.9950823731718944,
+          "columns": 22
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.995082373171894,
+          "columns": 22,
+          "output_column_change": 3.255914262181265e-32,
+          "target_column_change": 1.9477112038517278e-15
+        }
+      ],
+      "command_time_us": 1.61,
+      "simulated_time_us": 1.65421875,
+      "columns": 22,
+      "complex_amplitudes": 4224,
+      "RFDC_samples": 10587,
+      "group": "cd_final",
+      "index": 7,
+      "independent_max_difference": 1.4684411169619839e-15,
+      "compiled": {
+        "arbitrary_commands": 2,
+        "triggers": 1,
+        "int16_values_compared": 5152
+      },
+      "qubit_DAC_phase_sign": -1,
+      "word_sha256": "a4c74c11906ba6d7b8f14cb09285201710a27aeeaa40cf4ae7495ce93f843cb1"
+    },
+    {
+      "fidelity": 0.9997022218270855,
+      "worst_input_fidelity": 0.9990487780324836,
+      "levels": 96,
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.9997022218270861,
+          "columns": 22
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.9997022218270855,
+          "columns": 22,
+          "output_column_change": 5.456135928214629e-19,
+          "target_column_change": 1.9477112038517278e-15
+        }
+      ],
+      "command_time_us": 1.93,
+      "simulated_time_us": 1.9742187500000001,
+      "columns": 22,
+      "complex_amplitudes": 4224,
+      "RFDC_samples": 12635,
+      "group": "cd_final",
+      "index": 6,
+      "independent_max_difference": 2.6808050882226297e-15,
+      "compiled": {
+        "arbitrary_commands": 2,
+        "triggers": 1,
+        "int16_values_compared": 6176
+      },
+      "qubit_DAC_phase_sign": -1,
+      "word_sha256": "99e0111154713e687ab36923090396b6b3bb03af6b47e64fb1f8f34493b45b3f"
+    },
+    {
+      "fidelity": 0.9992862573064768,
+      "worst_input_fidelity": 0.9993846044060398,
+      "levels": 256,
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.999286257306346,
+          "columns": 18
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.9992862573064766,
+          "columns": 18,
+          "output_column_change": 4.867952162927895e-05,
+          "target_column_change": 0.0
+        },
+        {
+          "levels": 128,
+          "fidelity": 0.9992862573064768,
+          "columns": 18,
+          "output_column_change": 3.834683383194407e-06,
+          "target_column_change": 0.0
+        },
+        {
+          "levels": 160,
+          "fidelity": 0.9992862573064768,
+          "columns": 18,
+          "output_column_change": 4.954928249432965e-07,
+          "target_column_change": 0.0
+        },
+        {
+          "levels": 192,
+          "fidelity": 0.9992862573064768,
+          "columns": 18,
+          "output_column_change": 1.88179562912159e-07,
+          "target_column_change": 0.0
+        },
+        {
+          "levels": 224,
+          "fidelity": 0.9992862573064768,
+          "columns": 18,
+          "output_column_change": 1.4367582134799385e-08,
+          "target_column_change": 0.0
+        },
+        {
+          "levels": 256,
+          "fidelity": 0.9992862573064768,
+          "columns": 18,
+          "output_column_change": 7.449838073240711e-11,
+          "target_column_change": 0.0
+        }
+      ],
+      "command_time_us": 12.81,
+      "simulated_time_us": 12.854218750000001,
+      "columns": 18,
+      "complex_amplitudes": 9216,
+      "RFDC_samples": 82267,
+      "group": "final",
+      "index": 6,
+      "independent_max_difference": 6.798753113497235e-15,
+      "compiled": {
+        "arbitrary_commands": 2,
+        "triggers": 1,
+        "int16_values_compared": 40992
+      },
+      "qubit_DAC_phase_sign": -1,
+      "word_sha256": "fab927fac9f5c2b080ee225fc0df6ccac6ba2e63d49afd503ea0ca74801755bd"
+    }
+  ],
+  "source_sha256": {
+    "cd_trains.py": "2760b3ccd09ee95535297559ef3eb19cd5a7335b4e153fb92e9471c8593d32d1",
+    "hardware_check.py": "80760066d53cdc21f6820720f9fbbd0cb3bc3a7b49811e0739a339135ca9e6cb",
+    "native_waveform_check.cpp": "6525b0ff085ef3dc37b0a00f76935d5b00d8a9593f445020fe20a726c593bec4",
+    "fast_waveform_replay.cpp": "6afcf28c1f9a8a39cc4594fe5f47624544fac5ec49b05b29bfc357f216a83ac2",
+    "audit_cd.py": "504e4e5cb8b2bc5878cb3143ede7066417086bd7523725dc4ecbd927d6579515"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "phase_only_r4",
+  "gate": "cd",
+  "fidelity": 0.993774990576139,
+  "ideal_device_fidelity": 0.9937732334648065,
+  "accepted": true,
+  "columns": 18,
+  "levels": 96,
+  "independent_amplitudes": 3456,
+  "independent_max_difference": 1.1111387977708232e-15,
+  "command_us": 0.26,
+  "RFDC_window_us": 0.30421875,
+  "qubit_frame_Rz": 0.0,
+  "cutoff_history": [
+    {
+      "levels": 64
+    },
+    {
+      "levels": 96,
+      "output_change": 3.849931087076416e-162,
+      "target_change": 7.74340002005588e-16
+    }
+  ],
+  "worst_basis_fidelity": 0.9757445893006438,
+  "word_sha256": "29f5e5d819f4eff7f0811641b32aa925dcd2a6ddcd6d9d3c90defb44619fdc51",
+  "source_record": "phase_only_r4.json",
+  "compiled": {
+    "arbitrary_commands": 2,
+    "triggers": 1,
+    "int16_values_compared": 832
+  },
+  "pump_peak_DAC_magnitude": 0.7734786255094573
+}

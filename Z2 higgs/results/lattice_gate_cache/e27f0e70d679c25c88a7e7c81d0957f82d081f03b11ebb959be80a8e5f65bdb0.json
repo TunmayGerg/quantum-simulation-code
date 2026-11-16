@@ -1,0 +1,78 @@
+{
+ "key": "e27f0e70d679c25c88a7e7c81d0957f82d081f03b11ebb959be80a8e5f65bdb0",
+ "result": {
+  "infidelity": 0.7184790426509906,
+  "basis_state_infidelity": 0.6530399184192881,
+  "number_lost": 0.4473952455508088,
+  "gauss_lost": 0.35089008102926855,
+  "inputs_compared": 1320,
+  "photon_cutoff": 23,
+  "propagation_dimension": 140400,
+  "norm_error": 9.9253938401489e-14,
+  "boundary_population": 8.16095189261459e-08,
+  "gauss_sector_infidelities": {
+   "0": 0.7274563963028982,
+   "3": 0.7146745134955786,
+   "5": 0.7157663504030131,
+   "6": 0.7064038773166152,
+   "9": 0.7264165383511145,
+   "10": 0.717774722684706,
+   "12": 0.7192528846573696,
+   "15": 0.7059813021858414
+  },
+  "cutoff_converged": true,
+  "cutoff_max_change": 2.0248272281087054e-08,
+  "cutoff_tolerance": 1e-07,
+  "cutoff_history": [
+   {
+    "photon_cutoff": 11,
+    "propagation_dimension": 10920,
+    "infidelity": 0.7170327233817975,
+    "gauss_lost": 0.35740392253077835,
+    "number_lost": 0.44596120315798404
+   },
+   {
+    "photon_cutoff": 13,
+    "propagation_dimension": 19040,
+    "infidelity": 0.7184878558447761,
+    "gauss_lost": 0.3519332159479198,
+    "number_lost": 0.4474106291806892
+   },
+   {
+    "photon_cutoff": 15,
+    "propagation_dimension": 31008,
+    "infidelity": 0.7184794675352444,
+    "gauss_lost": 0.3509915237574699,
+    "number_lost": 0.44739528615395585
+   },
+   {
+    "photon_cutoff": 17,
+    "propagation_dimension": 47880,
+    "infidelity": 0.7184790458682648,
+    "gauss_lost": 0.35089555896079627,
+    "number_lost": 0.4473952447838824
+   },
+   {
+    "photon_cutoff": 19,
+    "propagation_dimension": 70840,
+    "infidelity": 0.7184790426613841,
+    "gauss_lost": 0.3508904345185234,
+    "number_lost": 0.4473952455465674
+   },
+   {
+    "photon_cutoff": 21,
+    "propagation_dimension": 101200,
+    "infidelity": 0.7184790426510075,
+    "gauss_lost": 0.35089010127754083,
+    "number_lost": 0.4473952455508001
+   },
+   {
+    "photon_cutoff": 23,
+    "propagation_dimension": 140400,
+    "infidelity": 0.7184790426509906,
+    "gauss_lost": 0.35089008102926855,
+    "number_lost": 0.4473952455508088
+   }
+  ]
+ }
+}

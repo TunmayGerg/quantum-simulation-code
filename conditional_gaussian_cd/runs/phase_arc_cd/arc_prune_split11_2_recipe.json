@@ -1,0 +1,182 @@
+{
+  "name": "arc_prune_split11_2",
+  "gate": "cd",
+  "strength": 1.0,
+  "sideband_mode": "phase_arc",
+  "controls_file": "runs/phase_arc_cd/arc_prune_split11_2_controls.npz",
+  "qubit_frame_Rz": -0.42771444687102644,
+  "magnus_justification": "Refinement of mirrored/rotary first-force seeds with phase-only JC control to change cubic errors.",
+  "symmetric": false,
+  "phase_arcs": [
+    {
+      "center_sample": 28,
+      "start_phase_rad": -1.57294083495299,
+      "end_phase_rad": -1.7754599168055671,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 52,
+      "start_phase_rad": -1.7754599168055671,
+      "end_phase_rad": -2.8223286537211307,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 76,
+      "start_phase_rad": -2.8223286537211307,
+      "end_phase_rad": -0.3816882045379604,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 100,
+      "start_phase_rad": -0.3816882045379604,
+      "end_phase_rad": -1.9718724195490673,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 124,
+      "start_phase_rad": -1.9718724195490673,
+      "end_phase_rad": -0.4910263309981509,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 148,
+      "start_phase_rad": -0.4910263309981509,
+      "end_phase_rad": -0.21948309917936012,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 172,
+      "start_phase_rad": -0.21948309917936012,
+      "end_phase_rad": -1.8835767606211213,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 196,
+      "start_phase_rad": -1.8835767606211213,
+      "end_phase_rad": -1.2833093930263995,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 220,
+      "start_phase_rad": -1.2833093930263995,
+      "end_phase_rad": -1.1459853429470117,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 244,
+      "start_phase_rad": -1.1459853429470117,
+      "end_phase_rad": -1.0031859270602879,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    }
+  ],
+  "pump_phases": [
+    -1.57294083495299,
+    -1.7754599168055671,
+    -2.8223286537211307,
+    -0.3816882045379604,
+    -1.9718724195490673,
+    -0.4910263309981509,
+    -0.21948309917936012,
+    -1.8835767606211213,
+    -1.2833093930263995,
+    -1.1459853429470117,
+    -1.0031859270602879
+  ],
+  "g_nominal": 7.657632093125119,
+  "pulses": [
+    {
+      "start_sample": 4,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 0.00482906390497425,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 28,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": -0.15976676612330873,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 52,
+      "samples": 24,
+      "angle_fraction": 0.5,
+      "phase_rad": 3.4619141303157837,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 76,
+      "samples": 24,
+      "angle_fraction": 0.5,
+      "phase_rad": 3.4609796962896437,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 100,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.6716032896789614,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 124,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 0.15788709562569161,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 148,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.4705225560402613,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 172,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 6.643615819624215,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 196,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 6.616326905165588,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 220,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.5310602956506223,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 244,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.5508828677332107,
+      "reversed_envelope": false
+    }
+  ],
+  "research_fit": {
+    "initial_fidelity": 0.813783797436423,
+    "evaluations": 103,
+    "final_fidelity": 0.9685678460554493,
+    "seed_reason": "Delete an inverse pair from the high-fidelity12-pulse gate, split one remaining pi into two pi/2 envelopes; qubit-only closure is retained.",
+    "qubit_frame_Rz": -0.42771444687102644
+  }
+}

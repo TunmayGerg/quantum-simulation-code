@@ -1,0 +1,8 @@
+PHASE CERTIFICATE: arc_sym_n12_magnus4 18columns; 3456 amplitudes;F 0.9930522391712645 arcs 10 peak_swap_ns 266.4896324745873
+PHASE CERTIFICATE: arc_lifted_n12 18columns; 3456 amplitudes;F 0.9935748649951442 arcs 11 peak_swap_ns 266.7848901255828
+PHASE CERTIFICATE: arc_free_n10_all5_1 18columns; 3456 amplitudes;F 0.9850030556148859 arcs 9 peak_swap_ns 265.38409484662304
+PHASE CERTIFICATE: central_arc_gap50_half3_word0 18columns; 3456 amplitudes;F 0.9764956454748386 arcs 2 peak_swap_ns 236.6837418212078
+COMPLETE-GATE MAGNUS:2waveforms;256first amplitudes;24cubiccoefficients;both second norms<1e-12
+FINITE ERROR DIAGNOSTIC:6propagators;1152columns;237568amplitudes;polynomial fits leave>60% norm residual
+PHASE NOTEBOOK:6executed cells;5figures;fresh18columns/4608amplitudes;11actualplayed qubit-zero centers
+COUNTED RESEARCH: 75 full-unitary fits; 92412 18-input-column evaluations; 14256 winding paths;3204XYmoment paths

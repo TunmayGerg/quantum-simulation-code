@@ -1,0 +1,76 @@
+{
+  "name": "rotation_lifted_n256_b128",
+  "gate": "rotation",
+  "strength": 1.5707963267948966,
+  "fidelity": 0.9905141703806688,
+  "worst_basis_fidelity": 0.9841339178409522,
+  "columns": 18,
+  "levels": 320,
+  "complex_amplitudes": 11520,
+  "independent_max_difference": 8.954389192832035e-15,
+  "command_us": 7.69,
+  "RFDC_window_us": 7.73421875,
+  "qubit_frame_Rz": -4.74419992135117,
+  "cutoff_history": [
+    {
+      "levels": 64,
+      "fidelity": 0.990514140432433
+    },
+    {
+      "levels": 96,
+      "fidelity": 0.9905141738894035,
+      "output_change": 0.01980871579993288,
+      "target_change": 0.0
+    },
+    {
+      "levels": 128,
+      "fidelity": 0.990514170379085,
+      "output_change": 0.009440642644733342,
+      "target_change": 0.0
+    },
+    {
+      "levels": 160,
+      "fidelity": 0.9905141703806688,
+      "output_change": 0.004017688883541639,
+      "target_change": 0.0
+    },
+    {
+      "levels": 192,
+      "fidelity": 0.9905141703806688,
+      "output_change": 0.0007807352819807059,
+      "target_change": 0.0
+    },
+    {
+      "levels": 224,
+      "fidelity": 0.9905141703806688,
+      "output_change": 1.6943171209031497e-05,
+      "target_change": 0.0
+    },
+    {
+      "levels": 256,
+      "fidelity": 0.9905141703806688,
+      "output_change": 1.1195806019279963e-09,
+      "target_change": 0.0
+    },
+    {
+      "levels": 320,
+      "fidelity": 0.9905141703806688,
+      "output_change": 1.0456400485798782e-15,
+      "target_change": 0.0
+    }
+  ],
+  "compiled": {
+    "arbitrary_commands": 2,
+    "triggers": 1,
+    "int16_values_compared": 24608
+  },
+  "pump_phase_constant": true,
+  "pump_transition_ns": 0,
+  "word_sha256": "28e57a3018386a7836a26791a5f5d2e50b0c0e70fd15306ea1cce26a32b8d557",
+  "source_record": "rotation_lifted_n256_b128.json",
+  "g_rad_per_us": 5.553603672697957,
+  "equivalent_swap_ns": 282.842712474619,
+  "qubit_pi_DAC_scale": 0.43779166666666675,
+  "pump_plateau_DAC_scale": 0.0954594154601839,
+  "programmed_NCO_changes": false
+}

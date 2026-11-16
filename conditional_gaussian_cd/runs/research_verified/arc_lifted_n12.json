@@ -1,0 +1,35 @@
+{
+  "name": "arc_lifted_n12",
+  "gate": "cd",
+  "strength": 1.0,
+  "fidelity": 0.9935748649951442,
+  "worst_basis_fidelity": 0.9809548969203411,
+  "accepted": true,
+  "sideband_mode": "phase_arc",
+  "command_us": 0.37,
+  "columns": 18,
+  "levels": 96,
+  "complex_amplitudes": 3456,
+  "independent_max_difference": 1.002958247892506e-15,
+  "peak_g": 5.887875906523343,
+  "peak_swap_ns": 266.7848901255828,
+  "qubit_frame_Rz": -0.07039512763572828,
+  "cutoff_history": [
+    {
+      "levels": 64
+    },
+    {
+      "levels": 96,
+      "output_change": 1.1831735877433737e-70,
+      "target_change": 7.74340002005588e-16
+    }
+  ],
+  "recipe_file": "runs/phase_arc_cd/arc_lifted_n12_recipe.json",
+  "controls_file": "runs/phase_arc_cd/arc_lifted_n12_controls.npz",
+  "word_sha256": "a30574af7b8b0ae5b4af6ed9c3c8aa041220b63d838256216407af974792991a",
+  "compiled": {
+    "arbitrary_commands": 2,
+    "triggers": 1,
+    "int16_values_compared": 1184
+  }
+}

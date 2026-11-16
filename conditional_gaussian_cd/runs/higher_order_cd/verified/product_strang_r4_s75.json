@@ -1,0 +1,33 @@
+{
+  "name": "product_strang_r4_s75",
+  "gate": "cd",
+  "fidelity": 0.9937243802639758,
+  "ideal_device_fidelity": 0.993724380414558,
+  "accepted": true,
+  "columns": 18,
+  "levels": 96,
+  "independent_amplitudes": 3456,
+  "independent_max_difference": 7.052966104933725e-38,
+  "command_us": 0.41000000000000003,
+  "RFDC_window_us": 0.45421875,
+  "qubit_frame_Rz": 0.0,
+  "cutoff_history": [
+    {
+      "levels": 64
+    },
+    {
+      "levels": 96,
+      "output_change": 0.0,
+      "target_change": 7.74340002005588e-16
+    }
+  ],
+  "worst_basis_fidelity": 0.9758104783165171,
+  "word_sha256": "255eb0aec35ac260bcd4547bfa2d6d5bfecd871f26103faaf240fd502556c6cb",
+  "source_record": "product_strang_r4_s75.json",
+  "compiled": {
+    "arbitrary_commands": 2,
+    "triggers": 1,
+    "int16_values_compared": 1312
+  },
+  "pump_peak_DAC_magnitude": 0.32611083984375
+}

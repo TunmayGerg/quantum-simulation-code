@@ -1,0 +1,74 @@
+START SHAPED PLAYBACK FITS 20 jobs;10ns transitions;all18inputs
+PLAYBACK FIT angle_cd_n8_outer_half_seed0 eval 40 bestF 0.8646198131148093
+PLAYBACK FIT angle_cd_n8_outer_half_seed1 eval 40 bestF 0.8666841629610544
+PLAYBACK FIT angle_cd_n8_middle_half_seed0 eval 40 bestF 0.9095082057738314
+PLAYBACK FIT angle_cd_n8_middle_half_seed1 eval 40 bestF 0.9108313147536671
+PLAYBACK FIT angle_cd_n8_four_half_seed0 eval 40 bestF 0.8840394750916694
+PLAYBACK FIT angle_cd_n8_four_half_seed1 eval 40 bestF 0.8562220859547037
+PLAYBACK FIT angle_cd_n8_outer_half_seed0 eval 80 bestF 0.8741308929419106
+PLAYBACK FIT angle_cd_n8_outer_half_seed1 eval 80 bestF 0.8740974902033158
+PLAYBACK RESULT angle_cd_n8_outer_half_seed0 F 0.8741308929419106 command 0.25 RFDCwindow 0.29421875000000003 evaluations 83 seconds 13.708662712946534
+PLAYBACK FIT angle_cd_n8_middle_half_seed0 eval 80 bestF 0.9215666217134211
+PLAYBACK FIT angle_cd_n8_four_half_seed0 eval 80 bestF 0.9064029979225848
+PLAYBACK FIT angle_cd_n8_middle_half_seed1 eval 80 bestF 0.9215685487723015
+PLAYBACK RESULT angle_cd_n8_outer_half_seed1 F 0.8740974902033158 command 0.25 RFDCwindow 0.29421875000000003 evaluations 87 seconds 14.644081935985014
+PLAYBACK FIT angle_cd_n8_four_half_seed1 eval 80 bestF 0.9070275025408612
+PLAYBACK RESULT angle_cd_n8_middle_half_seed1 F 0.9215685487723015 command 0.25 RFDCwindow 0.29421875000000003 evaluations 89 seconds 15.988571227993816
+PLAYBACK RESULT angle_cd_n8_four_half_seed0 F 0.9064029979225848 command 0.25 RFDCwindow 0.29421875000000003 evaluations 91 seconds 16.369666167069227
+PLAYBACK RESULT angle_cd_n8_middle_half_seed0 F 0.9215666217134211 command 0.25 RFDCwindow 0.29421875000000003 evaluations 112 seconds 19.801518002990633
+PLAYBACK FIT angle_cd_n8_outer_third_seed0 eval 40 bestF 0.8346196848189683
+PLAYBACK FIT angle_cd_n8_four_half_seed1 eval 120 bestF 0.9085828770502054
+PLAYBACK FIT angle_cd_n8_outer_third_seed1 eval 40 bestF 0.8320361660918365
+PLAYBACK FIT angle_cd_n8_four_quarter_seed0 eval 40 bestF 0.4791440116371024
+PLAYBACK FIT angle_cd_n8_four_quarter_seed1 eval 40 bestF 0.6890198023155236
+PLAYBACK RESULT angle_cd_n8_four_half_seed1 F 0.9085828770502054 command 0.25 RFDCwindow 0.29421875000000003 evaluations 142 seconds 25.180801317910664
+PLAYBACK FIT angle_cd_n8_outer_third_seed0 eval 80 bestF 0.8508693968179831
+PLAYBACK FIT angle_cd_n8_outer_third_seed1 eval 80 bestF 0.8505016292693307
+PLAYBACK FIT angle_cd_n10_outer_half_seed0 eval 40 bestF 0.899633644037828
+PLAYBACK FIT angle_cd_n8_four_quarter_seed0 eval 80 bestF 0.7669414505583716
+PLAYBACK FIT angle_cd_n8_four_quarter_seed1 eval 80 bestF 0.7624743581782116
+PLAYBACK RESULT angle_cd_n8_outer_third_seed1 F 0.8515847620493766 command 0.25 RFDCwindow 0.29421875000000003 evaluations 107 seconds 18.551715163048357
+PLAYBACK FIT angle_cd_n10_outer_half_seed1 eval 40 bestF 0.17533080652340316
+PLAYBACK FIT angle_cd_n8_outer_third_seed0 eval 120 bestF 0.8508697556740572
+PLAYBACK RESULT angle_cd_n8_four_quarter_seed0 F 0.7735255611752947 command 0.25 RFDCwindow 0.29421875000000003 evaluations 116 seconds 19.696484406944364
+PLAYBACK RESULT angle_cd_n8_outer_third_seed0 F 0.8508697556740572 command 0.25 RFDCwindow 0.29421875000000003 evaluations 129 seconds 22.545363142038696
+PLAYBACK FIT angle_cd_n10_outer_half_seed0 eval 80 bestF 0.9120986284769973
+PLAYBACK FIT angle_cd_n8_four_quarter_seed1 eval 120 bestF 0.7738906638332218
+PLAYBACK RESULT angle_cd_n8_four_quarter_seed1 F 0.7738906638332218 command 0.25 RFDCwindow 0.29421875000000003 evaluations 123 seconds 22.021747190039605
+PLAYBACK FIT angle_cd_n10_four_half_seed0 eval 40 bestF 0.9400115715520653
+PLAYBACK FIT angle_cd_n10_outer_half_seed1 eval 80 bestF 0.3225190615299949
+PLAYBACK FIT angle_cd_n10_four_half_seed1 eval 40 bestF 0.9232825984602013
+PLAYBACK FIT angle_cd_n10_middle_half_seed0 eval 40 bestF 0.33911003124412287
+PLAYBACK RESULT angle_cd_n10_outer_half_seed0 F 0.91235588900241 command 0.31 RFDCwindow 0.35421875 evaluations 117 seconds 24.91813882102724
+PLAYBACK FIT angle_cd_n10_middle_half_seed1 eval 40 bestF 0.8901741607783853
+PLAYBACK FIT angle_cd_n10_four_half_seed0 eval 80 bestF 0.9536973883619564
+PLAYBACK FIT angle_cd_n10_outer_half_seed1 eval 120 bestF 0.8315754122947101
+PLAYBACK FIT angle_cd_n10_four_half_seed1 eval 80 bestF 0.9518231759818724
+PLAYBACK FIT angle_cd_n10_outer_third_seed0 eval 40 bestF 0.8918309660007173
+PLAYBACK FIT angle_cd_n10_middle_half_seed0 eval 80 bestF 0.93892312433987
+PLAYBACK FIT angle_cd_n10_middle_half_seed1 eval 80 bestF 0.9382484194377464
+PLAYBACK RESULT angle_cd_n10_outer_half_seed1 F 0.8408971839666962 command 0.31 RFDCwindow 0.35421875 evaluations 151 seconds 31.5979853059398
+PLAYBACK FIT angle_cd_n10_four_half_seed0 eval 120 bestF 0.956567809900491
+PLAYBACK FIT angle_cd_n10_four_half_seed1 eval 120 bestF 0.9559815731492152
+PLAYBACK FIT angle_cd_n10_outer_third_seed0 eval 80 bestF 0.9041960870720973
+PLAYBACK FIT angle_cd_n10_middle_half_seed0 eval 120 bestF 0.9456103896974795
+PLAYBACK FIT angle_cd_n10_middle_half_seed1 eval 120 bestF 0.943723524700225
+PLAYBACK RESULT angle_cd_n10_four_half_seed1 F 0.9559815731492152 command 0.31 RFDCwindow 0.35421875 evaluations 133 seconds 27.515860416926444
+PLAYBACK RESULT angle_cd_n10_four_half_seed0 F 0.9587431395047017 command 0.31 RFDCwindow 0.35421875 evaluations 148 seconds 30.379756905022077
+PLAYBACK RESULT angle_cd_n10_middle_half_seed1 F 0.943723524700225 command 0.31 RFDCwindow 0.35421875 evaluations 125 seconds 25.47466537798755
+PLAYBACK FIT angle_cd_n10_outer_third_seed1 eval 40 bestF 0.8855385635717726
+PLAYBACK FIT angle_cd_n10_outer_third_seed0 eval 120 bestF 0.9044807342126054
+PLAYBACK RESULT angle_cd_n10_outer_third_seed0 F 0.9044807342126054 command 0.31 RFDCwindow 0.35421875 evaluations 121 seconds 24.670898963930085
+PLAYBACK FIT angle_cd_n10_middle_half_seed0 eval 160 bestF 0.9477482639867173
+PLAYBACK RESULT angle_cd_n10_middle_half_seed0 F 0.9477482639867173 command 0.31 RFDCwindow 0.35421875 evaluations 160 seconds 33.32534249301534
+PLAYBACK FIT angle_cd_n10_four_quarter_seed0 eval 40 bestF 0.7691931735679997
+PLAYBACK FIT angle_cd_n10_four_quarter_seed1 eval 40 bestF 0.8384616987482815
+PLAYBACK FIT angle_cd_n10_outer_third_seed1 eval 80 bestF 0.9086744878708551
+PLAYBACK FIT angle_cd_n10_four_quarter_seed1 eval 80 bestF 0.8831363814902292
+PLAYBACK FIT angle_cd_n10_four_quarter_seed0 eval 80 bestF 0.8137028598434783
+PLAYBACK FIT angle_cd_n10_outer_third_seed1 eval 120 bestF 0.914626442434815
+PLAYBACK RESULT angle_cd_n10_outer_third_seed1 F 0.9178711849524005 command 0.31 RFDCwindow 0.35421875 evaluations 149 seconds 29.75209380290471
+PLAYBACK FIT angle_cd_n10_four_quarter_seed0 eval 120 bestF 0.8224276680012332
+PLAYBACK RESULT angle_cd_n10_four_quarter_seed1 F 0.8831413998276223 command 0.31 RFDCwindow 0.35421875 evaluations 117 seconds 23.209570409962907
+PLAYBACK RESULT angle_cd_n10_four_quarter_seed0 F 0.8224276680012332 command 0.31 RFDCwindow 0.35421875 evaluations 137 seconds 26.55053909693379
+FINAL SHAPED FIT COUNTS 20 jobs; 2437 actualplaybackevaluations

@@ -1,0 +1,27 @@
+{
+  "name": "product_yoshida_r2_s100",
+  "gate": "cd",
+  "fidelity": 0.9482143408827262,
+  "ideal_device_fidelity": 0.948214341032287,
+  "accepted": false,
+  "columns": 18,
+  "levels": 96,
+  "independent_amplitudes": 3456,
+  "independent_max_difference": 1.8367099231598242e-40,
+  "command_us": 0.85,
+  "RFDC_window_us": 0.8942187500000001,
+  "qubit_frame_Rz": 0.0,
+  "cutoff_history": [
+    {
+      "levels": 64
+    },
+    {
+      "levels": 96,
+      "output_change": 0.0,
+      "target_change": 7.74340002005588e-16
+    }
+  ],
+  "worst_basis_fidelity": 0.7585268054859096,
+  "word_sha256": "286a1536bca43e4f000984440b4826036ad4b0c1a092309936ef4f46d64fcff9",
+  "source_record": "product_yoshida_r2_s100.json"
+}

@@ -1,0 +1,103 @@
+{
+  "gate": "cd",
+  "strength": 1.0,
+  "name": "best_proper10",
+  "pulses": [
+    {
+      "start_sample": 4,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 0.0,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 28,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 0.0,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 52,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.141592653589793,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 76,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.141592653589793,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 100,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 0.0,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 124,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 0.0,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 148,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.141592653589793,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 176,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.141592653589793,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 200,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 0.0,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 224,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 0.0,
+      "reversed_envelope": false
+    }
+  ],
+  "qubit_frame_Rz": 0.0,
+  "g": 6.56032756826712,
+  "nominal_swap_ns": 239.4387033953878,
+  "pump_phase_rad": -1.5707963267948966,
+  "centered_envelopes": false,
+  "command_us": 0.315,
+  "source": "code/strategic_cd.py",
+  "all_input_columns": 18,
+  "certified": false,
+  "native_fidelity": 0.9823297321411291,
+  "design": "Enumerated proper first-force words;oneconstantgaincalibration",
+  "source_word": [
+    1,
+    1,
+    -1,
+    -1,
+    1,
+    1,
+    -1,
+    -1,
+    1,
+    1
+  ],
+  "first_moment_coefficients": "[ 1.55000000e-01+7.96020419e-18j -7.96020419e-18+1.38777878e-17j\n  0.00000000e+00+0.00000000e+00j]",
+  "controls_file": "runs/strategic_cd/best_proper10.npz",
+  "sideband_mode": "fixed"
+}

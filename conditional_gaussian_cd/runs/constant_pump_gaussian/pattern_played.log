@@ -1,0 +1,12 @@
+START SHAPED PLAYBACK FITS 6 jobs;10ns transitions;all18inputs
+PLAYBACK FIT played_squeeze_pattern_n96_b32 eval 40 bestF 0.8553124069113383
+PLAYBACK FIT played_squeeze_pattern_n128_b64 eval 40 bestF 0.9122155391663428
+PLAYBACK FIT played_squeeze_pattern_n128_b32 eval 40 bestF 0.9006174026048076
+PLAYBACK FIT played_squeeze_pattern_n96_b32 eval 80 bestF 0.8855540937743406
+PLAYBACK FIT played_squeeze_pattern_n128_b64 eval 80 bestF 0.9462698465480485
+PLAYBACK FIT played_squeeze_pattern_n128_b32 eval 80 bestF 0.9297095146711482
+PLAYBACK FIT played_squeeze_pattern_n96_b32 eval 120 bestF 0.9071596239742288
+PLAYBACK FIT played_squeeze_pattern_n128_b64 eval 120 bestF 0.9591940694788706
+PLAYBACK FIT played_squeeze_pattern_n96_b32 eval 160 bestF 0.9181992280145143
+PLAYBACK FIT played_squeeze_pattern_n128_b32 eval 120 bestF 0.9401248480883435
+PLAYBACK FIT played_squeeze_pattern_n96_b32 eval 200 bestF 0.9194812981774101

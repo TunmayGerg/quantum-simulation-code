@@ -1,0 +1,20 @@
+[
+  {
+    "file": "strength_played_summary.json",
+    "points": 44,
+    "columns": 792,
+    "amplitudes": 202752
+  },
+  {
+    "file": "gaussian_strength_played_summary.json",
+    "points": 12,
+    "columns": 216,
+    "amplitudes": 96768
+  },
+  {
+    "file": "shorter_played_summary.json",
+    "points": 7,
+    "columns": 126,
+    "amplitudes": 52992
+  }
+]

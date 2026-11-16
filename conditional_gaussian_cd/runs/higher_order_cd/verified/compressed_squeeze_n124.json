@@ -1,0 +1,53 @@
+{
+  "name": "compressed_squeeze_n124",
+  "gate": "squeeze",
+  "fidelity": 0.9929565626703832,
+  "ideal_device_fidelity": 0.9929370078198206,
+  "accepted": true,
+  "columns": 18,
+  "levels": 320,
+  "independent_amplitudes": 11520,
+  "independent_max_difference": 4.704467722167978e-15,
+  "command_us": 3.73,
+  "RFDC_window_us": 3.77421875,
+  "qubit_frame_Rz": 4.014364177060871,
+  "cutoff_history": [
+    {
+      "levels": 64
+    },
+    {
+      "levels": 96,
+      "output_change": 0.07341392360872057,
+      "target_change": 0.14484428431184065
+    },
+    {
+      "levels": 128,
+      "output_change": 5.1639999982536105e-05,
+      "target_change": 0.004855427499729388
+    },
+    {
+      "levels": 192,
+      "output_change": 2.8150935872215765e-12,
+      "target_change": 9.434631670509811e-05
+    },
+    {
+      "levels": 256,
+      "output_change": 3.363045072731258e-57,
+      "target_change": 1.7076982799674414e-08
+    },
+    {
+      "levels": 320,
+      "output_change": 4.259600771391582e-110,
+      "target_change": 1.8958399991252324e-12
+    }
+  ],
+  "worst_basis_fidelity": 0.9708646732593218,
+  "word_sha256": "8b528736c69fe955ba98574e7a2b3a5c0161d51ba3ad1b275ac9f2b0c9d22c8f",
+  "source_record": "compressed_squeeze_n124.json",
+  "compiled": {
+    "arbitrary_commands": 2,
+    "triggers": 1,
+    "int16_values_compared": 11936
+  },
+  "pump_peak_DAC_magnitude": 0.09279645333143716
+}

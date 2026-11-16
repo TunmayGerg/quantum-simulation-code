@@ -1,0 +1,27 @@
+{
+  "name": "product_yoshida_r1_s50",
+  "gate": "cd",
+  "fidelity": 0.4926624019482352,
+  "ideal_device_fidelity": 0.4926624268964779,
+  "accepted": false,
+  "columns": 18,
+  "levels": 96,
+  "independent_amplitudes": 3456,
+  "independent_max_difference": 1.504632769052528e-35,
+  "command_us": 0.43,
+  "RFDC_window_us": 0.47421875,
+  "qubit_frame_Rz": 0.0,
+  "cutoff_history": [
+    {
+      "levels": 64
+    },
+    {
+      "levels": 96,
+      "output_change": 0.0,
+      "target_change": 7.74340002005588e-16
+    }
+  ],
+  "worst_basis_fidelity": 0.18976047503557095,
+  "word_sha256": "f45c6aac4018e635fc88a10b1ef997073be9970b1316b0f382d1636a2ae9a6dd",
+  "source_record": "product_yoshida_r1_s50.json"
+}

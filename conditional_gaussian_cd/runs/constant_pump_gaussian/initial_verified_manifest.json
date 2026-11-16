@@ -1,0 +1,178 @@
+{
+  "gates": 3,
+  "columns": 54,
+  "independent_amplitudes": 21888,
+  "results": [
+    {
+      "name": "rotation_compression_10",
+      "gate": "rotation",
+      "strength": 1.5707963267948966,
+      "fidelity": 0.9930327121342334,
+      "worst_basis_fidelity": 0.9895612021161423,
+      "columns": 18,
+      "levels": 256,
+      "complex_amplitudes": 9216,
+      "independent_max_difference": 5.7902148899581444e-15,
+      "command_us": 7.69,
+      "RFDC_window_us": 7.73421875,
+      "qubit_frame_Rz": 3.429114104181034,
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.993032709062594
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.9930327121483004,
+          "output_change": 0.008123652055911522,
+          "target_change": 0.0
+        },
+        {
+          "levels": 128,
+          "fidelity": 0.9930327121341236,
+          "output_change": 0.0025027021990492305,
+          "target_change": 0.0
+        },
+        {
+          "levels": 160,
+          "fidelity": 0.9930327121342334,
+          "output_change": 0.0009340617427261517,
+          "target_change": 0.0
+        },
+        {
+          "levels": 192,
+          "fidelity": 0.9930327121342334,
+          "output_change": 4.4362914638868414e-05,
+          "target_change": 0.0
+        },
+        {
+          "levels": 224,
+          "fidelity": 0.9930327121342334,
+          "output_change": 1.2946116670651946e-07,
+          "target_change": 0.0
+        },
+        {
+          "levels": 256,
+          "fidelity": 0.9930327121342334,
+          "output_change": 5.806424902398758e-12,
+          "target_change": 0.0
+        }
+      ],
+      "compiled": {
+        "arbitrary_commands": 2,
+        "triggers": 1,
+        "int16_values_compared": 24608
+      },
+      "pump_phase_constant": true,
+      "pump_transition_ns": 0,
+      "word_sha256": "c6a64bcdc95c3be5fc0e20e6287c0afedc5a7331c95de03aa255f5b85919db99",
+      "source_record": "rotation_compression_10.json"
+    },
+    {
+      "name": "squeeze_compression_07",
+      "gate": "squeeze",
+      "strength": 0.9210340371976182,
+      "fidelity": 0.9901830898553786,
+      "worst_basis_fidelity": 0.9592830622288414,
+      "columns": 18,
+      "levels": 256,
+      "complex_amplitudes": 9216,
+      "independent_max_difference": 3.1207747653061754e-15,
+      "command_us": 4.8100000000000005,
+      "RFDC_window_us": 4.85421875,
+      "qubit_frame_Rz": -3.331687648435443,
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.9895979837607928
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.9901836990495145,
+          "output_change": 0.08437399712245382,
+          "target_change": 0.14484428431184065
+        },
+        {
+          "levels": 128,
+          "fidelity": 0.9901830898824161,
+          "output_change": 0.001340038099075812,
+          "target_change": 0.004855427499729388
+        },
+        {
+          "levels": 160,
+          "fidelity": 0.990183089855378,
+          "output_change": 2.76772044629574e-06,
+          "target_change": 9.434355667122615e-05
+        },
+        {
+          "levels": 192,
+          "fidelity": 0.9901830898553791,
+          "output_change": 6.272253905737011e-11,
+          "target_change": 1.3834121761600571e-06
+        },
+        {
+          "levels": 224,
+          "fidelity": 0.9901830898553786,
+          "output_change": 5.479622813046652e-25,
+          "target_change": 1.707654535259484e-08
+        },
+        {
+          "levels": 256,
+          "fidelity": 0.9901830898553786,
+          "output_change": 1.670424639913314e-48,
+          "target_change": 1.8763683261109632e-10
+        }
+      ],
+      "compiled": {
+        "arbitrary_commands": 2,
+        "triggers": 1,
+        "int16_values_compared": 15392
+      },
+      "pump_phase_constant": true,
+      "pump_transition_ns": 0,
+      "word_sha256": "fa1d3d531426553463789b8ff41b6f9003bac08d30312419b5d3c5058ee63ebb",
+      "source_record": "squeeze_compression_07.json"
+    },
+    {
+      "name": "cd_binary_n12_0",
+      "gate": "cd",
+      "strength": 1.0,
+      "fidelity": 0.9922779449668537,
+      "worst_basis_fidelity": 0.9799962457296741,
+      "columns": 18,
+      "levels": 96,
+      "complex_amplitudes": 3456,
+      "independent_max_difference": 1.0339757656912846e-25,
+      "command_us": 0.37,
+      "RFDC_window_us": 0.41421875,
+      "qubit_frame_Rz": -0.0,
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.9922779449668542
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.9922779449668537,
+          "output_change": 1.367021108500673e-72,
+          "target_change": 7.74340002005588e-16
+        }
+      ],
+      "compiled": {
+        "arbitrary_commands": 2,
+        "triggers": 1,
+        "int16_values_compared": 1184
+      },
+      "pump_phase_constant": true,
+      "pump_transition_ns": 0,
+      "word_sha256": "09840da137021778c7a5debba115372dc219f02c0aa8cd8229c83a2c449f1e9d",
+      "source_record": "cd_binary_n12_0.json"
+    }
+  ],
+  "source_sha256": {
+    "verify_short_gates.py": "a53e050e14a8dab3ad46691aeb272a77dfeeafdddce3af5666b8276d57018263",
+    "shaped_pulse_optimisation.py": "f1c275f74e602da0cf3966e86a12a85c14fd23892215225adf394df71635c042",
+    "waveform_adjoint.cpp": "4cfbe8ea25ac84c8b6734257e199c1eae9cbcea084ded6abe67cdd7931e7777c",
+    "constant_pump_gaussian.py": "88ac04b2f7575c3c85d80a083f98fdf872e1448101f3044aa81064e4d310befe"
+  }
+}

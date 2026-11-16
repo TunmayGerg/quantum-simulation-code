@@ -1,0 +1,356 @@
+[
+  {
+    "name": "squeeze_quartic_mixture_r2",
+    "words": [
+      [
+        1,
+        0,
+        1,
+        0,
+        3,
+        2,
+        3,
+        2
+      ],
+      [
+        1,
+        0,
+        1,
+        0,
+        3,
+        2,
+        3,
+        2
+      ],
+      [
+        3,
+        0,
+        3,
+        0,
+        1,
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        0,
+        3,
+        0,
+        1,
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        3,
+        2,
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        3,
+        2,
+        3,
+        2,
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        2,
+        1,
+        2,
+        3,
+        0,
+        3,
+        0
+      ],
+      [
+        1,
+        2,
+        1,
+        2,
+        3,
+        0,
+        3,
+        0
+      ]
+    ],
+    "repeats": 2,
+    "scalar_evaluations": 9,
+    "history": [
+      {
+        "g": 5.540242094295532,
+        "fidelity": 0.3890277909000262,
+        "qubit_frame_Rz": 0.0007933848197737275,
+        "worst_input_fidelity": 0.001417333613303175,
+        "input_columns": 18,
+        "time_us": 1.975,
+        "top_level_population": 3.004804878191382e-50
+      },
+      {
+        "g": 5.947007874366,
+        "fidelity": 0.4626499282554741,
+        "qubit_frame_Rz": -4.1601828767987015e-05,
+        "worst_input_fidelity": 0.001437376207460022,
+        "input_columns": 18,
+        "time_us": 1.975,
+        "top_level_population": 1.8176205390181017e-46
+      },
+      {
+        "g": 6.198402951909913,
+        "fidelity": 0.47112442319144593,
+        "qubit_frame_Rz": -0.003229229188345735,
+        "worst_input_fidelity": 0.0021271006489976393,
+        "input_columns": 18,
+        "time_us": 1.975,
+        "top_level_population": 2.2649698112894426e-44
+      },
+      {
+        "g": 6.14802420672185,
+        "fidelity": 0.47168396976283505,
+        "qubit_frame_Rz": -0.002356213486635183,
+        "worst_input_fidelity": 0.0019046508962802427,
+        "input_columns": 18,
+        "time_us": 1.975,
+        "top_level_population": 8.89643398514533e-45
+      },
+      {
+        "g": 6.148304900674287,
+        "fidelity": 0.47168384384730294,
+        "qubit_frame_Rz": -0.002360718698261717,
+        "worst_input_fidelity": 0.0019056510734974498,
+        "input_columns": 18,
+        "time_us": 1.975,
+        "top_level_population": 8.943272969872096e-45
+      },
+      {
+        "g": 6.147110281549723,
+        "fidelity": 0.47168414383406837,
+        "qubit_frame_Rz": -0.0023415719590165196,
+        "worst_input_fidelity": 0.001901410205111433,
+        "input_columns": 18,
+        "time_us": 1.975,
+        "top_level_population": 8.74559136157749e-45
+      },
+      {
+        "g": 6.147126494010663,
+        "fidelity": 0.4716841438919152,
+        "qubit_frame_Rz": -0.002341831328021217,
+        "worst_input_fidelity": 0.0019014674826870076,
+        "input_columns": 18,
+        "time_us": 1.975,
+        "top_level_population": 8.74824520696801e-45
+      },
+      {
+        "g": 6.147126918520616,
+        "fidelity": 0.47168414389190466,
+        "qubit_frame_Rz": -0.0023418381195609017,
+        "worst_input_fidelity": 0.001901468982554957,
+        "input_columns": 18,
+        "time_us": 1.975,
+        "top_level_population": 8.748314706343832e-45
+      },
+      {
+        "g": 6.147126069500709,
+        "fidelity": 0.4716841438918501,
+        "qubit_frame_Rz": -0.0023418245364901363,
+        "worst_input_fidelity": 0.0019014659828242892,
+        "input_columns": 18,
+        "time_us": 1.975,
+        "top_level_population": 8.748175708132288e-45
+      }
+    ],
+    "g": 6.147126494010663,
+    "fidelity": 0.4716841438919152,
+    "qubit_frame_Rz": -0.002341831328021217,
+    "worst_input_fidelity": 0.0019014674826870076,
+    "input_columns": 18,
+    "time_us": 1.975,
+    "top_level_population": 8.74824520696801e-45
+  },
+  {
+    "name": "squeeze_quartic_mixture_r4",
+    "words": [
+      [
+        1,
+        0,
+        1,
+        0,
+        3,
+        2,
+        3,
+        2
+      ],
+      [
+        1,
+        0,
+        1,
+        0,
+        3,
+        2,
+        3,
+        2
+      ],
+      [
+        3,
+        0,
+        3,
+        0,
+        1,
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        0,
+        3,
+        0,
+        1,
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        3,
+        2,
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        3,
+        2,
+        3,
+        2,
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        2,
+        1,
+        2,
+        3,
+        0,
+        3,
+        0
+      ],
+      [
+        1,
+        2,
+        1,
+        2,
+        3,
+        0,
+        3,
+        0
+      ]
+    ],
+    "repeats": 4,
+    "scalar_evaluations": 9,
+    "history": [
+      {
+        "g": 3.91754275429153,
+        "fidelity": 0.6615968098390812,
+        "qubit_frame_Rz": 0.0002569483796281104,
+        "worst_input_fidelity": 0.12863733056162482,
+        "input_columns": 18,
+        "time_us": 3.935,
+        "top_level_population": 2.7069096724593855e-17
+      },
+      {
+        "g": 4.205169595733993,
+        "fidelity": 0.8384180082674957,
+        "qubit_frame_Rz": 0.0009580770685790626,
+        "worst_input_fidelity": 0.3795674542962726,
+        "input_columns": 18,
+        "time_us": 3.935,
+        "top_level_population": 1.541854167459169e-14
+      },
+      {
+        "g": 4.3829327598222125,
+        "fidelity": 0.8621518531345583,
+        "qubit_frame_Rz": 0.0009111658663731332,
+        "worst_input_fidelity": 0.4910981362633014,
+        "input_columns": 18,
+        "time_us": 3.935,
+        "top_level_population": 4.1001118680783417e-13
+      },
+      {
+        "g": 4.358608720666303,
+        "fidelity": 0.8633720608131006,
+        "qubit_frame_Rz": 0.0009511676369136385,
+        "worst_input_fidelity": 0.4801975595441987,
+        "input_columns": 18,
+        "time_us": 3.935,
+        "top_level_population": 2.690238267839325e-13
+      },
+      {
+        "g": 4.349817761494422,
+        "fidelity": 0.8634644168403097,
+        "qubit_frame_Rz": 0.0009627045718370939,
+        "worst_input_fidelity": 0.4758821448361191,
+        "input_columns": 18,
+        "time_us": 3.935,
+        "top_level_population": 2.3053310319917656e-13
+      },
+      {
+        "g": 4.3498270937044525,
+        "fidelity": 0.8634644172821938,
+        "qubit_frame_Rz": 0.0009626931276860956,
+        "worst_input_fidelity": 0.47588683012641686,
+        "input_columns": 18,
+        "time_us": 3.935,
+        "top_level_population": 2.3057103107844336e-13
+      },
+      {
+        "g": 4.349842128535622,
+        "fidelity": 0.8634644175535324,
+        "qubit_frame_Rz": 0.0009626746868054495,
+        "worst_input_fidelity": 0.4758943779871893,
+        "input_columns": 18,
+        "time_us": 3.935,
+        "top_level_population": 2.3063214800540297e-13
+      },
+      {
+        "g": 4.349841730683703,
+        "fidelity": 0.8634644175533565,
+        "qubit_frame_Rz": 0.0009626751748449812,
+        "worst_input_fidelity": 0.47589417826295843,
+        "input_columns": 18,
+        "time_us": 3.935,
+        "top_level_population": 2.306305305295408e-13
+      },
+      {
+        "g": 4.34984252638754,
+        "fidelity": 0.863464417553329,
+        "qubit_frame_Rz": 0.000962674198762811,
+        "worst_input_fidelity": 0.4758945777110221,
+        "input_columns": 18,
+        "time_us": 3.935,
+        "top_level_population": 2.3063376549207717e-13
+      }
+    ],
+    "g": 4.349842128535622,
+    "fidelity": 0.8634644175535324,
+    "qubit_frame_Rz": 0.0009626746868054495,
+    "worst_input_fidelity": 0.4758943779871893,
+    "input_columns": 18,
+    "time_us": 3.935,
+    "top_level_population": 2.3063214800540297e-13
+  }
+]

@@ -1,0 +1,4 @@
+START RESEARCH CERTIFICATION 2 gates;all18inputs
+RESEARCH CERTIFIED cd_constant_reference F 0.9922779449668537 worstbasis 0.9799962457296741 timeus 0.37 18columns; 3456 amplitudes;error 1.0339757656912846e-25 mode fixed accepted True
+RESEARCH CERTIFIED squeeze_constant_reference F 0.9901830898553813 worstbasis 0.9592830622288462 timeus 4.8100000000000005 18columns; 11520 amplitudes;error 3.1207747653061754e-15 mode fixed accepted True
+FINAL RESEARCH COMPARISONS 2 gates; 36 columns; 14976 amplitudes

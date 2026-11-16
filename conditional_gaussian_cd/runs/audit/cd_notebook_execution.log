@@ -1,0 +1,71 @@
+START fast_conditional_displacement.ipynb cell 2
+COMPLETED fast_conditional_displacement.ipynb cell 2 1 / 16
+START fast_conditional_displacement.ipynb cell 4
+Compared four matched-strength reference gates; all 22 input columns per waveform.
+COMPLETED fast_conditional_displacement.ipynb cell 4 2 / 16
+START fast_conditional_displacement.ipynb cell 6
+696 optimisations, 656,451 evaluations
+COMPLETED fast_conditional_displacement.ipynb cell 6 3 / 16
+START fast_conditional_displacement.ipynb cell 8
+[0] CD beta = 1, 300 ns swap, >= 99.9%: 0.73 us; 64 vs 128 photon levels: F = 0.99932481 vs 0.99932481; board-waveform cutoff 96 levels
+[1] CD beta = 1, 300 ns swap, >= 99.0%: 0.49 us; 64 vs 128 photon levels: F = 0.99655427 vs 0.99655427; board-waveform cutoff 96 levels
+[2] CD beta = 2, 300 ns swap, >= 99.9%: 1.45 us; 64 vs 128 photon levels: F = 0.99932950 vs 0.99932950; board-waveform cutoff 96 levels
+[3] CD beta = 2, 300 ns swap, >= 99.0%: 0.97 us; 64 vs 128 photon levels: F = 0.99325604 vs 0.99325604; board-waveform cutoff 96 levels
+[4] CD beta = 1, 600 ns swap, >= 99.9%: 0.97 us; 64 vs 128 photon levels: F = 0.99996159 vs 0.99996159; board-waveform cutoff 96 levels
+[5] CD beta = 1, 600 ns swap, >= 99.0%: 0.81 us; 64 vs 128 photon levels: F = 0.99889959 vs 0.99889959; board-waveform cutoff 96 levels
+[6] CD beta = 2, 600 ns swap, >= 99.9%: 1.93 us; 64 vs 128 photon levels: F = 0.99970129 vs 0.99970129; board-waveform cutoff 96 levels
+[7] CD beta = 2, 600 ns swap, >= 99.0%: 1.61 us; 64 vs 128 photon levels: F = 0.99507250 vs 0.99507250; board-waveform cutoff 96 levels
+COMPLETED fast_conditional_displacement.ipynb cell 8 4 / 16
+START fast_conditional_displacement.ipynb cell 10
+CD beta = 1, 300 ns swap, >= 99.9%: 24 pi pulses, gap 0 ns, 0.73 us
+Found: random 0 start (F = 0.999325), polished with 3 more evaluations -> F = 0.999325; board waveform 0.999326; worst single input 0.99782; after the gate: qubit Rz(-5.82399 rad)
+sequence for programming: runs/cd_sequence_0.csv; int16 I/Q words: runs/cd_words_0.npz
+COMPLETED fast_conditional_displacement.ipynb cell 10 5 / 16
+START fast_conditional_displacement.ipynb cell 12
+CD beta = 1, 300 ns swap, >= 99.0%: 16 pi pulses, gap 0 ns, 0.49 us
+Found: native start (F = 0.996554), polished with 3 more evaluations -> F = 0.996554; board waveform 0.996562; worst single input 0.98772; after the gate: qubit Rz(3.37728 rad)
+sequence for programming: runs/cd_sequence_1.csv; int16 I/Q words: runs/cd_words_1.npz
+COMPLETED fast_conditional_displacement.ipynb cell 12 6 / 16
+START fast_conditional_displacement.ipynb cell 14
+CD beta = 2, 300 ns swap, >= 99.9%: 48 pi pulses, gap 0 ns, 1.45 us
+Found: random 2 start (F = 0.999319), polished with 9778 more evaluations -> F = 0.999329; board waveform 0.999332; worst single input 0.99728; after the gate: qubit Rz(-4.28250 rad)
+sequence for programming: runs/cd_sequence_2.csv; int16 I/Q words: runs/cd_words_2.npz
+COMPLETED fast_conditional_displacement.ipynb cell 14 7 / 16
+START fast_conditional_displacement.ipynb cell 16
+CD beta = 2, 300 ns swap, >= 99.0%: 32 pi pulses, gap 0 ns, 0.97 us
+Found: native start (F = 0.993256), polished with 3 more evaluations -> F = 0.993256; board waveform 0.993288; worst single input 0.97766; after the gate: qubit Rz(5.09547 rad)
+sequence for programming: runs/cd_sequence_3.csv; int16 I/Q words: runs/cd_words_3.npz
+COMPLETED fast_conditional_displacement.ipynb cell 16 8 / 16
+START fast_conditional_displacement.ipynb cell 18
+CD beta = 1, 600 ns swap, >= 99.9%: 32 pi pulses, gap 0 ns, 0.97 us
+Found: native start (F = 0.999949), polished with 10773 more evaluations -> F = 0.999962; board waveform 0.999962; worst single input 0.99987; after the gate: qubit Rz(0.02779 rad)
+sequence for programming: runs/cd_sequence_4.csv; int16 I/Q words: runs/cd_words_4.npz
+COMPLETED fast_conditional_displacement.ipynb cell 18 9 / 16
+START fast_conditional_displacement.ipynb cell 20
+CD beta = 1, 600 ns swap, >= 99.0%: 16 pi pulses, gap 20 ns, 0.81 us
+Found: native start (F = 0.998900), polished with 3 more evaluations -> F = 0.998900; board waveform 0.998902; worst single input 0.99652; after the gate: qubit Rz(0.59633 rad)
+sequence for programming: runs/cd_sequence_5.csv; int16 I/Q words: runs/cd_words_5.npz
+COMPLETED fast_conditional_displacement.ipynb cell 20 10 / 16
+START fast_conditional_displacement.ipynb cell 22
+CD beta = 2, 600 ns swap, >= 99.9%: 48 pi pulses, gap 10 ns, 1.93 us
+Found: native start (F = 0.999699), polished with 10664 more evaluations -> F = 0.999701; board waveform 0.999702; worst single input 0.99903; after the gate: qubit Rz(-5.72887 rad)
+sequence for programming: runs/cd_sequence_6.csv; int16 I/Q words: runs/cd_words_6.npz
+COMPLETED fast_conditional_displacement.ipynb cell 22 11 / 16
+START fast_conditional_displacement.ipynb cell 24
+CD beta = 2, 600 ns swap, >= 99.0%: 32 pi pulses, gap 20 ns, 1.61 us
+Found: native start (F = 0.995073), polished with 3 more evaluations -> F = 0.995073; board waveform 0.995082; worst single input 0.98388; after the gate: qubit Rz(0.05254 rad)
+sequence for programming: runs/cd_sequence_7.csv; int16 I/Q words: runs/cd_words_7.npz
+COMPLETED fast_conditional_displacement.ipynb cell 24 12 / 16
+START fast_conditional_displacement.ipynb cell 27
+Rounded phases above are the values actually certified; peak pump scale 0.05957622
+COMPLETED fast_conditional_displacement.ipynb cell 27 13 / 16
+START fast_conditional_displacement.ipynb cell 29
+Counted actual waveform objectives: 10936 input columns: 240592
+COMPLETED fast_conditional_displacement.ipynb cell 29 14 / 16
+START fast_conditional_displacement.ipynb cell 31
+Fresh notebook replay: 4 waveforms; 88 input columns; 18304 complex amplitudes.
+Independent certificate: 20 gates; 440 input columns; 87296 complex amplitudes.
+COMPLETED fast_conditional_displacement.ipynb cell 31 15 / 16
+START fast_conditional_displacement.ipynb cell 33
+COMPLETED fast_conditional_displacement.ipynb cell 33 16 / 16
+EXECUTED NOTEBOOK {'file': 'fast_conditional_displacement.ipynb', 'cells': 34, 'executed_code_cells': 16, 'embedded_figures': 47, 'errors': 0}

@@ -1,0 +1,35 @@
+{
+  "name": "arc_sym_n12_magnus4",
+  "gate": "cd",
+  "strength": 1.0,
+  "fidelity": 0.9930522391712645,
+  "worst_basis_fidelity": 0.980838595022819,
+  "accepted": true,
+  "sideband_mode": "phase_arc",
+  "command_us": 0.37,
+  "columns": 18,
+  "levels": 96,
+  "complex_amplitudes": 3456,
+  "independent_max_difference": 8.889251888226118e-16,
+  "peak_g": 5.894399388856859,
+  "peak_swap_ns": 266.4896324745873,
+  "qubit_frame_Rz": 0.0,
+  "cutoff_history": [
+    {
+      "levels": 64
+    },
+    {
+      "levels": 96,
+      "output_change": 1.5237036285087922e-71,
+      "target_change": 7.74340002005588e-16
+    }
+  ],
+  "recipe_file": "runs/phase_arc_cd/arc_sym_n12_magnus4_recipe.json",
+  "controls_file": "runs/phase_arc_cd/arc_sym_n12_magnus4_controls.npz",
+  "word_sha256": "d06239e8863fd404d155ea6d7433c0230ee52677fb0836b921ce3f48ff88fd84",
+  "compiled": {
+    "arbitrary_commands": 2,
+    "triggers": 1,
+    "int16_values_compared": 1184
+  }
+}

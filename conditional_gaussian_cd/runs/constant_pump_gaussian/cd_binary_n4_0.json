@@ -1,0 +1,45 @@
+{
+  "job": {
+    "name": "cd_binary_n4_0",
+    "gate": "cd",
+    "strength": 1.0,
+    "swap": 0.09701220998908634,
+    "cells": 4,
+    "gap": 0.0,
+    "pump_phase": -1.5707963267948966,
+    "fixed_frame": true,
+    "family": "binary",
+    "seed": "balanced X/Xbar enumeration"
+  },
+  "fidelity": 0.7296473660264324,
+  "worst_input_fidelity": 0.3882835107023858,
+  "qubit_frame_Rz": -0.0,
+  "time_us": 0.13,
+  "cells": 4,
+  "swap_ns": 97.01220998908634,
+  "gap_ns": 0.0,
+  "top_level_population": 5.98223658341288e-104,
+  "qubit_phases": [
+    0.0,
+    0.0,
+    3.141592653589793,
+    3.141592653589793
+  ],
+  "pump_phases": [
+    -1.5707963267948966,
+    -1.5707963267948966,
+    -1.5707963267948966,
+    -1.5707963267948966
+  ],
+  "binary_pattern": [
+    0,
+    0,
+    1,
+    1
+  ],
+  "alternating_moment": 0,
+  "palindrome": false,
+  "opposed_reverse": true,
+  "amplitude_evaluations": 10,
+  "initial_fidelity": 0.7290818559241673
+}

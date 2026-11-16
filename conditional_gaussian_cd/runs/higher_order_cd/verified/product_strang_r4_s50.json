@@ -1,0 +1,33 @@
+{
+  "name": "product_strang_r4_s50",
+  "gate": "cd",
+  "fidelity": 0.9937243803071777,
+  "ideal_device_fidelity": 0.9937243805361288,
+  "accepted": true,
+  "columns": 18,
+  "levels": 96,
+  "independent_amplitudes": 3456,
+  "independent_max_difference": 1.88079096131566e-37,
+  "command_us": 0.365,
+  "RFDC_window_us": 0.40921875,
+  "qubit_frame_Rz": 0.0,
+  "cutoff_history": [
+    {
+      "levels": 64
+    },
+    {
+      "levels": 96,
+      "output_change": 0.0,
+      "target_change": 7.74340002005588e-16
+    }
+  ],
+  "worst_basis_fidelity": 0.975815632359315,
+  "word_sha256": "4df1fcc7e8330404d84058f8040ca400408041dedbb8b51968a325c34a43c492",
+  "source_record": "product_strang_r4_s50.json",
+  "compiled": {
+    "arbitrary_commands": 2,
+    "triggers": 1,
+    "int16_values_compared": 1168
+  },
+  "pump_peak_DAC_magnitude": 0.489105224609375
+}

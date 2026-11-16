@@ -1,0 +1,7097 @@
+[
+  {
+    "signed_half": [
+      1.0,
+      0.5,
+      1.0,
+      -1.0,
+      -1.0
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      0.0,
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "idle_samples": [
+      3,
+      0,
+      0,
+      5,
+      0,
+      0,
+      0,
+      5,
+      0,
+      0,
+      3
+    ],
+    "native_fidelity": 0.9769537864242855,
+    "first_direction_error": 0.0034418239242837087,
+    "nominal_swap_ns": 255.25440310417068,
+    "command_us": 0.33,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      1.0,
+      -1.0,
+      -0.5,
+      -1.0
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      1.0,
+      1.0,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      3,
+      0,
+      0,
+      0,
+      0,
+      10,
+      0,
+      0,
+      0,
+      0,
+      3
+    ],
+    "native_fidelity": 0.9710899014549285,
+    "first_direction_error": 0.00344182392428377,
+    "nominal_swap_ns": 255.25440310417068,
+    "command_us": 0.33,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      1.0,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "half_fractions": [
+      1.0,
+      1.0,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      3,
+      0,
+      0,
+      0,
+      0,
+      10,
+      0,
+      0,
+      0,
+      0,
+      3
+    ],
+    "native_fidelity": 0.962586450532641,
+    "first_direction_error": 0.00344182392428377,
+    "nominal_swap_ns": 255.25440310417068,
+    "command_us": 0.33,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      0.5,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "idle_samples": [
+      3,
+      0,
+      0,
+      5,
+      0,
+      0,
+      0,
+      5,
+      0,
+      0,
+      3
+    ],
+    "native_fidelity": 0.9567366434429191,
+    "first_direction_error": 0.0034418239242837087,
+    "nominal_swap_ns": 255.25440310417068,
+    "command_us": 0.33,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      1.0,
+      -0.5,
+      1.0,
+      1.0
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      3.141592653589793,
+      0.0,
+      0.0
+    ],
+    "half_fractions": [
+      1.0,
+      1.0,
+      0.5,
+      1.0,
+      1.0
+    ],
+    "idle_samples": [
+      0,
+      16,
+      0,
+      0,
+      14,
+      0,
+      14,
+      0,
+      0,
+      16,
+      0
+    ],
+    "native_fidelity": 0.945009781320875,
+    "first_direction_error": 0.00027958711326375605,
+    "nominal_swap_ns": 298.45130209103036,
+    "command_us": 0.385,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      0.5,
+      1.0,
+      -1.0,
+      -0.5
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      0.0,
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      1.0,
+      1.0,
+      0.5
+    ],
+    "idle_samples": [
+      7,
+      0,
+      0,
+      19,
+      0,
+      0,
+      0,
+      19,
+      0,
+      0,
+      7
+    ],
+    "native_fidelity": 0.9434122751372012,
+    "first_direction_error": 0.003146391901165038,
+    "nominal_swap_ns": 290.59732045705584,
+    "command_us": 0.375,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      1.0,
+      -1.0,
+      -0.5,
+      -1.0
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      0.5,
+      1.0,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      0,
+      0,
+      19,
+      0,
+      0,
+      22,
+      0,
+      0,
+      19,
+      0,
+      0
+    ],
+    "native_fidelity": 0.9382672338787215,
+    "first_direction_error": 0.0030635921142924457,
+    "nominal_swap_ns": 298.45130209103036,
+    "command_us": 0.385,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      1.0,
+      0.5,
+      -1.0,
+      -1.0
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      0.0,
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      1.0,
+      1.0,
+      0.5,
+      1.0,
+      1.0
+    ],
+    "idle_samples": [
+      0,
+      16,
+      0,
+      0,
+      14,
+      0,
+      14,
+      0,
+      0,
+      16,
+      0
+    ],
+    "native_fidelity": 0.9382209315455431,
+    "first_direction_error": 0.00027958711326375605,
+    "nominal_swap_ns": 298.45130209103036,
+    "command_us": 0.385,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      -1.0,
+      -0.5,
+      1.0,
+      0.5
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      0.0,
+      0.0
+    ],
+    "half_fractions": [
+      1.0,
+      1.0,
+      0.5,
+      1.0,
+      0.5
+    ],
+    "idle_samples": [
+      0,
+      11,
+      0,
+      19,
+      0,
+      0,
+      0,
+      19,
+      0,
+      11,
+      0
+    ],
+    "native_fidelity": 0.9267722062674052,
+    "first_direction_error": 0.00304588611337158,
+    "nominal_swap_ns": 298.45130209103036,
+    "command_us": 0.385,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      0.5,
+      -1.0,
+      1.0,
+      0.5
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      3.141592653589793,
+      0.0,
+      0.0
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      1.0,
+      1.0,
+      0.5
+    ],
+    "idle_samples": [
+      17,
+      0,
+      0,
+      19,
+      0,
+      0,
+      0,
+      19,
+      0,
+      0,
+      17
+    ],
+    "native_fidelity": 0.924606728544001,
+    "first_direction_error": 0.0026575939364038405,
+    "nominal_swap_ns": 310.23227454199207,
+    "command_us": 0.4,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      -1.0,
+      -1.0,
+      0.5,
+      1.0
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      0.0,
+      0.0
+    ],
+    "half_fractions": [
+      1.0,
+      1.0,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      3,
+      0,
+      0,
+      0,
+      0,
+      10,
+      0,
+      0,
+      0,
+      0,
+      3
+    ],
+    "native_fidelity": 0.9179609480743476,
+    "first_direction_error": 0.003441823924283772,
+    "nominal_swap_ns": 255.25440310417068,
+    "command_us": 0.33,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      1.0,
+      -0.5,
+      -1.0,
+      -1.0
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      1.0,
+      1.0,
+      0.5,
+      1.0,
+      1.0
+    ],
+    "idle_samples": [
+      0,
+      16,
+      0,
+      0,
+      14,
+      0,
+      14,
+      0,
+      0,
+      16,
+      0
+    ],
+    "native_fidelity": 0.9149539298703355,
+    "first_direction_error": 0.00027958711326375605,
+    "nominal_swap_ns": 298.45130209103036,
+    "command_us": 0.385,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      0.5,
+      0.5,
+      0.5,
+      1.0
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      0.5,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      0,
+      7,
+      0,
+      0,
+      5,
+      0,
+      5,
+      0,
+      0,
+      7,
+      0
+    ],
+    "native_fidelity": 0.9131112359791802,
+    "first_direction_error": 0.003339082911618643,
+    "nominal_swap_ns": 263.10838473814516,
+    "command_us": 0.34,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      -0.5,
+      1.0,
+      -1.0,
+      -0.5
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      0.0,
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      1.0,
+      1.0,
+      0.5
+    ],
+    "idle_samples": [
+      17,
+      0,
+      0,
+      37,
+      0,
+      0,
+      0,
+      37,
+      0,
+      0,
+      17
+    ],
+    "native_fidelity": 0.9076675576301957,
+    "first_direction_error": 0.002894936883494712,
+    "nominal_swap_ns": 345.57519189487726,
+    "command_us": 0.445,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      -0.5,
+      -1.0,
+      1.0,
+      0.5
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      0.0,
+      0.0
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      1.0,
+      1.0,
+      0.5
+    ],
+    "idle_samples": [
+      7,
+      0,
+      0,
+      37,
+      0,
+      0,
+      0,
+      37,
+      0,
+      0,
+      7
+    ],
+    "native_fidelity": 0.9056201122830163,
+    "first_direction_error": 0.0033002387232676234,
+    "nominal_swap_ns": 325.94023780994104,
+    "command_us": 0.42,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      1.0,
+      0.5,
+      1.0,
+      1.0
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "half_fractions": [
+      1.0,
+      1.0,
+      0.5,
+      1.0,
+      1.0
+    ],
+    "idle_samples": [
+      0,
+      16,
+      0,
+      0,
+      14,
+      0,
+      14,
+      0,
+      0,
+      16,
+      0
+    ],
+    "native_fidelity": 0.9012437149138138,
+    "first_direction_error": 0.00027958711326375605,
+    "nominal_swap_ns": 298.45130209103036,
+    "command_us": 0.385,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      0.5,
+      -1.0,
+      1.0,
+      1.0
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      3.141592653589793,
+      0.0,
+      0.0
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "idle_samples": [
+      21,
+      0,
+      0,
+      5,
+      0,
+      0,
+      0,
+      5,
+      0,
+      0,
+      21
+    ],
+    "native_fidelity": 0.8932153374031457,
+    "first_direction_error": 0.0033227974147034597,
+    "nominal_swap_ns": 290.59732045705584,
+    "command_us": 0.375,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      0.5,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "idle_samples": [
+      21,
+      0,
+      0,
+      5,
+      0,
+      0,
+      0,
+      5,
+      0,
+      0,
+      21
+    ],
+    "native_fidelity": 0.8880215155144208,
+    "first_direction_error": 0.0033227974147034597,
+    "nominal_swap_ns": 290.59732045705584,
+    "command_us": 0.375,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      -0.5,
+      -1.0,
+      1.0,
+      1.0
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      0.0,
+      0.0
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "idle_samples": [
+      3,
+      0,
+      0,
+      23,
+      0,
+      0,
+      0,
+      23,
+      0,
+      0,
+      3
+    ],
+    "native_fidelity": 0.879602179705992,
+    "first_direction_error": 0.0033227974147034094,
+    "nominal_swap_ns": 290.59732045705584,
+    "command_us": 0.375,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      -1.0,
+      -0.5,
+      -1.0,
+      1.0
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      3.141592653589793,
+      0.0
+    ],
+    "half_fractions": [
+      1.0,
+      1.0,
+      0.5,
+      1.0,
+      1.0
+    ],
+    "idle_samples": [
+      3,
+      0,
+      0,
+      5,
+      0,
+      0,
+      0,
+      5,
+      0,
+      0,
+      3
+    ],
+    "native_fidelity": 0.8744236589173443,
+    "first_direction_error": 0.0036680161603326804,
+    "nominal_swap_ns": 255.25440310417068,
+    "command_us": 0.33,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      1.0,
+      -1.0,
+      -0.5,
+      1.0
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      0.0
+    ],
+    "half_fractions": [
+      0.5,
+      1.0,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      0,
+      0,
+      37,
+      0,
+      0,
+      22,
+      0,
+      0,
+      37,
+      0,
+      0
+    ],
+    "native_fidelity": 0.8700211572441744,
+    "first_direction_error": 0.003222586047426076,
+    "nominal_swap_ns": 333.7942194439155,
+    "command_us": 0.43,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      0.5,
+      -1.0,
+      -1.0,
+      1.0
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      0.0
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "idle_samples": [
+      3,
+      0,
+      0,
+      5,
+      0,
+      0,
+      0,
+      5,
+      0,
+      0,
+      3
+    ],
+    "native_fidelity": 0.8698878592399194,
+    "first_direction_error": 0.0034418239242837087,
+    "nominal_swap_ns": 255.25440310417068,
+    "command_us": 0.33,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      -0.5,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "idle_samples": [
+      3,
+      0,
+      0,
+      23,
+      0,
+      0,
+      0,
+      23,
+      0,
+      0,
+      3
+    ],
+    "native_fidelity": 0.8689835342447333,
+    "first_direction_error": 0.0033227974147034094,
+    "nominal_swap_ns": 290.59732045705584,
+    "command_us": 0.375,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      -0.5,
+      1.0,
+      -1.0,
+      -1.0
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      0.0,
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "idle_samples": [
+      21,
+      0,
+      0,
+      23,
+      0,
+      0,
+      0,
+      23,
+      0,
+      0,
+      21
+    ],
+    "native_fidelity": 0.8660123438848341,
+    "first_direction_error": 0.0032074192324642466,
+    "nominal_swap_ns": 325.94023780994104,
+    "command_us": 0.42,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      -0.5,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "idle_samples": [
+      21,
+      0,
+      0,
+      23,
+      0,
+      0,
+      0,
+      23,
+      0,
+      0,
+      21
+    ],
+    "native_fidelity": 0.8627835499306796,
+    "first_direction_error": 0.0032074192324642466,
+    "nominal_swap_ns": 325.94023780994104,
+    "command_us": 0.42,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      -1.0,
+      -0.5,
+      -1.0,
+      -0.5
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      1.0,
+      1.0,
+      0.5,
+      1.0,
+      0.5
+    ],
+    "idle_samples": [
+      0,
+      21,
+      0,
+      19,
+      0,
+      0,
+      0,
+      19,
+      0,
+      21,
+      0
+    ],
+    "native_fidelity": 0.8625946698427756,
+    "first_direction_error": 0.0025919743330358783,
+    "nominal_swap_ns": 318.0862561759665,
+    "command_us": 0.41000000000000003,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      1.0,
+      -0.5,
+      -1.0,
+      1.0
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      0.0
+    ],
+    "half_fractions": [
+      0.5,
+      1.0,
+      0.5,
+      1.0,
+      1.0
+    ],
+    "idle_samples": [
+      7,
+      0,
+      19,
+      0,
+      0,
+      0,
+      0,
+      0,
+      19,
+      0,
+      7
+    ],
+    "native_fidelity": 0.8598895007299764,
+    "first_direction_error": 0.0031282073596786966,
+    "nominal_swap_ns": 290.59732045705584,
+    "command_us": 0.375,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      1.0,
+      -0.5,
+      1.0,
+      0.5
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      3.141592653589793,
+      0.0,
+      0.0
+    ],
+    "half_fractions": [
+      0.5,
+      1.0,
+      0.5,
+      1.0,
+      0.5
+    ],
+    "idle_samples": [
+      0,
+      0,
+      5,
+      7,
+      0,
+      0,
+      0,
+      7,
+      5,
+      0,
+      0
+    ],
+    "native_fidelity": 0.8557709722595526,
+    "first_direction_error": 0.0033390829116184697,
+    "nominal_swap_ns": 263.10838473814516,
+    "command_us": 0.34,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      -0.5,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      7,
+      0,
+      0,
+      19,
+      0,
+      0,
+      0,
+      19,
+      0,
+      0,
+      7
+    ],
+    "native_fidelity": 0.8548110754010723,
+    "first_direction_error": 0.0031282073596787647,
+    "nominal_swap_ns": 290.59732045705584,
+    "command_us": 0.375,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      1.0,
+      1.0,
+      -0.5,
+      -1.0
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      0.0,
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      1.0,
+      1.0,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      3,
+      0,
+      0,
+      0,
+      0,
+      46,
+      0,
+      0,
+      0,
+      0,
+      3
+    ],
+    "native_fidelity": 0.8532133479371549,
+    "first_direction_error": 0.003322797414703458,
+    "nominal_swap_ns": 290.59732045705584,
+    "command_us": 0.375,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      -1.0,
+      -0.5,
+      1.0,
+      0.5
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      0.0,
+      0.0
+    ],
+    "half_fractions": [
+      0.5,
+      1.0,
+      0.5,
+      1.0,
+      0.5
+    ],
+    "idle_samples": [
+      0,
+      0,
+      5,
+      25,
+      0,
+      0,
+      0,
+      25,
+      5,
+      0,
+      0
+    ],
+    "native_fidelity": 0.8521312914812811,
+    "first_direction_error": 0.0032353553774744806,
+    "nominal_swap_ns": 298.45130209103036,
+    "command_us": 0.385,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      1.0,
+      -1.0,
+      0.5,
+      1.0
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      3.141592653589793,
+      0.0,
+      0.0
+    ],
+    "half_fractions": [
+      1.0,
+      1.0,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      3,
+      0,
+      0,
+      0,
+      0,
+      46,
+      0,
+      0,
+      0,
+      0,
+      3
+    ],
+    "native_fidelity": 0.8488374876797254,
+    "first_direction_error": 0.003322797414703458,
+    "nominal_swap_ns": 290.59732045705584,
+    "command_us": 0.375,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      1.0,
+      -0.5,
+      -0.5,
+      -1.0
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      0.5,
+      1.0,
+      0.5,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      12,
+      0,
+      14,
+      0,
+      0,
+      0,
+      0,
+      0,
+      14,
+      0,
+      12
+    ],
+    "native_fidelity": 0.8378481549337914,
+    "first_direction_error": 0.00028714352173030437,
+    "nominal_swap_ns": 290.59732045705584,
+    "command_us": 0.375,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      -0.5,
+      -1.0,
+      -0.5,
+      -1.0
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      17,
+      0,
+      0,
+      19,
+      0,
+      0,
+      0,
+      19,
+      0,
+      0,
+      17
+    ],
+    "native_fidelity": 0.8376820928624313,
+    "first_direction_error": 0.0026575939364038943,
+    "nominal_swap_ns": 310.23227454199207,
+    "command_us": 0.4,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      -1.0,
+      -0.5,
+      -1.0,
+      1.0
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      3.141592653589793,
+      0.0
+    ],
+    "half_fractions": [
+      0.5,
+      1.0,
+      0.5,
+      1.0,
+      1.0
+    ],
+    "idle_samples": [
+      0,
+      0,
+      19,
+      11,
+      0,
+      0,
+      0,
+      11,
+      19,
+      0,
+      0
+    ],
+    "native_fidelity": 0.8344120866733247,
+    "first_direction_error": 0.003045886113371484,
+    "nominal_swap_ns": 298.45130209103036,
+    "command_us": 0.385,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      -1.0,
+      -0.5,
+      -1.0,
+      0.5
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      3.141592653589793,
+      0.0
+    ],
+    "half_fractions": [
+      0.5,
+      1.0,
+      0.5,
+      1.0,
+      0.5
+    ],
+    "idle_samples": [
+      0,
+      0,
+      23,
+      25,
+      0,
+      0,
+      0,
+      25,
+      23,
+      0,
+      0
+    ],
+    "native_fidelity": 0.827854649666831,
+    "first_direction_error": 0.0031319505446416054,
+    "nominal_swap_ns": 333.7942194439155,
+    "command_us": 0.43,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      -1.0,
+      -0.5,
+      -1.0,
+      0.5
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      3.141592653589793,
+      0.0
+    ],
+    "half_fractions": [
+      1.0,
+      1.0,
+      0.5,
+      1.0,
+      0.5
+    ],
+    "idle_samples": [
+      7,
+      0,
+      0,
+      19,
+      0,
+      0,
+      0,
+      19,
+      0,
+      0,
+      7
+    ],
+    "native_fidelity": 0.827435478559393,
+    "first_direction_error": 0.0031282073596786523,
+    "nominal_swap_ns": 290.59732045705584,
+    "command_us": 0.375,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      1.0,
+      -0.5,
+      -1.0,
+      0.5
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      0.0
+    ],
+    "half_fractions": [
+      0.5,
+      1.0,
+      0.5,
+      1.0,
+      0.5
+    ],
+    "idle_samples": [
+      0,
+      0,
+      23,
+      7,
+      0,
+      0,
+      0,
+      7,
+      23,
+      0,
+      0
+    ],
+    "native_fidelity": 0.8273324506612466,
+    "first_direction_error": 0.003235355377474326,
+    "nominal_swap_ns": 298.45130209103036,
+    "command_us": 0.385,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      1.0,
+      0.5,
+      1.0,
+      -1.0
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      0.5,
+      1.0,
+      0.5,
+      1.0,
+      1.0
+    ],
+    "idle_samples": [
+      0,
+      0,
+      19,
+      0,
+      21,
+      0,
+      21,
+      0,
+      19,
+      0,
+      0
+    ],
+    "native_fidelity": 0.8205186318178624,
+    "first_direction_error": 0.0025919743330358154,
+    "nominal_swap_ns": 318.0862561759665,
+    "command_us": 0.41000000000000003,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      0.5,
+      0.5,
+      -1.0,
+      -1.0
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      0.0,
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      0.5,
+      0.5,
+      0.5,
+      1.0,
+      1.0
+    ],
+    "idle_samples": [
+      12,
+      0,
+      0,
+      14,
+      0,
+      0,
+      0,
+      14,
+      0,
+      0,
+      12
+    ],
+    "native_fidelity": 0.8190185819800894,
+    "first_direction_error": 0.0002871435217303762,
+    "nominal_swap_ns": 290.59732045705584,
+    "command_us": 0.375,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      0.5,
+      1.0,
+      1.0,
+      -1.0
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "idle_samples": [
+      21,
+      0,
+      0,
+      5,
+      0,
+      0,
+      0,
+      5,
+      0,
+      0,
+      21
+    ],
+    "native_fidelity": 0.8158253967253621,
+    "first_direction_error": 0.0033227974147033447,
+    "nominal_swap_ns": 290.59732045705584,
+    "command_us": 0.375,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      0.5,
+      -1.0,
+      -0.5,
+      1.0
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      0.0
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      7,
+      0,
+      19,
+      0,
+      0,
+      0,
+      0,
+      0,
+      19,
+      0,
+      7
+    ],
+    "native_fidelity": 0.810004829146139,
+    "first_direction_error": 0.0031282073596788085,
+    "nominal_swap_ns": 290.59732045705584,
+    "command_us": 0.375,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      0.5,
+      0.5,
+      1.0,
+      1.0
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "half_fractions": [
+      0.5,
+      0.5,
+      0.5,
+      1.0,
+      1.0
+    ],
+    "idle_samples": [
+      12,
+      0,
+      0,
+      14,
+      0,
+      0,
+      0,
+      14,
+      0,
+      0,
+      12
+    ],
+    "native_fidelity": 0.8081564548076507,
+    "first_direction_error": 0.0002871435217303762,
+    "nominal_swap_ns": 290.59732045705584,
+    "command_us": 0.375,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      -0.5,
+      1.0,
+      1.0,
+      -1.0
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      0.0,
+      0.0,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "idle_samples": [
+      3,
+      0,
+      0,
+      23,
+      0,
+      0,
+      0,
+      23,
+      0,
+      0,
+      3
+    ],
+    "native_fidelity": 0.8068651933915201,
+    "first_direction_error": 0.0033227974147034055,
+    "nominal_swap_ns": 290.59732045705584,
+    "command_us": 0.375,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      -0.5,
+      -1.0,
+      0.5,
+      1.0
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      0.0,
+      0.0
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      0,
+      11,
+      0,
+      19,
+      0,
+      0,
+      0,
+      19,
+      0,
+      11,
+      0
+    ],
+    "native_fidelity": 0.7998568788612486,
+    "first_direction_error": 0.0030458861133714167,
+    "nominal_swap_ns": 298.45130209103036,
+    "command_us": 0.385,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      -0.5,
+      -1.0,
+      -1.0,
+      1.0
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      3.141592653589793,
+      0.0
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "idle_samples": [
+      21,
+      0,
+      0,
+      23,
+      0,
+      0,
+      0,
+      23,
+      0,
+      0,
+      21
+    ],
+    "native_fidelity": 0.7984852506204373,
+    "first_direction_error": 0.0032074192324642024,
+    "nominal_swap_ns": 325.94023780994104,
+    "command_us": 0.42,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      0.5,
+      -0.5,
+      -0.5,
+      -1.0
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      0.5,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      31,
+      0,
+      0,
+      0,
+      5,
+      0,
+      5,
+      0,
+      0,
+      0,
+      31
+    ],
+    "native_fidelity": 0.7964904101433276,
+    "first_direction_error": 0.0025769857101767477,
+    "nominal_swap_ns": 310.23227454199207,
+    "command_us": 0.4,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      -1.0,
+      -0.5,
+      -1.0,
+      -0.5
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      0.5,
+      1.0,
+      0.5,
+      1.0,
+      0.5
+    ],
+    "idle_samples": [
+      0,
+      5,
+      0,
+      25,
+      0,
+      0,
+      0,
+      25,
+      0,
+      5,
+      0
+    ],
+    "native_fidelity": 0.7960472199651906,
+    "first_direction_error": 0.00323535537747446,
+    "nominal_swap_ns": 298.45130209103036,
+    "command_us": 0.385,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      0.5,
+      1.0,
+      0.5,
+      -1.0
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      17,
+      0,
+      19,
+      0,
+      0,
+      0,
+      0,
+      0,
+      19,
+      0,
+      17
+    ],
+    "native_fidelity": 0.7956942987200195,
+    "first_direction_error": 0.002657593936403875,
+    "nominal_swap_ns": 310.23227454199207,
+    "command_us": 0.4,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      -1.0,
+      -1.0,
+      -0.5,
+      -1.0
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      1.0,
+      1.0,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      3,
+      0,
+      0,
+      0,
+      0,
+      46,
+      0,
+      0,
+      0,
+      0,
+      3
+    ],
+    "native_fidelity": 0.7894029972807556,
+    "first_direction_error": 0.003322797414703458,
+    "nominal_swap_ns": 290.59732045705584,
+    "command_us": 0.375,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      1.0,
+      -1.0,
+      0.5,
+      -1.0
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      3.141592653589793,
+      0.0,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      1.0,
+      1.0,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      21,
+      0,
+      0,
+      0,
+      0,
+      46,
+      0,
+      0,
+      0,
+      0,
+      21
+    ],
+    "native_fidelity": 0.7861242251397541,
+    "first_direction_error": 0.003207419232464199,
+    "nominal_swap_ns": 325.94023780994104,
+    "command_us": 0.42,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      1.0,
+      1.0,
+      -0.5,
+      1.0
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      0.0,
+      3.141592653589793,
+      0.0
+    ],
+    "half_fractions": [
+      1.0,
+      1.0,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      21,
+      0,
+      0,
+      0,
+      0,
+      46,
+      0,
+      0,
+      0,
+      0,
+      21
+    ],
+    "native_fidelity": 0.7836999363996079,
+    "first_direction_error": 0.003207419232464199,
+    "nominal_swap_ns": 325.94023780994104,
+    "command_us": 0.42,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      0.5,
+      0.5,
+      -1.0,
+      -0.5
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      0.0,
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      0.5,
+      1.0,
+      0.5
+    ],
+    "idle_samples": [
+      12,
+      0,
+      0,
+      0,
+      0,
+      28,
+      0,
+      0,
+      0,
+      0,
+      12
+    ],
+    "native_fidelity": 0.7802708788200886,
+    "first_direction_error": 0.0002871435217302944,
+    "nominal_swap_ns": 290.59732045705584,
+    "command_us": 0.375,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      0.5,
+      1.0,
+      -0.5,
+      -1.0
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      0.0,
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      0.5,
+      0.5,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      0,
+      0,
+      7,
+      0,
+      5,
+      0,
+      5,
+      0,
+      7,
+      0,
+      0
+    ],
+    "native_fidelity": 0.7782134394465853,
+    "first_direction_error": 0.0033390829116184467,
+    "nominal_swap_ns": 263.10838473814516,
+    "command_us": 0.34,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      1.0,
+      -0.5,
+      -1.0,
+      -0.5
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      0.5,
+      1.0,
+      0.5,
+      1.0,
+      0.5
+    ],
+    "idle_samples": [
+      0,
+      5,
+      0,
+      7,
+      0,
+      0,
+      0,
+      7,
+      0,
+      5,
+      0
+    ],
+    "native_fidelity": 0.7757002139700927,
+    "first_direction_error": 0.0033390829116184736,
+    "nominal_swap_ns": 263.10838473814516,
+    "command_us": 0.34,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      1.0,
+      0.5,
+      -1.0,
+      -0.5
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      0.0,
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      0.5,
+      1.0,
+      0.5,
+      1.0,
+      0.5
+    ],
+    "idle_samples": [
+      0,
+      0,
+      5,
+      0,
+      7,
+      0,
+      7,
+      0,
+      5,
+      0,
+      0
+    ],
+    "native_fidelity": 0.773185529001706,
+    "first_direction_error": 0.003339082911618455,
+    "nominal_swap_ns": 263.10838473814516,
+    "command_us": 0.34,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      1.0,
+      -1.0,
+      0.5,
+      1.0
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      3.141592653589793,
+      0.0,
+      0.0
+    ],
+    "half_fractions": [
+      0.5,
+      1.0,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      17,
+      0,
+      19,
+      0,
+      0,
+      0,
+      0,
+      0,
+      19,
+      0,
+      17
+    ],
+    "native_fidelity": 0.7706505636642936,
+    "first_direction_error": 0.0026575939364038696,
+    "nominal_swap_ns": 310.23227454199207,
+    "command_us": 0.4,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      -0.5,
+      0.5,
+      0.5,
+      1.0
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      0.5,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      31,
+      0,
+      0,
+      0,
+      23,
+      0,
+      23,
+      0,
+      0,
+      0,
+      31
+    ],
+    "native_fidelity": 0.7639786556167515,
+    "first_direction_error": 0.002587717516842497,
+    "nominal_swap_ns": 345.57519189487726,
+    "command_us": 0.445,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      1.0,
+      -0.5,
+      -0.5,
+      -0.5
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      1.0,
+      1.0,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "idle_samples": [
+      12,
+      0,
+      0,
+      0,
+      0,
+      28,
+      0,
+      0,
+      0,
+      0,
+      12
+    ],
+    "native_fidelity": 0.7637450723537137,
+    "first_direction_error": 0.00028714352173042764,
+    "nominal_swap_ns": 290.59732045705584,
+    "command_us": 0.375,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "half_fractions": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "idle_samples": [
+      0,
+      0,
+      16,
+      14,
+      0,
+      0,
+      0,
+      14,
+      16,
+      0,
+      0
+    ],
+    "native_fidelity": 0.7615515669684981,
+    "first_direction_error": 0.00027958711326373675,
+    "nominal_swap_ns": 298.45130209103036,
+    "command_us": 0.385,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      0.5,
+      1.0,
+      -0.5,
+      1.0
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      0.0,
+      3.141592653589793,
+      0.0
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      0,
+      11,
+      19,
+      0,
+      0,
+      0,
+      0,
+      0,
+      19,
+      11,
+      0
+    ],
+    "native_fidelity": 0.761101787796632,
+    "first_direction_error": 0.0030458861133713737,
+    "nominal_swap_ns": 298.45130209103036,
+    "command_us": 0.385,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      1.0,
+      -1.0,
+      0.5,
+      -1.0
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      3.141592653589793,
+      0.0,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      0.5,
+      1.0,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      17,
+      0,
+      37,
+      0,
+      0,
+      0,
+      0,
+      0,
+      37,
+      0,
+      17
+    ],
+    "native_fidelity": 0.7604958626734967,
+    "first_direction_error": 0.002894936883494776,
+    "nominal_swap_ns": 345.57519189487726,
+    "command_us": 0.445,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      -0.5,
+      -1.0,
+      1.0,
+      -0.5
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      0.0,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      1.0,
+      1.0,
+      0.5
+    ],
+    "idle_samples": [
+      0,
+      21,
+      0,
+      37,
+      0,
+      0,
+      0,
+      37,
+      0,
+      21,
+      0
+    ],
+    "native_fidelity": 0.7559701661669015,
+    "first_direction_error": 0.00283060495275041,
+    "nominal_swap_ns": 353.4291735288517,
+    "command_us": 0.455,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      1.0,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "half_fractions": [
+      1.0,
+      1.0,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "idle_samples": [
+      12,
+      0,
+      0,
+      0,
+      0,
+      28,
+      0,
+      0,
+      0,
+      0,
+      12
+    ],
+    "native_fidelity": 0.7539968128998213,
+    "first_direction_error": 0.00028714352173043095,
+    "nominal_swap_ns": 290.59732045705584,
+    "command_us": 0.375,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      0.5,
+      -0.5,
+      1.0,
+      0.5
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      3.141592653589793,
+      0.0,
+      0.0
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      0.5,
+      1.0,
+      0.5
+    ],
+    "idle_samples": [
+      12,
+      0,
+      0,
+      0,
+      0,
+      28,
+      0,
+      0,
+      0,
+      0,
+      12
+    ],
+    "native_fidelity": 0.7526757150612259,
+    "first_direction_error": 0.00028714352173029103,
+    "nominal_swap_ns": 290.59732045705584,
+    "command_us": 0.375,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      1.0,
+      -1.0,
+      -0.5,
+      1.0
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      0.0
+    ],
+    "half_fractions": [
+      1.0,
+      1.0,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      21,
+      0,
+      0,
+      0,
+      0,
+      10,
+      0,
+      0,
+      0,
+      0,
+      21
+    ],
+    "native_fidelity": 0.7513992711193989,
+    "first_direction_error": 0.003322797414703401,
+    "nominal_swap_ns": 290.59732045705584,
+    "command_us": 0.375,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      -0.5,
+      -0.5,
+      -0.5,
+      -1.0
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      0.5,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      0,
+      7,
+      0,
+      0,
+      23,
+      0,
+      23,
+      0,
+      0,
+      7,
+      0
+    ],
+    "native_fidelity": 0.7504502314212783,
+    "first_direction_error": 0.003235355377474314,
+    "nominal_swap_ns": 298.45130209103036,
+    "command_us": 0.385,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      0.5,
+      0.5,
+      -0.5,
+      1.0
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      0.0,
+      3.141592653589793,
+      0.0
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      0.5,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      0,
+      25,
+      0,
+      0,
+      0,
+      66,
+      0,
+      0,
+      0,
+      25,
+      0
+    ],
+    "native_fidelity": 0.7501295174582764,
+    "first_direction_error": 0.002530212683134837,
+    "nominal_swap_ns": 353.4291735288517,
+    "command_us": 0.455,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      1.0,
+      0.5,
+      1.0,
+      -0.5
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      0.5,
+      1.0,
+      0.5,
+      1.0,
+      0.5
+    ],
+    "idle_samples": [
+      0,
+      0,
+      23,
+      0,
+      7,
+      0,
+      7,
+      0,
+      23,
+      0,
+      0
+    ],
+    "native_fidelity": 0.7480721092589926,
+    "first_direction_error": 0.0032353553774742932,
+    "nominal_swap_ns": 298.45130209103036,
+    "command_us": 0.385,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      -0.5,
+      1.0,
+      -0.5,
+      -1.0
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      0.0,
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      35,
+      0,
+      0,
+      19,
+      0,
+      0,
+      0,
+      19,
+      0,
+      0,
+      35
+    ],
+    "native_fidelity": 0.7447950140087873,
+    "first_direction_error": 0.002894936883494726,
+    "nominal_swap_ns": 345.57519189487726,
+    "command_us": 0.445,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      1.0,
+      1.0,
+      0.5,
+      -1.0
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      1.0,
+      1.0,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      21,
+      0,
+      0,
+      0,
+      0,
+      10,
+      0,
+      0,
+      0,
+      0,
+      21
+    ],
+    "native_fidelity": 0.7421698403933592,
+    "first_direction_error": 0.003322797414703401,
+    "nominal_swap_ns": 290.59732045705584,
+    "command_us": 0.375,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      0.5,
+      1.0,
+      -1.0,
+      0.5
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      0.0,
+      3.141592653589793,
+      0.0
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      1.0,
+      1.0,
+      0.5
+    ],
+    "idle_samples": [
+      0,
+      21,
+      0,
+      19,
+      0,
+      0,
+      0,
+      19,
+      0,
+      21,
+      0
+    ],
+    "native_fidelity": 0.740071466766646,
+    "first_direction_error": 0.0025919743330358744,
+    "nominal_swap_ns": 318.0862561759665,
+    "command_us": 0.41000000000000003,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      -1.0,
+      -1.0,
+      -0.5,
+      1.0
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      3.141592653589793,
+      0.0
+    ],
+    "half_fractions": [
+      1.0,
+      1.0,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      21,
+      0,
+      0,
+      0,
+      0,
+      46,
+      0,
+      0,
+      0,
+      0,
+      21
+    ],
+    "native_fidelity": 0.7366463017137583,
+    "first_direction_error": 0.003207419232464199,
+    "nominal_swap_ns": 325.94023780994104,
+    "command_us": 0.42,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      0.5,
+      -1.0,
+      -0.5,
+      -0.5
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      1.0,
+      0.5,
+      0.5
+    ],
+    "idle_samples": [
+      0,
+      7,
+      0,
+      5,
+      0,
+      0,
+      0,
+      5,
+      0,
+      7,
+      0
+    ],
+    "native_fidelity": 0.7364350780523594,
+    "first_direction_error": 0.0033390829116185967,
+    "nominal_swap_ns": 263.10838473814516,
+    "command_us": 0.34,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      0.5,
+      0.5,
+      -0.5,
+      -1.0
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      0.0,
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      0.5,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      0,
+      7,
+      0,
+      0,
+      0,
+      66,
+      0,
+      0,
+      0,
+      7,
+      0
+    ],
+    "native_fidelity": 0.7362881883554341,
+    "first_direction_error": 0.0025133564333823803,
+    "nominal_swap_ns": 318.0862561759665,
+    "command_us": 0.41000000000000003,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      0.5,
+      -0.5,
+      0.5,
+      1.0
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      3.141592653589793,
+      0.0,
+      0.0
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      0.5,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      31,
+      0,
+      0,
+      0,
+      0,
+      66,
+      0,
+      0,
+      0,
+      0,
+      31
+    ],
+    "native_fidelity": 0.7324443768834425,
+    "first_direction_error": 0.0019486162780898233,
+    "nominal_swap_ns": 365.21014597981343,
+    "command_us": 0.47000000000000003,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      -1.0,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "half_fractions": [
+      0.5,
+      1.0,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      0,
+      0,
+      19,
+      0,
+      21,
+      0,
+      21,
+      0,
+      19,
+      0,
+      0
+    ],
+    "native_fidelity": 0.7304267434831826,
+    "first_direction_error": 0.0025919743330358107,
+    "nominal_swap_ns": 318.0862561759665,
+    "command_us": 0.41000000000000003,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      -1.0,
+      0.5,
+      -1.0,
+      1.0
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      0.0,
+      3.141592653589793,
+      0.0
+    ],
+    "half_fractions": [
+      1.0,
+      1.0,
+      0.5,
+      1.0,
+      1.0
+    ],
+    "idle_samples": [
+      0,
+      35,
+      0,
+      0,
+      33,
+      0,
+      33,
+      0,
+      0,
+      35,
+      0
+    ],
+    "native_fidelity": 0.7258229155211018,
+    "first_direction_error": 0.0020623558863740294,
+    "nominal_swap_ns": 373.06412761378795,
+    "command_us": 0.48,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      -0.5,
+      1.0,
+      0.5,
+      0.5
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      1.0,
+      0.5,
+      0.5
+    ],
+    "idle_samples": [
+      0,
+      7,
+      0,
+      23,
+      0,
+      0,
+      0,
+      23,
+      0,
+      7,
+      0
+    ],
+    "native_fidelity": 0.7253566467281339,
+    "first_direction_error": 0.0032353553774743587,
+    "nominal_swap_ns": 298.45130209103036,
+    "command_us": 0.385,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      -1.0,
+      -1.0,
+      0.5,
+      -1.0
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      0.0,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      1.0,
+      1.0,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      21,
+      0,
+      0,
+      0,
+      0,
+      10,
+      0,
+      0,
+      0,
+      0,
+      21
+    ],
+    "native_fidelity": 0.7248676080469162,
+    "first_direction_error": 0.0033227974147033994,
+    "nominal_swap_ns": 290.59732045705584,
+    "command_us": 0.375,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      -1.0,
+      -0.5,
+      1.0,
+      -1.0
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      0.0,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      1.0,
+      1.0,
+      0.5,
+      1.0,
+      1.0
+    ],
+    "idle_samples": [
+      0,
+      35,
+      0,
+      5,
+      0,
+      0,
+      0,
+      5,
+      0,
+      35,
+      0
+    ],
+    "native_fidelity": 0.7156212108767852,
+    "first_direction_error": 0.0026939439425659713,
+    "nominal_swap_ns": 318.0862561759665,
+    "command_us": 0.41000000000000003,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      0.5,
+      0.5,
+      0.5,
+      -1.0
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      0.5,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      0,
+      25,
+      0,
+      0,
+      5,
+      0,
+      5,
+      0,
+      0,
+      25,
+      0
+    ],
+    "native_fidelity": 0.7152338798729173,
+    "first_direction_error": 0.00323535537747431,
+    "nominal_swap_ns": 298.45130209103036,
+    "command_us": 0.385,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      -0.5,
+      -1.0,
+      -0.5,
+      -0.5
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      1.0,
+      0.5,
+      0.5
+    ],
+    "idle_samples": [
+      31,
+      0,
+      0,
+      23,
+      0,
+      0,
+      0,
+      23,
+      0,
+      0,
+      31
+    ],
+    "native_fidelity": 0.7120974440629215,
+    "first_direction_error": 0.002587717516842508,
+    "nominal_swap_ns": 345.57519189487726,
+    "command_us": 0.445,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      -1.0,
+      -0.5,
+      1.0,
+      -0.5
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      0.0,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      1.0,
+      1.0,
+      0.5,
+      1.0,
+      0.5
+    ],
+    "idle_samples": [
+      0,
+      39,
+      0,
+      19,
+      0,
+      0,
+      0,
+      19,
+      0,
+      39,
+      0
+    ],
+    "native_fidelity": 0.7117675634832227,
+    "first_direction_error": 0.002830604952750465,
+    "nominal_swap_ns": 353.4291735288517,
+    "command_us": 0.455,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      0.5,
+      -1.0,
+      0.5,
+      -1.0
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      3.141592653589793,
+      0.0,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      35,
+      0,
+      19,
+      0,
+      0,
+      0,
+      0,
+      0,
+      19,
+      0,
+      35
+    ],
+    "native_fidelity": 0.7095872771461563,
+    "first_direction_error": 0.0028949368834946428,
+    "nominal_swap_ns": 345.57519189487726,
+    "command_us": 0.445,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      -1.0,
+      1.0,
+      0.5,
+      -1.0
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      0.0,
+      0.0,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      0.5,
+      1.0,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      0,
+      0,
+      37,
+      0,
+      21,
+      0,
+      21,
+      0,
+      37,
+      0,
+      0
+    ],
+    "native_fidelity": 0.7051796101937049,
+    "first_direction_error": 0.0028306049527503452,
+    "nominal_swap_ns": 353.4291735288517,
+    "command_us": 0.455,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      -1.0,
+      0.5,
+      -1.0,
+      -0.5
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      0.0,
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      1.0,
+      1.0,
+      0.5,
+      1.0,
+      0.5
+    ],
+    "idle_samples": [
+      0,
+      11,
+      0,
+      0,
+      19,
+      0,
+      19,
+      0,
+      0,
+      11,
+      0
+    ],
+    "native_fidelity": 0.7044617732739019,
+    "first_direction_error": 0.003045886113371483,
+    "nominal_swap_ns": 298.45130209103036,
+    "command_us": 0.385,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      1.0,
+      -0.5,
+      0.5,
+      0.5
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      3.141592653589793,
+      0.0,
+      0.0
+    ],
+    "half_fractions": [
+      1.0,
+      1.0,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "idle_samples": [
+      0,
+      44,
+      0,
+      0,
+      0,
+      28,
+      0,
+      0,
+      0,
+      44,
+      0
+    ],
+    "native_fidelity": 0.7036927179680017,
+    "first_direction_error": 0.0005279262234188453,
+    "nominal_swap_ns": 353.4291735288517,
+    "command_us": 0.455,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      -1.0,
+      0.5,
+      1.0,
+      -1.0
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      0.0,
+      0.0,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      1.0,
+      1.0,
+      0.5,
+      1.0,
+      1.0
+    ],
+    "idle_samples": [
+      3,
+      0,
+      0,
+      0,
+      33,
+      0,
+      33,
+      0,
+      0,
+      0,
+      3
+    ],
+    "native_fidelity": 0.7025117030349401,
+    "first_direction_error": 0.0027621450550359967,
+    "nominal_swap_ns": 310.23227454199207,
+    "command_us": 0.4,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      -0.5,
+      -1.0,
+      -1.0,
+      -0.5
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      0.5,
+      0.5,
+      1.0,
+      1.0,
+      0.5
+    ],
+    "idle_samples": [
+      0,
+      0,
+      0,
+      44,
+      0,
+      28,
+      0,
+      44,
+      0,
+      0,
+      0
+    ],
+    "native_fidelity": 0.7007307791723083,
+    "first_direction_error": 0.0005279262234188453,
+    "nominal_swap_ns": 353.4291735288517,
+    "command_us": 0.455,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      0.5,
+      1.0,
+      -0.5,
+      1.0
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      0.0,
+      3.141592653589793,
+      0.0
+    ],
+    "half_fractions": [
+      0.5,
+      0.5,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      0,
+      0,
+      25,
+      0,
+      5,
+      0,
+      5,
+      0,
+      25,
+      0,
+      0
+    ],
+    "native_fidelity": 0.699682088213669,
+    "first_direction_error": 0.0032353553774743657,
+    "nominal_swap_ns": 298.45130209103036,
+    "command_us": 0.385,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      0.5,
+      -1.0,
+      -0.5,
+      -1.0
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      0.5,
+      0.5,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      0,
+      0,
+      7,
+      0,
+      23,
+      0,
+      23,
+      0,
+      7,
+      0,
+      0
+    ],
+    "native_fidelity": 0.6994129867234717,
+    "first_direction_error": 0.0032353553774743505,
+    "nominal_swap_ns": 298.45130209103036,
+    "command_us": 0.385,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      1.0,
+      -0.5,
+      0.5,
+      1.0
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      3.141592653589793,
+      0.0,
+      0.0
+    ],
+    "half_fractions": [
+      0.5,
+      1.0,
+      0.5,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      12,
+      14,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      14,
+      12
+    ],
+    "native_fidelity": 0.6973053413507048,
+    "first_direction_error": 0.00028714352173029103,
+    "nominal_swap_ns": 290.59732045705584,
+    "command_us": 0.375,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      -0.5,
+      -1.0,
+      0.5,
+      1.0
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      0.0,
+      0.0
+    ],
+    "half_fractions": [
+      0.5,
+      0.5,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      0,
+      0,
+      0,
+      25,
+      5,
+      0,
+      5,
+      25,
+      0,
+      0,
+      0
+    ],
+    "native_fidelity": 0.6959713565644737,
+    "first_direction_error": 0.0032353553774744216,
+    "nominal_swap_ns": 298.45130209103036,
+    "command_us": 0.385,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      1.0,
+      0.5,
+      -1.0,
+      1.0
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      0.0,
+      3.141592653589793,
+      0.0
+    ],
+    "half_fractions": [
+      0.5,
+      1.0,
+      0.5,
+      1.0,
+      1.0
+    ],
+    "idle_samples": [
+      0,
+      19,
+      0,
+      0,
+      21,
+      0,
+      21,
+      0,
+      0,
+      19,
+      0
+    ],
+    "native_fidelity": 0.6955352851027773,
+    "first_direction_error": 0.002591974333035953,
+    "nominal_swap_ns": 318.0862561759665,
+    "command_us": 0.41000000000000003,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      1.0,
+      1.0,
+      0.5,
+      0.5
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "half_fractions": [
+      0.5,
+      1.0,
+      1.0,
+      0.5,
+      0.5
+    ],
+    "idle_samples": [
+      12,
+      0,
+      14,
+      0,
+      0,
+      0,
+      0,
+      0,
+      14,
+      0,
+      12
+    ],
+    "native_fidelity": 0.6860767095997986,
+    "first_direction_error": 0.00028714352173031657,
+    "nominal_swap_ns": 290.59732045705584,
+    "command_us": 0.375,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      0.5,
+      1.0,
+      0.5,
+      -1.0
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      0.5,
+      0.5,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      0,
+      0,
+      25,
+      0,
+      0,
+      66,
+      0,
+      0,
+      25,
+      0,
+      0
+    ],
+    "native_fidelity": 0.6810365391894212,
+    "first_direction_error": 0.0025302126831349483,
+    "nominal_swap_ns": 353.4291735288517,
+    "command_us": 0.455,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      0.5,
+      1.0,
+      0.5,
+      0.5
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      1.0,
+      0.5,
+      0.5
+    ],
+    "idle_samples": [
+      31,
+      0,
+      0,
+      5,
+      0,
+      0,
+      0,
+      5,
+      0,
+      0,
+      31
+    ],
+    "native_fidelity": 0.6804351911366717,
+    "first_direction_error": 0.002576985710176818,
+    "nominal_swap_ns": 310.23227454199207,
+    "command_us": 0.4,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      1.0,
+      1.0,
+      0.5,
+      -0.5
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      0.5,
+      1.0,
+      1.0,
+      0.5,
+      0.5
+    ],
+    "idle_samples": [
+      12,
+      0,
+      42,
+      0,
+      0,
+      0,
+      0,
+      0,
+      42,
+      0,
+      12
+    ],
+    "native_fidelity": 0.6798579750301393,
+    "first_direction_error": 0.000539924546678316,
+    "nominal_swap_ns": 345.57519189487726,
+    "command_us": 0.445,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      -0.5,
+      -1.0,
+      0.5,
+      0.5
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      0.0,
+      0.0
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      1.0,
+      0.5,
+      0.5
+    ],
+    "idle_samples": [
+      0,
+      25,
+      0,
+      23,
+      0,
+      0,
+      0,
+      23,
+      0,
+      25,
+      0
+    ],
+    "native_fidelity": 0.6791877429967391,
+    "first_direction_error": 0.0031319505446415707,
+    "nominal_swap_ns": 333.7942194439155,
+    "command_us": 0.43,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      0.5,
+      -0.5,
+      1.0,
+      1.0
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      3.141592653589793,
+      0.0,
+      0.0
+    ],
+    "half_fractions": [
+      0.5,
+      0.5,
+      0.5,
+      1.0,
+      1.0
+    ],
+    "idle_samples": [
+      12,
+      0,
+      0,
+      0,
+      42,
+      0,
+      42,
+      0,
+      0,
+      0,
+      12
+    ],
+    "native_fidelity": 0.6772419067498618,
+    "first_direction_error": 0.0005399245466783558,
+    "nominal_swap_ns": 345.57519189487726,
+    "command_us": 0.445,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      -1.0,
+      0.5,
+      1.0,
+      -1.0
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      0.0,
+      0.0,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      0.5,
+      1.0,
+      0.5,
+      1.0,
+      1.0
+    ],
+    "idle_samples": [
+      0,
+      0,
+      19,
+      0,
+      39,
+      0,
+      39,
+      0,
+      19,
+      0,
+      0
+    ],
+    "native_fidelity": 0.6746324435701054,
+    "first_direction_error": 0.002830604952750498,
+    "nominal_swap_ns": 353.4291735288517,
+    "command_us": 0.455,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      1.0,
+      0.5,
+      -0.5,
+      -0.5
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      0.0,
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      1.0,
+      1.0,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "idle_samples": [
+      0,
+      44,
+      0,
+      0,
+      0,
+      28,
+      0,
+      0,
+      0,
+      44,
+      0
+    ],
+    "native_fidelity": 0.6732982513462611,
+    "first_direction_error": 0.0005279262234188453,
+    "nominal_swap_ns": 353.4291735288517,
+    "command_us": 0.455,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      0.5,
+      1.0,
+      -0.5,
+      -0.5
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      0.0,
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      1.0,
+      0.5,
+      0.5
+    ],
+    "idle_samples": [
+      0,
+      25,
+      0,
+      5,
+      0,
+      0,
+      0,
+      5,
+      0,
+      25,
+      0
+    ],
+    "native_fidelity": 0.6696889578173486,
+    "first_direction_error": 0.0032353553774742993,
+    "nominal_swap_ns": 298.45130209103036,
+    "command_us": 0.385,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      1.0,
+      0.5,
+      1.0,
+      0.5
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "half_fractions": [
+      0.5,
+      1.0,
+      0.5,
+      1.0,
+      0.5
+    ],
+    "idle_samples": [
+      0,
+      5,
+      0,
+      0,
+      7,
+      0,
+      7,
+      0,
+      0,
+      5,
+      0
+    ],
+    "native_fidelity": 0.6686022330232211,
+    "first_direction_error": 0.003339082911618546,
+    "nominal_swap_ns": 263.10838473814516,
+    "command_us": 0.34,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      -1.0,
+      0.5,
+      1.0,
+      0.5
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "half_fractions": [
+      1.0,
+      1.0,
+      0.5,
+      1.0,
+      0.5
+    ],
+    "idle_samples": [
+      0,
+      21,
+      0,
+      0,
+      19,
+      0,
+      19,
+      0,
+      0,
+      21,
+      0
+    ],
+    "native_fidelity": 0.6648609120648893,
+    "first_direction_error": 0.0025919743330358935,
+    "nominal_swap_ns": 318.0862561759665,
+    "command_us": 0.41000000000000003,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      -0.5,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "half_fractions": [
+      0.5,
+      0.5,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      0,
+      0,
+      0,
+      25,
+      23,
+      0,
+      23,
+      25,
+      0,
+      0,
+      0
+    ],
+    "native_fidelity": 0.6608126002119671,
+    "first_direction_error": 0.003131950544641564,
+    "nominal_swap_ns": 333.7942194439155,
+    "command_us": 0.43,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      -1.0,
+      -0.5,
+      1.0,
+      -0.5
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      0.0,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      0.5,
+      1.0,
+      0.5,
+      1.0,
+      0.5
+    ],
+    "idle_samples": [
+      0,
+      23,
+      0,
+      25,
+      0,
+      0,
+      0,
+      25,
+      0,
+      23,
+      0
+    ],
+    "native_fidelity": 0.6584306952457459,
+    "first_direction_error": 0.003131950544641616,
+    "nominal_swap_ns": 333.7942194439155,
+    "command_us": 0.43,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      0.5,
+      -1.0,
+      -0.5,
+      1.0
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      0.0
+    ],
+    "half_fractions": [
+      0.5,
+      0.5,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      0,
+      0,
+      25,
+      0,
+      23,
+      0,
+      23,
+      0,
+      25,
+      0,
+      0
+    ],
+    "native_fidelity": 0.6583450452016056,
+    "first_direction_error": 0.0031319505446415737,
+    "nominal_swap_ns": 333.7942194439155,
+    "command_us": 0.43,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      0.5,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "half_fractions": [
+      0.5,
+      0.5,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      0,
+      0,
+      7,
+      0,
+      0,
+      66,
+      0,
+      0,
+      7,
+      0,
+      0
+    ],
+    "native_fidelity": 0.6539574666392937,
+    "first_direction_error": 0.0025133564333822797,
+    "nominal_swap_ns": 318.0862561759665,
+    "command_us": 0.41000000000000003,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      1.0,
+      -0.5,
+      1.0,
+      -1.0
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      3.141592653589793,
+      0.0,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      0.5,
+      1.0,
+      0.5,
+      1.0,
+      1.0
+    ],
+    "idle_samples": [
+      7,
+      19,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      19,
+      7
+    ],
+    "native_fidelity": 0.6527480653481412,
+    "first_direction_error": 0.003128207359678709,
+    "nominal_swap_ns": 290.59732045705584,
+    "command_us": 0.375,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      -0.5,
+      -0.5,
+      -0.5,
+      1.0
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      3.141592653589793,
+      0.0
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      0.5,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      0,
+      25,
+      0,
+      0,
+      23,
+      0,
+      23,
+      0,
+      0,
+      25,
+      0
+    ],
+    "native_fidelity": 0.652145295179668,
+    "first_direction_error": 0.0031319505446415585,
+    "nominal_swap_ns": 333.7942194439155,
+    "command_us": 0.43,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      -1.0,
+      -0.5,
+      1.0,
+      -1.0
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      0.0,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      0.5,
+      1.0,
+      0.5,
+      1.0,
+      1.0
+    ],
+    "idle_samples": [
+      0,
+      19,
+      0,
+      11,
+      0,
+      0,
+      0,
+      11,
+      0,
+      19,
+      0
+    ],
+    "native_fidelity": 0.6491073176916011,
+    "first_direction_error": 0.003045886113371581,
+    "nominal_swap_ns": 298.45130209103036,
+    "command_us": 0.385,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      0.5,
+      -0.5,
+      -1.0,
+      -1.0
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      0.5,
+      0.5,
+      0.5,
+      1.0,
+      1.0
+    ],
+    "idle_samples": [
+      12,
+      0,
+      0,
+      0,
+      42,
+      0,
+      42,
+      0,
+      0,
+      0,
+      12
+    ],
+    "native_fidelity": 0.6454669631628503,
+    "first_direction_error": 0.000539924546678316,
+    "nominal_swap_ns": 345.57519189487726,
+    "command_us": 0.445,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      -0.5,
+      -1.0,
+      -0.5,
+      -1.0
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      0.5,
+      0.5,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      0,
+      0,
+      0,
+      25,
+      0,
+      66,
+      0,
+      25,
+      0,
+      0,
+      0
+    ],
+    "native_fidelity": 0.6448666408875128,
+    "first_direction_error": 0.002530212683135014,
+    "nominal_swap_ns": 353.4291735288517,
+    "command_us": 0.455,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      0.5,
+      -1.0,
+      1.0,
+      -0.5
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      3.141592653589793,
+      0.0,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      1.0,
+      1.0,
+      0.5
+    ],
+    "idle_samples": [
+      45,
+      0,
+      0,
+      19,
+      0,
+      0,
+      0,
+      19,
+      0,
+      0,
+      45
+    ],
+    "native_fidelity": 0.641597161306964,
+    "first_direction_error": 0.002033160974197712,
+    "nominal_swap_ns": 365.21014597981343,
+    "command_us": 0.47000000000000003,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      0.5,
+      1.0,
+      0.5,
+      -0.5
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      1.0,
+      0.5,
+      0.5
+    ],
+    "idle_samples": [
+      31,
+      0,
+      23,
+      0,
+      0,
+      0,
+      0,
+      0,
+      23,
+      0,
+      31
+    ],
+    "native_fidelity": 0.6361532138755998,
+    "first_direction_error": 0.0025877175168425586,
+    "nominal_swap_ns": 345.57519189487726,
+    "command_us": 0.445,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      -1.0,
+      -0.5,
+      -0.5,
+      1.0
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      3.141592653589793,
+      0.0
+    ],
+    "half_fractions": [
+      0.5,
+      1.0,
+      0.5,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      12,
+      0,
+      14,
+      0,
+      0,
+      0,
+      0,
+      0,
+      14,
+      0,
+      12
+    ],
+    "native_fidelity": 0.6341938899655667,
+    "first_direction_error": 0.0002871435217302778,
+    "nominal_swap_ns": 290.59732045705584,
+    "command_us": 0.375,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      0.5,
+      1.0,
+      1.0,
+      0.5
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "half_fractions": [
+      0.5,
+      0.5,
+      1.0,
+      1.0,
+      0.5
+    ],
+    "idle_samples": [
+      12,
+      0,
+      0,
+      0,
+      0,
+      28,
+      0,
+      0,
+      0,
+      0,
+      12
+    ],
+    "native_fidelity": 0.6299623983492497,
+    "first_direction_error": 0.0002871435217303762,
+    "nominal_swap_ns": 290.59732045705584,
+    "command_us": 0.375,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      -1.0,
+      0.5,
+      -1.0,
+      1.0
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      0.0,
+      3.141592653589793,
+      0.0
+    ],
+    "half_fractions": [
+      0.5,
+      1.0,
+      0.5,
+      1.0,
+      1.0
+    ],
+    "idle_samples": [
+      0,
+      19,
+      0,
+      0,
+      39,
+      0,
+      39,
+      0,
+      0,
+      19,
+      0
+    ],
+    "native_fidelity": 0.6263182896910897,
+    "first_direction_error": 0.002830604952750415,
+    "nominal_swap_ns": 353.4291735288517,
+    "command_us": 0.455,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      0.5,
+      -1.0,
+      -0.5,
+      0.5
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      0.0
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      1.0,
+      0.5,
+      0.5
+    ],
+    "idle_samples": [
+      0,
+      7,
+      23,
+      0,
+      0,
+      0,
+      0,
+      0,
+      23,
+      7,
+      0
+    ],
+    "native_fidelity": 0.6216889949067762,
+    "first_direction_error": 0.0032353553774744203,
+    "nominal_swap_ns": 298.45130209103036,
+    "command_us": 0.385,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      -0.5,
+      0.5,
+      0.5,
+      -1.0
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      0.0,
+      0.0,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      0.5,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      49,
+      0,
+      0,
+      0,
+      23,
+      0,
+      23,
+      0,
+      0,
+      0,
+      49
+    ],
+    "native_fidelity": 0.6213807261932899,
+    "first_direction_error": 0.0029716357572109144,
+    "nominal_swap_ns": 380.9181092477624,
+    "command_us": 0.49,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      1.0,
+      -0.5,
+      1.0,
+      -0.5
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      3.141592653589793,
+      0.0,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      0.5,
+      1.0,
+      0.5,
+      1.0,
+      0.5
+    ],
+    "idle_samples": [
+      0,
+      23,
+      0,
+      7,
+      0,
+      0,
+      0,
+      7,
+      0,
+      23,
+      0
+    ],
+    "native_fidelity": 0.6210633772080112,
+    "first_direction_error": 0.003235355377474312,
+    "nominal_swap_ns": 298.45130209103036,
+    "command_us": 0.385,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      -1.0,
+      0.5,
+      -1.0,
+      0.5
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      0.0,
+      3.141592653589793,
+      0.0
+    ],
+    "half_fractions": [
+      1.0,
+      1.0,
+      0.5,
+      1.0,
+      0.5
+    ],
+    "idle_samples": [
+      0,
+      39,
+      0,
+      0,
+      19,
+      0,
+      19,
+      0,
+      0,
+      39,
+      0
+    ],
+    "native_fidelity": 0.616202180966835,
+    "first_direction_error": 0.002830604952750401,
+    "nominal_swap_ns": 353.4291735288517,
+    "command_us": 0.455,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      -0.5,
+      1.0,
+      1.0,
+      -0.5
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      0.0,
+      0.0,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      0.5,
+      0.5,
+      1.0,
+      1.0,
+      0.5
+    ],
+    "idle_samples": [
+      0,
+      0,
+      0,
+      44,
+      0,
+      28,
+      0,
+      44,
+      0,
+      0,
+      0
+    ],
+    "native_fidelity": 0.6080128419559616,
+    "first_direction_error": 0.0005279262234188453,
+    "nominal_swap_ns": 353.4291735288517,
+    "command_us": 0.455,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      -0.5,
+      0.5,
+      1.0,
+      -0.5
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      0.0,
+      0.0,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      0.5,
+      1.0,
+      0.5
+    ],
+    "idle_samples": [
+      12,
+      0,
+      0,
+      0,
+      0,
+      28,
+      0,
+      0,
+      0,
+      0,
+      12
+    ],
+    "native_fidelity": 0.6074072212166991,
+    "first_direction_error": 0.0002871435217302844,
+    "nominal_swap_ns": 290.59732045705584,
+    "command_us": 0.375,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      -0.5,
+      1.0,
+      -0.5,
+      -0.5
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      0.0,
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      1.0,
+      0.5,
+      0.5
+    ],
+    "idle_samples": [
+      49,
+      0,
+      0,
+      23,
+      0,
+      0,
+      0,
+      23,
+      0,
+      0,
+      49
+    ],
+    "native_fidelity": 0.6026352786830234,
+    "first_direction_error": 0.0029716357572108316,
+    "nominal_swap_ns": 380.9181092477624,
+    "command_us": 0.49,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      -0.5,
+      -0.5,
+      -1.0,
+      0.5
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      3.141592653589793,
+      0.0
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      0.5,
+      1.0,
+      0.5
+    ],
+    "idle_samples": [
+      12,
+      0,
+      0,
+      0,
+      0,
+      28,
+      0,
+      0,
+      0,
+      0,
+      12
+    ],
+    "native_fidelity": 0.5948307017311268,
+    "first_direction_error": 0.0002871435217302944,
+    "nominal_swap_ns": 290.59732045705584,
+    "command_us": 0.375,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      0.5,
+      1.0,
+      -0.5,
+      0.5
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      0.0,
+      3.141592653589793,
+      0.0
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      1.0,
+      0.5,
+      0.5
+    ],
+    "idle_samples": [
+      0,
+      25,
+      23,
+      0,
+      0,
+      0,
+      0,
+      0,
+      23,
+      25,
+      0
+    ],
+    "native_fidelity": 0.5943843193534998,
+    "first_direction_error": 0.0031319505446414666,
+    "nominal_swap_ns": 333.7942194439155,
+    "command_us": 0.43,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      -1.0,
+      -1.0,
+      0.5,
+      -0.5
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      0.0,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      0.5,
+      1.0,
+      1.0,
+      0.5,
+      0.5
+    ],
+    "idle_samples": [
+      12,
+      0,
+      42,
+      0,
+      0,
+      0,
+      0,
+      0,
+      42,
+      0,
+      12
+    ],
+    "native_fidelity": 0.5936313150440237,
+    "first_direction_error": 0.0005399245466783085,
+    "nominal_swap_ns": 345.57519189487726,
+    "command_us": 0.445,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      -0.5,
+      -0.5,
+      0.5,
+      -1.0
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      0.0,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      0.5,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      0,
+      25,
+      0,
+      0,
+      0,
+      102,
+      0,
+      0,
+      0,
+      25,
+      0
+    ],
+    "native_fidelity": 0.588817645097514,
+    "first_direction_error": 0.0029116027116106087,
+    "nominal_swap_ns": 388.7720908817369,
+    "command_us": 0.5,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      -1.0,
+      0.5,
+      1.0,
+      -0.5
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      0.0,
+      0.0,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      1.0,
+      1.0,
+      0.5,
+      1.0,
+      0.5
+    ],
+    "idle_samples": [
+      7,
+      0,
+      0,
+      0,
+      19,
+      0,
+      19,
+      0,
+      0,
+      0,
+      7
+    ],
+    "native_fidelity": 0.5870443800645402,
+    "first_direction_error": 0.0031282073596786957,
+    "nominal_swap_ns": 290.59732045705584,
+    "command_us": 0.375,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      -1.0,
+      0.5,
+      1.0,
+      -0.5
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      0.0,
+      0.0,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      0.5,
+      1.0,
+      0.5,
+      1.0,
+      0.5
+    ],
+    "idle_samples": [
+      0,
+      0,
+      23,
+      0,
+      25,
+      0,
+      25,
+      0,
+      23,
+      0,
+      0
+    ],
+    "native_fidelity": 0.584644658763093,
+    "first_direction_error": 0.0031319505446416453,
+    "nominal_swap_ns": 333.7942194439155,
+    "command_us": 0.43,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      -0.5,
+      -1.0,
+      -0.5,
+      1.0
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      3.141592653589793,
+      0.0
+    ],
+    "half_fractions": [
+      0.5,
+      0.5,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      0,
+      0,
+      0,
+      7,
+      0,
+      66,
+      0,
+      7,
+      0,
+      0,
+      0
+    ],
+    "native_fidelity": 0.5795598234537714,
+    "first_direction_error": 0.0025133564333822394,
+    "nominal_swap_ns": 318.0862561759665,
+    "command_us": 0.41000000000000003,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      -1.0,
+      0.5,
+      -1.0,
+      -0.5
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      0.0,
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      0.5,
+      1.0,
+      0.5,
+      1.0,
+      0.5
+    ],
+    "idle_samples": [
+      0,
+      0,
+      5,
+      0,
+      25,
+      0,
+      25,
+      0,
+      5,
+      0,
+      0
+    ],
+    "native_fidelity": 0.5773623720482395,
+    "first_direction_error": 0.0032353553774743782,
+    "nominal_swap_ns": 298.45130209103036,
+    "command_us": 0.385,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      -1.0,
+      1.0,
+      -0.5,
+      -1.0
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      0.0,
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      0.5,
+      1.0,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      0,
+      0,
+      19,
+      0,
+      0,
+      98,
+      0,
+      0,
+      19,
+      0,
+      0
+    ],
+    "native_fidelity": 0.5713771704321424,
+    "first_direction_error": 0.001990357585267159,
+    "nominal_swap_ns": 373.06412761378795,
+    "command_us": 0.48,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      0.5,
+      -0.5,
+      -0.5,
+      1.0
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      0.0
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      0.5,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      49,
+      0,
+      0,
+      0,
+      5,
+      0,
+      5,
+      0,
+      0,
+      0,
+      49
+    ],
+    "native_fidelity": 0.5695816957561411,
+    "first_direction_error": 0.0030634826326184483,
+    "nominal_swap_ns": 345.57519189487726,
+    "command_us": 0.445,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      -1.0,
+      -1.0,
+      0.5,
+      0.5
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      0.0,
+      0.0
+    ],
+    "half_fractions": [
+      0.5,
+      1.0,
+      1.0,
+      0.5,
+      0.5
+    ],
+    "idle_samples": [
+      12,
+      0,
+      14,
+      0,
+      0,
+      0,
+      0,
+      0,
+      14,
+      0,
+      12
+    ],
+    "native_fidelity": 0.5675673112127643,
+    "first_direction_error": 0.0002871435217303199,
+    "nominal_swap_ns": 290.59732045705584,
+    "command_us": 0.375,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      -0.5,
+      -0.5,
+      -0.5,
+      -0.5
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "idle_samples": [
+      0,
+      0,
+      0,
+      14,
+      16,
+      0,
+      16,
+      14,
+      0,
+      0,
+      0
+    ],
+    "native_fidelity": 0.5616419499236918,
+    "first_direction_error": 0.0002795871132636951,
+    "nominal_swap_ns": 298.45130209103036,
+    "command_us": 0.385,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      0.5,
+      -1.0,
+      0.5,
+      -1.0
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      3.141592653589793,
+      0.0,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      0.5,
+      0.5,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      0,
+      0,
+      25,
+      0,
+      0,
+      102,
+      0,
+      0,
+      25,
+      0,
+      0
+    ],
+    "native_fidelity": 0.5599624865518694,
+    "first_direction_error": 0.0029116027116107028,
+    "nominal_swap_ns": 388.7720908817369,
+    "command_us": 0.5,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      1.0,
+      0.5,
+      -1.0,
+      0.5
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      0.0,
+      3.141592653589793,
+      0.0
+    ],
+    "half_fractions": [
+      0.5,
+      1.0,
+      0.5,
+      1.0,
+      0.5
+    ],
+    "idle_samples": [
+      0,
+      23,
+      0,
+      0,
+      7,
+      0,
+      7,
+      0,
+      0,
+      23,
+      0
+    ],
+    "native_fidelity": 0.5482142100789006,
+    "first_direction_error": 0.003235355377474349,
+    "nominal_swap_ns": 298.45130209103036,
+    "command_us": 0.385,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      -0.5,
+      -1.0,
+      0.5,
+      -1.0
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      0.0,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      0.5,
+      0.5,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      0,
+      0,
+      0,
+      7,
+      5,
+      0,
+      5,
+      7,
+      0,
+      0,
+      0
+    ],
+    "native_fidelity": 0.5466148744686323,
+    "first_direction_error": 0.003339082911618465,
+    "nominal_swap_ns": 263.10838473814516,
+    "command_us": 0.34,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      0.5,
+      -1.0,
+      0.5,
+      -0.5
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      3.141592653589793,
+      0.0,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      1.0,
+      0.5,
+      0.5
+    ],
+    "idle_samples": [
+      49,
+      0,
+      23,
+      0,
+      0,
+      0,
+      0,
+      0,
+      23,
+      0,
+      49
+    ],
+    "native_fidelity": 0.5465785900012892,
+    "first_direction_error": 0.002971635757210847,
+    "nominal_swap_ns": 380.9181092477624,
+    "command_us": 0.49,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      -0.5,
+      -1.0,
+      -0.5,
+      0.5
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      3.141592653589793,
+      0.0
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      1.0,
+      0.5,
+      0.5
+    ],
+    "idle_samples": [
+      31,
+      0,
+      5,
+      0,
+      0,
+      0,
+      0,
+      0,
+      5,
+      0,
+      31
+    ],
+    "native_fidelity": 0.5465331925159204,
+    "first_direction_error": 0.0025769857101768023,
+    "nominal_swap_ns": 310.23227454199207,
+    "command_us": 0.4,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      -0.5
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "idle_samples": [
+      0,
+      14,
+      16,
+      0,
+      0,
+      0,
+      0,
+      0,
+      16,
+      14,
+      0
+    ],
+    "native_fidelity": 0.5462098246270488,
+    "first_direction_error": 0.0002795871132637273,
+    "nominal_swap_ns": 298.45130209103036,
+    "command_us": 0.385,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      -0.5,
+      1.0,
+      0.5,
+      -1.0
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      0.0,
+      0.0,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      0.5,
+      0.5,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      0,
+      0,
+      0,
+      7,
+      23,
+      0,
+      23,
+      7,
+      0,
+      0,
+      0
+    ],
+    "native_fidelity": 0.542594044245608,
+    "first_direction_error": 0.00323535537747438,
+    "nominal_swap_ns": 298.45130209103036,
+    "command_us": 0.385,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      0.5,
+      -1.0,
+      0.5,
+      0.5
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      3.141592653589793,
+      0.0,
+      0.0
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      1.0,
+      0.5,
+      0.5
+    ],
+    "idle_samples": [
+      49,
+      0,
+      0,
+      5,
+      0,
+      0,
+      0,
+      5,
+      0,
+      0,
+      49
+    ],
+    "native_fidelity": 0.5342595906620363,
+    "first_direction_error": 0.003063482632618535,
+    "nominal_swap_ns": 345.57519189487726,
+    "command_us": 0.445,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      0.5,
+      0.5,
+      -0.5,
+      -0.5
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      0.0,
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "idle_samples": [
+      40,
+      0,
+      0,
+      14,
+      0,
+      0,
+      0,
+      14,
+      0,
+      0,
+      40
+    ],
+    "native_fidelity": 0.5314705993928143,
+    "first_direction_error": 0.0005399245466782749,
+    "nominal_swap_ns": 345.57519189487726,
+    "command_us": 0.445,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      0.5,
+      -1.0,
+      -1.0,
+      0.5
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      0.0
+    ],
+    "half_fractions": [
+      0.5,
+      0.5,
+      1.0,
+      1.0,
+      0.5
+    ],
+    "idle_samples": [
+      12,
+      0,
+      0,
+      0,
+      0,
+      28,
+      0,
+      0,
+      0,
+      0,
+      12
+    ],
+    "native_fidelity": 0.5295171689776718,
+    "first_direction_error": 0.0002871435217303232,
+    "nominal_swap_ns": 290.59732045705584,
+    "command_us": 0.375,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      -1.0,
+      -0.5,
+      0.5,
+      -1.0
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      0.0,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      0.5,
+      1.0,
+      0.5,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      12,
+      14,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      14,
+      12
+    ],
+    "native_fidelity": 0.5294954850508636,
+    "first_direction_error": 0.00028714352173029103,
+    "nominal_swap_ns": 290.59732045705584,
+    "command_us": 0.375,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      1.0,
+      -1.0,
+      1.0,
+      -0.5
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      3.141592653589793,
+      0.0,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      0.5,
+      1.0,
+      1.0,
+      1.0,
+      0.5
+    ],
+    "idle_samples": [
+      26,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      26
+    ],
+    "native_fidelity": 0.5238992387422362,
+    "first_direction_error": 0.00026559261200110673,
+    "nominal_swap_ns": 290.59732045705584,
+    "command_us": 0.375,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      -0.5,
+      1.0,
+      -0.5,
+      -1.0
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      0.0,
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      0.5,
+      0.5,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      0,
+      0,
+      0,
+      25,
+      0,
+      102,
+      0,
+      25,
+      0,
+      0,
+      0
+    ],
+    "native_fidelity": 0.5155909035068204,
+    "first_direction_error": 0.002911602711610695,
+    "nominal_swap_ns": 388.7720908817369,
+    "command_us": 0.5,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      -0.5,
+      1.0,
+      0.5,
+      -0.5
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      0.0,
+      0.0,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      1.0,
+      0.5,
+      0.5
+    ],
+    "idle_samples": [
+      0,
+      7,
+      5,
+      0,
+      0,
+      0,
+      0,
+      0,
+      5,
+      7,
+      0
+    ],
+    "native_fidelity": 0.5137594077376654,
+    "first_direction_error": 0.0033390829116185824,
+    "nominal_swap_ns": 263.10838473814516,
+    "command_us": 0.34,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      -0.5,
+      -0.5,
+      0.5,
+      1.0
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      0.0,
+      0.0
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      0.5,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      0,
+      7,
+      0,
+      0,
+      0,
+      102,
+      0,
+      0,
+      0,
+      7,
+      0
+    ],
+    "native_fidelity": 0.5129792561567301,
+    "first_direction_error": 0.0029954052407825814,
+    "nominal_swap_ns": 353.4291735288517,
+    "command_us": 0.455,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      -1.0,
+      0.5,
+      1.0,
+      0.5
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "half_fractions": [
+      0.5,
+      1.0,
+      0.5,
+      1.0,
+      0.5
+    ],
+    "idle_samples": [
+      0,
+      5,
+      0,
+      0,
+      25,
+      0,
+      25,
+      0,
+      0,
+      5,
+      0
+    ],
+    "native_fidelity": 0.510356821396432,
+    "first_direction_error": 0.003235355377474446,
+    "nominal_swap_ns": 298.45130209103036,
+    "command_us": 0.385,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      -1.0,
+      0.5,
+      -1.0,
+      0.5
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      0.0,
+      3.141592653589793,
+      0.0
+    ],
+    "half_fractions": [
+      0.5,
+      1.0,
+      0.5,
+      1.0,
+      0.5
+    ],
+    "idle_samples": [
+      0,
+      23,
+      0,
+      0,
+      25,
+      0,
+      25,
+      0,
+      0,
+      23,
+      0
+    ],
+    "native_fidelity": 0.5035562555286176,
+    "first_direction_error": 0.0031319505446414015,
+    "nominal_swap_ns": 333.7942194439155,
+    "command_us": 0.43,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      -0.5,
+      -1.0,
+      0.5,
+      -0.5
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      0.0,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      1.0,
+      0.5,
+      0.5
+    ],
+    "idle_samples": [
+      0,
+      25,
+      5,
+      0,
+      0,
+      0,
+      0,
+      0,
+      5,
+      25,
+      0
+    ],
+    "native_fidelity": 0.4996840436197202,
+    "first_direction_error": 0.0032353553774743097,
+    "nominal_swap_ns": 298.45130209103036,
+    "command_us": 0.385,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      0.5,
+      -1.0,
+      0.5,
+      1.0
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      3.141592653589793,
+      0.0,
+      0.0
+    ],
+    "half_fractions": [
+      0.5,
+      0.5,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      0,
+      0,
+      7,
+      0,
+      0,
+      102,
+      0,
+      0,
+      7,
+      0,
+      0
+    ],
+    "native_fidelity": 0.4924892132438666,
+    "first_direction_error": 0.002995405240782448,
+    "nominal_swap_ns": 353.4291735288517,
+    "command_us": 0.455,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      -1.0,
+      1.0,
+      -1.0,
+      -0.5
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      0.0,
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      0.5,
+      1.0,
+      1.0,
+      1.0,
+      0.5
+    ],
+    "idle_samples": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      60,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "native_fidelity": 0.4854173042658623,
+    "first_direction_error": 0.00025860333273828494,
+    "nominal_swap_ns": 298.45130209103036,
+    "command_us": 0.385,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      1.0,
+      -0.5,
+      1.0,
+      -0.5,
+      0.5
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      0.0,
+      3.141592653589793,
+      0.0
+    ],
+    "half_fractions": [
+      1.0,
+      0.5,
+      1.0,
+      0.5,
+      0.5
+    ],
+    "idle_samples": [
+      49,
+      0,
+      5,
+      0,
+      0,
+      0,
+      0,
+      0,
+      5,
+      0,
+      49
+    ],
+    "native_fidelity": 0.4762828158783963,
+    "first_direction_error": 0.003063482632618375,
+    "nominal_swap_ns": 345.57519189487726,
+    "command_us": 0.445,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      0.5,
+      -0.5,
+      -0.5,
+      -0.5
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      3.141592653589793
+    ],
+    "half_fractions": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "idle_samples": [
+      0,
+      0,
+      16,
+      0,
+      0,
+      84,
+      0,
+      0,
+      16,
+      0,
+      0
+    ],
+    "native_fidelity": 0.4724320703424164,
+    "first_direction_error": 0.0005279262234189929,
+    "nominal_swap_ns": 353.4291735288517,
+    "command_us": 0.455,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      -0.5,
+      1.0,
+      -0.5,
+      1.0
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      0.0,
+      3.141592653589793,
+      0.0
+    ],
+    "half_fractions": [
+      0.5,
+      0.5,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "idle_samples": [
+      0,
+      0,
+      0,
+      7,
+      0,
+      102,
+      0,
+      7,
+      0,
+      0,
+      0
+    ],
+    "native_fidelity": 0.46733359407366737,
+    "first_direction_error": 0.002995405240782481,
+    "nominal_swap_ns": 353.4291735288517,
+    "command_us": 0.455,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      -0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "half_fractions": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "idle_samples": [
+      0,
+      0,
+      0,
+      0,
+      16,
+      84,
+      16,
+      0,
+      0,
+      0,
+      0
+    ],
+    "native_fidelity": 0.40522121028886815,
+    "first_direction_error": 0.0005279262234188426,
+    "nominal_swap_ns": 353.4291735288517,
+    "command_us": 0.455,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      -0.5,
+      -0.5,
+      -0.5,
+      0.5
+    ],
+    "half_phases": [
+      0.0,
+      3.141592653589793,
+      3.141592653589793,
+      3.141592653589793,
+      0.0
+    ],
+    "half_fractions": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "idle_samples": [
+      0,
+      14,
+      0,
+      0,
+      16,
+      0,
+      16,
+      0,
+      0,
+      14,
+      0
+    ],
+    "native_fidelity": 0.40359686535794814,
+    "first_direction_error": 0.0002795871132639692,
+    "nominal_swap_ns": 298.45130209103036,
+    "command_us": 0.385,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  },
+  {
+    "signed_half": [
+      0.5,
+      0.5,
+      0.5,
+      -0.5,
+      0.5
+    ],
+    "half_phases": [
+      0.0,
+      0.0,
+      0.0,
+      3.141592653589793,
+      0.0
+    ],
+    "half_fractions": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "idle_samples": [
+      40,
+      14,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      14,
+      40
+    ],
+    "native_fidelity": 0.39967627783615445,
+    "first_direction_error": 0.0005399245466782699,
+    "nominal_swap_ns": 345.57519189487726,
+    "command_us": 0.445,
+    "cells": 10,
+    "pump_phase": -1.5707963267948966,
+    "centered_envelopes": true
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "name": "corrected_n6_mirror0_iq1_xy8",
+  "gate": "cd",
+  "fidelity": 0.7339481640601866,
+  "ideal_device_fidelity": 0.7331077015360583,
+  "accepted": false,
+  "columns": 18,
+  "levels": 96,
+  "independent_amplitudes": 3456,
+  "independent_max_difference": 9.4368979514596e-16,
+  "command_us": 0.19,
+  "RFDC_window_us": 0.23421875,
+  "qubit_frame_Rz": 0.0,
+  "cutoff_history": [
+    {
+      "levels": 64
+    },
+    {
+      "levels": 96,
+      "output_change": 2.661091413674009e-88,
+      "target_change": 7.74340002005588e-16
+    }
+  ],
+  "worst_basis_fidelity": 0.6404577560594974,
+  "word_sha256": "49b2a674ad4ae2da8de88217895c9c0ff9f742feb4bdebde9f546dd7b1c22d48",
+  "source_record": "corrected_n6_mirror0_iq1_xy8.json"
+}

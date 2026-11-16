@@ -1,0 +1,92 @@
+[
+  {
+    "file": "/home/tunmays_rsl_pc_wsl/boson/quantum-simulation-code/Quantum control/results/oscillator_kerr_from_detuned_JC/sequence_diagram.png",
+    "title": "Played echo sequence: detuning / 2pi = 140 MHz; total time = 26.006 us",
+    "panels": [
+      "Hann ramps and flat tops",
+      "Coupling-off qubit pi pulses"
+    ]
+  },
+  {
+    "file": "/home/tunmays_rsl_pc_wsl/boson/quantum-simulation-code/Quantum control/results/oscillator_kerr_from_detuned_JC/paper_comparison_and_echo.png",
+    "title": "Detuned JC spectrum: g / 2pi = 1 MHz; alpha / 2pi = -150 MHz",
+    "panels": [
+      "Inherited ground-state Kerr",
+      "Nonlinear dispersive shift",
+      "Signed contributions to echoed Kerr"
+    ]
+  },
+  {
+    "file": "/home/tunmays_rsl_pc_wsl/boson/quantum-simulation-code/Quantum control/results/oscillator_kerr_from_detuned_JC/photon_number_dependence.png",
+    "title": "Photon dependence of the dressed spectrum: n = 0..8",
+    "panels": [
+      "Echoed Kerr by photon number",
+      "Deviation from a constant Kerr"
+    ]
+  },
+  {
+    "file": "/home/tunmays_rsl_pc_wsl/boson/quantum-simulation-code/Quantum control/results/oscillator_kerr_from_detuned_JC/full_time_domain_traces.png",
+    "title": "Full-Hamiltonian echo dynamics: detuning / 2pi = 140 MHz; total time = 26.006 us",
+    "panels": [
+      "Exchange coupling waveform",
+      "Transient transmon populations",
+      "Cavity occupation during the echo"
+    ]
+  },
+  {
+    "file": "/home/tunmays_rsl_pc_wsl/boson/quantum-simulation-code/Quantum control/results/oscillator_kerr_from_detuned_JC/full_time_domain_phase_and_return.png",
+    "title": "Echoed Kerr and return: detuning / 2pi = 140 MHz; total time = 26.006 us",
+    "panels": [
+      "Kerr frequency from full time evolution",
+      "Return error for each Fock input"
+    ]
+  },
+  {
+    "file": "/home/tunmays_rsl_pc_wsl/boson/quantum-simulation-code/Quantum control/results/oscillator_kerr_from_detuned_JC/Kerr_frequency_and_fidelity.png",
+    "title": "Detuning / 2pi = 140 MHz; n=0..8; same pulse, two Kerr targets",
+    "panels": [
+      "Effective Kerr frequency",
+      "Average Kerr gate fidelity"
+    ]
+  },
+  {
+    "file": "/home/tunmays_rsl_pc_wsl/boson/quantum-simulation-code/Quantum control/results/oscillator_kerr_from_detuned_JC/ramp_duration_study.png",
+    "title": "Effect of Hann ramp duration: flat top = 12.003 us per lobe; n = 0..8",
+    "panels": [
+      "Nonadiabatic return error",
+      "Phase error relative to adiabatic evolution",
+      "Effective Kerr frequency",
+      "Average Kerr gate fidelity"
+    ]
+  },
+  {
+    "file": "/home/tunmays_rsl_pc_wsl/boson/quantum-simulation-code/Quantum control/results/oscillator_kerr_from_detuned_JC/near_resonance_spectra_and_fidelity.png",
+    "title": "Resonance scan: solid = echo g/e; dashed = one lobe g\nFitted Kerr frequency includes all ramp time",
+    "panels": [
+      "Static curvature near 75 MHz",
+      "Static curvature near 150 MHz",
+      "Static curvature near 225 MHz",
+      "Effective Kerr near 75 MHz",
+      "Effective Kerr near 150 MHz",
+      "Effective Kerr near 225 MHz",
+      "Kerr gate fidelity near 75 MHz",
+      "Kerr gate fidelity near 150 MHz",
+      "Kerr gate fidelity near 225 MHz"
+    ]
+  },
+  {
+    "file": "/home/tunmays_rsl_pc_wsl/boson/quantum-simulation-code/Quantum control/results/oscillator_kerr_from_detuned_JC/near_resonance_ramp_effect.png",
+    "title": "Longer Hann ramps near resonances: offsets = +/-0.05 MHz; flat top = 12.003 us",
+    "panels": [
+      "Return error near 75 MHz",
+      "Return error near 150 MHz",
+      "Return error near 225 MHz",
+      "Kerr frequency near 75 MHz",
+      "Kerr frequency near 150 MHz",
+      "Kerr frequency near 225 MHz",
+      "Kerr fidelity near 75 MHz",
+      "Kerr fidelity near 150 MHz",
+      "Kerr fidelity near 225 MHz"
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+START actualSDK/RFDC strength sensitivity;6fixedschemes;automaticcutoffs;all18inputs
+STRENGTH SENSITIVITY cd_binary_n12_0 22 strengths; 396 columns; 101376 amplitudes;maxcutoffchange 1.8345648364292096e-102
+STRENGTH SENSITIVITY played_cd_n12_pump1_seed0 22 strengths; 396 columns; 101376 amplitudes;maxcutoffchange 1.831393535074371e-102
+STRENGTH SENSITIVITY played_rotation_smooth 22 strengths; 396 columns; 101376 amplitudes;maxcutoffchange 1.273159833153675e-14
+STRENGTH SENSITIVITY played_squeeze_smooth 22 strengths; 396 columns; 253440 amplitudes;maxcutoffchange 1.3735215600526177e-69
+STRENGTH SENSITIVITY squeeze_compression_07 22 strengths; 396 columns; 253440 amplitudes;maxcutoffchange 5.609693467214442e-45
+STRENGTH SENSITIVITY rotation_compression_10 22 strengths; 396 columns; 253440 amplitudes;maxcutoffchange 2.178726818448083e-15
+FINAL SENSITIVITY COUNTS 6 schemes; 132 points; 2376 columns

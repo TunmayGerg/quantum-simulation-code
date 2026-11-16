@@ -1,0 +1,151 @@
+{
+  "gate": "squeeze",
+  "strength": 0.9210340371976182,
+  "result": {
+    "name": "squeeze_balanced_convergence_r16",
+    "word": [
+      1,
+      0,
+      1,
+      0,
+      3,
+      2,
+      3,
+      2
+    ],
+    "repeats": 16,
+    "scalar_evaluations": 9,
+    "history": [
+      {
+        "g": 1.982740280599304,
+        "fidelity": 0.9324058582273078,
+        "qubit_frame_Rz": 0.01671081199609422,
+        "worst_input_fidelity": 0.7844595538604482,
+        "input_columns": 18,
+        "time_us": 15.695,
+        "top_level_population": 2.3580566303559478e-08
+      },
+      {
+        "g": 2.0786158944134585,
+        "fidelity": 0.9892417100213909,
+        "qubit_frame_Rz": 0.021813571632798852,
+        "worst_input_fidelity": 0.9753004501088779,
+        "input_columns": 18,
+        "time_us": 15.695,
+        "top_level_population": 1.1331820276699994e-06
+      },
+      {
+        "g": 2.137870282442865,
+        "fidelity": 0.9347536816410458,
+        "qubit_frame_Rz": 0.023373351235693108,
+        "worst_input_fidelity": 0.8561469615605323,
+        "input_columns": 18,
+        "time_us": 15.695,
+        "top_level_population": 9.022419572795682e-06
+      },
+      {
+        "g": 2.0610814885738535,
+        "fidelity": 0.9918724759832146,
+        "qubit_frame_Rz": 0.021071632135314298,
+        "worst_input_fidelity": 0.9702322880599242,
+        "input_columns": 18,
+        "time_us": 15.695,
+        "top_level_population": 5.859234552412153e-07
+      },
+      {
+        "g": 2.0623629401617616,
+        "fidelity": 0.9918895667642487,
+        "qubit_frame_Rz": 0.021129425310558503,
+        "worst_input_fidelity": 0.9711117598273855,
+        "input_columns": 18,
+        "time_us": 15.695,
+        "top_level_population": 6.153030125791794e-07
+      },
+      {
+        "g": 2.0623856298120784,
+        "fidelity": 0.9918895736210267,
+        "qubit_frame_Rz": 0.021130443748436076,
+        "worst_input_fidelity": 0.9711266171657437,
+        "input_columns": 18,
+        "time_us": 15.695,
+        "top_level_population": 6.158356397931728e-07
+      },
+      {
+        "g": 2.0623894025192713,
+        "fidelity": 0.9918895737627159,
+        "qubit_frame_Rz": 0.021130613072092998,
+        "worst_input_fidelity": 0.9711290851458994,
+        "input_columns": 18,
+        "time_us": 15.695,
+        "top_level_population": 6.159242446013228e-07
+      },
+      {
+        "g": 2.0623890385957595,
+        "fidelity": 0.9918895737614563,
+        "qubit_frame_Rz": 0.021130596738970615,
+        "worst_input_fidelity": 0.9711288471091847,
+        "input_columns": 18,
+        "time_us": 15.695,
+        "top_level_population": 6.159156970605576e-07
+      },
+      {
+        "g": 2.062389766442783,
+        "fidelity": 0.9918895737613331,
+        "qubit_frame_Rz": 0.0211306294051717,
+        "worst_input_fidelity": 0.9711293231762138,
+        "input_columns": 18,
+        "time_us": 15.695,
+        "top_level_population": 6.159327922550656e-07
+      }
+    ],
+    "g": 2.0623894025192713,
+    "fidelity": 0.9918895737627159,
+    "qubit_frame_Rz": 0.021130613072092998,
+    "worst_input_fidelity": 0.9711290851458994,
+    "input_columns": 18,
+    "time_us": 15.695,
+    "top_level_population": 6.159242446013228e-07
+  },
+  "programmed_samples": 12556,
+  "played_samples": 100731,
+  "sdk_words_compared": 50224,
+  "cutoff_input_column_comparisons": 54,
+  "independent_amplitudes_compared": 11520,
+  "independent_max_amplitude_error": 1.1035579438806941e-14,
+  "cutoff_results": [
+    {
+      "levels": 128,
+      "input_columns": 18,
+      "fidelity": 0.9919157240186469,
+      "worst_input_fidelity": 0.9716987581804368
+    },
+    {
+      "levels": 192,
+      "input_columns": 18,
+      "fidelity": 0.991915724019963,
+      "worst_input_fidelity": 0.971698758204504,
+      "output_column_norm_change": 8.156157297680864e-07,
+      "target_column_norm_change": 9.434631670509811e-05
+    },
+    {
+      "levels": 256,
+      "input_columns": 18,
+      "fidelity": 0.9919157240199625,
+      "worst_input_fidelity": 0.9716987582045036,
+      "output_column_norm_change": 7.07472308785586e-14,
+      "target_column_norm_change": 1.7076982799674414e-08
+    },
+    {
+      "levels": 320,
+      "input_columns": 18,
+      "fidelity": 0.991915724019965,
+      "worst_input_fidelity": 0.9716987582045084,
+      "output_column_norm_change": 8.587710028371071e-23,
+      "target_column_norm_change": 1.8958399991252324e-12
+    }
+  ],
+  "qubit_frame_Rz_fixed": 0.021130613072092998,
+  "max_programmed_g": 2.0623894025192713,
+  "max_played_g": 2.076671728902122,
+  "interpretation": "Converged >=99% structured gate, slower than the existing4.81us reference."
+}

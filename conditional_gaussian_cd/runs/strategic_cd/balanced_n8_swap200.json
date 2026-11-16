@@ -1,0 +1,2918 @@
+[
+  {
+    "signs": [
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1
+    ],
+    "idle_samples": [
+      0,
+      4,
+      2,
+      0,
+      0,
+      0,
+      2,
+      4,
+      0
+    ],
+    "native_fidelity": 0.9628346082153242,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.265
+  },
+  {
+    "signs": [
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1
+    ],
+    "idle_samples": [
+      0,
+      4,
+      2,
+      0,
+      0,
+      0,
+      2,
+      4,
+      0
+    ],
+    "native_fidelity": 0.9628346082153242,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.265
+  },
+  {
+    "signs": [
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1
+    ],
+    "idle_samples": [
+      2,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      2
+    ],
+    "native_fidelity": 0.9612069326148335,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.265
+  },
+  {
+    "signs": [
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1
+    ],
+    "idle_samples": [
+      2,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      2
+    ],
+    "native_fidelity": 0.9612069326148335,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.265
+  },
+  {
+    "signs": [
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1
+    ],
+    "idle_samples": [
+      0,
+      0,
+      0,
+      4,
+      4,
+      4,
+      0,
+      0,
+      0
+    ],
+    "native_fidelity": 0.9594451476000181,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.265
+  },
+  {
+    "signs": [
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1
+    ],
+    "idle_samples": [
+      0,
+      0,
+      0,
+      4,
+      4,
+      4,
+      0,
+      0,
+      0
+    ],
+    "native_fidelity": 0.9594451476000181,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.265
+  },
+  {
+    "signs": [
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1
+    ],
+    "idle_samples": [
+      0,
+      0,
+      2,
+      4,
+      0,
+      4,
+      2,
+      0,
+      0
+    ],
+    "native_fidelity": 0.9577039991386155,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.265
+  },
+  {
+    "signs": [
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1
+    ],
+    "idle_samples": [
+      0,
+      0,
+      2,
+      4,
+      0,
+      4,
+      2,
+      0,
+      0
+    ],
+    "native_fidelity": 0.9577039991386155,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.265
+  },
+  {
+    "signs": [
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1
+    ],
+    "idle_samples": [
+      0,
+      4,
+      0,
+      0,
+      4,
+      0,
+      0,
+      4,
+      0
+    ],
+    "native_fidelity": 0.9537356561533618,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.265
+  },
+  {
+    "signs": [
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1
+    ],
+    "idle_samples": [
+      0,
+      4,
+      0,
+      0,
+      4,
+      0,
+      0,
+      4,
+      0
+    ],
+    "native_fidelity": 0.9537356561533618,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.265
+  },
+  {
+    "signs": [
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1
+    ],
+    "idle_samples": [
+      0,
+      6,
+      4,
+      0,
+      0,
+      0,
+      4,
+      6,
+      0
+    ],
+    "native_fidelity": 0.9517496539788294,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.275
+  },
+  {
+    "signs": [
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1
+    ],
+    "idle_samples": [
+      0,
+      6,
+      4,
+      0,
+      0,
+      0,
+      4,
+      6,
+      0
+    ],
+    "native_fidelity": 0.9517496539788294,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.275
+  },
+  {
+    "signs": [
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1
+    ],
+    "idle_samples": [
+      2,
+      0,
+      0,
+      4,
+      0,
+      4,
+      0,
+      0,
+      2
+    ],
+    "native_fidelity": 0.9503322977634105,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.265
+  },
+  {
+    "signs": [
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1
+    ],
+    "idle_samples": [
+      2,
+      0,
+      0,
+      4,
+      0,
+      4,
+      0,
+      0,
+      2
+    ],
+    "native_fidelity": 0.9503322977634105,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.265
+  },
+  {
+    "signs": [
+      1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "idle_samples": [
+      0,
+      0,
+      0,
+      4,
+      4,
+      4,
+      0,
+      0,
+      0
+    ],
+    "native_fidelity": 0.9498428092684156,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.265
+  },
+  {
+    "signs": [
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "idle_samples": [
+      0,
+      0,
+      0,
+      4,
+      4,
+      4,
+      0,
+      0,
+      0
+    ],
+    "native_fidelity": 0.9498428092684156,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.265
+  },
+  {
+    "signs": [
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1
+    ],
+    "idle_samples": [
+      4,
+      6,
+      0,
+      0,
+      0,
+      0,
+      0,
+      6,
+      4
+    ],
+    "native_fidelity": 0.9482814472902078,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.275
+  },
+  {
+    "signs": [
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1
+    ],
+    "idle_samples": [
+      4,
+      6,
+      0,
+      0,
+      0,
+      0,
+      0,
+      6,
+      4
+    ],
+    "native_fidelity": 0.9482814472902078,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.275
+  },
+  {
+    "signs": [
+      1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "idle_samples": [
+      0,
+      4,
+      2,
+      0,
+      0,
+      0,
+      2,
+      4,
+      0
+    ],
+    "native_fidelity": 0.9482352060759198,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.265
+  },
+  {
+    "signs": [
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "idle_samples": [
+      0,
+      4,
+      2,
+      0,
+      0,
+      0,
+      2,
+      4,
+      0
+    ],
+    "native_fidelity": 0.9482352060759198,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.265
+  },
+  {
+    "signs": [
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1
+    ],
+    "idle_samples": [
+      0,
+      0,
+      0,
+      6,
+      8,
+      6,
+      0,
+      0,
+      0
+    ],
+    "native_fidelity": 0.9474379760243189,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.275
+  },
+  {
+    "signs": [
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1
+    ],
+    "idle_samples": [
+      0,
+      0,
+      0,
+      6,
+      8,
+      6,
+      0,
+      0,
+      0
+    ],
+    "native_fidelity": 0.9474379760243189,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.275
+  },
+  {
+    "signs": [
+      1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "idle_samples": [
+      2,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      2
+    ],
+    "native_fidelity": 0.9464485572643884,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.265
+  },
+  {
+    "signs": [
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "idle_samples": [
+      2,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      2
+    ],
+    "native_fidelity": 0.9464485572643884,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.265
+  },
+  {
+    "signs": [
+      1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "idle_samples": [
+      0,
+      0,
+      2,
+      4,
+      0,
+      4,
+      2,
+      0,
+      0
+    ],
+    "native_fidelity": 0.9440019213822889,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.265
+  },
+  {
+    "signs": [
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "idle_samples": [
+      0,
+      0,
+      2,
+      4,
+      0,
+      4,
+      2,
+      0,
+      0
+    ],
+    "native_fidelity": 0.9440019213822889,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.265
+  },
+  {
+    "signs": [
+      1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "idle_samples": [
+      0,
+      4,
+      0,
+      0,
+      4,
+      0,
+      0,
+      4,
+      0
+    ],
+    "native_fidelity": 0.9426043877517856,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.265
+  },
+  {
+    "signs": [
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "idle_samples": [
+      0,
+      4,
+      0,
+      0,
+      4,
+      0,
+      0,
+      4,
+      0
+    ],
+    "native_fidelity": 0.9426043877517856,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.265
+  },
+  {
+    "signs": [
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1
+    ],
+    "idle_samples": [
+      0,
+      0,
+      4,
+      6,
+      0,
+      6,
+      4,
+      0,
+      0
+    ],
+    "native_fidelity": 0.9417950674322614,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.275
+  },
+  {
+    "signs": [
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1
+    ],
+    "idle_samples": [
+      0,
+      0,
+      4,
+      6,
+      0,
+      6,
+      4,
+      0,
+      0
+    ],
+    "native_fidelity": 0.9417950674322614,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.275
+  },
+  {
+    "signs": [
+      1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "idle_samples": [
+      0,
+      0,
+      0,
+      6,
+      8,
+      6,
+      0,
+      0,
+      0
+    ],
+    "native_fidelity": 0.9379661306716028,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.275
+  },
+  {
+    "signs": [
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "idle_samples": [
+      0,
+      0,
+      0,
+      6,
+      8,
+      6,
+      0,
+      0,
+      0
+    ],
+    "native_fidelity": 0.9379661306716028,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.275
+  },
+  {
+    "signs": [
+      1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "idle_samples": [
+      2,
+      0,
+      0,
+      4,
+      0,
+      4,
+      0,
+      0,
+      2
+    ],
+    "native_fidelity": 0.9360113200260658,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.265
+  },
+  {
+    "signs": [
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "idle_samples": [
+      2,
+      0,
+      0,
+      4,
+      0,
+      4,
+      0,
+      0,
+      2
+    ],
+    "native_fidelity": 0.9360113200260658,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.265
+  },
+  {
+    "signs": [
+      1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "idle_samples": [
+      0,
+      6,
+      4,
+      0,
+      0,
+      0,
+      4,
+      6,
+      0
+    ],
+    "native_fidelity": 0.9322855641917642,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.275
+  },
+  {
+    "signs": [
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "idle_samples": [
+      0,
+      6,
+      4,
+      0,
+      0,
+      0,
+      4,
+      6,
+      0
+    ],
+    "native_fidelity": 0.9322855641917642,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.275
+  },
+  {
+    "signs": [
+      1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "idle_samples": [
+      4,
+      6,
+      0,
+      0,
+      0,
+      0,
+      0,
+      6,
+      4
+    ],
+    "native_fidelity": 0.9289599783848306,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.275
+  },
+  {
+    "signs": [
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "idle_samples": [
+      4,
+      6,
+      0,
+      0,
+      0,
+      0,
+      0,
+      6,
+      4
+    ],
+    "native_fidelity": 0.9289599783848306,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.275
+  },
+  {
+    "signs": [
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1
+    ],
+    "idle_samples": [
+      0,
+      6,
+      0,
+      0,
+      8,
+      0,
+      0,
+      6,
+      0
+    ],
+    "native_fidelity": 0.924600720423853,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.275
+  },
+  {
+    "signs": [
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1
+    ],
+    "idle_samples": [
+      0,
+      6,
+      0,
+      0,
+      8,
+      0,
+      0,
+      6,
+      0
+    ],
+    "native_fidelity": 0.924600720423853,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.275
+  },
+  {
+    "signs": [
+      1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "idle_samples": [
+      0,
+      0,
+      4,
+      6,
+      0,
+      6,
+      4,
+      0,
+      0
+    ],
+    "native_fidelity": 0.9236209842071254,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.275
+  },
+  {
+    "signs": [
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "idle_samples": [
+      0,
+      0,
+      4,
+      6,
+      0,
+      6,
+      4,
+      0,
+      0
+    ],
+    "native_fidelity": 0.9236209842071254,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.275
+  },
+  {
+    "signs": [
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1
+    ],
+    "idle_samples": [
+      4,
+      0,
+      0,
+      6,
+      0,
+      6,
+      0,
+      0,
+      4
+    ],
+    "native_fidelity": 0.9213391828686518,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.275
+  },
+  {
+    "signs": [
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1
+    ],
+    "idle_samples": [
+      4,
+      0,
+      0,
+      6,
+      0,
+      6,
+      0,
+      0,
+      4
+    ],
+    "native_fidelity": 0.9213391828686518,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.275
+  },
+  {
+    "signs": [
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1
+    ],
+    "idle_samples": [
+      0,
+      8,
+      6,
+      0,
+      0,
+      0,
+      6,
+      8,
+      0
+    ],
+    "native_fidelity": 0.9174054922079741,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.28500000000000003
+  },
+  {
+    "signs": [
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1
+    ],
+    "idle_samples": [
+      0,
+      8,
+      6,
+      0,
+      0,
+      0,
+      6,
+      8,
+      0
+    ],
+    "native_fidelity": 0.9174054922079741,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.28500000000000003
+  },
+  {
+    "signs": [
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1
+    ],
+    "idle_samples": [
+      0,
+      0,
+      0,
+      8,
+      12,
+      8,
+      0,
+      0,
+      0
+    ],
+    "native_fidelity": 0.9129819715902864,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.28500000000000003
+  },
+  {
+    "signs": [
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1
+    ],
+    "idle_samples": [
+      0,
+      0,
+      0,
+      8,
+      12,
+      8,
+      0,
+      0,
+      0
+    ],
+    "native_fidelity": 0.9129819715902864,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.28500000000000003
+  },
+  {
+    "signs": [
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1
+    ],
+    "idle_samples": [
+      6,
+      8,
+      0,
+      0,
+      0,
+      0,
+      0,
+      8,
+      6
+    ],
+    "native_fidelity": 0.9120629535848651,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.28500000000000003
+  },
+  {
+    "signs": [
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1
+    ],
+    "idle_samples": [
+      6,
+      8,
+      0,
+      0,
+      0,
+      0,
+      0,
+      8,
+      6
+    ],
+    "native_fidelity": 0.9120629535848651,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.28500000000000003
+  },
+  {
+    "signs": [
+      1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "idle_samples": [
+      0,
+      6,
+      0,
+      0,
+      8,
+      0,
+      0,
+      6,
+      0
+    ],
+    "native_fidelity": 0.9119661042837671,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.275
+  },
+  {
+    "signs": [
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "idle_samples": [
+      0,
+      6,
+      0,
+      0,
+      8,
+      0,
+      0,
+      6,
+      0
+    ],
+    "native_fidelity": 0.9119661042837671,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.275
+  },
+  {
+    "signs": [
+      1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "idle_samples": [
+      0,
+      0,
+      0,
+      8,
+      12,
+      8,
+      0,
+      0,
+      0
+    ],
+    "native_fidelity": 0.9038713225894615,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.28500000000000003
+  },
+  {
+    "signs": [
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "idle_samples": [
+      0,
+      0,
+      0,
+      8,
+      12,
+      8,
+      0,
+      0,
+      0
+    ],
+    "native_fidelity": 0.9038713225894615,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.28500000000000003
+  },
+  {
+    "signs": [
+      1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "idle_samples": [
+      4,
+      0,
+      0,
+      6,
+      0,
+      6,
+      0,
+      0,
+      4
+    ],
+    "native_fidelity": 0.9018471205510618,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.275
+  },
+  {
+    "signs": [
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "idle_samples": [
+      4,
+      0,
+      0,
+      6,
+      0,
+      6,
+      0,
+      0,
+      4
+    ],
+    "native_fidelity": 0.9018471205510618,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.275
+  },
+  {
+    "signs": [
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1
+    ],
+    "idle_samples": [
+      0,
+      0,
+      6,
+      8,
+      0,
+      8,
+      6,
+      0,
+      0
+    ],
+    "native_fidelity": 0.9009656448472593,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.28500000000000003
+  },
+  {
+    "signs": [
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1
+    ],
+    "idle_samples": [
+      0,
+      0,
+      6,
+      8,
+      0,
+      8,
+      6,
+      0,
+      0
+    ],
+    "native_fidelity": 0.9009656448472593,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.28500000000000003
+  },
+  {
+    "signs": [
+      1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "idle_samples": [
+      0,
+      8,
+      6,
+      0,
+      0,
+      0,
+      6,
+      8,
+      0
+    ],
+    "native_fidelity": 0.8931090550004774,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.28500000000000003
+  },
+  {
+    "signs": [
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "idle_samples": [
+      0,
+      8,
+      6,
+      0,
+      0,
+      0,
+      6,
+      8,
+      0
+    ],
+    "native_fidelity": 0.8931090550004774,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.28500000000000003
+  },
+  {
+    "signs": [
+      1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "idle_samples": [
+      6,
+      8,
+      0,
+      0,
+      0,
+      0,
+      0,
+      8,
+      6
+    ],
+    "native_fidelity": 0.8887905678987129,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.28500000000000003
+  },
+  {
+    "signs": [
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "idle_samples": [
+      6,
+      8,
+      0,
+      0,
+      0,
+      0,
+      0,
+      8,
+      6
+    ],
+    "native_fidelity": 0.8887905678987129,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.28500000000000003
+  },
+  {
+    "signs": [
+      1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "idle_samples": [
+      0,
+      0,
+      6,
+      8,
+      0,
+      8,
+      6,
+      0,
+      0
+    ],
+    "native_fidelity": 0.8783154320721903,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.28500000000000003
+  },
+  {
+    "signs": [
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "idle_samples": [
+      0,
+      0,
+      6,
+      8,
+      0,
+      8,
+      6,
+      0,
+      0
+    ],
+    "native_fidelity": 0.8783154320721903,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.28500000000000003
+  },
+  {
+    "signs": [
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1
+    ],
+    "idle_samples": [
+      0,
+      8,
+      0,
+      0,
+      12,
+      0,
+      0,
+      8,
+      0
+    ],
+    "native_fidelity": 0.8647386930051612,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.28500000000000003
+  },
+  {
+    "signs": [
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1
+    ],
+    "idle_samples": [
+      0,
+      8,
+      0,
+      0,
+      12,
+      0,
+      0,
+      8,
+      0
+    ],
+    "native_fidelity": 0.8647386930051612,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.28500000000000003
+  },
+  {
+    "signs": [
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1
+    ],
+    "idle_samples": [
+      6,
+      0,
+      0,
+      8,
+      0,
+      8,
+      0,
+      0,
+      6
+    ],
+    "native_fidelity": 0.8629322157060976,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.28500000000000003
+  },
+  {
+    "signs": [
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1
+    ],
+    "idle_samples": [
+      6,
+      0,
+      0,
+      8,
+      0,
+      8,
+      0,
+      0,
+      6
+    ],
+    "native_fidelity": 0.8629322157060976,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.28500000000000003
+  },
+  {
+    "signs": [
+      1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "idle_samples": [
+      0,
+      8,
+      0,
+      0,
+      12,
+      0,
+      0,
+      8,
+      0
+    ],
+    "native_fidelity": 0.8503901951261398,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.28500000000000003
+  },
+  {
+    "signs": [
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "idle_samples": [
+      0,
+      8,
+      0,
+      0,
+      12,
+      0,
+      0,
+      8,
+      0
+    ],
+    "native_fidelity": 0.8503901951261398,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.28500000000000003
+  },
+  {
+    "signs": [
+      1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "idle_samples": [
+      6,
+      0,
+      0,
+      8,
+      0,
+      8,
+      0,
+      0,
+      6
+    ],
+    "native_fidelity": 0.838290790527783,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.28500000000000003
+  },
+  {
+    "signs": [
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "idle_samples": [
+      6,
+      0,
+      0,
+      8,
+      0,
+      8,
+      0,
+      0,
+      6
+    ],
+    "native_fidelity": 0.838290790527783,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.28500000000000003
+  },
+  {
+    "signs": [
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      1,
+      -1
+    ],
+    "idle_samples": [
+      0,
+      0,
+      0,
+      4,
+      4,
+      4,
+      0,
+      0,
+      0
+    ],
+    "native_fidelity": 0.8191254314064503,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.265
+  },
+  {
+    "signs": [
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      1
+    ],
+    "idle_samples": [
+      0,
+      0,
+      0,
+      4,
+      4,
+      4,
+      0,
+      0,
+      0
+    ],
+    "native_fidelity": 0.8191254314064503,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.265
+  },
+  {
+    "signs": [
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      1,
+      -1
+    ],
+    "idle_samples": [
+      0,
+      0,
+      0,
+      6,
+      8,
+      6,
+      0,
+      0,
+      0
+    ],
+    "native_fidelity": 0.8143628604626484,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.275
+  },
+  {
+    "signs": [
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      1
+    ],
+    "idle_samples": [
+      0,
+      0,
+      0,
+      6,
+      8,
+      6,
+      0,
+      0,
+      0
+    ],
+    "native_fidelity": 0.8143628604626484,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.275
+  },
+  {
+    "signs": [
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      1,
+      -1
+    ],
+    "idle_samples": [
+      0,
+      4,
+      0,
+      0,
+      4,
+      0,
+      0,
+      4,
+      0
+    ],
+    "native_fidelity": 0.809410798742931,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.265
+  },
+  {
+    "signs": [
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      1
+    ],
+    "idle_samples": [
+      0,
+      4,
+      0,
+      0,
+      4,
+      0,
+      0,
+      4,
+      0
+    ],
+    "native_fidelity": 0.809410798742931,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.265
+  },
+  {
+    "signs": [
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      1,
+      -1
+    ],
+    "idle_samples": [
+      2,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      2
+    ],
+    "native_fidelity": 0.8067758295680902,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.265
+  },
+  {
+    "signs": [
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      1
+    ],
+    "idle_samples": [
+      2,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      2
+    ],
+    "native_fidelity": 0.8067758295680902,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.265
+  },
+  {
+    "signs": [
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      1,
+      -1
+    ],
+    "idle_samples": [
+      0,
+      0,
+      2,
+      4,
+      0,
+      4,
+      2,
+      0,
+      0
+    ],
+    "native_fidelity": 0.8048150224371663,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.265
+  },
+  {
+    "signs": [
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      1
+    ],
+    "idle_samples": [
+      0,
+      0,
+      2,
+      4,
+      0,
+      4,
+      2,
+      0,
+      0
+    ],
+    "native_fidelity": 0.8048150224371663,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.265
+  },
+  {
+    "signs": [
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      1,
+      -1
+    ],
+    "idle_samples": [
+      0,
+      4,
+      2,
+      0,
+      0,
+      0,
+      2,
+      4,
+      0
+    ],
+    "native_fidelity": 0.8046077781328763,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.265
+  },
+  {
+    "signs": [
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      1
+    ],
+    "idle_samples": [
+      0,
+      4,
+      2,
+      0,
+      0,
+      0,
+      2,
+      4,
+      0
+    ],
+    "native_fidelity": 0.8046077781328763,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.265
+  },
+  {
+    "signs": [
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      1,
+      -1
+    ],
+    "idle_samples": [
+      2,
+      0,
+      0,
+      4,
+      0,
+      4,
+      0,
+      0,
+      2
+    ],
+    "native_fidelity": 0.8018563794040697,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.265
+  },
+  {
+    "signs": [
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      1
+    ],
+    "idle_samples": [
+      2,
+      0,
+      0,
+      4,
+      0,
+      4,
+      0,
+      0,
+      2
+    ],
+    "native_fidelity": 0.8018563794040697,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.265
+  },
+  {
+    "signs": [
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      1,
+      -1
+    ],
+    "idle_samples": [
+      4,
+      6,
+      0,
+      0,
+      0,
+      0,
+      0,
+      6,
+      4
+    ],
+    "native_fidelity": 0.7898532327890082,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.275
+  },
+  {
+    "signs": [
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      1
+    ],
+    "idle_samples": [
+      4,
+      6,
+      0,
+      0,
+      0,
+      0,
+      0,
+      6,
+      4
+    ],
+    "native_fidelity": 0.7898532327890082,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.275
+  },
+  {
+    "signs": [
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      1,
+      -1
+    ],
+    "idle_samples": [
+      0,
+      0,
+      0,
+      8,
+      12,
+      8,
+      0,
+      0,
+      0
+    ],
+    "native_fidelity": 0.7894856919732925,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.28500000000000003
+  },
+  {
+    "signs": [
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      1
+    ],
+    "idle_samples": [
+      0,
+      0,
+      0,
+      8,
+      12,
+      8,
+      0,
+      0,
+      0
+    ],
+    "native_fidelity": 0.7894856919732925,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.28500000000000003
+  },
+  {
+    "signs": [
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      1,
+      -1
+    ],
+    "idle_samples": [
+      0,
+      6,
+      0,
+      0,
+      8,
+      0,
+      0,
+      6,
+      0
+    ],
+    "native_fidelity": 0.7875530343843193,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.275
+  },
+  {
+    "signs": [
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      1
+    ],
+    "idle_samples": [
+      0,
+      6,
+      0,
+      0,
+      8,
+      0,
+      0,
+      6,
+      0
+    ],
+    "native_fidelity": 0.7875530343843193,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.275
+  },
+  {
+    "signs": [
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      1,
+      -1
+    ],
+    "idle_samples": [
+      0,
+      6,
+      4,
+      0,
+      0,
+      0,
+      4,
+      6,
+      0
+    ],
+    "native_fidelity": 0.786800277794013,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.275
+  },
+  {
+    "signs": [
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      1
+    ],
+    "idle_samples": [
+      0,
+      6,
+      4,
+      0,
+      0,
+      0,
+      4,
+      6,
+      0
+    ],
+    "native_fidelity": 0.786800277794013,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.275
+  },
+  {
+    "signs": [
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      1,
+      -1
+    ],
+    "idle_samples": [
+      0,
+      0,
+      4,
+      6,
+      0,
+      6,
+      4,
+      0,
+      0
+    ],
+    "native_fidelity": 0.7847509103847451,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.275
+  },
+  {
+    "signs": [
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      1
+    ],
+    "idle_samples": [
+      0,
+      0,
+      4,
+      6,
+      0,
+      6,
+      4,
+      0,
+      0
+    ],
+    "native_fidelity": 0.7847509103847451,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.275
+  },
+  {
+    "signs": [
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      1,
+      -1
+    ],
+    "idle_samples": [
+      4,
+      0,
+      0,
+      6,
+      0,
+      6,
+      0,
+      0,
+      4
+    ],
+    "native_fidelity": 0.772743835594673,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.275
+  },
+  {
+    "signs": [
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      1
+    ],
+    "idle_samples": [
+      4,
+      0,
+      0,
+      6,
+      0,
+      6,
+      0,
+      0,
+      4
+    ],
+    "native_fidelity": 0.772743835594673,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.275
+  },
+  {
+    "signs": [
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      1,
+      -1
+    ],
+    "idle_samples": [
+      6,
+      8,
+      0,
+      0,
+      0,
+      0,
+      0,
+      8,
+      6
+    ],
+    "native_fidelity": 0.7529471622092043,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.28500000000000003
+  },
+  {
+    "signs": [
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      1
+    ],
+    "idle_samples": [
+      6,
+      8,
+      0,
+      0,
+      0,
+      0,
+      0,
+      8,
+      6
+    ],
+    "native_fidelity": 0.7529471622092043,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.28500000000000003
+  },
+  {
+    "signs": [
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      1,
+      -1
+    ],
+    "idle_samples": [
+      0,
+      8,
+      6,
+      0,
+      0,
+      0,
+      6,
+      8,
+      0
+    ],
+    "native_fidelity": 0.7503080139739572,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.28500000000000003
+  },
+  {
+    "signs": [
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      1
+    ],
+    "idle_samples": [
+      0,
+      8,
+      6,
+      0,
+      0,
+      0,
+      6,
+      8,
+      0
+    ],
+    "native_fidelity": 0.7503080139739572,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.28500000000000003
+  },
+  {
+    "signs": [
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      1,
+      -1
+    ],
+    "idle_samples": [
+      0,
+      0,
+      6,
+      8,
+      0,
+      8,
+      6,
+      0,
+      0
+    ],
+    "native_fidelity": 0.7440013139254349,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.28500000000000003
+  },
+  {
+    "signs": [
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      1
+    ],
+    "idle_samples": [
+      0,
+      0,
+      6,
+      8,
+      0,
+      8,
+      6,
+      0,
+      0
+    ],
+    "native_fidelity": 0.7440013139254349,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.28500000000000003
+  },
+  {
+    "signs": [
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      1,
+      -1
+    ],
+    "idle_samples": [
+      0,
+      8,
+      0,
+      0,
+      12,
+      0,
+      0,
+      8,
+      0
+    ],
+    "native_fidelity": 0.7386819346913492,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.28500000000000003
+  },
+  {
+    "signs": [
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      1
+    ],
+    "idle_samples": [
+      0,
+      8,
+      0,
+      0,
+      12,
+      0,
+      0,
+      8,
+      0
+    ],
+    "native_fidelity": 0.7386819346913492,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.28500000000000003
+  },
+  {
+    "signs": [
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      1,
+      -1
+    ],
+    "idle_samples": [
+      6,
+      0,
+      0,
+      8,
+      0,
+      8,
+      0,
+      0,
+      6
+    ],
+    "native_fidelity": 0.7178787033355984,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.28500000000000003
+  },
+  {
+    "signs": [
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      1
+    ],
+    "idle_samples": [
+      6,
+      0,
+      0,
+      8,
+      0,
+      8,
+      0,
+      0,
+      6
+    ],
+    "native_fidelity": 0.7178787033355984,
+    "cells": 8,
+    "nominal_swap_ns": 200.0,
+    "command_us": 0.28500000000000003
+  }
+]

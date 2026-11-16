@@ -1,0 +1,91 @@
+{
+  "points": [
+    {
+      "time_ns": 350.00000000000006,
+      "fidelity": 0.028109065487145153,
+      "remaining_tail_input_operator_norm": 1.8054377747283663
+    },
+    {
+      "time_ns": 360.0,
+      "fidelity": 7.267374847869736e-05,
+      "remaining_tail_input_operator_norm": 1.6631440826534851
+    },
+    {
+      "time_ns": 370.0,
+      "fidelity": 0.22276771656437636,
+      "remaining_tail_input_operator_norm": 1.2363793969739314
+    },
+    {
+      "time_ns": 375.0,
+      "fidelity": 0.7037338447227359,
+      "remaining_tail_input_operator_norm": 0.7416535776101572
+    },
+    {
+      "time_ns": 380.0,
+      "fidelity": 0.9605983817699827,
+      "remaining_tail_input_operator_norm": 0.3034113900963625
+    },
+    {
+      "time_ns": 382.03125,
+      "fidelity": 0.9834364236193375,
+      "remaining_tail_input_operator_norm": 0.19370546794341034
+    },
+    {
+      "time_ns": 384.06250000000006,
+      "fidelity": 0.9901971451134347,
+      "remaining_tail_input_operator_norm": 0.12541781646610548
+    },
+    {
+      "time_ns": 385.0,
+      "fidelity": 0.9914500736691323,
+      "remaining_tail_input_operator_norm": 0.10357754627055528
+    },
+    {
+      "time_ns": 385.9375,
+      "fidelity": 0.9922567575386254,
+      "remaining_tail_input_operator_norm": 0.08438602485639736
+    },
+    {
+      "time_ns": 387.96875000000006,
+      "fidelity": 0.9930212647754569,
+      "remaining_tail_input_operator_norm": 0.04440327876414457
+    },
+    {
+      "time_ns": 390.0,
+      "fidelity": 0.9926308415249376,
+      "remaining_tail_input_operator_norm": 0.011360195616535198
+    },
+    {
+      "time_ns": 395.0,
+      "fidelity": 0.9922777330304662,
+      "remaining_tail_input_operator_norm": 7.950005852948192e-06
+    },
+    {
+      "time_ns": 400.0,
+      "fidelity": 0.9922779408792164,
+      "remaining_tail_input_operator_norm": 7.801061008863723e-07
+    },
+    {
+      "time_ns": 405.0,
+      "fidelity": 0.9922779540354794,
+      "remaining_tail_input_operator_norm": 2.5216349805368245e-07
+    },
+    {
+      "time_ns": 410.00000000000006,
+      "fidelity": 0.9922779449558986,
+      "remaining_tail_input_operator_norm": 3.045054917408181e-10
+    },
+    {
+      "time_ns": 414.21875,
+      "fidelity": 0.9922779449668537,
+      "remaining_tail_input_operator_norm": 0.0
+    }
+  ],
+  "check_time_ns": 400,
+  "independent_fidelity": 0.9922779408792164,
+  "independent_columns": 18,
+  "independent_amplitudes": 4608,
+  "independent_larger_cutoff_column_change": 1.1857019814393711e-25,
+  "remaining_tail_input_operator_norm": 7.801061008863723e-07,
+  "note": "Full waveform is still simulated; no FIR samples were deleted or reprogrammed."
+}

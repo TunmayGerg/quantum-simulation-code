@@ -1,0 +1,5 @@
+START cutoff validation of all local-fit map points,successfulANDfailed
+VALIDATED STRENGTH MAP strength_played_summary.json 44 points; 792 columns; 202752 comparison amplitudes
+VALIDATED STRENGTH MAP shorter_played_summary.json 7 points; 126 columns; 52992 comparison amplitudes
+VALIDATED STRENGTH MAP gaussian_strength_played_summary.json 12 points; 216 columns; 96768 comparison amplitudes
+FINAL MAP VALIDATION COUNTS 63 points; 1134 columns; 352512 amplitudes

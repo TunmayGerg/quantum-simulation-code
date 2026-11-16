@@ -1,0 +1,69 @@
+{
+  "gate": "cd",
+  "duration_us": 0.73,
+  "cells": 16,
+  "gap_ns": 15.0,
+  "spacing_ns": 45.0,
+  "name": "cd_T730_N16",
+  "target_strength": 1.0,
+  "pulse_word_model_degrees": [
+    0.0,
+    0.0,
+    180.0,
+    180.0
+  ],
+  "qubit_envelope_ns": 30.0,
+  "pump_phase_rad": -1.5707963267948966,
+  "sideband_phase_constant": true,
+  "sideband_plateau_amplitude_constant": true,
+  "phases_reoptimized": false,
+  "fidelity_optimized": false,
+  "scalar_coupling_calibrated": true,
+  "g": 2.7586206896551726,
+  "nominal_swap_ns": 569.41366846315,
+  "peak_swap_ns": 565.5650181790481,
+  "command_us": 0.73,
+  "quadratic_cycle_coefficient_us2": null,
+  "qubit_frame_Rz": 0.0,
+  "design_fidelity": 0.9983394426588047,
+  "design_levels": 64,
+  "normalization_evaluations": 1,
+  "normalization_history": [
+    {
+      "g": 2.7586206896551726,
+      "coefficient": 1.000150147379291,
+      "relative_error": 0.0001501473792910879,
+      "first_norm": 5.657838093913778,
+      "second_norm": 2.7947638247708424e-13,
+      "unwanted_at_calibration_order": 0.039009527704433396
+    }
+  ],
+  "wanted_coefficient_target": 1.0,
+  "wanted_coefficient_actual": 1.000150147379291,
+  "relative_coefficient_error": 0.0001501473792910879,
+  "calibration_scope": "One constant g normalizes the wanted first/second Magnus coefficient of the actual SDK/RFDC waveform. No fidelity or phase fit.",
+  "vacuum_displacement_real": 0.9982058977262493,
+  "vacuum_displacement_imag": 0.003120536298465335,
+  "vacuum_target_axis_squeezing_dB": 0.026349065948414588,
+  "vacuum_photon_number": 0.9966060085970884,
+  "vacuum_ground_qubit_population": 0.508982069429578,
+  "fidelity": 0.9983394426588051,
+  "worst_basis_fidelity": 0.9952852335455894,
+  "cutoff_history": [
+    {
+      "levels": 48
+    },
+    {
+      "levels": 64,
+      "output_change": 2.446350648111937e-40,
+      "target_change": 1.8997370040064688e-16
+    }
+  ],
+  "levels": 64,
+  "columns": 18,
+  "independent_amplitudes": 2304,
+  "independent_max_error": 8.077935669463161e-28,
+  "word_sha256": "2ff4dd498ac9b2d39214fd11cd06d36126b40dcfb9d8bbe7aab1652c140bc078",
+  "seconds": 1.304290533065796,
+  "frame_calibration_scope": "One declared final qubit Rz for squeezing, common to all18inputs; none for CD."
+}

@@ -1,0 +1,50 @@
+{
+ "key": "d4bdcf71deaea7792320860e6bbc06b14e26baa0ef89cd28b6067f1578633527",
+ "result": {
+  "infidelity": 0.018991597537014515,
+  "basis_state_infidelity": 0.01892627575699546,
+  "number_lost": 0.007505741933798604,
+  "gauss_lost": 0.007451710280218515,
+  "inputs_compared": 1320,
+  "photon_cutoff": 15,
+  "propagation_dimension": 31008,
+  "norm_error": 4.39648317751562e-14,
+  "boundary_population": 5.1356023340733835e-12,
+  "gauss_sector_infidelities": {
+   "0": 0.019159869290754084,
+   "3": 0.019003048273383727,
+   "5": 0.018976893008469164,
+   "6": 0.01882510530981618,
+   "9": 0.0191613268677282,
+   "10": 0.01900624642967297,
+   "12": 0.018974523400469345,
+   "15": 0.018825737405479326
+  },
+  "cutoff_converged": true,
+  "cutoff_max_change": 1.2171927910031854e-09,
+  "cutoff_tolerance": 1e-07,
+  "cutoff_history": [
+   {
+    "photon_cutoff": 11,
+    "propagation_dimension": 10920,
+    "infidelity": 0.018991232686970227,
+    "gauss_lost": 0.007451531849512971,
+    "number_lost": 0.007505272097439564
+   },
+   {
+    "photon_cutoff": 13,
+    "propagation_dimension": 19040,
+    "infidelity": 0.01899159754594637,
+    "gauss_lost": 0.007451709063025724,
+    "number_lost": 0.00750574194290432
+   },
+   {
+    "photon_cutoff": 15,
+    "propagation_dimension": 31008,
+    "infidelity": 0.018991597537014515,
+    "gauss_lost": 0.007451710280218515,
+    "number_lost": 0.007505741933798604
+   }
+  ]
+ }
+}

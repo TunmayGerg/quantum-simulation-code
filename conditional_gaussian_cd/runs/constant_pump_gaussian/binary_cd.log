@@ -1,0 +1,6 @@
+BINARY CD 4 patterns 8 bestF 0.7296473660264324 swapns 97.01220998908634 word [0, 0, 1, 1] alternatingmoment 0 T 0.13
+BINARY CD 6 patterns 32 bestF 0.9074867968353039 swapns 142.24961259544784 word [0, 0, 0, 1, 1, 1] alternatingmoment 2 T 0.19
+BINARY CD 8 patterns 128 bestF 0.9570276220036968 swapns 188.74029442400766 word [0, 0, 1, 1, 0, 0, 1, 1] alternatingmoment 0 T 0.25
+BINARY CD 10 patterns 512 bestF 0.9791824414515002 swapns 235.9094491625417 word [0, 0, 1, 1, 0, 0, 1, 1, 0, 0] alternatingmoment 0 T 0.31
+BINARY CD 12 patterns 2048 bestF 0.992253904062899 swapns 283.20790518154877 word [0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1] alternatingmoment 0 T 0.37
+FINAL BINARY CD COUNTS 2728 unique words; 40 amplitude refinements; 154998 input columns; 12.959038969944231 seconds

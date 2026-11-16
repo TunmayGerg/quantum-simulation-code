@@ -1,0 +1,55 @@
+{
+  "fidelity": 0.9968800671882325,
+  "worst_input_fidelity": 0.9856127076242335,
+  "levels": 256,
+  "cutoff_history": [
+    {
+      "levels": 128,
+      "fidelity": 0.9968800671880528,
+      "columns": 18
+    },
+    {
+      "levels": 160,
+      "fidelity": 0.9968800671882334,
+      "columns": 18,
+      "output_column_change": 1.1920838473393878e-11,
+      "target_column_change": 9.434355667122615e-05
+    },
+    {
+      "levels": 192,
+      "fidelity": 0.996880067188233,
+      "columns": 18,
+      "output_column_change": 7.359553049915938e-30,
+      "target_column_change": 1.3834121761600571e-06
+    },
+    {
+      "levels": 224,
+      "fidelity": 0.996880067188233,
+      "columns": 18,
+      "output_column_change": 5.579800064556173e-60,
+      "target_column_change": 1.707654535259484e-08
+    },
+    {
+      "levels": 256,
+      "fidelity": 0.9968800671882325,
+      "columns": 18,
+      "output_column_change": 5.351106122978965e-92,
+      "target_column_change": 1.8763683261109632e-10
+    }
+  ],
+  "command_time_us": 6.73,
+  "simulated_time_us": 6.77421875,
+  "columns": 18,
+  "complex_amplitudes": 9216,
+  "RFDC_samples": 43355,
+  "group": "final",
+  "index": 1,
+  "independent_max_difference": 6.0785700729133435e-15,
+  "compiled": {
+    "arbitrary_commands": 2,
+    "triggers": 1,
+    "int16_values_compared": 21536
+  },
+  "qubit_DAC_phase_sign": -1,
+  "word_sha256": "f384bb21db44d5cb24be48cdefa95d41f6d3ffa74072ba8f384466b978a46fac"
+}

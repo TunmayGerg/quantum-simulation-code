@@ -1,0 +1,33 @@
+{
+  "beta": 0.3,
+  "beta_unit": 0.4,
+  "repeats": 1,
+  "pump_gain": 0.7499999999999999,
+  "final_Rz_rad": 0.0,
+  "fidelity": 0.9991333902215793,
+  "worst_basis_fidelity": 0.9983292082272707,
+  "fidelity_nmax8": 0.9992873052312133,
+  "command_us": 0.25,
+  "RFDC_window_us": 0.29421875000000003,
+  "levels": 96,
+  "columns": 22,
+  "complex_amplitudes": 4224,
+  "cutoff_history": [
+    {
+      "levels": 64,
+      "fidelity": 0.9991333902215793,
+      "columns": 22
+    },
+    {
+      "levels": 96,
+      "fidelity": 0.9991333902215793,
+      "columns": 22,
+      "output_column_change": 2.5944346899306916e-105,
+      "target_column_change": 2.098176721343656e-16
+    }
+  ],
+  "independent_max_difference": 1.2215668793428045e-15,
+  "word_sha256": "7d51fc123c1927990396e69950100a58a6637ebc357fbd1d8dad16b81a3f3a4e",
+  "training_point": false,
+  "words_file": "beta_0.3_words.npz"
+}

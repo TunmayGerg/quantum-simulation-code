@@ -1,0 +1,6 @@
+DENSE LIMIT {'pulses': 16, 'source': 'DAC sample hold', 'first_norm': 0.022630647335657686, 'second_wanted': 0.46032099336179916, 'qubit_Rz': 2.674268726604205e-06, 'second_unwanted_after_frames': 2.123784012786043e-06}
+DENSE LIMIT {'pulses': 16, 'source': 'Full RFDC', 'first_norm': 0.02263064218287063, 'second_wanted': 0.4603214608578598, 'qubit_Rz': 2.66913757604786e-06, 'second_unwanted_after_frames': 2.119671646477957e-06}
+DENSE LIMIT {'pulses': 128, 'source': 'DAC sample hold', 'first_norm': 0.06466898779820049, 'second_wanted': 0.46066208467305403, 'qubit_Rz': 2.022311758472904e-05, 'second_unwanted_after_frames': 2.070577759588026e-05}
+DENSE LIMIT {'pulses': 128, 'source': 'Full RFDC', 'first_norm': 0.06466945712726747, 'second_wanted': 0.46069259394301604, 'qubit_Rz': 1.7294959550560693e-05, 'second_unwanted_after_frames': 1.824053413756997e-05}
+DENSE LIMIT {'pulses': 160, 'source': 'DAC sample hold', 'first_norm': 0.07273634031559381, 'second_wanted': 0.46050718399513335, 'qubit_Rz': 2.4978426359755095e-05, 'second_unwanted_after_frames': 2.8669809870152836e-05}
+DENSE LIMIT {'pulses': 160, 'source': 'Full RFDC', 'first_norm': 0.07276586110875667, 'second_wanted': 0.4605549937620209, 'qubit_Rz': -3.96250244441187e-06, 'second_unwanted_after_frames': 1.9643194681096522e-05}

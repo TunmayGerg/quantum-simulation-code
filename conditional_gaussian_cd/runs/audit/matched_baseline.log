@@ -1,0 +1,5 @@
+MATCHED BASELINE {'swap_ns': 600.0, 'beta': 1.0, 'cells': 16, 'gap_ns': 20, 'pump_gain': 0.9613766419048104, 'fidelity': 0.9980271875653727, 'command_us': 0.81, 'RFDC_window_us': 0.85421875, 'final_Rz_rad': 0.0010359334035522924, 'columns': 22, 'waveform_evaluations': 14}
+MATCHED BASELINE {'swap_ns': 600.0, 'beta': 2.0, 'cells': 32, 'gap_ns': 20, 'pump_gain': 0.9648585316222855, 'fidelity': 0.9921903514341839, 'command_us': 1.61, 'RFDC_window_us': 1.65421875, 'final_Rz_rad': 0.0003980002748858562, 'columns': 22, 'waveform_evaluations': 13}
+MATCHED BASELINE {'swap_ns': 300.0, 'beta': 1.0, 'cells': 8, 'gap_ns': 20, 'pump_gain': 0.9767481069425791, 'fidelity': 0.964627991141263, 'command_us': 0.41000000000000003, 'RFDC_window_us': 0.45421875, 'final_Rz_rad': 0.0006610004863428012, 'columns': 22, 'waveform_evaluations': 21}
+MATCHED BASELINE {'swap_ns': 300.0, 'beta': 2.0, 'cells': 16, 'gap_ns': 20, 'pump_gain': 0.9904271728201819, 'fidelity': 0.8580940883606823, 'command_us': 0.81, 'RFDC_window_us': 0.85421875, 'final_Rz_rad': -0.0021000865489408348, 'columns': 22, 'waveform_evaluations': 15}
+FINAL BASELINE COUNTS 63 waveforms 1386 input columns

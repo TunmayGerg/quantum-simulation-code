@@ -1,0 +1,147 @@
+START conditional_gaussian_gates.ipynb cell 2
+COMPLETED conditional_gaussian_gates.ipynb cell 2 1 / 15
+START conditional_gaussian_gates.ipynb cell 4
+COMPLETED conditional_gaussian_gates.ipynb cell 4 2 / 15
+START conditional_gaussian_gates.ipynb cell 7
+COMPLETED conditional_gaussian_gates.ipynb cell 7 3 / 15
+START conditional_gaussian_gates.ipynb cell 9
+gradient along a random direction: exact 1.029871e-05, finite difference 1.029893e-05
+squeeze  160 pulses,  96 photon levels: F = 0.9993036961  (0.18 s incl. setup)
+squeeze  160 pulses, 192 photon levels: F = 0.9993037395  (1.09 s incl. setup)
+rotation 160 pulses,  48 photon levels: F = 0.9996818539  (0.03 s incl. setup)
+rotation 160 pulses, 192 photon levels: F = 0.9996818539  (1.08 s incl. setup)
+one evaluation with gradient, 160 cells: 0.366 s
+COMPLETED conditional_gaussian_gates.ipynb cell 9 4 / 15
+START conditional_gaussian_gates.ipynb cell 11
+545 optimisations, 897,922 fidelity evaluations, 14.6 CPU hours
+COMPLETED conditional_gaussian_gates.ipynb cell 11 5 / 15
+START conditional_gaussian_gates.ipynb cell 13
+COMPLETED conditional_gaussian_gates.ipynb cell 13 6 / 15
+START conditional_gaussian_gates.ipynb cell 15
+COMPLETED conditional_gaussian_gates.ipynb cell 15 7 / 15
+START conditional_gaussian_gates.ipynb cell 18
+squeeze, 600 ns swap, free, >= 99.9%: 160 pi pulses, gap 17.5 ns, 7.61 us
+How it was found: random 1 start in round3.json (F = 0.99916), then polished with 15001 more evaluations -> F = 0.999304
+Gate fidelity: model 0.999304, board waveform 0.999304 (cutoff 256 levels); worst single input 0.99683
+After the gate: qubit Rz(-2.367425 rad)
+qubit g: squeezing 8.043 dB along +0.05 deg   (target 8.000 dB along +0.00 deg)
+qubit e: squeezing 8.019 dB along +89.95 deg   (target 8.000 dB along +90.00 deg)
+full sequence (pulse, qubit phase, pump phase) for programming: runs/sequence_0.csv; int16 I/Q words: runs/words_0.npz
+COMPLETED conditional_gaussian_gates.ipynb cell 18 8 / 15
+START conditional_gaussian_gates.ipynb cell 20
+squeeze, 600 ns swap, free, >= 99.0%: 128 pi pulses, gap 22.5 ns, 6.73 us
+How it was found: random 0 start in round3.json (F = 0.99684), then polished with 15001 more evaluations -> F = 0.996874
+Gate fidelity: model 0.996874, board waveform 0.996880 (cutoff 256 levels); worst single input 0.98557
+After the gate: qubit Rz(6.076183 rad)
+qubit g: squeezing 7.998 dB along +0.10 deg   (target 8.000 dB along +0.00 deg)
+qubit e: squeezing 7.877 dB along +89.90 deg   (target 8.000 dB along +90.00 deg)
+full sequence (pulse, qubit phase, pump phase) for programming: runs/sequence_1.csv; int16 I/Q words: runs/words_1.npz
+COMPLETED conditional_gaussian_gates.ipynb cell 20 9 / 15
+START conditional_gaussian_gates.ipynb cell 22
+squeeze, 600 ns swap, qubit only, >= 99.0%: 160 pi pulses, gap 17.5 ns, 7.61 us
+How it was found: random 1 start in round3.json (F = 0.99442), then polished with 7 more evaluations -> F = 0.994420
+Gate fidelity: model 0.994419, board waveform 0.994438 (cutoff 256 levels); worst single input 0.97710
+After the gate: qubit Rz(-2.957886 rad)
+qubit g: squeezing 7.809 dB along +0.10 deg   (target 8.000 dB along +0.00 deg)
+qubit e: squeezing 7.832 dB along +89.60 deg   (target 8.000 dB along +90.00 deg)
+full sequence (pulse, qubit phase, pump phase) for programming: runs/sequence_2.csv; int16 I/Q words: runs/words_2.npz
+COMPLETED conditional_gaussian_gates.ipynb cell 22 10 / 15
+START conditional_gaussian_gates.ipynb cell 24
+squeeze, 300 ns swap, free, >= 99.9%: 160 pi pulses, gap 0.0 ns, 4.81 us
+How it was found: the best no-gap sweep run (random start), continued start in round2.json (F = 0.99943), then polished with 15001 more evaluations -> F = 0.999551
+Gate fidelity: model 0.999551, board waveform 0.999549 (cutoff 256 levels); worst single input 0.99812
+After the gate: qubit Rz(4.509888 rad)
+qubit g: squeezing 7.952 dB along +0.00 deg   (target 8.000 dB along +0.00 deg)
+qubit e: squeezing 7.915 dB along +90.05 deg   (target 8.000 dB along +90.00 deg)
+full sequence (pulse, qubit phase, pump phase) for programming: runs/sequence_3.csv; int16 I/Q words: runs/words_3.npz
+COMPLETED conditional_gaussian_gates.ipynb cell 24 11 / 15
+START conditional_gaussian_gates.ipynb cell 26
+rotation, 600 ns swap, free, >= 99.9%: 160 pi pulses, gap 25.0 ns, 8.81 us
+How it was found: random 0 start in round3.json (F = 0.99959), then polished with 15001 more evaluations -> F = 0.999682
+Gate fidelity: model 0.999682, board waveform 0.999682 (cutoff 96 levels); worst single input 0.99987
+After the gate: qubit Rz(1.061665 rad)
+rotation of the coherent state: g branch -90.045 deg, e branch +90.162 deg, relative 180.207 deg (target -90, +90, 180)
+full sequence (pulse, qubit phase, pump phase) for programming: runs/sequence_4.csv; int16 I/Q words: runs/words_4.npz
+COMPLETED conditional_gaussian_gates.ipynb cell 26 12 / 15
+START conditional_gaussian_gates.ipynb cell 28
+rotation, 600 ns swap, free, >= 99.0%: 160 pi pulses, gap 17.5 ns, 7.61 us
+How it was found: random 0 start in round3.json (F = 0.99580), then polished with 15001 more evaluations -> F = 0.995968
+Gate fidelity: model 0.995968, board waveform 0.995973 (cutoff 96 levels); worst single input 0.99763
+After the gate: qubit Rz(1.904682 rad)
+rotation of the coherent state: g branch -89.056 deg, e branch +90.938 deg, relative 179.994 deg (target -90, +90, 180)
+full sequence (pulse, qubit phase, pump phase) for programming: runs/sequence_5.csv; int16 I/Q words: runs/words_5.npz
+COMPLETED conditional_gaussian_gates.ipynb cell 28 13 / 15
+START conditional_gaussian_gates.ipynb cell 30
+rotation, 600 ns swap, qubit only, >= 99.0%: 256 pi pulses, gap 20.0 ns, 12.81 us
+How it was found: random 1 start in round2.json (F = 0.99897), then polished with 15001 more evaluations -> F = 0.999306
+Gate fidelity: model 0.999306, board waveform 0.999286 (cutoff 256 levels); worst single input 0.99938
+After the gate: qubit Rz(-3.530305 rad)
+rotation of the coherent state: g branch -90.151 deg, e branch +90.195 deg, relative 180.346 deg (target -90, +90, 180)
+full sequence (pulse, qubit phase, pump phase) for programming: runs/sequence_6.csv; int16 I/Q words: runs/words_6.npz
+COMPLETED conditional_gaussian_gates.ipynb cell 30 14 / 15
+START conditional_gaussian_gates.ipynb cell 32
+rotation, 300 ns swap, free, >= 99.9%: 160 pi pulses, gap 0.0 ns, 4.81 us
+How it was found: the best no-gap sweep run (random start), continued start in round2.json (F = 0.99962), then polished with 15001 more evaluations -> F = 0.999825
+Gate fidelity: model 0.999825, board waveform 0.999824 (cutoff 96 levels); worst single input 0.99987
+After the gate: qubit Rz(-2.777244 rad)
+rotation of the coherent state: g branch -89.950 deg, e branch +89.982 deg, relative 179.932 deg (target -90, +90, 180)
+full sequence (pulse, qubit phase, pump phase) for programming: runs/sequence_7.csv; int16 I/Q words: runs/words_7.npz
+COMPLETED conditional_gaussian_gates.ipynb cell 32 15 / 15
+EXECUTED NOTEBOOK {'file': 'conditional_gaussian_gates.ipynb', 'cells': 34, 'executed_code_cells': 15, 'embedded_figures': 46, 'errors': 0}
+START fast_conditional_displacement.ipynb cell 2
+COMPLETED fast_conditional_displacement.ipynb cell 2 1 / 16
+START fast_conditional_displacement.ipynb cell 4
+Compared four matched-strength reference gates; all 22 input columns per waveform.
+COMPLETED fast_conditional_displacement.ipynb cell 4 2 / 16
+START fast_conditional_displacement.ipynb cell 6
+696 optimisations, 656,451 evaluations
+COMPLETED fast_conditional_displacement.ipynb cell 6 3 / 16
+START fast_conditional_displacement.ipynb cell 8
+[0] CD beta = 1, 300 ns swap, >= 99.9%: 0.73 us; 64 vs 128 photon levels: F = 0.99932481 vs 0.99932481; board-waveform cutoff 96 levels
+[1] CD beta = 1, 300 ns swap, >= 99.0%: 0.49 us; 64 vs 128 photon levels: F = 0.99655427 vs 0.99655427; board-waveform cutoff 96 levels
+[2] CD beta = 2, 300 ns swap, >= 99.9%: 1.45 us; 64 vs 128 photon levels: F = 0.99932950 vs 0.99932950; board-waveform cutoff 96 levels
+[3] CD beta = 2, 300 ns swap, >= 99.0%: 0.97 us; 64 vs 128 photon levels: F = 0.99325604 vs 0.99325604; board-waveform cutoff 96 levels
+[4] CD beta = 1, 600 ns swap, >= 99.9%: 0.97 us; 64 vs 128 photon levels: F = 0.99996159 vs 0.99996159; board-waveform cutoff 96 levels
+[5] CD beta = 1, 600 ns swap, >= 99.0%: 0.81 us; 64 vs 128 photon levels: F = 0.99889959 vs 0.99889959; board-waveform cutoff 96 levels
+[6] CD beta = 2, 600 ns swap, >= 99.9%: 1.93 us; 64 vs 128 photon levels: F = 0.99970129 vs 0.99970129; board-waveform cutoff 96 levels
+[7] CD beta = 2, 600 ns swap, >= 99.0%: 1.61 us; 64 vs 128 photon levels: F = 0.99507250 vs 0.99507250; board-waveform cutoff 96 levels
+COMPLETED fast_conditional_displacement.ipynb cell 8 4 / 16
+START fast_conditional_displacement.ipynb cell 10
+CD beta = 1, 300 ns swap, >= 99.9%: 24 pi pulses, gap 0 ns, 0.73 us
+Found: random 0 start (F = 0.999325), polished with 3 more evaluations -> F = 0.999325; board waveform 0.999326; worst single input 0.99782; after the gate: qubit Rz(-5.82399 rad)
+[0;31m---------------------------------------------------------------------------[0m
+[0;31mValueError[0m                                Traceback (most recent call last)
+Cell [0;32mIn[5], line 22[0m
+[1;32m     20[0m [38;5;66;03m# cat states: input |g> x vacuum; read the qubit in g or e -> even / odd cat[39;00m
+[1;32m     21[0m psi [38;5;241m=[39m np[38;5;241m.[39mzeros([38;5;241m2[39m [38;5;241m*[39m LEVELS, [38;5;28mcomplex[39m); psi[[38;5;241m0[39m] [38;5;241m=[39m [38;5;241m1[39m
+[0;32m---> 22[0m out_state [38;5;241m=[39m [43mcp[49m[38;5;241;43m.[39;49m[43mplayed_state[49m[43m([49m[43mtr[49m[43m,[49m[43m [49m[43mx[49m[43m,[49m[43m [49m[43mpsi[49m[43m,[49m[43m [49m[43mresult[49m[43m[[49m[38;5;124;43m'[39;49m[38;5;124;43mqubit_frame_Rz[39;49m[38;5;124;43m'[39;49m[43m][49m[43m)[49m
+[1;32m     23[0m ideal [38;5;241m=[39m tr[38;5;241m.[39mtarget[:, [38;5;241m0[39m]
+[1;32m     24[0m grid [38;5;241m=[39m np[38;5;241m.[39mlinspace([38;5;241m-[39m[38;5;241m4.5[39m, [38;5;241m4.5[39m, [38;5;241m181[39m)
+
+File [0;32m~/boson/quantum-simulation-code/conditional_gaussian_cd/cd_plots.py:44[0m, in [0;36mplayed_state[0;34m(train, x, initial, frame_angle)[0m
+[1;32m     42[0m [38;5;28;01mif[39;00m vector:state[38;5;241m=[39mstate[:,[38;5;28;01mNone[39;00m]
+[1;32m     43[0m out[38;5;241m=[39mhw[38;5;241m.[39mpropagate(q,s,state,cd[38;5;241m.[39mDT[38;5;241m/[39m[38;5;241m8[39m,order[38;5;241m=[39m[38;5;241m8[39m,fast[38;5;241m=[39m[38;5;28;01mTrue[39;00m)
+[0;32m---> 44[0m out[38;5;241m*[39m[38;5;241m=[39mnp[38;5;241m.[39mexp([38;5;241m-[39m[38;5;241m1[39mj[38;5;241m*[39mframe_angle[38;5;241m*[39mtrain[38;5;241m.[39mspace[38;5;241m.[39mz[38;5;241m/[39m[38;5;241m2[39m)[:,[38;5;28;01mNone[39;00m]
+[1;32m     45[0m [38;5;28;01mreturn[39;00m out[:,[38;5;241m0[39m] [38;5;28;01mif[39;00m vector [38;5;28;01melse[39;00m out
+
+[0;31mValueError[0m: operands could not be broadcast together with shapes (128,1) (192,1) (128,1) 
+Traceback (most recent call last):
+  File "/home/tunmays_rsl_pc_wsl/boson/quantum-simulation-code/conditional_gaussian_cd/execute_notebooks.py", line 43, in <module>
+    results=[execute(name) for name in parser.parse_args().notebooks]
+  File "/home/tunmays_rsl_pc_wsl/boson/quantum-simulation-code/conditional_gaussian_cd/execute_notebooks.py", line 43, in <listcomp>
+    results=[execute(name) for name in parser.parse_args().notebooks]
+  File "/home/tunmays_rsl_pc_wsl/boson/quantum-simulation-code/conditional_gaussian_cd/execute_notebooks.py", line 27, in execute
+    client.execute()
+  File "/home/tunmays_rsl_pc_wsl/boson/acadia_env/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 165, in wrapped
+    return loop.run_until_complete(inner)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/home/tunmays_rsl_pc_wsl/boson/acadia_env/lib/python3.10/site-packages/nbclient/client.py", line 709, in async_execute
+    await self.async_execute_cell(
+  File "/home/tunmays_rsl_pc_wsl/boson/acadia_env/lib/python3.10/site-packages/nbclient/client.py", line 1021, in async_execute_cell
+    await run_hook(
+  File "/home/tunmays_rsl_pc_wsl/boson/acadia_env/lib/python3.10/site-packages/nbclient/util.py", line 20, in run_hook
+    res = hook(**kwargs)
+  File "/home/tunmays_rsl_pc_wsl/boson/quantum-simulation-code/conditional_gaussian_cd/execute_notebooks.py", line 20, in finish
+    raise AssertionError(f'{name} cell {cell_index}: {output.evalue}')
+AssertionError: fast_conditional_displacement.ipynb cell 10: operands could not be broadcast together with shapes (128,1) (192,1) (128,1) 

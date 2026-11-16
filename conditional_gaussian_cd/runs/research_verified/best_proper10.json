@@ -1,0 +1,35 @@
+{
+  "name": "best_proper10",
+  "gate": "cd",
+  "strength": 1.0,
+  "fidelity": 0.9823705342094754,
+  "worst_basis_fidelity": 0.950496915373023,
+  "accepted": false,
+  "sideband_mode": "fixed",
+  "command_us": 0.315,
+  "columns": 18,
+  "levels": 96,
+  "complex_amplitudes": 3456,
+  "independent_max_difference": 1.0339757656912846e-24,
+  "peak_g": 6.603731358460819,
+  "peak_swap_ns": 237.86496474941612,
+  "qubit_frame_Rz": 0.0,
+  "cutoff_history": [
+    {
+      "levels": 64
+    },
+    {
+      "levels": 96,
+      "output_change": 1.520605559836286e-75,
+      "target_change": 7.74340002005588e-16
+    }
+  ],
+  "recipe_file": "runs/research_verified/best_proper10_recipe.json",
+  "controls_file": "runs/strategic_cd/best_proper10.npz",
+  "word_sha256": "cf0edc17ad4f9e12b569a6fe43fc5ab8c5aa33a3a3288f9587051e8cac884718",
+  "compiled": {
+    "arbitrary_commands": 2,
+    "triggers": 1,
+    "int16_values_compared": 1008
+  }
+}

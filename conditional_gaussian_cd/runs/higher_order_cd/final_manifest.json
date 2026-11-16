@@ -1,0 +1,18 @@
+{
+  "records": 64,
+  "columns": 1152,
+  "independent_amplitudes": 269568,
+  "accepted": 24,
+  "notebook_codecels": 7,
+  "notebook_figures": 6,
+  "sensitivity_points": 108,
+  "source_sha256": {
+    "higher_order_cd.py": "5bc0b33958b9c2265c0c28acbce01b3a1da39e08e6beb47d097714a430941f6f",
+    "verify_higher_order_cd.py": "22c9bee59587a94b5a783e946c88811c9a6e510455336d4adadca7c4cce164fd",
+    "higher_order_story.py": "d978802162d9f533487914459461c463d91fcedf6c408ac400bf252c2dadafc3",
+    "compress_squeeze_blocks.py": "d4f8dd482cdcedd736ffe552c3bd4ff916f153d4062a9a6a04ecc09c5efaab60",
+    "dcg_derivative_cd.py": "f2b5ecbcb3eaeb5989e6e5313c56a0e078d1c2a5a4429b51a778a82b974628b7",
+    "phase_only_product_cd.py": "968571c6db9a2615e0d697bdb03d68704f2f5e43f824b364b14dc2c591c0e13a",
+    "build_higher_order_notebook.py": "4d6302196fbe453b5746a01bfe7ff80e6bd749dcb3ad7c1c70063199ad7da387"
+  }
+}

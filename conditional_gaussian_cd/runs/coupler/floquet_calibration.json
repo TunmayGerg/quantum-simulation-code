@@ -1,0 +1,170 @@
+{
+  "circuit": {
+    "f_coupler_GHz": 6.8,
+    "full_tuning_GHz": 4.0,
+    "EC_GHz": 0.1,
+    "loops": 1,
+    "f_qubit_GHz": 4.630474660118947,
+    "f_cavity_GHz": 5.035244657984395,
+    "coupling_qc_GHz": 0.12,
+    "coupling_ac_GHz": 0.05,
+    "pump_drive_GHz": 0.4048887719999996,
+    "qubit_drive_GHz": 4.630267134,
+    "flux_per_DAC_override": 6.186529802838164
+  },
+  "final": {
+    "qubit_on_GHz": 4.6302671453515725,
+    "cavity_on_GHz": 5.035155911454471,
+    "coupling_GHz": 0.0004166645667157815,
+    "coupling_phase_rad": -0.0067842420621249625,
+    "detuning_GHz": -5.897101473806288e-09,
+    "minimum_pair_weight": 0.9997946691993234,
+    "columns": 60,
+    "amplitudes": 3600,
+    "coupler_levels": 10,
+    "timestep_ns": 0.0025
+  },
+  "history": [
+    {
+      "iteration": 0,
+      "circuit": {
+        "f_coupler_GHz": 6.8,
+        "full_tuning_GHz": 4.0,
+        "EC_GHz": 0.1,
+        "loops": 1,
+        "f_qubit_GHz": 4.630267134,
+        "f_cavity_GHz": 5.035155906,
+        "coupling_qc_GHz": 0.12,
+        "coupling_ac_GHz": 0.05,
+        "pump_drive_GHz": 0.4048887719999996,
+        "qubit_drive_GHz": 4.630267134,
+        "flux_per_DAC_override": 6.435285071728528
+      },
+      "floquet": {
+        "qubit_on_GHz": 4.630043446208832,
+        "cavity_on_GHz": 5.0350594844924945,
+        "coupling_GHz": 0.0004362364111439865,
+        "coupling_phase_rad": -0.006983893662300675,
+        "detuning_GHz": 0.00012726628366266368,
+        "minimum_pair_weight": 0.9997836836790539,
+        "columns": 48,
+        "amplitudes": 2304,
+        "coupler_levels": 8,
+        "timestep_ns": 0.005
+      }
+    },
+    {
+      "iteration": 1,
+      "circuit": {
+        "f_coupler_GHz": 6.8,
+        "full_tuning_GHz": 4.0,
+        "EC_GHz": 0.1,
+        "loops": 1,
+        "f_qubit_GHz": 4.630490821791168,
+        "f_cavity_GHz": 5.035252327507505,
+        "coupling_qc_GHz": 0.12,
+        "coupling_ac_GHz": 0.05,
+        "pump_drive_GHz": 0.4048887719999996,
+        "qubit_drive_GHz": 4.630267134,
+        "flux_per_DAC_override": 6.146595541750549
+      },
+      "floquet": {
+        "qubit_on_GHz": 4.630285840761133,
+        "cavity_on_GHz": 5.035164773097446,
+        "coupling_GHz": 0.00041355287101674823,
+        "coupling_phase_rad": -0.0067524698946544864,
+        "detuning_GHz": -9.839663687394307e-06,
+        "minimum_pair_weight": 0.9997964698997923,
+        "columns": 48,
+        "amplitudes": 2304,
+        "coupler_levels": 8,
+        "timestep_ns": 0.005
+      }
+    },
+    {
+      "iteration": 2,
+      "circuit": {
+        "f_coupler_GHz": 6.8,
+        "full_tuning_GHz": 4.0,
+        "EC_GHz": 0.1,
+        "loops": 1,
+        "f_qubit_GHz": 4.630472115030035,
+        "f_cavity_GHz": 5.03524346041006,
+        "coupling_qc_GHz": 0.12,
+        "coupling_ac_GHz": 0.05,
+        "pump_drive_GHz": 0.4048887719999996,
+        "qubit_drive_GHz": 4.630267134,
+        "flux_per_DAC_override": 6.192875579445986
+      },
+      "floquet": {
+        "qubit_on_GHz": 4.630264196332988,
+        "cavity_on_GHz": 5.035154523496691,
+        "coupling_GHz": 0.00041716000135051033,
+        "coupling_phase_rad": -0.006789208127593849,
+        "detuning_GHz": 1.5551637035926547e-06,
+        "minimum_pair_weight": 0.9997943002651353,
+        "columns": 48,
+        "amplitudes": 2304,
+        "coupler_levels": 8,
+        "timestep_ns": 0.005
+      }
+    },
+    {
+      "iteration": 3,
+      "circuit": {
+        "f_coupler_GHz": 6.8,
+        "full_tuning_GHz": 4.0,
+        "EC_GHz": 0.1,
+        "loops": 1,
+        "f_qubit_GHz": 4.630475052697047,
+        "f_cavity_GHz": 5.035244842913369,
+        "coupling_qc_GHz": 0.12,
+        "coupling_ac_GHz": 0.05,
+        "pump_drive_GHz": 0.4048887719999996,
+        "qubit_drive_GHz": 4.630267134,
+        "flux_per_DAC_override": 6.185551865987893
+      },
+      "floquet": {
+        "qubit_on_GHz": 4.630267600585437,
+        "cavity_on_GHz": 5.035156125784955,
+        "coupling_GHz": 0.00041658838593248206,
+        "coupling_phase_rad": -0.006783294220451607,
+        "detuning_GHz": -2.468004822731018e-07,
+        "minimum_pair_weight": 0.9997946445113332,
+        "columns": 48,
+        "amplitudes": 2304,
+        "coupler_levels": 8,
+        "timestep_ns": 0.005
+      }
+    },
+    {
+      "iteration": 4,
+      "circuit": {
+        "f_coupler_GHz": 6.8,
+        "full_tuning_GHz": 4.0,
+        "EC_GHz": 0.1,
+        "loops": 1,
+        "f_qubit_GHz": 4.63047458611161,
+        "f_cavity_GHz": 5.035244623128413,
+        "coupling_qc_GHz": 0.12,
+        "coupling_ac_GHz": 0.05,
+        "pump_drive_GHz": 0.4048887719999996,
+        "qubit_drive_GHz": 4.630267134,
+        "flux_per_DAC_override": 6.186714187256939
+      },
+      "floquet": {
+        "qubit_on_GHz": 4.630267059992664,
+        "cavity_on_GHz": 5.035155871144019,
+        "coupling_GHz": 0.00041667908507304386,
+        "coupling_phase_rad": -0.00678423029779123,
+        "detuning_GHz": 3.915135504684031e-08,
+        "minimum_pair_weight": 0.9997945898980791,
+        "columns": 48,
+        "amplitudes": 2304,
+        "coupler_levels": 8,
+        "timestep_ns": 0.005
+      }
+    }
+  ],
+  "assumption": "measured6.8GHz and4GHz tuning; illustrativeEC and participations; calibrate600ns swap and driven carriers"
+}

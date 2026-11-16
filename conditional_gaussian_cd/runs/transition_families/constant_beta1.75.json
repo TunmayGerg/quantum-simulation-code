@@ -1,0 +1,42 @@
+{
+  "shape": "phase",
+  "beta": 1.75,
+  "repeats": 5,
+  "gain": 0.875,
+  "fidelity": 0.9968050550688871,
+  "fidelity_nmax8": 0.9976309456480669,
+  "worst_basis_fidelity": 0.9919081998193737,
+  "levels": 96,
+  "columns": 22,
+  "command_us": 1.21,
+  "RFDC_window_us": 1.25421875,
+  "kind": "constant",
+  "parameters": [
+    -0.005235987755982988,
+    -0.041887902047863905,
+    -0.027925268031909273,
+    0.07679448708775051,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.639371
+  ],
+  "cutoff_history": [
+    {
+      "levels": 64,
+      "fidelity": 0.9968050550688864,
+      "columns": 22
+    },
+    {
+      "levels": 96,
+      "fidelity": 0.9968050550688871,
+      "columns": 22,
+      "output_column_change": 7.319094640011966e-29,
+      "target_column_change": 7.236819435744424e-16
+    }
+  ],
+  "complex_amplitudes": 4224,
+  "independent_max_difference": 1.890328069820156e-15,
+  "word_sha256": "0836917c9f7e2303a04bcc57423fab34219f62d26873b06d897861b7b2004e41"
+}

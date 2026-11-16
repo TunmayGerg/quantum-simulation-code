@@ -1,0 +1,654 @@
+{
+  "results": [
+    {
+      "gate": "cd",
+      "duration_us": 0.37,
+      "cells": 4,
+      "gap_ns": 60.0,
+      "spacing_ns": 90.0,
+      "name": "cd_T370_N4",
+      "target_strength": 1.0,
+      "pulse_word_model_degrees": [
+        0.0,
+        0.0,
+        180.0,
+        180.0
+      ],
+      "qubit_envelope_ns": 30.0,
+      "pump_phase_rad": -1.5707963267948966,
+      "sideband_phase_constant": true,
+      "sideband_plateau_amplitude_constant": true,
+      "phases_reoptimized": false,
+      "scalar_coupling_calibrated": true,
+      "g": 5.540251373068395,
+      "nominal_swap_ns": 283.5243784119007,
+      "peak_swap_ns": 281.72269086119957,
+      "command_us": 0.37,
+      "quadratic_cycle_coefficient_us2": null,
+      "qubit_frame_Rz": 0.0,
+      "design_fidelity": 0.7747967019657687,
+      "design_levels": 64,
+      "calibration_evaluations": 26,
+      "calibration_history": [
+        {
+          "g": 3.0136986301369864,
+          "fidelity": 0.0872782873352711
+        },
+        {
+          "g": 3.6103300539825045,
+          "fidelity": 0.25229584433729446
+        },
+        {
+          "g": 4.206961477828022,
+          "fidelity": 0.4746675581115458
+        },
+        {
+          "g": 4.803592901673541,
+          "fidelity": 0.6738036870194182
+        },
+        {
+          "g": 5.4002243255190585,
+          "fidelity": 0.7712202422252471
+        },
+        {
+          "g": 5.9968557493645775,
+          "fidelity": 0.7376872032337273
+        },
+        {
+          "g": 6.593487173210095,
+          "fidelity": 0.6066582201213413
+        },
+        {
+          "g": 7.190118597055614,
+          "fidelity": 0.4441245721099496
+        },
+        {
+          "g": 7.786750020901131,
+          "fidelity": 0.30572226053696405
+        },
+        {
+          "g": 5.259378751979028,
+          "fidelity": 0.7599212273298596
+        },
+        {
+          "g": 5.5410698990590905,
+          "fidelity": 0.7747931398421689
+        },
+        {
+          "g": 5.715164602284515,
+          "fidelity": 0.7690256412002997
+        },
+        {
+          "g": 5.540251373068395,
+          "fidelity": 0.7747967019657687
+        },
+        {
+          "g": 5.527434617326681,
+          "fidelity": 0.7747726952978597
+        },
+        {
+          "g": 5.535355808000566,
+          "fidelity": 0.7747945290048918
+        },
+        {
+          "g": 5.538068020513706,
+          "fidelity": 0.7747962112276096
+        },
+        {
+          "g": 5.540550860366064,
+          "fidelity": 0.7747931398421689
+        },
+        {
+          "g": 5.539417406601928,
+          "fidelity": 0.7747952636849731
+        },
+        {
+          "g": 5.539932826223683,
+          "fidelity": 0.7747952636849731
+        },
+        {
+          "g": 5.540129699000724,
+          "fidelity": 0.7747952636849731
+        },
+        {
+          "g": 5.540365767036906,
+          "fidelity": 0.7747931398421689
+        },
+        {
+          "g": 5.540204897710095,
+          "fidelity": 0.7747952636849731
+        },
+        {
+          "g": 5.540295067676259,
+          "fidelity": 0.7747931398421689
+        },
+        {
+          "g": 5.540233621061164,
+          "fidelity": 0.7747952636849731
+        },
+        {
+          "g": 5.540268062923474,
+          "fidelity": 0.7747931398421689
+        },
+        {
+          "g": 5.540244592405002,
+          "fidelity": 0.7747967019657687
+        }
+      ],
+      "search_bounds_g": [
+        3.0136986301369864,
+        7.786750020901131
+      ],
+      "calibration_scope": "One constant g maximizes fidelity to the fixed exact beta1/8dB18-column target. No phase fit.",
+      "vacuum_displacement_real": 0.9825578792390212,
+      "vacuum_displacement_imag": 0.025710094128871326,
+      "vacuum_target_axis_squeezing_dB": 0.2568304443529879,
+      "vacuum_photon_number": 0.9796195583792151,
+      "vacuum_ground_qubit_population": 0.5118891134487512,
+      "fidelity": 0.7747967019657687,
+      "worst_basis_fidelity": 0.3884309705104477,
+      "cutoff_history": [
+        {
+          "levels": 48
+        },
+        {
+          "levels": 64,
+          "output_change": 9.525692888655938e-76,
+          "target_change": 1.8997370040064688e-16
+        }
+      ],
+      "levels": 64,
+      "columns": 18,
+      "independent_amplitudes": 2304,
+      "independent_max_error": 5.169878828456423e-26,
+      "word_sha256": "74bbe57c06a0b2bdbbea4ad33e9714b8de5747376fc8485c5434805e41b43366",
+      "seconds": 2.441500425338745
+    },
+    {
+      "gate": "cd",
+      "duration_us": 0.37,
+      "cells": 12,
+      "gap_ns": 0.0,
+      "spacing_ns": 30.0,
+      "name": "cd_T370_N12",
+      "target_strength": 1.0,
+      "pulse_word_model_degrees": [
+        0.0,
+        0.0,
+        180.0,
+        180.0
+      ],
+      "qubit_envelope_ns": 30.0,
+      "pump_phase_rad": -1.5707963267948966,
+      "sideband_phase_constant": true,
+      "sideband_plateau_amplitude_constant": true,
+      "phases_reoptimized": false,
+      "scalar_coupling_calibrated": true,
+      "g": 5.546122039097153,
+      "nominal_swap_ns": 283.2242629573663,
+      "peak_swap_ns": 281.33215200080747,
+      "command_us": 0.37,
+      "quadratic_cycle_coefficient_us2": null,
+      "qubit_frame_Rz": 0.0,
+      "design_fidelity": 0.9922779449668537,
+      "design_levels": 64,
+      "calibration_evaluations": 21,
+      "calibration_history": [
+        {
+          "g": 3.0136986301369864,
+          "fidelity": 0.1039344557463091
+        },
+        {
+          "g": 3.6103300539825045,
+          "fidelity": 0.30395260170293137
+        },
+        {
+          "g": 4.206961477828022,
+          "fidelity": 0.5846066329086738
+        },
+        {
+          "g": 4.803592901673541,
+          "fidelity": 0.8489128078698929
+        },
+        {
+          "g": 5.4002243255190585,
+          "fidelity": 0.9864819566477484
+        },
+        {
+          "g": 5.9968557493645775,
+          "fidelity": 0.9384610410632177
+        },
+        {
+          "g": 6.593487173210095,
+          "fidelity": 0.7337757843331968
+        },
+        {
+          "g": 7.190118597055614,
+          "fidelity": 0.46576356652292183
+        },
+        {
+          "g": 7.786750020901131,
+          "fidelity": 0.23184240873719775
+        },
+        {
+          "g": 5.259378751979028,
+          "fidelity": 0.9697390619723464
+        },
+        {
+          "g": 5.5410698990590905,
+          "fidelity": 0.9922702426776336
+        },
+        {
+          "g": 5.715164602284515,
+          "fidelity": 0.98453804770359
+        },
+        {
+          "g": 5.546753544725227,
+          "fidelity": 0.9922770473990025
+        },
+        {
+          "g": 5.546122039097153,
+          "fidelity": 0.9922779449668537
+        },
+        {
+          "g": 5.545066679942658,
+          "fidelity": 0.9922765169399309
+        },
+        {
+          "g": 5.546005710061621,
+          "fidelity": 0.9922779449668537
+        },
+        {
+          "g": 5.546063874579387,
+          "fidelity": 0.9922779449668537
+        },
+        {
+          "g": 5.54604165771054,
+          "fidelity": 0.9922779449668537
+        },
+        {
+          "g": 5.546027926930469,
+          "fidelity": 0.9922779449668537
+        },
+        {
+          "g": 5.546019440841692,
+          "fidelity": 0.9922779449668537
+        },
+        {
+          "g": 5.546012691914264,
+          "fidelity": 0.9922779449668537
+        }
+      ],
+      "search_bounds_g": [
+        3.0136986301369864,
+        7.786750020901131
+      ],
+      "calibration_scope": "One constant g maximizes fidelity to the fixed exact beta1/8dB18-column target. No phase fit.",
+      "vacuum_displacement_real": 1.0077273477973914,
+      "vacuum_displacement_imag": 0.0072657907305129325,
+      "vacuum_target_axis_squeezing_dB": 0.05518204643329011,
+      "vacuum_photon_number": 1.0163886319181308,
+      "vacuum_ground_qubit_population": 0.5207879581812005,
+      "fidelity": 0.9922779449668542,
+      "worst_basis_fidelity": 0.9799962457296739,
+      "cutoff_history": [
+        {
+          "levels": 48
+        },
+        {
+          "levels": 64,
+          "output_change": 1.4525396905060407e-42,
+          "target_change": 1.8997370040064688e-16
+        }
+      ],
+      "levels": 64,
+      "columns": 18,
+      "independent_amplitudes": 2304,
+      "independent_max_error": 1.0339757656912846e-25,
+      "word_sha256": "09840da137021778c7a5debba115372dc219f02c0aa8cd8229c83a2c449f1e9d",
+      "seconds": 2.12782621383667
+    },
+    {
+      "gate": "squeeze",
+      "duration_us": 4.81,
+      "cells": 16,
+      "gap_ns": 270.0,
+      "spacing_ns": 300.0,
+      "name": "squeeze_T4810_N16",
+      "target_strength": 0.9210340371976182,
+      "pulse_word_model_degrees": [
+        90.0,
+        0.0,
+        90.0,
+        0.0,
+        270.0,
+        180.0,
+        270.0,
+        180.0
+      ],
+      "qubit_envelope_ns": 30.0,
+      "pump_phase_rad": 0.0,
+      "sideband_phase_constant": true,
+      "sideband_plateau_amplitude_constant": true,
+      "phases_reoptimized": false,
+      "scalar_coupling_calibrated": true,
+      "g": 1.2533008612968588,
+      "nominal_swap_ns": 1253.3274134747724,
+      "peak_swap_ns": 1245.0230100403328,
+      "command_us": 4.8100000000000005,
+      "quadratic_cycle_coefficient_us2": 0.17994495224300322,
+      "qubit_frame_Rz": 0.0021862215732143925,
+      "design_fidelity": 0.36351131446546936,
+      "design_levels": 192,
+      "calibration_evaluations": 27,
+      "calibration_history": [
+        {
+          "g": 0.6221580139659296,
+          "fidelity": 0.015103285690650559
+        },
+        {
+          "g": 0.76355756259455,
+          "fidelity": 0.032030657346531766
+        },
+        {
+          "g": 0.9049571112231704,
+          "fidelity": 0.09300690794340427
+        },
+        {
+          "g": 1.0463566598517908,
+          "fidelity": 0.22110241427170796
+        },
+        {
+          "g": 1.187756208480411,
+          "fidelity": 0.34634490171474597
+        },
+        {
+          "g": 1.3291557571090316,
+          "fidelity": 0.3416968355105128
+        },
+        {
+          "g": 1.4705553057376517,
+          "fidelity": 0.23130729313096154
+        },
+        {
+          "g": 1.6119548543662723,
+          "fidelity": 0.11981074120578639
+        },
+        {
+          "g": 1.7533544029948926,
+          "fidelity": 0.05010738978745788
+        },
+        {
+          "g": 1.1543763030162697,
+          "fidelity": 0.3249844910924373
+        },
+        {
+          "g": 1.221136113944553,
+          "fidelity": 0.35943991606304593
+        },
+        {
+          "g": 1.2623959461807486,
+          "fidelity": 0.36318743596514835
+        },
+        {
+          "g": 1.2533008612968588,
+          "fidelity": 0.36351131446546936
+        },
+        {
+          "g": 1.2533189139771481,
+          "fidelity": 0.36351131446546936
+        },
+        {
+          "g": 1.2533255992335384,
+          "fidelity": 0.36351131446546936
+        },
+        {
+          "g": 1.2567901634776188,
+          "fidelity": 0.3634568341235046
+        },
+        {
+          "g": 1.2546489450185696,
+          "fidelity": 0.3634965572043315
+        },
+        {
+          "g": 1.2538310723445514,
+          "fidelity": 0.36351131446546936
+        },
+        {
+          "g": 1.2541434719075566,
+          "fidelity": 0.36351131446546936
+        },
+        {
+          "g": 1.2543365454555644,
+          "fidelity": 0.36351131446546936
+        },
+        {
+          "g": 1.2544558714705618,
+          "fidelity": 0.3634965572043315
+        },
+        {
+          "g": 1.254262797922554,
+          "fidelity": 0.36351131446546936
+        },
+        {
+          "g": 1.2542172194405672,
+          "fidelity": 0.36351131446546936
+        },
+        {
+          "g": 1.2541890503895436,
+          "fidelity": 0.36351131446546936
+        },
+        {
+          "g": 1.2541716409585801,
+          "fidelity": 0.36351131446546936
+        },
+        {
+          "g": 1.2541608813385199,
+          "fidelity": 0.36351131446546936
+        },
+        {
+          "g": 1.2541541960696412,
+          "fidelity": 0.36351131446546936
+        }
+      ],
+      "search_bounds_g": [
+        0.6221580139659296,
+        1.7533544029948926
+      ],
+      "calibration_scope": "One constant g maximizes fidelity to the fixed exact beta1/8dB18-column target. No phase fit.",
+      "vacuum_displacement_real": 0.0035181258490475666,
+      "vacuum_displacement_imag": -0.008518377234779825,
+      "vacuum_target_axis_squeezing_dB": 0.8481003600772734,
+      "vacuum_photon_number": 1.572695561903363,
+      "vacuum_ground_qubit_population": 0.9114370644157873,
+      "fidelity": 0.36351131446547047,
+      "worst_basis_fidelity": 0.01781036572315196,
+      "cutoff_history": [
+        {
+          "levels": 128
+        },
+        {
+          "levels": 192,
+          "output_change": 0.0,
+          "target_change": 9.434631670509811e-05
+        },
+        {
+          "levels": 256,
+          "output_change": 0.0,
+          "target_change": 1.7076982799674414e-08
+        },
+        {
+          "levels": 320,
+          "output_change": 0.0,
+          "target_change": 1.8958399991252324e-12
+        }
+      ],
+      "levels": 320,
+      "columns": 18,
+      "independent_amplitudes": 11520,
+      "independent_max_error": 1.0846837446788912e-30,
+      "word_sha256": "b1db28eff63fa080d18180dc2183525cc6a3a67d458f0cb83e35cac77fececea",
+      "seconds": 106.27667188644409
+    },
+    {
+      "gate": "squeeze",
+      "duration_us": 4.81,
+      "cells": 160,
+      "gap_ns": 0.0,
+      "spacing_ns": 30.0,
+      "name": "squeeze_T4810_N160",
+      "target_strength": 0.9210340371976182,
+      "pulse_word_model_degrees": [
+        90.0,
+        0.0,
+        90.0,
+        0.0,
+        270.0,
+        180.0,
+        270.0,
+        180.0
+      ],
+      "qubit_envelope_ns": 30.0,
+      "pump_phase_rad": 0.0,
+      "sideband_phase_constant": true,
+      "sideband_plateau_amplitude_constant": true,
+      "phases_reoptimized": false,
+      "scalar_coupling_calibrated": true,
+      "g": 3.671996470455508,
+      "nominal_swap_ns": 427.77718863113193,
+      "peak_swap_ns": 425.00570302065125,
+      "command_us": 4.8100000000000005,
+      "quadratic_cycle_coefficient_us2": 0.0017449522430034526,
+      "qubit_frame_Rz": 0.05912917489445223,
+      "design_fidelity": 0.8670482420199677,
+      "design_levels": 192,
+      "calibration_evaluations": 18,
+      "calibration_history": [
+        {
+          "g": 1.9979230673967567,
+          "fidelity": 0.012869269593367205
+        },
+        {
+          "g": 2.4519964918051107,
+          "fidelity": 0.03770916361841048
+        },
+        {
+          "g": 2.906069916213464,
+          "fidelity": 0.19674482691360162
+        },
+        {
+          "g": 3.3601433406218177,
+          "fidelity": 0.6584322794103851
+        },
+        {
+          "g": 3.8142167650301717,
+          "fidelity": 0.8145636533406612
+        },
+        {
+          "g": 4.268290189438526,
+          "fidelity": 0.24864704720890685
+        },
+        {
+          "g": 4.722363613846879,
+          "fidelity": 0.007564102865704858
+        },
+        {
+          "g": 5.176437038255233,
+          "fidelity": 0.0009865357999740976
+        },
+        {
+          "g": 5.630510462663587,
+          "fidelity": 0.008286167908373443
+        },
+        {
+          "g": 3.707024570093688,
+          "fidelity": 0.8638671467983076
+        },
+        {
+          "g": 3.9214089599666555,
+          "fidelity": 0.7099693509297452
+        },
+        {
+          "g": 3.5745277304947853,
+          "fidelity": 0.842416002193161
+        },
+        {
+          "g": 3.6726939034858916,
+          "fidelity": 0.8670472305094883
+        },
+        {
+          "g": 3.671996470455508,
+          "fidelity": 0.8670482420199677
+        },
+        {
+          "g": 3.6720666058185913,
+          "fidelity": 0.8670482420199677
+        },
+        {
+          "g": 3.6720315381370496,
+          "fidelity": 0.8670482420199677
+        },
+        {
+          "g": 3.6720181434746073,
+          "fidelity": 0.8670482420199677
+        },
+        {
+          "g": 3.6720098651179502,
+          "fidelity": 0.8670482420199677
+        }
+      ],
+      "search_bounds_g": [
+        1.9979230673967567,
+        5.630510462663587
+      ],
+      "calibration_scope": "One constant g maximizes fidelity to the fixed exact beta1/8dB18-column target. No phase fit.",
+      "vacuum_displacement_real": -0.011684629278840774,
+      "vacuum_displacement_imag": -0.03248724259740893,
+      "vacuum_target_axis_squeezing_dB": 6.316974134618435,
+      "vacuum_photon_number": 1.179217141014721,
+      "vacuum_ground_qubit_population": 0.9841578698244601,
+      "fidelity": 0.8670482420199691,
+      "worst_basis_fidelity": 0.7559103698362557,
+      "cutoff_history": [
+        {
+          "levels": 128
+        },
+        {
+          "levels": 192,
+          "output_change": 5.224405927783673e-11,
+          "target_change": 9.434631670509811e-05
+        },
+        {
+          "levels": 256,
+          "output_change": 1.3305306242175076e-37,
+          "target_change": 1.7076982799674414e-08
+        },
+        {
+          "levels": 320,
+          "output_change": 2.554991238899249e-92,
+          "target_change": 1.8958399991252324e-12
+        }
+      ],
+      "levels": 320,
+      "columns": 18,
+      "independent_amplitudes": 11520,
+      "independent_max_error": 2.887413745249874e-15,
+      "word_sha256": "b976aeea75f4700d9eaee858e390e2354c8f736b9ff21dd1aed8f7d72b64598c",
+      "seconds": 83.06231164932251
+    }
+  ],
+  "points": 4,
+  "columns": 72,
+  "independent_amplitudes": 27648,
+  "fixed_duration_groups": [
+    [
+      "cd",
+      0.37
+    ],
+    [
+      "squeeze",
+      4.81
+    ]
+  ],
+  "scope": "Pulse spacing at fixed duration and exact target; fixed pulse cycles; only one constant coupling calibrated."
+}

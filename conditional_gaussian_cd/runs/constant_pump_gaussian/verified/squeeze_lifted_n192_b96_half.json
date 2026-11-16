@@ -1,0 +1,46 @@
+{
+  "name": "squeeze_lifted_n192_b96_half",
+  "gate": "squeeze",
+  "strength": 0.4605170185988091,
+  "fidelity": 0.9959072291032709,
+  "worst_basis_fidelity": 0.9872873563632621,
+  "columns": 18,
+  "levels": 128,
+  "complex_amplitudes": 4608,
+  "independent_max_difference": 1.015087490269953e-15,
+  "command_us": 2.89,
+  "RFDC_window_us": 2.93421875,
+  "qubit_frame_Rz": -2.7708790339431606,
+  "cutoff_history": [
+    {
+      "levels": 64,
+      "fidelity": 0.9959072291028456
+    },
+    {
+      "levels": 96,
+      "fidelity": 0.9959072291032709,
+      "output_change": 5.502938675659163e-06,
+      "target_change": 5.805969007631788e-07
+    },
+    {
+      "levels": 128,
+      "fidelity": 0.9959072291032709,
+      "output_change": 1.6073797517550718e-11,
+      "target_change": 4.039304281118381e-12
+    }
+  ],
+  "compiled": {
+    "arbitrary_commands": 2,
+    "triggers": 1,
+    "int16_values_compared": 9248
+  },
+  "pump_phase_constant": true,
+  "pump_transition_ns": 0,
+  "word_sha256": "f0d0e1b79a03ef14e6a5dcf093fc1cc18140b245d726e9104c1de989a5a68d98",
+  "source_record": "squeeze_lifted_n192_b96_half.json",
+  "g_rad_per_us": 4.275166100539547,
+  "equivalent_swap_ns": 367.4234614174767,
+  "qubit_pi_DAC_scale": 0.43779166666666675,
+  "pump_plateau_DAC_scale": 0.07348469228349534,
+  "programmed_NCO_changes": false
+}

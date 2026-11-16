@@ -1,0 +1,32 @@
+{
+  "name": "edge_n10_gap0_phase0",
+  "gate": "cd",
+  "fidelity": 0.9895952603162361,
+  "accepted": false,
+  "hardware_eligible": true,
+  "ideal_device_fidelity": 0.9895605202586734,
+  "command_us": 0.3,
+  "qubit_frame_Rz": 0.0,
+  "columns": 18,
+  "levels": 96,
+  "independent_amplitudes": 3456,
+  "independent_max_difference": 3.309291958772805e-24,
+  "cutoff_history": [
+    {
+      "levels": 64
+    },
+    {
+      "levels": 96,
+      "output_change": 6.720714009515818e-76,
+      "target_change": 7.74340002005588e-16
+    }
+  ],
+  "hard_min_swap_ns": 200.0,
+  "peak_g_rad_per_us": 7.7856539189747,
+  "actual_min_swap_ns": 201.7552209669443,
+  "programmed_peak_g_rad_per_us": 7.785307586664973,
+  "played_peak_g_rad_per_us": 7.7856539189747,
+  "worst_basis_fidelity": 0.9648338266985798,
+  "pump_phase_constant": true,
+  "word_sha256": "6c21101f5d393597a3e85a87ac84665c0e9710269bcf0742e2071dca759cfd67"
+}

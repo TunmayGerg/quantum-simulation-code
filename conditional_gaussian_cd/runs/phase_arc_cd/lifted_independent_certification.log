@@ -1,0 +1,3 @@
+START RESEARCH CERTIFICATION 1 gates;all18inputs
+RESEARCH CERTIFIED arc_lifted_n12 F 0.9935748649951442 worstbasis 0.9809548969203411 timeus 0.37 18columns; 3456 amplitudes;error 1.002958247892506e-15 mode phase_arc accepted True
+FINAL RESEARCH COMPARISONS 1 gates; 18 columns; 3456 amplitudes

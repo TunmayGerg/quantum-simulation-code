@@ -1,0 +1,70 @@
+{
+  "name": "squeeze_lifted_n192_b96",
+  "gate": "squeeze",
+  "strength": 0.9210340371976182,
+  "fidelity": 0.990333225734462,
+  "worst_basis_fidelity": 0.9621584030120107,
+  "columns": 18,
+  "levels": 256,
+  "complex_amplitudes": 9216,
+  "independent_max_difference": 7.057779543286364e-15,
+  "command_us": 5.7700000000000005,
+  "RFDC_window_us": 5.81421875,
+  "qubit_frame_Rz": -5.542702969501703,
+  "cutoff_history": [
+    {
+      "levels": 64,
+      "fidelity": 0.9890405733218437
+    },
+    {
+      "levels": 96,
+      "fidelity": 0.9903337345989458,
+      "output_change": 0.10532084767987092,
+      "target_change": 0.14484428431184065
+    },
+    {
+      "levels": 128,
+      "fidelity": 0.9903332257943324,
+      "output_change": 0.0017962518624814383,
+      "target_change": 0.004855427499729388
+    },
+    {
+      "levels": 160,
+      "fidelity": 0.9903332257344643,
+      "output_change": 1.5050116429464487e-05,
+      "target_change": 9.434355667122615e-05
+    },
+    {
+      "levels": 192,
+      "fidelity": 0.9903332257344623,
+      "output_change": 6.753248430104628e-08,
+      "target_change": 1.3834121761600571e-06
+    },
+    {
+      "levels": 224,
+      "fidelity": 0.990333225734462,
+      "output_change": 8.256494307384186e-12,
+      "target_change": 1.707654535259484e-08
+    },
+    {
+      "levels": 256,
+      "fidelity": 0.990333225734462,
+      "output_change": 6.483487614716309e-25,
+      "target_change": 1.8763683261109632e-10
+    }
+  ],
+  "compiled": {
+    "arbitrary_commands": 2,
+    "triggers": 1,
+    "int16_values_compared": 18464
+  },
+  "pump_phase_constant": true,
+  "pump_transition_ns": 0,
+  "word_sha256": "c2d38d1b3d0e345245996eaf40c3360443993cdaa5c1ac3d53b832325c75bd87",
+  "source_record": "squeeze_lifted_n192_b96.json",
+  "g_rad_per_us": 4.275166100539547,
+  "equivalent_swap_ns": 367.4234614174767,
+  "qubit_pi_DAC_scale": 0.43779166666666675,
+  "pump_plateau_DAC_scale": 0.07348469228349534,
+  "programmed_NCO_changes": false
+}

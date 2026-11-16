@@ -1,0 +1,290 @@
+[
+  {
+    "gate": "squeeze",
+    "loops": 8,
+    "method": "commutator",
+    "fidelity": 0.4709763492291316,
+    "levels": 320,
+    "output_change": 0.0,
+    "target_change": 1.8958399991252324e-12
+  },
+  {
+    "gate": "squeeze",
+    "loops": 8,
+    "method": "cubic_cancelled_pair",
+    "fidelity": 0.27115048024828897,
+    "levels": 320,
+    "output_change": 0.0,
+    "target_change": 1.8958399991252324e-12
+  },
+  {
+    "gate": "squeeze",
+    "loops": 16,
+    "method": "commutator",
+    "fidelity": 0.6977073746137941,
+    "levels": 320,
+    "output_change": 0.0,
+    "target_change": 1.8958399991252324e-12
+  },
+  {
+    "gate": "squeeze",
+    "loops": 16,
+    "method": "cubic_cancelled_pair",
+    "fidelity": 0.44154044600546033,
+    "levels": 320,
+    "output_change": 0.0,
+    "target_change": 1.8958399991252324e-12
+  },
+  {
+    "gate": "squeeze",
+    "loops": 32,
+    "method": "commutator",
+    "fidelity": 0.8477483126157552,
+    "levels": 320,
+    "output_change": 0.0,
+    "target_change": 1.8958399991252324e-12
+  },
+  {
+    "gate": "squeeze",
+    "loops": 32,
+    "method": "cubic_cancelled_pair",
+    "fidelity": 0.6420724762338645,
+    "levels": 320,
+    "output_change": 0.0,
+    "target_change": 1.8958399991252324e-12
+  },
+  {
+    "gate": "squeeze",
+    "loops": 64,
+    "method": "commutator",
+    "fidelity": 0.9261596783970311,
+    "levels": 320,
+    "output_change": 1.0495137396405743e-29,
+    "target_change": 1.8958399991252324e-12
+  },
+  {
+    "gate": "squeeze",
+    "loops": 64,
+    "method": "cubic_cancelled_pair",
+    "fidelity": 0.8369494923159155,
+    "levels": 320,
+    "output_change": 8.774417540285443e-28,
+    "target_change": 1.8958399991252324e-12
+  },
+  {
+    "gate": "squeeze",
+    "loops": 128,
+    "method": "commutator",
+    "fidelity": 0.9641194216078165,
+    "levels": 320,
+    "output_change": 2.247226427943296e-17,
+    "target_change": 1.8958399991252324e-12
+  },
+  {
+    "gate": "squeeze",
+    "loops": 128,
+    "method": "cubic_cancelled_pair",
+    "fidelity": 0.9458714272585985,
+    "levels": 320,
+    "output_change": 5.183544851984405e-15,
+    "target_change": 1.8958399991252324e-12
+  },
+  {
+    "gate": "squeeze",
+    "loops": 256,
+    "method": "commutator",
+    "fidelity": 0.9823887650808346,
+    "levels": 320,
+    "output_change": 1.5290350508725812e-14,
+    "target_change": 1.8958399991252324e-12
+  },
+  {
+    "gate": "squeeze",
+    "loops": 256,
+    "method": "cubic_cancelled_pair",
+    "fidelity": 0.9848608539437087,
+    "levels": 320,
+    "output_change": 2.7409200230172723e-13,
+    "target_change": 1.8958399991252324e-12
+  },
+  {
+    "gate": "squeeze",
+    "loops": 512,
+    "method": "commutator",
+    "fidelity": 0.9912859722504929,
+    "levels": 320,
+    "output_change": 2.0055327930661267e-13,
+    "target_change": 1.8958399991252324e-12
+  },
+  {
+    "gate": "squeeze",
+    "loops": 512,
+    "method": "cubic_cancelled_pair",
+    "fidelity": 0.9960484861711681,
+    "levels": 320,
+    "output_change": 9.384791199752083e-13,
+    "target_change": 1.8958399991252324e-12
+  },
+  {
+    "gate": "squeeze",
+    "loops": 1024,
+    "method": "commutator",
+    "fidelity": 0.9956670916560926,
+    "levels": 320,
+    "output_change": 6.395763561228181e-13,
+    "target_change": 1.8958399991252324e-12
+  },
+  {
+    "gate": "squeeze",
+    "loops": 1024,
+    "method": "cubic_cancelled_pair",
+    "fidelity": 0.9989946753742046,
+    "levels": 320,
+    "output_change": 1.436839626874474e-12,
+    "target_change": 1.8958399991252324e-12
+  },
+  {
+    "gate": "rotation",
+    "loops": 8,
+    "method": "commutator",
+    "fidelity": 0.14683073231232904,
+    "levels": 64,
+    "output_change": 0.0,
+    "target_change": 0.0
+  },
+  {
+    "gate": "rotation",
+    "loops": 8,
+    "method": "cubic_cancelled_pair",
+    "fidelity": 0.016930360797547627,
+    "levels": 64,
+    "output_change": 0.0,
+    "target_change": 0.0
+  },
+  {
+    "gate": "rotation",
+    "loops": 16,
+    "method": "commutator",
+    "fidelity": 0.4759213159735653,
+    "levels": 64,
+    "output_change": 0.0,
+    "target_change": 0.0
+  },
+  {
+    "gate": "rotation",
+    "loops": 16,
+    "method": "cubic_cancelled_pair",
+    "fidelity": 0.04544739447157764,
+    "levels": 64,
+    "output_change": 0.0,
+    "target_change": 0.0
+  },
+  {
+    "gate": "rotation",
+    "loops": 32,
+    "method": "commutator",
+    "fidelity": 0.7619382328197636,
+    "levels": 64,
+    "output_change": 0.0,
+    "target_change": 0.0
+  },
+  {
+    "gate": "rotation",
+    "loops": 32,
+    "method": "cubic_cancelled_pair",
+    "fidelity": 0.07662891401654301,
+    "levels": 64,
+    "output_change": 0.0,
+    "target_change": 0.0
+  },
+  {
+    "gate": "rotation",
+    "loops": 64,
+    "method": "commutator",
+    "fidelity": 0.9038497891611968,
+    "levels": 64,
+    "output_change": 0.0,
+    "target_change": 0.0
+  },
+  {
+    "gate": "rotation",
+    "loops": 64,
+    "method": "cubic_cancelled_pair",
+    "fidelity": 0.4723815446950862,
+    "levels": 64,
+    "output_change": 0.0,
+    "target_change": 0.0
+  },
+  {
+    "gate": "rotation",
+    "loops": 128,
+    "method": "commutator",
+    "fidelity": 0.9607709774614938,
+    "levels": 64,
+    "output_change": 0.0,
+    "target_change": 0.0
+  },
+  {
+    "gate": "rotation",
+    "loops": 128,
+    "method": "cubic_cancelled_pair",
+    "fidelity": 0.8184636984575885,
+    "levels": 64,
+    "output_change": 0.0,
+    "target_change": 0.0
+  },
+  {
+    "gate": "rotation",
+    "loops": 256,
+    "method": "commutator",
+    "fidelity": 0.9830466955401207,
+    "levels": 64,
+    "output_change": 0.0,
+    "target_change": 0.0
+  },
+  {
+    "gate": "rotation",
+    "loops": 256,
+    "method": "cubic_cancelled_pair",
+    "fidelity": 0.9492514947225609,
+    "levels": 64,
+    "output_change": 0.0,
+    "target_change": 0.0
+  },
+  {
+    "gate": "rotation",
+    "loops": 512,
+    "method": "commutator",
+    "fidelity": 0.9922476015766857,
+    "levels": 64,
+    "output_change": 0.0,
+    "target_change": 0.0
+  },
+  {
+    "gate": "rotation",
+    "loops": 512,
+    "method": "cubic_cancelled_pair",
+    "fidelity": 0.9867839936586784,
+    "levels": 64,
+    "output_change": 0.0,
+    "target_change": 0.0
+  },
+  {
+    "gate": "rotation",
+    "loops": 1024,
+    "method": "commutator",
+    "fidelity": 0.996312353813368,
+    "levels": 64,
+    "output_change": 0.0,
+    "target_change": 0.0
+  },
+  {
+    "gate": "rotation",
+    "loops": 1024,
+    "method": "cubic_cancelled_pair",
+    "fidelity": 0.9966417753702507,
+    "levels": 64,
+    "output_change": 0.0,
+    "target_change": 0.0
+  }
+]

@@ -1,0 +1,313 @@
+{
+  "enumerated_words": 65536,
+  "zero_first_order_words": 680,
+  "pure_squeeze_words": 16,
+  "pulse_ns": 30,
+  "sideband_fixed": true,
+  "results": [
+    {
+      "word": [
+        1,
+        0,
+        1,
+        0,
+        3,
+        2,
+        3,
+        2
+      ],
+      "squeeze_second_coefficient": 0.0017449522430034543,
+      "first_norm": 4.878290325223474e-17,
+      "second_unwanted_norm": 5.699624271878481e-18,
+      "cubic_norm": 0.0006189467128932105,
+      "cubic_even_norm": 0.0006067402722994475,
+      "cubic_odd_norm": 0.0001223162923379492,
+      "qubit_Z_second_coefficient": 3.980744111752992e-19
+    },
+    {
+      "word": [
+        3,
+        0,
+        3,
+        0,
+        1,
+        2,
+        1,
+        2
+      ],
+      "squeeze_second_coefficient": 0.001744952243003454,
+      "first_norm": 4.6621731613269716e-17,
+      "second_unwanted_norm": 5.574845441311282e-18,
+      "cubic_norm": 0.0006189467128932105,
+      "cubic_even_norm": 0.0006067402722994475,
+      "cubic_odd_norm": 0.00012231629233794918,
+      "qubit_Z_second_coefficient": 2.54420624518509e-20
+    },
+    {
+      "word": [
+        3,
+        2,
+        3,
+        2,
+        1,
+        0,
+        1,
+        0
+      ],
+      "squeeze_second_coefficient": 0.001744952243003454,
+      "first_norm": 4.6619509963964885e-17,
+      "second_unwanted_norm": 5.977095088348495e-18,
+      "cubic_norm": 0.0006189467128932106,
+      "cubic_even_norm": 0.0006067402722994476,
+      "cubic_odd_norm": 0.00012231629233794907,
+      "qubit_Z_second_coefficient": 4.1191196065487375e-20
+    },
+    {
+      "word": [
+        1,
+        2,
+        1,
+        2,
+        3,
+        0,
+        3,
+        0
+      ],
+      "squeeze_second_coefficient": 0.0017449522430034539,
+      "first_norm": 4.89911185644239e-17,
+      "second_unwanted_norm": 7.74082820330392e-18,
+      "cubic_norm": 0.0006189467128932105,
+      "cubic_even_norm": 0.0006067402722994475,
+      "cubic_odd_norm": 0.00012231629233794904,
+      "qubit_Z_second_coefficient": 4.0378344555877167e-19
+    },
+    {
+      "word": [
+        3,
+        2,
+        3,
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      "squeeze_second_coefficient": 0.001744952243003454,
+      "first_norm": 4.8085805380778006e-17,
+      "second_unwanted_norm": 6.085617195506419e-18,
+      "cubic_norm": 0.0006378330160579766,
+      "cubic_even_norm": 0.0006319417051342345,
+      "cubic_odd_norm": 8.649067976175998e-05,
+      "qubit_Z_second_coefficient": 3.334770329289104e-20
+    },
+    {
+      "word": [
+        1,
+        2,
+        1,
+        0,
+        3,
+        0,
+        3,
+        2
+      ],
+      "squeeze_second_coefficient": 0.001744952243003454,
+      "first_norm": 4.819726692873866e-17,
+      "second_unwanted_norm": 5.7577356263990806e-18,
+      "cubic_norm": 0.0006378330160579768,
+      "cubic_even_norm": 0.0006319417051342345,
+      "cubic_odd_norm": 8.649067976175998e-05,
+      "qubit_Z_second_coefficient": 4.093681838053565e-19
+    },
+    {
+      "word": [
+        3,
+        0,
+        3,
+        2,
+        1,
+        2,
+        1,
+        0
+      ],
+      "squeeze_second_coefficient": 0.001744952243003454,
+      "first_norm": 4.7949891371229465e-17,
+      "second_unwanted_norm": 5.5706742047190264e-18,
+      "cubic_norm": 0.0006378330160579768,
+      "cubic_even_norm": 0.0006319417051342347,
+      "cubic_odd_norm": 8.649067976175999e-05,
+      "qubit_Z_second_coefficient": 4.4579327854504577e-20
+    },
+    {
+      "word": [
+        1,
+        0,
+        1,
+        2,
+        3,
+        2,
+        3,
+        0
+      ],
+      "squeeze_second_coefficient": 0.0017449522430034539,
+      "first_norm": 4.791113243149443e-17,
+      "second_unwanted_norm": 6.722827505312384e-18,
+      "cubic_norm": 0.0006378330160579768,
+      "cubic_even_norm": 0.0006319417051342345,
+      "cubic_odd_norm": 8.649067976175998e-05,
+      "qubit_Z_second_coefficient": 3.9361905019172007e-19
+    },
+    {
+      "word": [
+        1,
+        0,
+        3,
+        0,
+        3,
+        2,
+        1,
+        2
+      ],
+      "squeeze_second_coefficient": 0.0017449522430034543,
+      "first_norm": 4.9641410480109e-17,
+      "second_unwanted_norm": 5.440942353705977e-18,
+      "cubic_norm": 0.0006399573735094313,
+      "cubic_even_norm": 0.000634085800364145,
+      "cubic_odd_norm": 8.649067976176004e-05,
+      "qubit_Z_second_coefficient": 1.9591588109727287e-19
+    },
+    {
+      "word": [
+        3,
+        0,
+        1,
+        0,
+        1,
+        2,
+        3,
+        2
+      ],
+      "squeeze_second_coefficient": 0.001744952243003454,
+      "first_norm": 4.7416820139014364e-17,
+      "second_unwanted_norm": 5.509516619479439e-18,
+      "cubic_norm": 0.0006399573735094313,
+      "cubic_even_norm": 0.000634085800364145,
+      "cubic_odd_norm": 8.649067976176003e-05,
+      "qubit_Z_second_coefficient": 1.9484865190271093e-19
+    },
+    {
+      "word": [
+        1,
+        2,
+        3,
+        2,
+        3,
+        0,
+        1,
+        0
+      ],
+      "squeeze_second_coefficient": 0.0017449522430034539,
+      "first_norm": 4.97354169151484e-17,
+      "second_unwanted_norm": 6.964495146762072e-18,
+      "cubic_norm": 0.0006399573735094313,
+      "cubic_even_norm": 0.0006340858003641451,
+      "cubic_odd_norm": 8.64906797617599e-05,
+      "qubit_Z_second_coefficient": 2.196949516888371e-19
+    },
+    {
+      "word": [
+        3,
+        2,
+        1,
+        2,
+        1,
+        0,
+        3,
+        0
+      ],
+      "squeeze_second_coefficient": 0.0017449522430034539,
+      "first_norm": 4.751522801549617e-17,
+      "second_unwanted_norm": 6.783817989464066e-18,
+      "cubic_norm": 0.0006399573735094313,
+      "cubic_even_norm": 0.0006340858003641451,
+      "cubic_odd_norm": 8.649067976175991e-05,
+      "qubit_Z_second_coefficient": 2.241503126724162e-19
+    },
+    {
+      "word": [
+        1,
+        2,
+        3,
+        0,
+        3,
+        0,
+        1,
+        2
+      ],
+      "squeeze_second_coefficient": 0.001744952243003454,
+      "first_norm": 4.804726987933591e-17,
+      "second_unwanted_norm": 5.786647663309314e-18,
+      "cubic_norm": 0.0006582411130288009,
+      "cubic_even_norm": 0.0006582411130288009,
+      "cubic_odd_norm": 4.671037767533174e-19,
+      "qubit_Z_second_coefficient": 2.1630681989981988e-19
+    },
+    {
+      "word": [
+        3,
+        2,
+        1,
+        0,
+        1,
+        0,
+        3,
+        2
+      ],
+      "squeeze_second_coefficient": 0.001744952243003454,
+      "first_norm": 4.8078575357386e-17,
+      "second_unwanted_norm": 5.868474374258588e-18,
+      "cubic_norm": 0.0006582411130288009,
+      "cubic_even_norm": 0.0006582411130288009,
+      "cubic_odd_norm": 4.676971125115603e-19,
+      "qubit_Z_second_coefficient": 2.241503126724162e-19
+    },
+    {
+      "word": [
+        1,
+        0,
+        3,
+        2,
+        3,
+        2,
+        1,
+        0
+      ],
+      "squeeze_second_coefficient": 0.001744952243003454,
+      "first_norm": 4.814438912403701e-17,
+      "second_unwanted_norm": 5.700120802311344e-18,
+      "cubic_norm": 0.000658241113028801,
+      "cubic_even_norm": 0.000658241113028801,
+      "cubic_odd_norm": 4.663459562182701e-19,
+      "qubit_Z_second_coefficient": 2.365734625654793e-19
+    },
+    {
+      "word": [
+        3,
+        0,
+        1,
+        2,
+        1,
+        2,
+        3,
+        0
+      ],
+      "squeeze_second_coefficient": 0.0017449522430034539,
+      "first_norm": 4.8175631492122636e-17,
+      "second_unwanted_norm": 6.512670430049749e-18,
+      "cubic_norm": 0.0006582411130288009,
+      "cubic_even_norm": 0.0006582411130288009,
+      "cubic_odd_norm": 4.50770123109619e-19,
+      "qubit_Z_second_coefficient": 2.3211810158190017e-19
+    }
+  ]
+}

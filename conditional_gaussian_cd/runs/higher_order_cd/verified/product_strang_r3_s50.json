@@ -1,0 +1,27 @@
+{
+  "name": "product_strang_r3_s50",
+  "gate": "cd",
+  "fidelity": 0.9748496163195248,
+  "ideal_device_fidelity": 0.9748496165749859,
+  "accepted": false,
+  "columns": 18,
+  "levels": 96,
+  "independent_amplitudes": 3456,
+  "independent_max_difference": 3.76158192263132e-37,
+  "command_us": 0.31,
+  "RFDC_window_us": 0.35421875,
+  "qubit_frame_Rz": 0.0,
+  "cutoff_history": [
+    {
+      "levels": 64
+    },
+    {
+      "levels": 96,
+      "output_change": 0.0,
+      "target_change": 7.74340002005588e-16
+    }
+  ],
+  "worst_basis_fidelity": 0.8969851056077671,
+  "word_sha256": "bc2619ea7de2683ac98390af6bc57653ab50eaced61b15e69aae2f78b131381c",
+  "source_record": "product_strang_r3_s50.json"
+}

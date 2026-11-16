@@ -1,0 +1,17 @@
+[
+  {
+    "name": "cd4",
+    "amplitudes": 512,
+    "max_error": 3.611936906198692e-16
+  },
+  {
+    "name": "cd8",
+    "amplitudes": 512,
+    "max_error": 1.0551079529443244e-15
+  },
+  {
+    "name": "squeeze8",
+    "amplitudes": 512,
+    "max_error": 4.2244766375702384e-16
+  }
+]

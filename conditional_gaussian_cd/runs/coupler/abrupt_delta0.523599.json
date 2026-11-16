@@ -1,0 +1,81 @@
+{
+  "circuit": {
+    "f_coupler_GHz": 6.8,
+    "full_tuning_GHz": 4.0,
+    "EC_GHz": 0.1,
+    "loops": 1,
+    "f_qubit_GHz": 4.630267134,
+    "f_cavity_GHz": 5.035155906,
+    "coupling_qc_GHz": 0.12,
+    "coupling_ac_GHz": 0.05,
+    "pump_drive_GHz": null,
+    "qubit_drive_GHz": null,
+    "flux_per_DAC_override": null
+  },
+  "inferred": {
+    "EL_GHz": 57.79999999999999,
+    "EJ_GHz": 16.248076809271918,
+    "ratio_2EJ_EL": 0.5622171906322464,
+    "lambda_c": 0.242535625036333,
+    "lambda_q": 0.01341375957401383,
+    "lambda_a": 0.006871304549248559,
+    "flux_at_DAC_0045": 0.2895878282277838,
+    "flux_per_DAC": 6.435285071728528,
+    "inferred_fmin_GHz": 4.499230723708768,
+    "inferred_fmax_GHz": 8.499230723708768
+  },
+  "cavity_levels": 20,
+  "coupler_levels": 10,
+  "cosine_projection": "infinite_oscillator_projected",
+  "duration_ns": 104.21875,
+  "timestep_ns": 0.004999940030704279,
+  "steps": 20844,
+  "taylor_order": 21,
+  "columns": 6,
+  "sparse_entries": 37727,
+  "sparse_discard_amplitude_bound": 5.1979905179783804e-11,
+  "norm_error": 2.2003510125045977e-12,
+  "final_coupler_excitation": [
+    8.979200911190562e-08,
+    0.001747261768554915,
+    0.0035025697103698945,
+    5.438214715615316e-05,
+    0.0017351184625627356,
+    0.00341266035349218
+  ],
+  "max_final_coupler_excitation": 0.0035025697103698945,
+  "elapsed_seconds": 129.76371143804863,
+  "shape": "abrupt",
+  "delta_rad": 0.5235987755982988,
+  "convergence_history": [
+    {
+      "cavity_levels": 12,
+      "coupler_levels": 4,
+      "timestep_ns": 0.005,
+      "coupler_excitation": 0.0035047641140195243,
+      "column_change": null
+    },
+    {
+      "cavity_levels": 16,
+      "coupler_levels": 6,
+      "timestep_ns": 0.005,
+      "coupler_excitation": 0.0035026657034684405,
+      "column_change": 0.003331247492333759
+    },
+    {
+      "cavity_levels": 20,
+      "coupler_levels": 8,
+      "timestep_ns": 0.005,
+      "coupler_excitation": 0.0035025702410589454,
+      "column_change": 6.459297868252994e-05
+    },
+    {
+      "cavity_levels": 20,
+      "coupler_levels": 10,
+      "timestep_ns": 0.005,
+      "coupler_excitation": 0.0035025697103698945,
+      "column_change": 3.483086036517887e-07
+    }
+  ],
+  "converged_1e6": true
+}

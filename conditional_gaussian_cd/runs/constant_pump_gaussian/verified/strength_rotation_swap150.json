@@ -1,0 +1,40 @@
+{
+  "name": "strength_rotation_swap150",
+  "gate": "rotation",
+  "strength": 1.5707963267948966,
+  "fidelity": 0.9950417421246439,
+  "worst_basis_fidelity": 0.9885840894748772,
+  "columns": 18,
+  "levels": 96,
+  "complex_amplitudes": 3456,
+  "independent_max_difference": 5.74426431766485e-15,
+  "command_us": 2.89,
+  "RFDC_window_us": 2.93421875,
+  "qubit_frame_Rz": 0.5847534171111612,
+  "cutoff_history": [
+    {
+      "levels": 64,
+      "fidelity": 0.9950417421246439
+    },
+    {
+      "levels": 96,
+      "fidelity": 0.9950417421246439,
+      "output_change": 1.6232873663371337e-12,
+      "target_change": 0.0
+    }
+  ],
+  "compiled": {
+    "arbitrary_commands": 2,
+    "triggers": 1,
+    "int16_values_compared": 9248
+  },
+  "pump_phase_constant": false,
+  "pump_transition_ns": 10,
+  "word_sha256": "f760cdd2b1b9454b9c73c4eee7b5f506d20ecafcb0337abee382dba0cf1189f3",
+  "source_record": "strength_rotation_swap150.json",
+  "g_rad_per_us": 10.471975511965974,
+  "equivalent_swap_ns": 150.00000000000003,
+  "qubit_pi_DAC_scale": 0.43779166666666675,
+  "pump_plateau_DAC_scale": 0.17999999999999994,
+  "programmed_NCO_changes": false
+}

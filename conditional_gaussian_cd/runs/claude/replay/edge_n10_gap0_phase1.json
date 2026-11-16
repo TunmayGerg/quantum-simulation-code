@@ -1,0 +1,28 @@
+[
+ {
+  "name": "edge_n10_gap0_phase1",
+  "levels": 64,
+  "fidelity": 0.9927202573459265,
+  "worst_input": 0.9754935614137661,
+  "samples": 2203,
+  "time_us": 0.34421875,
+  "filtered_peak_g": 7.83871721818265,
+  "peak_equivalent_swap_ns": 200.3894620858736,
+  "norm_error": 1.84297022087776e-14,
+  "codex_fidelity": 0.9927202573459261,
+  "codex_peak_swap_ns": 200.3894620858736
+ },
+ {
+  "name": "edge_n10_gap0_phase1",
+  "levels": 96,
+  "fidelity": 0.9927202573459261,
+  "worst_input": 0.9754935614137659,
+  "samples": 2203,
+  "time_us": 0.34421875,
+  "filtered_peak_g": 7.83871721818265,
+  "peak_equivalent_swap_ns": 200.3894620858736,
+  "norm_error": 1.8207657603852567e-14,
+  "codex_fidelity": 0.9927202573459261,
+  "codex_peak_swap_ns": 200.3894620858736
+ }
+]

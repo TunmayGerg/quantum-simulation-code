@@ -1,0 +1,4 @@
+SERIES VALIDATION cd4 512complex coefficient amplitudes;maxerror 3.611936906198692e-16
+SERIES VALIDATION cd8 512complex coefficient amplitudes;maxerror 1.0551079529443244e-15
+SERIES VALIDATION squeeze8 512complex coefficient amplitudes;maxerror 4.2244766375702384e-16
+SERIES VALIDATION COMPLETE:3waveforms;1536complex coefficient comparisons

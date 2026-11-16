@@ -1,0 +1,1715 @@
+{
+  "gates": 40,
+  "columns": 880,
+  "independent_amplitudes": 174592,
+  "results": [
+    {
+      "shape": "phase",
+      "beta": 0.05,
+      "repeats": 1,
+      "gain": 0.125,
+      "fidelity": 0.9999680641440941,
+      "fidelity_nmax8": 0.999973810836491,
+      "worst_basis_fidelity": 0.9999371989635519,
+      "levels": 96,
+      "columns": 22,
+      "command_us": 0.25,
+      "RFDC_window_us": 0.29421875000000003,
+      "kind": "constant",
+      "parameters": [
+        -0.005235987755982988,
+        -0.041887902047863905,
+        -0.027925268031909273,
+        0.07679448708775051,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.639371
+      ],
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.9999680641440941,
+          "columns": 22
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.9999680641440941,
+          "columns": 22,
+          "output_column_change": 5.757801894929132e-148,
+          "target_column_change": 1.1876649621082408e-16
+        }
+      ],
+      "complex_amplitudes": 4224,
+      "independent_max_difference": 2.687813436755151e-16,
+      "word_sha256": "ebf8506f787d930bcede6410411d715b767b989900bbe667b4b8081ea1c45896"
+    },
+    {
+      "shape": "phase",
+      "beta": -0.5,
+      "repeats": 2,
+      "gain": -0.625,
+      "fidelity": 0.9993462656226235,
+      "fidelity_nmax8": 0.9994382651913513,
+      "worst_basis_fidelity": 0.9988556115289124,
+      "levels": 96,
+      "columns": 22,
+      "command_us": 0.49,
+      "RFDC_window_us": 0.53421875,
+      "kind": "constant",
+      "parameters": [
+        -0.005235987755982988,
+        -0.041887902047863905,
+        -0.027925268031909273,
+        0.07679448708775051,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.639371
+      ],
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.999346265622624,
+          "columns": 22
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.9993462656226235,
+          "columns": 22,
+          "output_column_change": 1.760494158477392e-77,
+          "target_column_change": 5.944306773079311e-16
+        }
+      ],
+      "complex_amplitudes": 4224,
+      "independent_max_difference": 7.217390802971844e-16,
+      "word_sha256": "73d0020ea92a2cb2febd10b1c670724e65f9105dfe9fb6e5e90a1c7b78dca78a"
+    },
+    {
+      "shape": "phase",
+      "beta": 0.1,
+      "repeats": 1,
+      "gain": 0.25,
+      "fidelity": 0.999887881866961,
+      "fidelity_nmax8": 0.9999074697881194,
+      "worst_basis_fidelity": 0.9997844059731191,
+      "levels": 96,
+      "columns": 22,
+      "command_us": 0.25,
+      "RFDC_window_us": 0.29421875000000003,
+      "kind": "constant",
+      "parameters": [
+        -0.005235987755982988,
+        -0.041887902047863905,
+        -0.027925268031909273,
+        0.07679448708775051,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.639371
+      ],
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.999887881866961,
+          "columns": 22
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.999887881866961,
+          "columns": 22,
+          "output_column_change": 9.995916789208187e-132,
+          "target_column_change": 1.110359776028445e-16
+        }
+      ],
+      "complex_amplitudes": 4224,
+      "independent_max_difference": 2.776152326724959e-16,
+      "word_sha256": "437c2d85a40067f4794124ecbcfc87e34b5c4dae8d1d0099d2ad431152796028"
+    },
+    {
+      "shape": "phase",
+      "beta": 0.125,
+      "repeats": 1,
+      "gain": 0.3125,
+      "fidelity": 0.9998256903733,
+      "fidelity_nmax8": 0.9998556458195279,
+      "worst_basis_fidelity": 0.999669219378126,
+      "levels": 96,
+      "columns": 22,
+      "command_us": 0.25,
+      "RFDC_window_us": 0.29421875000000003,
+      "kind": "constant",
+      "parameters": [
+        -0.005235987755982988,
+        -0.041887902047863905,
+        -0.027925268031909273,
+        0.07679448708775051,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.639371
+      ],
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.9998256903733,
+          "columns": 22
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.9998256903733,
+          "columns": 22,
+          "output_column_change": 1.844821680807164e-126,
+          "target_column_change": 1.6325945981893141e-16
+        }
+      ],
+      "complex_amplitudes": 4224,
+      "independent_max_difference": 3.3366904322771623e-16,
+      "word_sha256": "05b2accbde27e09d6f266f3f45532dc99a9e6061040732687899d6007d407444"
+    },
+    {
+      "shape": "phase",
+      "beta": 0.2,
+      "repeats": 1,
+      "gain": 0.5,
+      "fidelity": 0.9995729392544237,
+      "fidelity_nmax8": 0.9996442192646675,
+      "worst_basis_fidelity": 0.9992138341422372,
+      "levels": 96,
+      "columns": 22,
+      "command_us": 0.25,
+      "RFDC_window_us": 0.29421875000000003,
+      "kind": "constant",
+      "parameters": [
+        -0.005235987755982988,
+        -0.041887902047863905,
+        -0.027925268031909273,
+        0.07679448708775051,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.639371
+      ],
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.9995729392544237,
+          "columns": 22
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.9995729392544237,
+          "columns": 22,
+          "output_column_change": 2.438529892829436e-115,
+          "target_column_change": 2.808638166538077e-16
+        }
+      ],
+      "complex_amplitudes": 4224,
+      "independent_max_difference": 8.883096162960023e-16,
+      "word_sha256": "967043836bfb29dacd8a08576b5bdce08bc9a77ed13c10c6b3540d2e5f92801f"
+    },
+    {
+      "shape": "phase",
+      "beta": -1.0,
+      "repeats": 3,
+      "gain": -0.8333333333333333,
+      "fidelity": 0.9986420043669525,
+      "fidelity_nmax8": 0.998889936680596,
+      "worst_basis_fidelity": 0.9972844995768303,
+      "levels": 96,
+      "columns": 22,
+      "command_us": 0.73,
+      "RFDC_window_us": 0.7742187500000001,
+      "kind": "constant",
+      "parameters": [
+        -0.005235987755982988,
+        -0.041887902047863905,
+        -0.027925268031909273,
+        0.07679448708775051,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.639371
+      ],
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.998642004366952,
+          "columns": 22
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.9986420043669525,
+          "columns": 22,
+          "output_column_change": 4.622006221787741e-52,
+          "target_column_change": 8.791502922121676e-16
+        }
+      ],
+      "complex_amplitudes": 4224,
+      "independent_max_difference": 1.0554017588996233e-15,
+      "word_sha256": "23863bc9251defd8be54d00a8ccfb39069a20164c0f30b7e1552435f727d876a"
+    },
+    {
+      "shape": "phase",
+      "beta": 0.3,
+      "repeats": 1,
+      "gain": 0.7499999999999999,
+      "fidelity": 0.9990825883883817,
+      "fidelity_nmax8": 0.9992476923961898,
+      "worst_basis_fidelity": 0.998241205886033,
+      "levels": 96,
+      "columns": 22,
+      "command_us": 0.25,
+      "RFDC_window_us": 0.29421875000000003,
+      "kind": "constant",
+      "parameters": [
+        -0.005235987755982988,
+        -0.041887902047863905,
+        -0.027925268031909273,
+        0.07679448708775051,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.639371
+      ],
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.9990825883883817,
+          "columns": 22
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.9990825883883817,
+          "columns": 22,
+          "output_column_change": 1.026257803904813e-105,
+          "target_column_change": 2.098176721343656e-16
+        }
+      ],
+      "complex_amplitudes": 4224,
+      "independent_max_difference": 2.775994069985743e-16,
+      "word_sha256": "e0390844e859fab7b82772321cc366511523fed7b87866367095aaef0f2847bd"
+    },
+    {
+      "shape": "phase",
+      "beta": 0.4,
+      "repeats": 1,
+      "gain": 1.0,
+      "fidelity": 0.9982186228538317,
+      "fidelity_nmax8": 0.9985772939625771,
+      "worst_basis_fidelity": 0.9963629993442588,
+      "levels": 96,
+      "columns": 22,
+      "command_us": 0.25,
+      "RFDC_window_us": 0.29421875000000003,
+      "kind": "constant",
+      "parameters": [
+        -0.005235987755982988,
+        -0.041887902047863905,
+        -0.027925268031909273,
+        0.07679448708775051,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.639371
+      ],
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.9982186228538317,
+          "columns": 22
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.9982186228538317,
+          "columns": 22,
+          "output_column_change": 7.664518877335175e-99,
+          "target_column_change": 2.714684814450099e-16
+        }
+      ],
+      "complex_amplitudes": 4224,
+      "independent_max_difference": 6.661726950011342e-16,
+      "word_sha256": "f5d483e82003d8d6b842a8bcc1b73598bdca2799d834580a4fffa8ccf20fdcbc"
+    },
+    {
+      "shape": "phase",
+      "beta": -2.0,
+      "repeats": 5,
+      "gain": -1.0,
+      "fidelity": 0.9927150509460289,
+      "fidelity_nmax8": 0.9948461356505338,
+      "worst_basis_fidelity": 0.9806992225491058,
+      "levels": 96,
+      "columns": 22,
+      "command_us": 1.21,
+      "RFDC_window_us": 1.25421875,
+      "kind": "constant",
+      "parameters": [
+        -0.005235987755982988,
+        -0.041887902047863905,
+        -0.027925268031909273,
+        0.07679448708775051,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.639371
+      ],
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.9927150509460289,
+          "columns": 22
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.9927150509460289,
+          "columns": 22,
+          "output_column_change": 6.598159644337661e-26,
+          "target_column_change": 1.9477112038517278e-15
+        }
+      ],
+      "complex_amplitudes": 4224,
+      "independent_max_difference": 1.942890341495906e-15,
+      "word_sha256": "5405830cdc0741218ecfa2a1a59f18566f73fb3d2f3aec89b37da62ccd9795e5"
+    },
+    {
+      "shape": "phase",
+      "beta": 0.5,
+      "repeats": 2,
+      "gain": 0.625,
+      "fidelity": 0.9993462656226235,
+      "fidelity_nmax8": 0.9994382651913513,
+      "worst_basis_fidelity": 0.9988556115289124,
+      "levels": 96,
+      "columns": 22,
+      "command_us": 0.49,
+      "RFDC_window_us": 0.53421875,
+      "kind": "constant",
+      "parameters": [
+        -0.005235987755982988,
+        -0.041887902047863905,
+        -0.027925268031909273,
+        0.07679448708775051,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.639371
+      ],
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.999346265622624,
+          "columns": 22
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.9993462656226235,
+          "columns": 22,
+          "output_column_change": 1.760494158477392e-77,
+          "target_column_change": 5.944306773079311e-16
+        }
+      ],
+      "complex_amplitudes": 4224,
+      "independent_max_difference": 7.217390802971844e-16,
+      "word_sha256": "177e321de81dd44cd822156d9bdb3efa4330d1c5265ebaaae0f58b027bc6429b"
+    },
+    {
+      "shape": "phase",
+      "beta": 0.75,
+      "repeats": 2,
+      "gain": 0.9375,
+      "fidelity": 0.9983963151893664,
+      "fidelity_nmax8": 0.9987218057273453,
+      "worst_basis_fidelity": 0.9964847036536993,
+      "levels": 96,
+      "columns": 22,
+      "command_us": 0.49,
+      "RFDC_window_us": 0.53421875,
+      "kind": "constant",
+      "parameters": [
+        -0.005235987755982988,
+        -0.041887902047863905,
+        -0.027925268031909273,
+        0.07679448708775051,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.639371
+      ],
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.9983963151893664,
+          "columns": 22
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.9983963151893664,
+          "columns": 22,
+          "output_column_change": 6.378614745496002e-68,
+          "target_column_change": 2.893699731196258e-16
+        }
+      ],
+      "complex_amplitudes": 4224,
+      "independent_max_difference": 7.771561340350114e-16,
+      "word_sha256": "5ab548884414be68dd656214635d6a7e68c3b9560835ffdd28f194c386cead95"
+    },
+    {
+      "shape": "phase",
+      "beta": 1.0,
+      "repeats": 3,
+      "gain": 0.8333333333333333,
+      "fidelity": 0.9986420043669525,
+      "fidelity_nmax8": 0.998889936680596,
+      "worst_basis_fidelity": 0.9972844995768303,
+      "levels": 96,
+      "columns": 22,
+      "command_us": 0.73,
+      "RFDC_window_us": 0.7742187500000001,
+      "kind": "constant",
+      "parameters": [
+        -0.005235987755982988,
+        -0.041887902047863905,
+        -0.027925268031909273,
+        0.07679448708775051,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.639371
+      ],
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.998642004366952,
+          "columns": 22
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.9986420043669525,
+          "columns": 22,
+          "output_column_change": 4.622006221787741e-52,
+          "target_column_change": 8.791502922121676e-16
+        }
+      ],
+      "complex_amplitudes": 4224,
+      "independent_max_difference": 1.0554017588996233e-15,
+      "word_sha256": "39a55c93e59be48a0c0420820de274bf3a36be37eed7df572eefbe1a868aaf1e"
+    },
+    {
+      "shape": "phase",
+      "beta": 1.5,
+      "repeats": 4,
+      "gain": 0.9375,
+      "fidelity": 0.997000658876215,
+      "fidelity_nmax8": 0.9977526749584719,
+      "worst_basis_fidelity": 0.9926694380392371,
+      "levels": 96,
+      "columns": 22,
+      "command_us": 0.97,
+      "RFDC_window_us": 1.01421875,
+      "kind": "constant",
+      "parameters": [
+        -0.005235987755982988,
+        -0.041887902047863905,
+        -0.027925268031909273,
+        0.07679448708775051,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.639371
+      ],
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.997000658876215,
+          "columns": 22
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.997000658876215,
+          "columns": 22,
+          "output_column_change": 1.1200947827768436e-36,
+          "target_column_change": 3.8438570354507376e-16
+        }
+      ],
+      "complex_amplitudes": 4224,
+      "independent_max_difference": 1.721055739520177e-15,
+      "word_sha256": "caf0a649d0a02d5e53fc547df08d8b93a169e4bbfd482cc448e21e7136654b1a"
+    },
+    {
+      "shape": "phase",
+      "beta": 1.25,
+      "repeats": 4,
+      "gain": 0.78125,
+      "fidelity": 0.9986071126442693,
+      "fidelity_nmax8": 0.9988787575625714,
+      "worst_basis_fidelity": 0.9969562279111163,
+      "levels": 96,
+      "columns": 22,
+      "command_us": 0.97,
+      "RFDC_window_us": 1.01421875,
+      "kind": "constant",
+      "parameters": [
+        -0.005235987755982988,
+        -0.041887902047863905,
+        -0.027925268031909273,
+        0.07679448708775051,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.639371
+      ],
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.9986071126442697,
+          "columns": 22
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.9986071126442693,
+          "columns": 22,
+          "output_column_change": 7.733020945004597e-41,
+          "target_column_change": 6.082724039589678e-16
+        }
+      ],
+      "complex_amplitudes": 4224,
+      "independent_max_difference": 9.438450384964669e-16,
+      "word_sha256": "38dfe42e595c9ead83c1ef311708bc5c53fa212a57439e2528ae059fc55231bc"
+    },
+    {
+      "shape": "phase",
+      "beta": 1.75,
+      "repeats": 5,
+      "gain": 0.875,
+      "fidelity": 0.9968050550688871,
+      "fidelity_nmax8": 0.9976309456480669,
+      "worst_basis_fidelity": 0.9919081998193737,
+      "levels": 96,
+      "columns": 22,
+      "command_us": 1.21,
+      "RFDC_window_us": 1.25421875,
+      "kind": "constant",
+      "parameters": [
+        -0.005235987755982988,
+        -0.041887902047863905,
+        -0.027925268031909273,
+        0.07679448708775051,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.639371
+      ],
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.9968050550688864,
+          "columns": 22
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.9968050550688871,
+          "columns": 22,
+          "output_column_change": 7.319094640011966e-29,
+          "target_column_change": 7.236819435744424e-16
+        }
+      ],
+      "complex_amplitudes": 4224,
+      "independent_max_difference": 1.890328069820156e-15,
+      "word_sha256": "0836917c9f7e2303a04bcc57423fab34219f62d26873b06d897861b7b2004e41"
+    },
+    {
+      "shape": "phase",
+      "beta": 2.0,
+      "repeats": 5,
+      "gain": 1.0,
+      "fidelity": 0.9927150509460289,
+      "fidelity_nmax8": 0.9948461356505338,
+      "worst_basis_fidelity": 0.9806992225491058,
+      "levels": 96,
+      "columns": 22,
+      "command_us": 1.21,
+      "RFDC_window_us": 1.25421875,
+      "kind": "constant",
+      "parameters": [
+        -0.005235987755982988,
+        -0.041887902047863905,
+        -0.027925268031909273,
+        0.07679448708775051,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.639371
+      ],
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.9927150509460289,
+          "columns": 22
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.9927150509460289,
+          "columns": 22,
+          "output_column_change": 6.598159644337661e-26,
+          "target_column_change": 1.9477112038517278e-15
+        }
+      ],
+      "complex_amplitudes": 4224,
+      "independent_max_difference": 1.942890341495906e-15,
+      "word_sha256": "1af45c3e4d74708722151e868ba9f47eef59d63be633dcb8283086c7d3c001ab"
+    },
+    {
+      "shape": "phase",
+      "beta": 2.25,
+      "repeats": 7,
+      "gain": 0.8035714285714285,
+      "fidelity": 0.9955990545439871,
+      "fidelity_nmax8": 0.9968042106880437,
+      "worst_basis_fidelity": 0.9887439418564468,
+      "levels": 96,
+      "columns": 22,
+      "command_us": 1.69,
+      "RFDC_window_us": 1.7342187500000001,
+      "kind": "constant",
+      "parameters": [
+        -0.005235987755982988,
+        -0.041887902047863905,
+        -0.027925268031909273,
+        0.07679448708775051,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.639371
+      ],
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.9955990545439871,
+          "columns": 22
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.9955990545439871,
+          "columns": 22,
+          "output_column_change": 3.621549194793257e-18,
+          "target_column_change": 2.837209067186513e-13
+        }
+      ],
+      "complex_amplitudes": 4224,
+      "independent_max_difference": 1.3740271782436545e-15,
+      "word_sha256": "bc1e88f857415de16d4ac342661e7f1534be42fe6399f3e229bb5c8fbb06e3be"
+    },
+    {
+      "shape": "phase",
+      "beta": 2.5,
+      "repeats": 8,
+      "gain": 0.78125,
+      "fidelity": 0.9945625338776883,
+      "fidelity_nmax8": 0.9960752341416543,
+      "worst_basis_fidelity": 0.9860361650175048,
+      "levels": 96,
+      "columns": 22,
+      "command_us": 1.93,
+      "RFDC_window_us": 1.9742187500000001,
+      "kind": "constant",
+      "parameters": [
+        -0.005235987755982988,
+        -0.041887902047863905,
+        -0.027925268031909273,
+        0.07679448708775051,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.639371
+      ],
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.994562533877689,
+          "columns": 22
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.9945625338776883,
+          "columns": 22,
+          "output_column_change": 1.0052241328599156e-14,
+          "target_column_change": 3.7271744800046015e-11
+        }
+      ],
+      "complex_amplitudes": 4224,
+      "independent_max_difference": 1.193665650509328e-15,
+      "word_sha256": "91b8fc653359703851e1f9643040a0d516f7834d6f05493b31f6d1707ba7c665"
+    },
+    {
+      "shape": "cartesian",
+      "beta": -0.5,
+      "repeats": 2,
+      "gain": -0.625,
+      "fidelity": 0.9992683395459722,
+      "fidelity_nmax8": 0.9993719077627569,
+      "worst_basis_fidelity": 0.9987230613129715,
+      "levels": 96,
+      "columns": 22,
+      "command_us": 0.49,
+      "RFDC_window_us": 0.53421875,
+      "kind": "cartesian",
+      "parameters": [
+        0.041887902047863905,
+        0.041887902047863905,
+        -0.0017453292519943296,
+        0.022689280275926284,
+        0.34033920413889424,
+        0.2617993877991494,
+        -0.2932153143350474,
+        -0.20943951023931956,
+        0.661958
+      ],
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.9992683395459719,
+          "columns": 22
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.9992683395459722,
+          "columns": 22,
+          "output_column_change": 4.4214481439972536e-77,
+          "target_column_change": 5.944306773079311e-16
+        }
+      ],
+      "complex_amplitudes": 4224,
+      "independent_max_difference": 1.6657717744151097e-15,
+      "word_sha256": "402a523c40a575da1bfc5a7438e537e8f827be482e995ab3f53612ca22965fe8"
+    },
+    {
+      "shape": "cartesian",
+      "beta": -1.0,
+      "repeats": 3,
+      "gain": -0.8333333333333333,
+      "fidelity": 0.99863287867758,
+      "fidelity_nmax8": 0.9988359171105008,
+      "worst_basis_fidelity": 0.9975173047727497,
+      "levels": 96,
+      "columns": 22,
+      "command_us": 0.73,
+      "RFDC_window_us": 0.7742187500000001,
+      "kind": "cartesian",
+      "parameters": [
+        0.041887902047863905,
+        0.041887902047863905,
+        -0.0017453292519943296,
+        0.022689280275926284,
+        0.34033920413889424,
+        0.2617993877991494,
+        -0.2932153143350474,
+        -0.20943951023931956,
+        0.661958
+      ],
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.99863287867758,
+          "columns": 22
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.99863287867758,
+          "columns": 22,
+          "output_column_change": 1.1123063158636713e-51,
+          "target_column_change": 8.791502922121676e-16
+        }
+      ],
+      "complex_amplitudes": 4224,
+      "independent_max_difference": 1.8878008175144668e-15,
+      "word_sha256": "32120fe6b848b9a6ba22f0c72089a71551df520ddae436805b91f69915f1dd9b"
+    },
+    {
+      "shape": "cartesian",
+      "beta": 0.05,
+      "repeats": 1,
+      "gain": 0.125,
+      "fidelity": 0.9999616871589528,
+      "fidelity_nmax8": 0.9999684888159066,
+      "worst_basis_fidelity": 0.999926932979776,
+      "levels": 96,
+      "columns": 22,
+      "command_us": 0.25,
+      "RFDC_window_us": 0.29421875000000003,
+      "kind": "cartesian",
+      "parameters": [
+        0.041887902047863905,
+        0.041887902047863905,
+        -0.0017453292519943296,
+        0.022689280275926284,
+        0.34033920413889424,
+        0.2617993877991494,
+        -0.2932153143350474,
+        -0.20943951023931956,
+        0.661958
+      ],
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.9999616871589528,
+          "columns": 22
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.9999616871589528,
+          "columns": 22,
+          "output_column_change": 1.418903294422112e-147,
+          "target_column_change": 1.1876649621082408e-16
+        }
+      ],
+      "complex_amplitudes": 4224,
+      "independent_max_difference": 1.048536404883742e-15,
+      "word_sha256": "5381b4558e7af7a5c282a997ffb14e36c889e4e1abce17fcf51c5dbb5f06c251"
+    },
+    {
+      "shape": "cartesian",
+      "beta": 0.1,
+      "repeats": 1,
+      "gain": 0.25,
+      "fidelity": 0.9998631670135727,
+      "fidelity_nmax8": 0.9998857671754807,
+      "worst_basis_fidelity": 0.9997585365282878,
+      "levels": 96,
+      "columns": 22,
+      "command_us": 0.25,
+      "RFDC_window_us": 0.29421875000000003,
+      "kind": "cartesian",
+      "parameters": [
+        0.041887902047863905,
+        0.041887902047863905,
+        -0.0017453292519943296,
+        0.022689280275926284,
+        0.34033920413889424,
+        0.2617993877991494,
+        -0.2932153143350474,
+        -0.20943951023931956,
+        0.661958
+      ],
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.9998631670135727,
+          "columns": 22
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.9998631670135727,
+          "columns": 22,
+          "output_column_change": 2.5710935648275897e-131,
+          "target_column_change": 1.110359776028445e-16
+        }
+      ],
+      "complex_amplitudes": 4224,
+      "independent_max_difference": 1.554637132488034e-15,
+      "word_sha256": "97d551c87b87ca5a107ce8bc748d6d7f3e798e2bc25b573d8b3016949fdd5162"
+    },
+    {
+      "shape": "cartesian",
+      "beta": -2.0,
+      "repeats": 5,
+      "gain": -1.0,
+      "fidelity": 0.994060655918309,
+      "fidelity_nmax8": 0.9958739912571837,
+      "worst_basis_fidelity": 0.9832918080856136,
+      "levels": 96,
+      "columns": 22,
+      "command_us": 1.21,
+      "RFDC_window_us": 1.25421875,
+      "kind": "cartesian",
+      "parameters": [
+        0.041887902047863905,
+        0.041887902047863905,
+        -0.0017453292519943296,
+        0.022689280275926284,
+        0.34033920413889424,
+        0.2617993877991494,
+        -0.2932153143350474,
+        -0.20943951023931956,
+        0.661958
+      ],
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.9940606559183093,
+          "columns": 22
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.994060655918309,
+          "columns": 22,
+          "output_column_change": 1.3557931217720964e-25,
+          "target_column_change": 1.9477112038517278e-15
+        }
+      ],
+      "complex_amplitudes": 4224,
+      "independent_max_difference": 3.497430116572218e-15,
+      "word_sha256": "73a814f987e3a09b0abc9f8f9182e7e9925c67c67b556225a079c635b2b68281"
+    },
+    {
+      "shape": "cartesian",
+      "beta": 0.125,
+      "repeats": 1,
+      "gain": 0.3125,
+      "fidelity": 0.9997953305430708,
+      "fidelity_nmax8": 0.9998276019624381,
+      "worst_basis_fidelity": 0.9996539491193295,
+      "levels": 96,
+      "columns": 22,
+      "command_us": 0.25,
+      "RFDC_window_us": 0.29421875000000003,
+      "kind": "cartesian",
+      "parameters": [
+        0.041887902047863905,
+        0.041887902047863905,
+        -0.0017453292519943296,
+        0.022689280275926284,
+        0.34033920413889424,
+        0.2617993877991494,
+        -0.2932153143350474,
+        -0.20943951023931956,
+        0.661958
+      ],
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.9997953305430708,
+          "columns": 22
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.9997953305430708,
+          "columns": 22,
+          "output_column_change": 4.7985102908198475e-126,
+          "target_column_change": 1.6325945981893141e-16
+        }
+      ],
+      "complex_amplitudes": 4224,
+      "independent_max_difference": 1.34517435253205e-15,
+      "word_sha256": "5d4ee1a8f6b8f21cccbce63746bdca5eaf38e26dbcb5620993acee64e3c06db3"
+    },
+    {
+      "shape": "cartesian",
+      "beta": 0.2,
+      "repeats": 1,
+      "gain": 0.5,
+      "fidelity": 0.9995709172521526,
+      "fidelity_nmax8": 0.9996309464882257,
+      "worst_basis_fidelity": 0.999320579491551,
+      "levels": 96,
+      "columns": 22,
+      "command_us": 0.25,
+      "RFDC_window_us": 0.29421875000000003,
+      "kind": "cartesian",
+      "parameters": [
+        0.041887902047863905,
+        0.041887902047863905,
+        -0.0017453292519943296,
+        0.022689280275926284,
+        0.34033920413889424,
+        0.2617993877991494,
+        -0.2932153143350474,
+        -0.20943951023931956,
+        0.661958
+      ],
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.9995709172521526,
+          "columns": 22
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.9995709172521526,
+          "columns": 22,
+          "output_column_change": 6.188440143987831e-115,
+          "target_column_change": 2.808638166538077e-16
+        }
+      ],
+      "complex_amplitudes": 4224,
+      "independent_max_difference": 1.1805476047426654e-15,
+      "word_sha256": "de2de1ce19f01bd33cc06b80d6635be53f7d558b6f73e363f30b724cd5487e7d"
+    },
+    {
+      "shape": "cartesian",
+      "beta": 0.3,
+      "repeats": 1,
+      "gain": 0.7499999999999999,
+      "fidelity": 0.9991350519620114,
+      "fidelity_nmax8": 0.9992881605510745,
+      "worst_basis_fidelity": 0.9983325938436561,
+      "levels": 96,
+      "columns": 22,
+      "command_us": 0.25,
+      "RFDC_window_us": 0.29421875000000003,
+      "kind": "cartesian",
+      "parameters": [
+        0.041887902047863905,
+        0.041887902047863905,
+        -0.0017453292519943296,
+        0.022689280275926284,
+        0.34033920413889424,
+        0.2617993877991494,
+        -0.2932153143350474,
+        -0.20943951023931956,
+        0.661958
+      ],
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.9991350519620114,
+          "columns": 22
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.9991350519620114,
+          "columns": 22,
+          "output_column_change": 2.6757147607728718e-105,
+          "target_column_change": 2.098176721343656e-16
+        }
+      ],
+      "complex_amplitudes": 4224,
+      "independent_max_difference": 8.326692993255663e-16,
+      "word_sha256": "da93e9faf7abbe1eb1d9932e6ab2411020e91737e88fadb4112db320dcbbc9cd"
+    },
+    {
+      "shape": "cartesian",
+      "beta": 0.4,
+      "repeats": 1,
+      "gain": 1.0,
+      "fidelity": 0.9981463484820969,
+      "fidelity_nmax8": 0.9985993582406315,
+      "worst_basis_fidelity": 0.9956516987136822,
+      "levels": 96,
+      "columns": 22,
+      "command_us": 0.25,
+      "RFDC_window_us": 0.29421875000000003,
+      "kind": "cartesian",
+      "parameters": [
+        0.041887902047863905,
+        0.041887902047863905,
+        -0.0017453292519943296,
+        0.022689280275926284,
+        0.34033920413889424,
+        0.2617993877991494,
+        -0.2932153143350474,
+        -0.20943951023931956,
+        0.661958
+      ],
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.9981463484820969,
+          "columns": 22
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.9981463484820969,
+          "columns": 22,
+          "output_column_change": 1.979495767241353e-98,
+          "target_column_change": 2.714684814450099e-16
+        }
+      ],
+      "complex_amplitudes": 4224,
+      "independent_max_difference": 7.779496240178772e-16,
+      "word_sha256": "b52ae2b12ea8062c4347519d21fb37cd09c78dd23a584ed944ff0a17bcb23735"
+    },
+    {
+      "shape": "cartesian",
+      "beta": 0.5,
+      "repeats": 2,
+      "gain": 0.625,
+      "fidelity": 0.9992683395459722,
+      "fidelity_nmax8": 0.9993719077627569,
+      "worst_basis_fidelity": 0.9987230613129715,
+      "levels": 96,
+      "columns": 22,
+      "command_us": 0.49,
+      "RFDC_window_us": 0.53421875,
+      "kind": "cartesian",
+      "parameters": [
+        0.041887902047863905,
+        0.041887902047863905,
+        -0.0017453292519943296,
+        0.022689280275926284,
+        0.34033920413889424,
+        0.2617993877991494,
+        -0.2932153143350474,
+        -0.20943951023931956,
+        0.661958
+      ],
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.9992683395459719,
+          "columns": 22
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.9992683395459722,
+          "columns": 22,
+          "output_column_change": 4.4214481439972536e-77,
+          "target_column_change": 5.944306773079311e-16
+        }
+      ],
+      "complex_amplitudes": 4224,
+      "independent_max_difference": 1.6657717744151097e-15,
+      "word_sha256": "128648bd2de2bc0f9bc08f339843a36aac54907b02d36665a78841ef709a5b3e"
+    },
+    {
+      "shape": "cartesian",
+      "beta": 0.75,
+      "repeats": 2,
+      "gain": 0.9375,
+      "fidelity": 0.9982915849408681,
+      "fidelity_nmax8": 0.9986758365659437,
+      "worst_basis_fidelity": 0.9960317527747216,
+      "levels": 96,
+      "columns": 22,
+      "command_us": 0.49,
+      "RFDC_window_us": 0.53421875,
+      "kind": "cartesian",
+      "parameters": [
+        0.041887902047863905,
+        0.041887902047863905,
+        -0.0017453292519943296,
+        0.022689280275926284,
+        0.34033920413889424,
+        0.2617993877991494,
+        -0.2932153143350474,
+        -0.20943951023931956,
+        0.661958
+      ],
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.9982915849408674,
+          "columns": 22
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.9982915849408681,
+          "columns": 22,
+          "output_column_change": 1.5627525416289185e-67,
+          "target_column_change": 2.893699731196258e-16
+        }
+      ],
+      "complex_amplitudes": 4224,
+      "independent_max_difference": 1.2530769505267404e-15,
+      "word_sha256": "557e397e8dbf10c5a657673ea1928b1544b06ea466e9d48c2ea79297d3ea756e"
+    },
+    {
+      "shape": "phase",
+      "beta": 3.0,
+      "repeats": 12,
+      "gain": 0.6249999999999999,
+      "fidelity": 0.9958261159511712,
+      "fidelity_nmax8": 0.9969466203293866,
+      "worst_basis_fidelity": 0.9895845930027789,
+      "levels": 128,
+      "columns": 22,
+      "command_us": 2.89,
+      "RFDC_window_us": 2.93421875,
+      "kind": "constant",
+      "parameters": [
+        -0.005235987755982988,
+        -0.041887902047863905,
+        -0.027925268031909273,
+        0.07679448708775051,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.639371
+      ],
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.9958261159511714,
+          "columns": 22
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.9958261159511719,
+          "columns": 22,
+          "output_column_change": 3.865263143109402e-09,
+          "target_column_change": 1.046120739720835e-07
+        },
+        {
+          "levels": 128,
+          "fidelity": 0.9958261159511712,
+          "columns": 22,
+          "output_column_change": 1.634565835675073e-27,
+          "target_column_change": 6.747540529965224e-16
+        }
+      ],
+      "complex_amplitudes": 5632,
+      "independent_max_difference": 2.9703304887824494e-15,
+      "word_sha256": "d472066fe4ac29aa5ad86bcef35d075e8a33c440543bad1c9b5ee16a3476eca8"
+    },
+    {
+      "shape": "cartesian",
+      "beta": 1.0,
+      "repeats": 3,
+      "gain": 0.8333333333333333,
+      "fidelity": 0.99863287867758,
+      "fidelity_nmax8": 0.9988359171105008,
+      "worst_basis_fidelity": 0.9975173047727497,
+      "levels": 96,
+      "columns": 22,
+      "command_us": 0.73,
+      "RFDC_window_us": 0.7742187500000001,
+      "kind": "cartesian",
+      "parameters": [
+        0.041887902047863905,
+        0.041887902047863905,
+        -0.0017453292519943296,
+        0.022689280275926284,
+        0.34033920413889424,
+        0.2617993877991494,
+        -0.2932153143350474,
+        -0.20943951023931956,
+        0.661958
+      ],
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.99863287867758,
+          "columns": 22
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.99863287867758,
+          "columns": 22,
+          "output_column_change": 1.1123063158636713e-51,
+          "target_column_change": 8.791502922121676e-16
+        }
+      ],
+      "complex_amplitudes": 4224,
+      "independent_max_difference": 1.8878008175144668e-15,
+      "word_sha256": "1c997d41d347e750893ec39f5bf1e62d5fe9c613832389577f9be82ebceede23"
+    },
+    {
+      "shape": "cartesian",
+      "beta": 1.25,
+      "repeats": 4,
+      "gain": 0.78125,
+      "fidelity": 0.9985728115830149,
+      "fidelity_nmax8": 0.998776717967933,
+      "worst_basis_fidelity": 0.9973006830354211,
+      "levels": 96,
+      "columns": 22,
+      "command_us": 0.97,
+      "RFDC_window_us": 1.01421875,
+      "kind": "cartesian",
+      "parameters": [
+        0.041887902047863905,
+        0.041887902047863905,
+        -0.0017453292519943296,
+        0.022689280275926284,
+        0.34033920413889424,
+        0.2617993877991494,
+        -0.2932153143350474,
+        -0.20943951023931956,
+        0.661958
+      ],
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.9985728115830149,
+          "columns": 22
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.9985728115830149,
+          "columns": 22,
+          "output_column_change": 1.725884623358759e-40,
+          "target_column_change": 6.082724039589678e-16
+        }
+      ],
+      "complex_amplitudes": 4224,
+      "independent_max_difference": 1.837919204287424e-15,
+      "word_sha256": "3582bdbcf67211469948db76abef6717a600e134225cef1f415d732cd27e899e"
+    },
+    {
+      "shape": "cartesian",
+      "beta": 1.5,
+      "repeats": 4,
+      "gain": 0.9375,
+      "fidelity": 0.997410034627097,
+      "fidelity_nmax8": 0.9979996967907836,
+      "worst_basis_fidelity": 0.9938274386696597,
+      "levels": 96,
+      "columns": 22,
+      "command_us": 0.97,
+      "RFDC_window_us": 1.01421875,
+      "kind": "cartesian",
+      "parameters": [
+        0.041887902047863905,
+        0.041887902047863905,
+        -0.0017453292519943296,
+        0.022689280275926284,
+        0.34033920413889424,
+        0.2617993877991494,
+        -0.2932153143350474,
+        -0.20943951023931956,
+        0.661958
+      ],
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.9974100346270965,
+          "columns": 22
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.997410034627097,
+          "columns": 22,
+          "output_column_change": 2.42906198132371e-36,
+          "target_column_change": 3.8438570354507376e-16
+        }
+      ],
+      "complex_amplitudes": 4224,
+      "independent_max_difference": 1.8341304815197094e-15,
+      "word_sha256": "6f802e44d837c5b89d789afb48d0f1d4282448c78fdb1e7fccb23b910f362071"
+    },
+    {
+      "shape": "cartesian",
+      "beta": 1.75,
+      "repeats": 5,
+      "gain": 0.875,
+      "fidelity": 0.9973218931635004,
+      "fidelity_nmax8": 0.9979263428957759,
+      "worst_basis_fidelity": 0.9935052664509492,
+      "levels": 96,
+      "columns": 22,
+      "command_us": 1.21,
+      "RFDC_window_us": 1.25421875,
+      "kind": "cartesian",
+      "parameters": [
+        0.041887902047863905,
+        0.041887902047863905,
+        -0.0017453292519943296,
+        0.022689280275926284,
+        0.34033920413889424,
+        0.2617993877991494,
+        -0.2932153143350474,
+        -0.20943951023931956,
+        0.661958
+      ],
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.9973218931635004,
+          "columns": 22
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.9973218931635004,
+          "columns": 22,
+          "output_column_change": 1.53903757477201e-28,
+          "target_column_change": 7.236819435744424e-16
+        }
+      ],
+      "complex_amplitudes": 4224,
+      "independent_max_difference": 2.999849174542073e-15,
+      "word_sha256": "17c2b023df6e3c53e4393c622fac61d7fe2b24d4cebb0f7aa1529ee1bac3c745"
+    },
+    {
+      "shape": "cartesian",
+      "beta": 2.0,
+      "repeats": 5,
+      "gain": 1.0,
+      "fidelity": 0.994060655918309,
+      "fidelity_nmax8": 0.9958739912571837,
+      "worst_basis_fidelity": 0.9832918080856136,
+      "levels": 96,
+      "columns": 22,
+      "command_us": 1.21,
+      "RFDC_window_us": 1.25421875,
+      "kind": "cartesian",
+      "parameters": [
+        0.041887902047863905,
+        0.041887902047863905,
+        -0.0017453292519943296,
+        0.022689280275926284,
+        0.34033920413889424,
+        0.2617993877991494,
+        -0.2932153143350474,
+        -0.20943951023931956,
+        0.661958
+      ],
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.9940606559183093,
+          "columns": 22
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.994060655918309,
+          "columns": 22,
+          "output_column_change": 1.3557931217720964e-25,
+          "target_column_change": 1.9477112038517278e-15
+        }
+      ],
+      "complex_amplitudes": 4224,
+      "independent_max_difference": 3.497430116572218e-15,
+      "word_sha256": "62ceb171c0ee357be010ab9d81acf5ae8813493c2b27e48199b08dd63a170e74"
+    },
+    {
+      "shape": "cartesian",
+      "beta": 2.25,
+      "repeats": 7,
+      "gain": 0.8035714285714285,
+      "fidelity": 0.9965329685642265,
+      "fidelity_nmax8": 0.9973701340500034,
+      "worst_basis_fidelity": 0.9913642217134756,
+      "levels": 96,
+      "columns": 22,
+      "command_us": 1.69,
+      "RFDC_window_us": 1.7342187500000001,
+      "kind": "cartesian",
+      "parameters": [
+        0.041887902047863905,
+        0.041887902047863905,
+        -0.0017453292519943296,
+        0.022689280275926284,
+        0.34033920413889424,
+        0.2617993877991494,
+        -0.2932153143350474,
+        -0.20943951023931956,
+        0.661958
+      ],
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.9965329685642265,
+          "columns": 22
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.9965329685642265,
+          "columns": 22,
+          "output_column_change": 8.033127136345734e-18,
+          "target_column_change": 2.837209067186513e-13
+        }
+      ],
+      "complex_amplitudes": 4224,
+      "independent_max_difference": 2.2222775955416464e-15,
+      "word_sha256": "6d76471c7e45da2f813d60131587d547a913421a0a3113f5db503adb6f451e39"
+    },
+    {
+      "shape": "phase",
+      "beta": 4.0,
+      "repeats": 20,
+      "gain": 0.5,
+      "fidelity": 0.9952636568974613,
+      "fidelity_nmax8": 0.9964667246315753,
+      "worst_basis_fidelity": 0.9886330633190881,
+      "levels": 128,
+      "columns": 22,
+      "command_us": 4.8100000000000005,
+      "RFDC_window_us": 4.85421875,
+      "kind": "constant",
+      "parameters": [
+        -0.005235987755982988,
+        -0.041887902047863905,
+        -0.027925268031909273,
+        0.07679448708775051,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.639371
+      ],
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.9952636715174569,
+          "columns": 22
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.9952636568974611,
+          "columns": 22,
+          "output_column_change": 0.001647749003671823,
+          "target_column_change": 0.0037156764528668016
+        },
+        {
+          "levels": 128,
+          "fidelity": 0.9952636568974613,
+          "columns": 22,
+          "output_column_change": 5.358343197440825e-14,
+          "target_column_change": 6.8767947107421714e-12
+        }
+      ],
+      "complex_amplitudes": 5632,
+      "independent_max_difference": 3.665263812806463e-15,
+      "word_sha256": "7fca91b8515a7210c8797c63f428c62dd5758360cbdef35f3a02413ef79e8157"
+    },
+    {
+      "shape": "cartesian",
+      "beta": 2.5,
+      "repeats": 8,
+      "gain": 0.78125,
+      "fidelity": 0.9958368057719862,
+      "fidelity_nmax8": 0.9968862565785473,
+      "worst_basis_fidelity": 0.9894653830477569,
+      "levels": 96,
+      "columns": 22,
+      "command_us": 1.93,
+      "RFDC_window_us": 1.9742187500000001,
+      "kind": "cartesian",
+      "parameters": [
+        0.041887902047863905,
+        0.041887902047863905,
+        -0.0017453292519943296,
+        0.022689280275926284,
+        0.34033920413889424,
+        0.2617993877991494,
+        -0.2932153143350474,
+        -0.20943951023931956,
+        0.661958
+      ],
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.9958368057719862,
+          "columns": 22
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.9958368057719862,
+          "columns": 22,
+          "output_column_change": 1.9995788375693575e-14,
+          "target_column_change": 3.7271744800046015e-11
+        }
+      ],
+      "complex_amplitudes": 4224,
+      "independent_max_difference": 2.8831397725784958e-15,
+      "word_sha256": "201aeb5ee0f787a05e1cdeffbdb5037f4e5a614fefb10257549495cf3de4ff63"
+    },
+    {
+      "shape": "cartesian",
+      "beta": 3.0,
+      "repeats": 12,
+      "gain": 0.6249999999999999,
+      "fidelity": 0.9966357985116455,
+      "fidelity_nmax8": 0.9973432787648842,
+      "worst_basis_fidelity": 0.9922035759344315,
+      "levels": 128,
+      "columns": 22,
+      "command_us": 2.89,
+      "RFDC_window_us": 2.93421875,
+      "kind": "cartesian",
+      "parameters": [
+        0.041887902047863905,
+        0.041887902047863905,
+        -0.0017453292519943296,
+        0.022689280275926284,
+        0.34033920413889424,
+        0.2617993877991494,
+        -0.2932153143350474,
+        -0.20943951023931956,
+        0.661958
+      ],
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.9966357985116455,
+          "columns": 22
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.9966357985116462,
+          "columns": 22,
+          "output_column_change": 5.5850626179079765e-09,
+          "target_column_change": 1.046120739720835e-07
+        },
+        {
+          "levels": 128,
+          "fidelity": 0.9966357985116455,
+          "columns": 22,
+          "output_column_change": 5.5171265846565874e-27,
+          "target_column_change": 6.747540529965224e-16
+        }
+      ],
+      "complex_amplitudes": 5632,
+      "independent_max_difference": 3.511219159076033e-15,
+      "word_sha256": "d2acdcb0582089497baffec1f66c90e6cc939a5731617c2c2e62eb9b0bf08b31"
+    },
+    {
+      "shape": "cartesian",
+      "beta": 4.0,
+      "repeats": 20,
+      "gain": 0.5,
+      "fidelity": 0.9959416808876261,
+      "fidelity_nmax8": 0.9966919654207428,
+      "worst_basis_fidelity": 0.9912071112597329,
+      "levels": 128,
+      "columns": 22,
+      "command_us": 4.8100000000000005,
+      "RFDC_window_us": 4.85421875,
+      "kind": "cartesian",
+      "parameters": [
+        0.041887902047863905,
+        0.041887902047863905,
+        -0.0017453292519943296,
+        0.022689280275926284,
+        0.34033920413889424,
+        0.2617993877991494,
+        -0.2932153143350474,
+        -0.20943951023931956,
+        0.661958
+      ],
+      "cutoff_history": [
+        {
+          "levels": 64,
+          "fidelity": 0.9959416785300158,
+          "columns": 22
+        },
+        {
+          "levels": 96,
+          "fidelity": 0.9959416808876261,
+          "columns": 22,
+          "output_column_change": 0.0018608412452490604,
+          "target_column_change": 0.0037156764528668016
+        },
+        {
+          "levels": 128,
+          "fidelity": 0.9959416808876261,
+          "columns": 22,
+          "output_column_change": 8.991843610644735e-14,
+          "target_column_change": 6.8767947107421714e-12
+        }
+      ],
+      "complex_amplitudes": 5632,
+      "independent_max_difference": 4.163498575639006e-15,
+      "word_sha256": "402dddd660c502f847a72b561d5d993cf73947024ef1e95c32f4d90c32989b4a"
+    }
+  ]
+}

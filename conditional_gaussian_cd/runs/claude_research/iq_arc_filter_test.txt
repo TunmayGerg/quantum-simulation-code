@@ -1,0 +1,13 @@
+phase change over the arc | arc length | filtered |s|: max, min (programmed |s| = 1 everywhere)
+   45 deg over  0 ns: max 1.0448, min 0.9239
+   45 deg over  5 ns: max 1.0013, min 0.9987
+   45 deg over 10 ns: max 1.0000, min 1.0000
+   45 deg over 20 ns: max 1.0000, min 1.0000
+   90 deg over  0 ns: max 1.1457, min 0.7071
+   90 deg over  5 ns: max 1.0066, min 0.9929
+   90 deg over 10 ns: max 1.0001, min 0.9999
+   90 deg over 20 ns: max 1.0000, min 1.0000
+  180 deg over  0 ns: max 1.2748, min 0.0000
+  180 deg over  5 ns: max 1.0390, min 0.9437
+  180 deg over 10 ns: max 1.0003, min 0.9996
+  180 deg over 20 ns: max 1.0000, min 1.0000

@@ -1,0 +1,961 @@
+{
+  "target": "CD beta=1 on qubit g/e x Fock n=0..8",
+  "leading_average": {
+    "complex_amplitudes_compared": 256,
+    "max_error": 1.6653509070013633e-16,
+    "leading_logarithm": "-i g (0.060 us) sigma_x X at pump phase 0",
+    "target_orientation": "constant pump phase -pi/2 rotates X into P",
+    "formal_order_claim": false,
+    "note": "Outer ramps add a small bare-JC first moment; all exact fidelity checks include it."
+  },
+  "recipes_compared": 5,
+  "target_input_columns_compared": 90,
+  "independent_amplitudes_compared": 11520,
+  "total_design_input_column_evaluations": 1782,
+  "results": [
+    {
+      "name": "cd_beta1_xxmm_k3",
+      "gate": "cd",
+      "strength": 1.0,
+      "input_fock_max": 8,
+      "qubit_levels": 2,
+      "qubit_frame_Rz": 0.0,
+      "repeats": 3,
+      "cells": 12,
+      "qubit_phases": [
+        0.0,
+        0.0,
+        3.141592653589793,
+        3.141592653589793,
+        0.0,
+        0.0,
+        3.141592653589793,
+        3.141592653589793,
+        0.0,
+        0.0,
+        3.141592653589793,
+        3.141592653589793
+      ],
+      "angle_fractions": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "qubit_envelope_ns": 30.0,
+      "pulse_word": [
+        "X",
+        "X",
+        "-X",
+        "-X"
+      ],
+      "pump_phase": -1.5707963267948966,
+      "pump_amplitude_constant": true,
+      "pump_phase_constant": true,
+      "outer_ramp_ns": 5.0,
+      "g_nominal": 5.5469723399541335,
+      "nominal_swap_ns": 283.18084723095717,
+      "actual_plateau_g": 5.546476830271693,
+      "peak_played_g": 5.582931590644267,
+      "peak_swap_ns": 281.35690027568967,
+      "command_time_us": 0.37,
+      "RFDC_window_us": 0.41421875,
+      "speed_ratio_to_peak_force_bound": 0.9682019773381505,
+      "same_target_calibration": "One constant g maximizes beta=1 coherent process fidelity; phases unchanged.",
+      "calibrated_beta_independently_fixed": true,
+      "search_bounds_g": [
+        4.931506849315069,
+        6.136986301369864
+      ],
+      "evaluations": 20,
+      "search_history": [
+        {
+          "g": 5.391959027260401,
+          "fidelity": 0.9857542277813864
+        },
+        {
+          "g": 5.676534123424531,
+          "fidelity": 0.9876954370089599
+        },
+        {
+          "g": 5.852411205205733,
+          "fidelity": 0.9671903918563853
+        },
+        {
+          "g": 5.5469723399541335,
+          "fidelity": 0.9922770473990025
+        },
+        {
+          "g": 5.546779974170215,
+          "fidelity": 0.9922770473990025
+        },
+        {
+          "g": 5.546876157062174,
+          "fidelity": 0.9922770473990025
+        },
+        {
+          "g": 5.546839418466582,
+          "fidelity": 0.9922770473990025
+        },
+        {
+          "g": 5.546816712765807,
+          "fidelity": 0.9922770473990025
+        },
+        {
+          "g": 5.546802679870989,
+          "fidelity": 0.9922770473990025
+        },
+        {
+          "g": 5.5467940070650315,
+          "fidelity": 0.9922770473990025
+        },
+        {
+          "g": 5.546788646976172,
+          "fidelity": 0.9922770473990025
+        },
+        {
+          "g": 5.546785334259074,
+          "fidelity": 0.9922770473990025
+        },
+        {
+          "g": 5.546783286887313,
+          "fidelity": 0.9922770473990025
+        },
+        {
+          "g": 5.5467820215419765,
+          "fidelity": 0.9922770473990025
+        },
+        {
+          "g": 5.546781239515551,
+          "fidelity": 0.9922770473990025
+        },
+        {
+          "g": 5.54678075619664,
+          "fidelity": 0.9922770473990025
+        },
+        {
+          "g": 5.546780457489126,
+          "fidelity": 0.9922770473990025
+        },
+        {
+          "g": 5.546780272877729,
+          "fidelity": 0.9922770473990025
+        },
+        {
+          "g": 5.546780158781611,
+          "fidelity": 0.9922770473990025
+        },
+        {
+          "g": 5.5467800761762325,
+          "fidelity": 0.9922770473990025
+        }
+      ],
+      "fidelity": 0.9922770473990025,
+      "worst_basis_fidelity": 0.9799956193387442,
+      "cutoff_history": [
+        {
+          "levels": 48,
+          "columns": 18,
+          "complex_amplitudes": 1728,
+          "fidelity": 0.9922770473990025,
+          "worst_basis_fidelity": 0.979995619338744
+        },
+        {
+          "levels": 64,
+          "columns": 18,
+          "complex_amplitudes": 2304,
+          "fidelity": 0.9922770473990025,
+          "worst_basis_fidelity": 0.9799956193387442,
+          "output_column_change": 1.4527609040844468e-42,
+          "target_column_change": 1.8997370040064688e-16
+        }
+      ],
+      "levels": 64,
+      "columns": 18,
+      "independent_backend_max_amplitude_error": 1.0587911840678754e-22,
+      "independent_amplitudes_compared": 2304,
+      "simulated_filter": "SDK int16 decode and documented RFDC 8x interpolation, full tail",
+      "source_sha256": "0bc7419e1cdfbeb8617e5bbf82f56d23a3fd3d7f93a98a1b4e7afc29f68e0a72"
+    },
+    {
+      "name": "cd_beta1_xxmm_k4",
+      "gate": "cd",
+      "strength": 1.0,
+      "input_fock_max": 8,
+      "qubit_levels": 2,
+      "qubit_frame_Rz": 0.0,
+      "repeats": 4,
+      "cells": 16,
+      "qubit_phases": [
+        0.0,
+        0.0,
+        3.141592653589793,
+        3.141592653589793,
+        0.0,
+        0.0,
+        3.141592653589793,
+        3.141592653589793,
+        0.0,
+        0.0,
+        3.141592653589793,
+        3.141592653589793,
+        0.0,
+        0.0,
+        3.141592653589793,
+        3.141592653589793
+      ],
+      "angle_fractions": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "qubit_envelope_ns": 30.0,
+      "pulse_word": [
+        "X",
+        "X",
+        "-X",
+        "-X"
+      ],
+      "pump_phase": -1.5707963267948966,
+      "pump_amplitude_constant": true,
+      "pump_phase_constant": true,
+      "outer_ramp_ns": 5.0,
+      "g_nominal": 4.152935965612717,
+      "nominal_swap_ns": 378.23755044658964,
+      "actual_plateau_g": 4.152755859796892,
+      "peak_played_g": 4.180077887560344,
+      "peak_swap_ns": 375.7815928429205,
+      "command_time_us": 0.49,
+      "RFDC_window_us": 0.53421875,
+      "speed_ratio_to_peak_force_bound": 0.9764489473289274,
+      "same_target_calibration": "One constant g maximizes beta=1 coherent process fidelity; phases unchanged.",
+      "calibrated_beta_independently_fixed": true,
+      "search_bounds_g": [
+        3.7113402061855676,
+        4.618556701030929
+      ],
+      "evaluations": 19,
+      "search_history": [
+        {
+          "g": 4.057866072061952,
+          "fidelity": 0.99268252283086
+        },
+        {
+          "g": 4.272030835154545,
+          "fidelity": 0.9901030939298374
+        },
+        {
+          "g": 3.9255049692781605,
+          "fidelity": 0.9712830105057871
+        },
+        {
+          "g": 4.152935965612717,
+          "fidelity": 0.9971669248560313
+        },
+        {
+          "g": 4.152836430606831,
+          "fidelity": 0.9971669248560313
+        },
+        {
+          "g": 4.152886198109774,
+          "fidelity": 0.9971669248560313
+        },
+        {
+          "g": 4.152867188615185,
+          "fidelity": 0.9971669248560313
+        },
+        {
+          "g": 4.15285544010142,
+          "fidelity": 0.9971669248560313
+        },
+        {
+          "g": 4.152848179120596,
+          "fidelity": 0.9971669248560313
+        },
+        {
+          "g": 4.152843691587655,
+          "fidelity": 0.9971669248560313
+        },
+        {
+          "g": 4.1528409181397725,
+          "fidelity": 0.9971669248560313
+        },
+        {
+          "g": 4.152839204054715,
+          "fidelity": 0.9971669248560313
+        },
+        {
+          "g": 4.152838144691889,
+          "fidelity": 0.9971669248560313
+        },
+        {
+          "g": 4.152837489969656,
+          "fidelity": 0.9971669248560313
+        },
+        {
+          "g": 4.152837085329063,
+          "fidelity": 0.9971669248560313
+        },
+        {
+          "g": 4.152836835247423,
+          "fidelity": 0.9971669248560313
+        },
+        {
+          "g": 4.15283668068847,
+          "fidelity": 0.9971669248560313
+        },
+        {
+          "g": 4.152836585165784,
+          "fidelity": 0.9971669248560313
+        },
+        {
+          "g": 4.15283652323593,
+          "fidelity": 0.9971669248560313
+        }
+      ],
+      "fidelity": 0.9971669248560318,
+      "worst_basis_fidelity": 0.9928955485688957,
+      "cutoff_history": [
+        {
+          "levels": 48,
+          "columns": 18,
+          "complex_amplitudes": 1728,
+          "fidelity": 0.9971669248560318,
+          "worst_basis_fidelity": 0.9928955485688953
+        },
+        {
+          "levels": 64,
+          "columns": 18,
+          "complex_amplitudes": 2304,
+          "fidelity": 0.9971669248560318,
+          "worst_basis_fidelity": 0.9928955485688957,
+          "output_column_change": 7.022065498753053e-38,
+          "target_column_change": 1.8997370040064688e-16
+        }
+      ],
+      "levels": 64,
+      "columns": 18,
+      "independent_backend_max_amplitude_error": 1.6155871338926322e-27,
+      "independent_amplitudes_compared": 2304,
+      "simulated_filter": "SDK int16 decode and documented RFDC 8x interpolation, full tail",
+      "source_sha256": "0bc7419e1cdfbeb8617e5bbf82f56d23a3fd3d7f93a98a1b4e7afc29f68e0a72"
+    },
+    {
+      "name": "cd_beta1_xxmm_k5",
+      "gate": "cd",
+      "strength": 1.0,
+      "input_fock_max": 8,
+      "qubit_levels": 2,
+      "qubit_frame_Rz": 0.0,
+      "repeats": 5,
+      "cells": 20,
+      "qubit_phases": [
+        0.0,
+        0.0,
+        3.141592653589793,
+        3.141592653589793,
+        0.0,
+        0.0,
+        3.141592653589793,
+        3.141592653589793,
+        0.0,
+        0.0,
+        3.141592653589793,
+        3.141592653589793,
+        0.0,
+        0.0,
+        3.141592653589793,
+        3.141592653589793,
+        0.0,
+        0.0,
+        3.141592653589793,
+        3.141592653589793
+      ],
+      "angle_fractions": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "qubit_envelope_ns": 30.0,
+      "pulse_word": [
+        "X",
+        "X",
+        "-X",
+        "-X"
+      ],
+      "pump_phase": -1.5707963267948966,
+      "pump_amplitude_constant": true,
+      "pump_phase_constant": true,
+      "outer_ramp_ns": 5.0,
+      "g_nominal": 3.3212711063747085,
+      "nominal_swap_ns": 472.9503483711329,
+      "actual_plateau_g": 3.3218495996921695,
+      "peak_played_g": 3.3437305252085934,
+      "peak_swap_ns": 469.7736001608278,
+      "command_time_us": 0.61,
+      "RFDC_window_us": 0.65421875,
+      "speed_ratio_to_peak_force_bound": 0.9805480734383127,
+      "same_target_calibration": "One constant g maximizes beta=1 coherent process fidelity; phases unchanged.",
+      "calibrated_beta_independently_fixed": true,
+      "search_bounds_g": [
+        2.9752066115702482,
+        3.7024793388429758
+      ],
+      "evaluations": 19,
+      "search_history": [
+        {
+          "g": 3.2530000742975975,
+          "fidelity": 0.9948992893378507
+        },
+        {
+          "g": 3.4246858761156265,
+          "fidelity": 0.9900928051575294
+        },
+        {
+          "g": 3.146892413388277,
+          "fidelity": 0.9743890025892173
+        },
+        {
+          "g": 3.3212711063747085,
+          "fidelity": 0.9986408554159829
+        },
+        {
+          "g": 3.3213600850239473,
+          "fidelity": 0.9986408554159829
+        },
+        {
+          "g": 3.321315595699328,
+          "fidelity": 0.9986408554159829
+        },
+        {
+          "g": 3.3212986022894597,
+          "fidelity": 0.9986408554159829
+        },
+        {
+          "g": 3.3212880997845766,
+          "fidelity": 0.9986408554159829
+        },
+        {
+          "g": 3.3212816088795916,
+          "fidelity": 0.9986408554159829
+        },
+        {
+          "g": 3.321277597279693,
+          "fidelity": 0.9986408554159829
+        },
+        {
+          "g": 3.3212751179746065,
+          "fidelity": 0.9986408554159829
+        },
+        {
+          "g": 3.3212735856797946,
+          "fidelity": 0.9986408554159829
+        },
+        {
+          "g": 3.3212726386695204,
+          "fidelity": 0.9986408554159829
+        },
+        {
+          "g": 3.321272053384983,
+          "fidelity": 0.9986408554159829
+        },
+        {
+          "g": 3.3212716916592457,
+          "fidelity": 0.9986408554159829
+        },
+        {
+          "g": 3.3212714681004454,
+          "fidelity": 0.9986408554159829
+        },
+        {
+          "g": 3.3212713299335084,
+          "fidelity": 0.9986408554159829
+        },
+        {
+          "g": 3.3212712445416455,
+          "fidelity": 0.9986408554159829
+        },
+        {
+          "g": 3.321271191766572,
+          "fidelity": 0.9986408554159829
+        }
+      ],
+      "fidelity": 0.9986408554159825,
+      "worst_basis_fidelity": 0.9967222847366093,
+      "cutoff_history": [
+        {
+          "levels": 48,
+          "columns": 18,
+          "complex_amplitudes": 1728,
+          "fidelity": 0.9986408554159825,
+          "worst_basis_fidelity": 0.9967222847366093
+        },
+        {
+          "levels": 64,
+          "columns": 18,
+          "complex_amplitudes": 2304,
+          "fidelity": 0.9986408554159825,
+          "worst_basis_fidelity": 0.9967222847366093,
+          "output_column_change": 2.562531110579162e-34,
+          "target_column_change": 1.8997370040064688e-16
+        }
+      ],
+      "levels": 64,
+      "columns": 18,
+      "independent_backend_max_amplitude_error": 4.930380657631324e-31,
+      "independent_amplitudes_compared": 2304,
+      "simulated_filter": "SDK int16 decode and documented RFDC 8x interpolation, full tail",
+      "source_sha256": "0bc7419e1cdfbeb8617e5bbf82f56d23a3fd3d7f93a98a1b4e7afc29f68e0a72"
+    },
+    {
+      "name": "cd_beta1_xxmm_k6",
+      "gate": "cd",
+      "strength": 1.0,
+      "input_fock_max": 8,
+      "qubit_levels": 2,
+      "qubit_frame_Rz": 0.0,
+      "repeats": 6,
+      "cells": 24,
+      "qubit_phases": [
+        0.0,
+        0.0,
+        3.141592653589793,
+        3.141592653589793,
+        0.0,
+        0.0,
+        3.141592653589793,
+        3.141592653589793,
+        0.0,
+        0.0,
+        3.141592653589793,
+        3.141592653589793,
+        0.0,
+        0.0,
+        3.141592653589793,
+        3.141592653589793,
+        0.0,
+        0.0,
+        3.141592653589793,
+        3.141592653589793,
+        0.0,
+        0.0,
+        3.141592653589793,
+        3.141592653589793
+      ],
+      "angle_fractions": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "qubit_envelope_ns": 30.0,
+      "pulse_word": [
+        "X",
+        "X",
+        "-X",
+        "-X"
+      ],
+      "pump_phase": -1.5707963267948966,
+      "pump_amplitude_constant": true,
+      "pump_phase_constant": true,
+      "outer_ramp_ns": 5.0,
+      "g_nominal": 2.7672406953529465,
+      "nominal_swap_ns": 567.6399344056878,
+      "actual_plateau_g": 2.7679120929556884,
+      "peak_played_g": 2.78641953319824,
+      "peak_swap_ns": 563.7328866238399,
+      "command_time_us": 0.73,
+      "RFDC_window_us": 0.7742187500000001,
+      "speed_ratio_to_peak_force_bound": 0.9832424711194206,
+      "same_target_calibration": "One constant g maximizes beta=1 coherent process fidelity; phases unchanged.",
+      "calibrated_beta_independently_fixed": true,
+      "search_bounds_g": [
+        2.4827586206896552,
+        3.0896551724137935
+      ],
+      "evaluations": 21,
+      "search_history": [
+        {
+          "g": 2.7145724757931675,
+          "fidelity": 0.9959922787738767
+        },
+        {
+          "g": 2.8578413173102812,
+          "fidelity": 0.9897209318027753
+        },
+        {
+          "g": 2.626027462206769,
+          "fidelity": 0.9761816114403962
+        },
+        {
+          "g": 2.7672406953529465,
+          "fidelity": 0.9992343317838415
+        },
+        {
+          "g": 2.7673807897048777,
+          "fidelity": 0.9992343317838415
+        },
+        {
+          "g": 2.7673107425289123,
+          "fidelity": 0.9992343317838415
+        },
+        {
+          "g": 2.7672839868885095,
+          "fidelity": 0.9992343317838415
+        },
+        {
+          "g": 2.7672674509933497,
+          "fidelity": 0.9992343317838415
+        },
+        {
+          "g": 2.7672572312481063,
+          "fidelity": 0.9992343317838415
+        },
+        {
+          "g": 2.7672509150981894,
+          "fidelity": 0.9992343317838415
+        },
+        {
+          "g": 2.767247011502863,
+          "fidelity": 0.9992343317838415
+        },
+        {
+          "g": 2.767244598948273,
+          "fidelity": 0.9992343317838415
+        },
+        {
+          "g": 2.767243107907537,
+          "fidelity": 0.9992343317838415
+        },
+        {
+          "g": 2.767242186393683,
+          "fidelity": 0.9992343317838415
+        },
+        {
+          "g": 2.7672416168668,
+          "fidelity": 0.9992343317838415
+        },
+        {
+          "g": 2.767241264879829,
+          "fidelity": 0.9992343317838415
+        },
+        {
+          "g": 2.7672410473399176,
+          "fidelity": 0.9992343317838415
+        },
+        {
+          "g": 2.7672409128928583,
+          "fidelity": 0.9992343317838415
+        },
+        {
+          "g": 2.7672408298000057,
+          "fidelity": 0.9992343317838415
+        },
+        {
+          "g": 2.7672407784457986,
+          "fidelity": 0.9992343317838415
+        },
+        {
+          "g": 2.7672407370676515,
+          "fidelity": 0.9992343317838415
+        }
+      ],
+      "fidelity": 0.9992343317838415,
+      "worst_basis_fidelity": 0.9982108188173481,
+      "cutoff_history": [
+        {
+          "levels": 48,
+          "columns": 18,
+          "complex_amplitudes": 1728,
+          "fidelity": 0.9992343317838415,
+          "worst_basis_fidelity": 0.9982108188173481
+        },
+        {
+          "levels": 64,
+          "columns": 18,
+          "complex_amplitudes": 2304,
+          "fidelity": 0.9992343317838415,
+          "worst_basis_fidelity": 0.9982108188173481,
+          "output_column_change": 1.5757293020439262e-31,
+          "target_column_change": 1.8997370040064688e-16
+        }
+      ],
+      "levels": 64,
+      "columns": 18,
+      "independent_backend_max_amplitude_error": 7.703719777548943e-34,
+      "independent_amplitudes_compared": 2304,
+      "simulated_filter": "SDK int16 decode and documented RFDC 8x interpolation, full tail",
+      "source_sha256": "0bc7419e1cdfbeb8617e5bbf82f56d23a3fd3d7f93a98a1b4e7afc29f68e0a72"
+    },
+    {
+      "name": "cd_beta1_xxmm_k8",
+      "gate": "cd",
+      "strength": 1.0,
+      "input_fock_max": 8,
+      "qubit_levels": 2,
+      "qubit_frame_Rz": 0.0,
+      "repeats": 8,
+      "cells": 32,
+      "qubit_phases": [
+        0.0,
+        0.0,
+        3.141592653589793,
+        3.141592653589793,
+        0.0,
+        0.0,
+        3.141592653589793,
+        3.141592653589793,
+        0.0,
+        0.0,
+        3.141592653589793,
+        3.141592653589793,
+        0.0,
+        0.0,
+        3.141592653589793,
+        3.141592653589793,
+        0.0,
+        0.0,
+        3.141592653589793,
+        3.141592653589793,
+        0.0,
+        0.0,
+        3.141592653589793,
+        3.141592653589793,
+        0.0,
+        0.0,
+        3.141592653589793,
+        3.141592653589793,
+        0.0,
+        0.0,
+        3.141592653589793,
+        3.141592653589793
+      ],
+      "angle_fractions": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "qubit_envelope_ns": 30.0,
+      "pulse_word": [
+        "X",
+        "X",
+        "-X",
+        "-X"
+      ],
+      "pump_phase": -1.5707963267948966,
+      "pump_amplitude_constant": true,
+      "pump_phase_constant": true,
+      "outer_ramp_ns": 5.0,
+      "g_nominal": 2.0766612917414102,
+      "nominal_swap_ns": 756.4046833452005,
+      "actual_plateau_g": 2.077265650261806,
+      "peak_played_g": 2.091294214084055,
+      "peak_swap_ns": 751.1120703228617,
+      "command_time_us": 0.97,
+      "RFDC_window_us": 1.01421875,
+      "speed_ratio_to_peak_force_bound": 0.9859232891370783,
+      "same_target_calibration": "One constant g maximizes beta=1 coherent process fidelity; phases unchanged.",
+      "calibrated_beta_independently_fixed": true,
+      "search_bounds_g": [
+        1.8652849740932644,
+        2.321243523316063
+      ],
+      "evaluations": 20,
+      "search_history": [
+        {
+          "g": 2.0394456424352816,
+          "fidelity": 0.9969333830446758
+        },
+        {
+          "g": 2.147082854974046,
+          "fidelity": 0.989538588568533
+        },
+        {
+          "g": 1.9729221866320288,
+          "fidelity": 0.97753333706253
+        },
+        {
+          "g": 2.0766612917414102,
+          "fidelity": 0.9996725701520867
+        },
+        {
+          "g": 2.076265316982044,
+          "fidelity": 0.9996723478764086
+        },
+        {
+          "g": 2.0766047870023097,
+          "fidelity": 0.9996725701520867
+        },
+        {
+          "g": 2.0766330393718597,
+          "fidelity": 0.9996725701520867
+        },
+        {
+          "g": 2.0766222479269545,
+          "fidelity": 0.9996725701520867
+        },
+        {
+          "g": 2.0766155784472153,
+          "fidelity": 0.9996725701520867
+        },
+        {
+          "g": 2.0766114564820493,
+          "fidelity": 0.9996725701520867
+        },
+        {
+          "g": 2.076608908967476,
+          "fidelity": 0.9996725701520867
+        },
+        {
+          "g": 2.076607334516883,
+          "fidelity": 0.9996725701520867
+        },
+        {
+          "g": 2.076606361452903,
+          "fidelity": 0.9996725701520867
+        },
+        {
+          "g": 2.07660576006629,
+          "fidelity": 0.9996725701520867
+        },
+        {
+          "g": 2.076605388388923,
+          "fidelity": 0.9996725701520867
+        },
+        {
+          "g": 2.076605158679677,
+          "fidelity": 0.9996725701520867
+        },
+        {
+          "g": 2.0766050167115555,
+          "fidelity": 0.9996725701520867
+        },
+        {
+          "g": 2.076604928970431,
+          "fidelity": 0.9996725701520867
+        },
+        {
+          "g": 2.076604874743434,
+          "fidelity": 0.9996725701520867
+        },
+        {
+          "g": 2.0766048412293068,
+          "fidelity": 0.9996725701520867
+        }
+      ],
+      "fidelity": 0.9996725701520867,
+      "worst_basis_fidelity": 0.9992889092111352,
+      "cutoff_history": [
+        {
+          "levels": 48,
+          "columns": 18,
+          "complex_amplitudes": 1728,
+          "fidelity": 0.9996725701520867,
+          "worst_basis_fidelity": 0.9992889092111352
+        },
+        {
+          "levels": 64,
+          "columns": 18,
+          "complex_amplitudes": 2304,
+          "fidelity": 0.9996725701520867,
+          "worst_basis_fidelity": 0.9992889092111352,
+          "output_column_change": 1.983386079418697e-27,
+          "target_column_change": 1.8997370040064688e-16
+        }
+      ],
+      "levels": 64,
+      "columns": 18,
+      "independent_backend_max_amplitude_error": 5.877471754111438e-39,
+      "independent_amplitudes_compared": 2304,
+      "simulated_filter": "SDK int16 decode and documented RFDC 8x interpolation, full tail",
+      "source_sha256": "0bc7419e1cdfbeb8617e5bbf82f56d23a3fd3d7f93a98a1b4e7afc29f68e0a72"
+    }
+  ]
+}

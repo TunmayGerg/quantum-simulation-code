@@ -1,0 +1,3 @@
+STRENGTH SENSITIVITY strength_rotation_swap150 22 strengths; 396 columns; 101376 amplitudes;maxcutoffchange 3.089505269744827e-17
+STRENGTH SENSITIVITY strength_squeeze_swap300 22 strengths; 396 columns; 253440 amplitudes;maxcutoffchange 3.317705239844584e-68
+FINAL ALL SENSITIVITY COUNTS 8 schemes; 176 points; 3168 columns

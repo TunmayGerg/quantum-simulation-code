@@ -1,0 +1,166 @@
+{
+  "name": "arc_free_n10_all5_1",
+  "gate": "cd",
+  "strength": 1.0,
+  "sideband_mode": "phase_arc",
+  "controls_file": "runs/phase_arc_cd/arc_free_n10_all5_1_controls.npz",
+  "qubit_frame_Rz": 0.0,
+  "magnus_justification": "Refinement of mirrored/rotary first-force seeds with phase-only JC control to change cubic errors.",
+  "symmetric": false,
+  "phase_arcs": [
+    {
+      "center_sample": 32,
+      "start_phase_rad": -1.4152027838228198,
+      "end_phase_rad": -1.0463762913105885,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 60,
+      "start_phase_rad": -1.0463762913105885,
+      "end_phase_rad": -0.9089395348714541,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 88,
+      "start_phase_rad": -0.9089395348714541,
+      "end_phase_rad": -0.9901654280774812,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 116,
+      "start_phase_rad": -0.9901654280774812,
+      "end_phase_rad": -1.5001304575812513,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 144,
+      "start_phase_rad": -1.5001304575812513,
+      "end_phase_rad": -1.6688846458443616,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 172,
+      "start_phase_rad": -1.6688846458443616,
+      "end_phase_rad": -2.1475600479725325,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 200,
+      "start_phase_rad": -2.1475600479725325,
+      "end_phase_rad": -2.272004697845257,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 228,
+      "start_phase_rad": -2.272004697845257,
+      "end_phase_rad": -2.055230765088531,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "center_sample": 256,
+      "start_phase_rad": -2.055230765088531,
+      "end_phase_rad": -1.7335754698836485,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    }
+  ],
+  "pump_phases": [
+    -1.4152027838228198,
+    -1.0463762913105885,
+    -0.9089395348714541,
+    -0.9901654280774812,
+    -1.5001304575812513,
+    -1.6688846458443616,
+    -2.1475600479725325,
+    -2.272004697845257,
+    -2.055230765088531,
+    -1.7335754698836485
+  ],
+  "g_nominal": 5.879052742809934,
+  "pulses": [
+    {
+      "start_sample": 4,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 0.1250239534453391,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 32,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 0.399258407510165,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 60,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.7360768502506754,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 88,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.6237751830333256,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 116,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 0.17526795923154748,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 144,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": -0.16900058575810473,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 172,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 2.6796940801683706,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 200,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 2.546209680658336,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 228,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": -0.4167267029624935,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 256,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": -0.13492480744282753,
+      "reversed_envelope": false
+    }
+  ],
+  "research_fit": {
+    "initial_fidelity": 0.9801967860005865,
+    "evaluations": 44,
+    "final_fidelity": 0.9850030556148863,
+    "seed_reason": "Rotary cancellation with pump phase arcs at qubit zeros; optional physical waits and correlated axis harmonics."
+  }
+}

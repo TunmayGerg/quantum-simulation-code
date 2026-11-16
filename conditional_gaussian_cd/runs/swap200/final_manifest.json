@@ -1,0 +1,24 @@
+{
+  "records": 14,
+  "columns": 252,
+  "independent_amplitudes": 56448,
+  "minimum_swap_ns": 200.0,
+  "maximum_g_rad_per_us": 7.853981633974483,
+  "selected": {
+    "cd": "edge_n10_gap0_phase1",
+    "squeeze": "squeeze_8db"
+  },
+  "accepted": 10,
+  "SDK_int16_values_checked": 21312,
+  "notebook_code_cells": 7,
+  "notebook_figures": 6,
+  "aligned_end_columns": 72,
+  "aligned_end_amplitudes": 21888,
+  "notebook_sha256": "26a65517b39013766acf380781f24eaf67a40315bf8889fb5ba1d0414e95e579",
+  "source_sha256": {
+    "capped_cd_study.py": "7c5f6be47657bcdf125148e82902cbc2648925525be22d0445de282ef9acc4de",
+    "verify_swap200.py": "ccdbccbb05eaa6e65b65a4361bd31adf8c79e237408df5532247606a120eafd7",
+    "build_swap200_notebook.py": "85ed3eacdbcd6d991874e315ab163d53683c941a5b6cc60ed957c8744793c7e8",
+    "audit_swap200.py": "70dff5b3fc5298dddb964d387f8ddad3ceb4b6fa6ec8cb46218396d5978d6390"
+  }
+}

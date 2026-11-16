@@ -1,0 +1,22 @@
+{
+  "implicit_words": 16777216,
+  "half_paths": 4096,
+  "pulse_ns": 30,
+  "fractions": [
+    1.0,
+    0.5
+  ],
+  "sideband": "constant magnitude and phase; no outer ramps in primitive",
+  "zero_first_Z_endpoints": 0,
+  "max_first_residual": null,
+  "Z_endpoint_pairs": 855296,
+  "nearest_queries": 4096,
+  "minimum_first_moment_norm": 0.011775830520794207,
+  "independent_moment_test_paths": 16,
+  "independent_moment_amplitudes": 2048,
+  "independent_moment_max_error": 1.3351237660032625e-15,
+  "proper_squeeze_pairs": 0,
+  "results": [],
+  "seconds": 0.48751211166381836,
+  "scope": "Exact finite catalogue at fixed length. No claim about other angles, axes, timings, or global speed limits."
+}

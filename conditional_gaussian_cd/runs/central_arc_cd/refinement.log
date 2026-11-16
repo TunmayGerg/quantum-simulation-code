@@ -1,0 +1,7 @@
+CENTRAL ARC FULL central_arc_gap40_half3_word1 F 0.9674019442994722 Tns 350.00000000000006 eval 35
+CENTRAL ARC FULL central_arc_gap30_half3_word1 F 0.9695940933771315 Tns 340.0 eval 40
+CENTRAL ARC FULL central_arc_gap30_half1_word1 F 0.9457813629917745 Tns 340.0 eval 41
+CENTRAL ARC FULL central_arc_gap40_half1_word1 F 0.9414717914860913 Tns 350.00000000000006 eval 37
+CENTRAL ARC FULL central_arc_gap50_half1_word1 F 0.9370393581848956 Tns 360.0 eval 35
+CENTRAL ARC FULL central_arc_gap50_half3_word0 F 0.9764956454748386 Tns 360.0 eval 38
+CENTRAL ARC REFINEMENT:6 fits; 4068 input-column evaluations

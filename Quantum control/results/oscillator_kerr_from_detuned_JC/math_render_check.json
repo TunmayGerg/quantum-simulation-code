@@ -1,0 +1,26 @@
+{
+  "notebook": {
+    "expected": {
+      "inline": 22,
+      "display": 15
+    },
+    "rendered": {
+      "inline": 22,
+      "display": 15,
+      "errors": [],
+      "overflow": []
+    }
+  },
+  "readme": {
+    "expected": {
+      "inline": 19,
+      "display": 5
+    },
+    "rendered": {
+      "inline": 19,
+      "display": 5,
+      "errors": [],
+      "overflow": []
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "cd_n10_gap5_phase0",
+  "gate": "cd",
+  "fidelity": 0.9926752467096306,
+  "accepted": true,
+  "hardware_eligible": true,
+  "ideal_device_fidelity": 0.9926532130803678,
+  "command_us": 0.36,
+  "qubit_frame_Rz": 0.0,
+  "columns": 18,
+  "levels": 96,
+  "independent_amplitudes": 3456,
+  "independent_max_difference": 1.3234889800848443e-23,
+  "cutoff_history": [
+    {
+      "levels": 64
+    },
+    {
+      "levels": 96,
+      "output_change": 5.750422866427955e-78,
+      "target_change": 7.74340002005588e-16
+    }
+  ],
+  "hard_min_swap_ns": 200.0,
+  "peak_g_rad_per_us": 7.654389398921682,
+  "actual_min_swap_ns": 205.21510533762284,
+  "programmed_peak_g_rad_per_us": 7.653924972887731,
+  "played_peak_g_rad_per_us": 7.654389398921682,
+  "worst_basis_fidelity": 0.9750774085687568,
+  "pump_phase_constant": true,
+  "word_sha256": "ab00ef5d2048d884f7f3978e0a4f21f6ef0143e6d8bc1d882864dad35978796f",
+  "compiled": {
+    "arbitrary_commands": 2,
+    "triggers": 1,
+    "int16_values_compared": 1152
+  }
+}

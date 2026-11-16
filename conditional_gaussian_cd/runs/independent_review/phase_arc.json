@@ -1,0 +1,17 @@
+{
+  "programmed_samples": 136,
+  "fine_samples_compared": 224,
+  "phase_change_ns": 10.0,
+  "programmed_radius_error": 0.0,
+  "int16_radius_min": 0.9999874355644693,
+  "int16_radius_max": 1.0000933133404444,
+  "played_radius_min": 0.9997095115539518,
+  "played_radius_max": 1.0004523633118743,
+  "radius_relative_to_flat_min": 0.9997095115539519,
+  "radius_relative_to_flat_max": 1.0004523633118745,
+  "maximum_played_g": 7.906551110190161,
+  "cap_g": 7.853981633974483,
+  "maximum_global_ratio": 1.0066933535963816,
+  "cap_safe_nominal_swap_ns": 201.3386707192763,
+  "assertion": "Constant radius before the FIR does not imply constant radius after the FIR."
+}

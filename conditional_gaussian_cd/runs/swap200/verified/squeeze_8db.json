@@ -1,0 +1,57 @@
+{
+  "name": "squeeze_8db",
+  "gate": "squeeze",
+  "fidelity": 0.9907236545300745,
+  "accepted": true,
+  "hardware_eligible": true,
+  "ideal_device_fidelity": 0.9906912542828997,
+  "command_us": 3.61,
+  "qubit_frame_Rz": 2.443874216706827,
+  "columns": 18,
+  "levels": 320,
+  "independent_amplitudes": 11520,
+  "independent_max_difference": 5.029276602616567e-15,
+  "cutoff_history": [
+    {
+      "levels": 64
+    },
+    {
+      "levels": 96,
+      "output_change": 0.06291445396424994,
+      "target_change": 0.14484428431184065
+    },
+    {
+      "levels": 128,
+      "output_change": 1.8008098003655075e-05,
+      "target_change": 0.004855427499729388
+    },
+    {
+      "levels": 192,
+      "output_change": 3.8199221534935483e-14,
+      "target_change": 9.434631670509811e-05
+    },
+    {
+      "levels": 256,
+      "output_change": 3.570879562645579e-61,
+      "target_change": 1.7076982799674414e-08
+    },
+    {
+      "levels": 320,
+      "output_change": 5.218509630691351e-116,
+      "target_change": 1.8958399991252324e-12
+    }
+  ],
+  "hard_min_swap_ns": 200.0,
+  "peak_g_rad_per_us": 5.579536752378762,
+  "actual_min_swap_ns": 281.52809032491956,
+  "programmed_peak_g_rad_per_us": 5.543234737242995,
+  "played_peak_g_rad_per_us": 5.579536752378762,
+  "worst_basis_fidelity": 0.9619710754047264,
+  "pump_phase_constant": false,
+  "word_sha256": "eafc828c147ef6eb5ae2ad481a61da0e28c418fd15a85fe7d528293ae63e55ae",
+  "compiled": {
+    "arbitrary_commands": 2,
+    "triggers": 1,
+    "int16_values_compared": 11552
+  }
+}

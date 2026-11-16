@@ -1,0 +1,13 @@
+{
+  "records": 1241,
+  "columns": 25122,
+  "complex_amplitudes": 3378624,
+  "RFDC_samples": 25384483,
+  "max_model_playback_fidelity_change": 0.0015748960750427976,
+  "expected_group_counts": {
+    "sweep": 237,
+    "round2": 120,
+    "round3": 188,
+    "cd": 696
+  }
+}

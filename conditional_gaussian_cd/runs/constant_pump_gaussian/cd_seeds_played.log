@@ -1,0 +1,32 @@
+START SHAPED PLAYBACK FITS 9 jobs;10ns transitions;all18inputs
+PLAYBACK FIT played_cd_n8_previous_free eval 40 bestF 0.6555070601367144
+PLAYBACK FIT played_cd_n8_strong_echo eval 40 bestF 0.9573691285803296
+PLAYBACK FIT played_cd_n8_phase_walk eval 40 bestF 0.9574950668646828
+PLAYBACK RESULT played_cd_n8_previous_free F 0.6556772186567207 command 0.25 RFDCwindow 0.29421875000000003 evaluations 60 seconds 10.120469508925453
+PLAYBACK RESULT played_cd_n8_phase_walk F 0.9576091993029747 command 0.25 RFDCwindow 0.29421875000000003 evaluations 79 seconds 13.405101808952168
+PLAYBACK RESULT played_cd_n8_strong_echo F 0.9575627409533329 command 0.25 RFDCwindow 0.29421875000000003 evaluations 77 seconds 13.622169132926501
+PLAYBACK FIT played_cd_n10_previous_free eval 40 bestF 0.7927878683184678
+PLAYBACK FIT played_cd_n10_strong_echo eval 40 bestF 0.9794458275851463
+PLAYBACK FIT played_cd_n10_phase_walk eval 40 bestF 0.9792528459743995
+PLAYBACK RESULT played_cd_n10_phase_walk F 0.9792528459743995 command 0.31 RFDCwindow 0.35421875 evaluations 47 seconds 10.561509063001722
+PLAYBACK RESULT played_cd_n10_strong_echo F 0.9794458275851463 command 0.31 RFDCwindow 0.35421875 evaluations 59 seconds 12.494879286037758
+PLAYBACK FIT played_cd_n10_previous_free eval 80 bestF 0.8765375460008135
+PLAYBACK FIT played_cd_n12_previous_free eval 40 bestF 0.8471469108560821
+PLAYBACK FIT played_cd_n12_strong_echo eval 40 bestF 0.9624288568222911
+PLAYBACK FIT played_cd_n10_previous_free eval 120 bestF 0.8818554826778179
+PLAYBACK FIT played_cd_n12_strong_echo eval 80 bestF 0.9718989796208242
+PLAYBACK FIT played_cd_n12_previous_free eval 80 bestF 0.9545414894917388
+PLAYBACK FIT played_cd_n10_previous_free eval 160 bestF 0.8853023661627498
+PLAYBACK RESULT played_cd_n10_previous_free F 0.8853023661627498 command 0.31 RFDCwindow 0.35421875 evaluations 164 seconds 35.67187426693272
+PLAYBACK RESULT played_cd_n12_previous_free F 0.9545846553430618 command 0.37 RFDCwindow 0.41421875 evaluations 111 seconds 28.202175647951663
+PLAYBACK FIT played_cd_n12_strong_echo eval 120 bestF 0.9820246213498114
+PLAYBACK FIT played_cd_n12_phase_walk eval 40 bestF 0.8915067983613291
+PLAYBACK FIT played_cd_n12_strong_echo eval 160 bestF 0.983339349935867
+PLAYBACK FIT played_cd_n12_phase_walk eval 80 bestF 0.9389575398445948
+PLAYBACK RESULT played_cd_n12_strong_echo F 0.9833419869224849 command 0.37 RFDCwindow 0.41421875 evaluations 181 seconds 43.09388623398263
+PLAYBACK FIT played_cd_n12_phase_walk eval 120 bestF 0.9676202504917081
+PLAYBACK FIT played_cd_n12_phase_walk eval 160 bestF 0.9743559496822929
+PLAYBACK FIT played_cd_n12_phase_walk eval 200 bestF 0.9791585875116975
+PLAYBACK FIT played_cd_n12_phase_walk eval 240 bestF 0.9818708904702494
+PLAYBACK RESULT played_cd_n12_phase_walk F 0.9818708904702494 command 0.37 RFDCwindow 0.41421875 evaluations 267 seconds 62.56885816901922
+FINAL SHAPED FIT COUNTS 9 jobs; 1045 actualplaybackevaluations

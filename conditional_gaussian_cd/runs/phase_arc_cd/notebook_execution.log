@@ -1,0 +1,21 @@
+START phase_controlled_cd.ipynb cell 1
+INDEPENDENT PHASE STUDY:4 waveforms;72 input columns;13824 complex amplitudes
+COMPLETED phase_controlled_cd.ipynb cell 1 1 / 6
+START phase_controlled_cd.ipynb cell 3
+No independently accepted phase-control point is faster than370ns.
+COMPLETED phase_controlled_cd.ipynb cell 3 2 / 6
+START phase_controlled_cd.ipynb cell 5
+Independent quantum checks:256 first-order amplitudes;24 principal cubic coefficients
+COMPLETED phase_controlled_cd.ipynb cell 5 3 / 6
+START phase_controlled_cd.ipynb cell 7
+ARC CHECK:11 centers;max played qubit amplitude at those centers 0.0
+Played plateau magnitude relative to median: 0.9996394600758796 1.0004566180327863
+Strongest played coupling corresponds to swap(ns): 266.7848901255828
+COMPLETED phase_controlled_cd.ipynb cell 7 4 / 6
+START phase_controlled_cd.ipynb cell 9
+SCALING CHECK:5 exact targets; 7308 input-column evaluations
+COMPLETED phase_controlled_cd.ipynb cell 9 5 / 6
+START phase_controlled_cd.ipynb cell 11
+FRESH PHASE CD CHECK:18 columns; 4608 complex amplitudes;max difference 1.002958247892506e-15 F 0.993574864995144
+COMPLETED phase_controlled_cd.ipynb cell 11 6 / 6
+EXECUTED NOTEBOOK {'file': 'phase_controlled_cd.ipynb', 'cells': 12, 'executed_code_cells': 6, 'embedded_figures': 5, 'errors': 0}

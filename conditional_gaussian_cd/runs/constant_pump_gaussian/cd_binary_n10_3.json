@@ -1,0 +1,63 @@
+{
+  "job": {
+    "name": "cd_binary_n10_3",
+    "gate": "cd",
+    "strength": 1.0,
+    "swap": 0.23752185010901308,
+    "cells": 10,
+    "gap": 0.0,
+    "pump_phase": -1.5707963267948966,
+    "fixed_frame": true,
+    "family": "binary",
+    "seed": "balanced X/Xbar enumeration"
+  },
+  "fidelity": 0.9689504762692113,
+  "worst_input_fidelity": 0.9347402750139522,
+  "qubit_frame_Rz": -0.0,
+  "time_us": 0.31,
+  "cells": 10,
+  "swap_ns": 237.5218501090131,
+  "gap_ns": 0.0,
+  "top_level_population": 2.402114727420422e-75,
+  "qubit_phases": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.141592653589793,
+    3.141592653589793,
+    3.141592653589793,
+    3.141592653589793,
+    3.141592653589793
+  ],
+  "pump_phases": [
+    -1.5707963267948966,
+    -1.5707963267948966,
+    -1.5707963267948966,
+    -1.5707963267948966,
+    -1.5707963267948966,
+    -1.5707963267948966,
+    -1.5707963267948966,
+    -1.5707963267948966,
+    -1.5707963267948966,
+    -1.5707963267948966
+  ],
+  "binary_pattern": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "alternating_moment": 2,
+  "palindrome": false,
+  "opposed_reverse": true,
+  "amplitude_evaluations": 10,
+  "initial_fidelity": 0.9684109062579065
+}

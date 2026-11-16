@@ -1,0 +1,10 @@
+START SHORT GATE CERTIFICATION 3 gates;all18inputs
+VERIFIED SHORT GATE played_rotation_smooth F 0.9920553000104723 columns18;amplitudes 3456 cutoff 96 independenterror 4.854918699614165e-15 commandus 2.89 RFDCwindowus 2.93421875
+VERIFIED SHORT GATE played_cd_n12_pump1_seed0 F 0.9932916105780567 columns18;amplitudes 3456 cutoff 96 independenterror 9.73049312501215e-16 commandus 0.37 RFDCwindowus 0.41421875
+VERIFIED SHORT GATE played_squeeze_smooth F 0.9921709946443702 columns18;amplitudes 9216 cutoff 256 independenterror 4.008820969875031e-15 commandus 3.85 RFDCwindowus 3.8942187500000003
+Traceback (most recent call last):
+  File "/home/tunmays_rsl_pc_wsl/boson/quantum-simulation-code/conditional_gaussian_cd/verify_short_gates.py", line 93, in <module>
+    manifest=dict(gates=len(allrows),columns=18*len(allrows),independent_amplitudes=sum(r['complex_amplitudes'] for r in allrows),
+  File "/home/tunmays_rsl_pc_wsl/boson/quantum-simulation-code/conditional_gaussian_cd/verify_short_gates.py", line 93, in <genexpr>
+    manifest=dict(gates=len(allrows),columns=18*len(allrows),independent_amplitudes=sum(r['complex_amplitudes'] for r in allrows),
+KeyError: 'complex_amplitudes'

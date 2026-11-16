@@ -1,0 +1,59 @@
+{
+  "job": {
+    "name": "cd_native_n8_s0.2_echo",
+    "gate": "cd",
+    "strength": 1.0,
+    "swap": 0.2,
+    "cells": 8,
+    "gap": 0.0,
+    "block": 8,
+    "family": "echo",
+    "seed": "exact X/Xbar echo",
+    "pump_phase": -1.5707963267948966,
+    "fixed_frame": true,
+    "levels": 48,
+    "maxiter": 2000,
+    "stop_infidelity": 0.003
+  },
+  "fidelity": 0.9325990209074211,
+  "worst_input_fidelity": 0.8245940449151069,
+  "qubit_frame_Rz": -0.0,
+  "time_us": 0.25,
+  "cells": 8,
+  "swap_ns": 200.0,
+  "gap_ns": 0.0,
+  "top_level_population": 1.608853001433067e-84,
+  "initial_fidelity": 0.9325990209074211,
+  "parameters": [
+    0.0,
+    0.0,
+    3.1415926535897922,
+    3.1415926535897922
+  ],
+  "qubit_phases": [
+    0.0,
+    0.0,
+    3.1415926535897922,
+    3.1415926535897922,
+    6.283185307179585,
+    6.283185307179585,
+    3.141592653589793,
+    3.141592653589793
+  ],
+  "pump_phases": [
+    -1.5707963267948966,
+    -1.5707963267948966,
+    -1.5707963267948966,
+    -1.5707963267948966,
+    -1.5707963267948966,
+    -1.5707963267948966,
+    -1.5707963267948966,
+    -1.5707963267948966
+  ],
+  "evaluations": 1,
+  "seconds": 0.031164104002527893,
+  "history": [
+    0.06740097909257892
+  ],
+  "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+}

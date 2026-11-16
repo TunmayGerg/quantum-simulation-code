@@ -1,0 +1,32 @@
+START SHORT GATE CERTIFICATION 2 gates;all18inputs
+VERIFIED SHORT GATE squeeze_lifted_n192_b96_half F 0.9959072291032709 columns18;amplitudes 4608 cutoff 128 independenterror 1.015087490269953e-15 commandus 2.89 RFDCwindowus 2.93421875
+concurrent.futures.process._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/concurrent/futures/process.py", line 246, in _process_worker
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+  File "/usr/lib/python3.10/concurrent/futures/process.py", line 205, in _process_chunk
+    return [fn(*args) for args in chunk]
+  File "/usr/lib/python3.10/concurrent/futures/process.py", line 205, in <listcomp>
+    return [fn(*args) for args in chunk]
+  File "/home/tunmays_rsl_pc_wsl/boson/quantum-simulation-code/conditional_gaussian_cd/verify_short_gates.py", line 63, in verify
+    assert error<1e-10 and F>.99,(name,F,error)
+AssertionError: ('rotation_lifted_n256_b128_half', 0.9890214451381653, 4.104301785731288e-15)
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tunmays_rsl_pc_wsl/boson/quantum-simulation-code/conditional_gaussian_cd/verify_short_gates.py", line 90, in <module>
+    with ProcessPoolExecutor(args.workers) as pool:rows=list(pool.map(verify,args.names))
+  File "/usr/lib/python3.10/concurrent/futures/process.py", line 575, in _chain_from_iterable_of_lists
+    for element in iterable:
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 621, in result_iterator
+    yield _result_or_cancel(fs.pop())
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 319, in _result_or_cancel
+    return fut.result(timeout)
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 458, in result
+    return self.__get_result()
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+AssertionError: ('rotation_lifted_n256_b128_half', 0.9890214451381653, 4.104301785731288e-15)

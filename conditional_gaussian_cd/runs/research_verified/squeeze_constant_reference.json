@@ -1,0 +1,55 @@
+{
+  "name": "squeeze_constant_reference",
+  "gate": "squeeze",
+  "strength": 0.9210340371976182,
+  "fidelity": 0.9901830898553813,
+  "worst_basis_fidelity": 0.9592830622288462,
+  "accepted": true,
+  "sideband_mode": "fixed",
+  "command_us": 4.8100000000000005,
+  "columns": 18,
+  "levels": 320,
+  "complex_amplitudes": 11520,
+  "independent_max_difference": 3.1207747653061754e-15,
+  "peak_g": 4.467943141696048,
+  "peak_swap_ns": 351.57034836361333,
+  "qubit_frame_Rz": -3.331687648435443,
+  "cutoff_history": [
+    {
+      "levels": 64
+    },
+    {
+      "levels": 96,
+      "output_change": 0.08437399712245382,
+      "target_change": 0.14484428431184065
+    },
+    {
+      "levels": 128,
+      "output_change": 0.001340038099075812,
+      "target_change": 0.004855427499729388
+    },
+    {
+      "levels": 192,
+      "output_change": 2.7677204462957378e-06,
+      "target_change": 9.434631670509811e-05
+    },
+    {
+      "levels": 256,
+      "output_change": 5.479622813046652e-25,
+      "target_change": 1.7076982799674414e-08
+    },
+    {
+      "levels": 320,
+      "output_change": 1.3046841630254699e-73,
+      "target_change": 1.8958399991252324e-12
+    }
+  ],
+  "recipe_file": "runs/research_verified/squeeze_constant_reference_recipe.json",
+  "controls_file": "runs/research_verified/squeeze_constant_reference_controls.npz",
+  "word_sha256": "fa1d3d531426553463789b8ff41b6f9003bac08d30312419b5d3c5058ee63ebb",
+  "compiled": {
+    "arbitrary_commands": 2,
+    "triggers": 1,
+    "int16_values_compared": 15392
+  }
+}

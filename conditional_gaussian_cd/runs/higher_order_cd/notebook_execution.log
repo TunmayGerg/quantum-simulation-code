@@ -1,0 +1,20 @@
+START higher_order_cd_and_squeezing.ipynb cell 1
+Independent verification: 64 records; 1152 input columns; 269568 amplitudes; 24 above99%
+COMPLETED higher_order_cd_and_squeezing.ipynb cell 1 1 / 7
+START higher_order_cd_and_squeezing.ipynb cell 3
+COMPLETED higher_order_cd_and_squeezing.ipynb cell 3 2 / 7
+START higher_order_cd_and_squeezing.ipynb cell 5
+COMPLETED higher_order_cd_and_squeezing.ipynb cell 5 3 / 7
+START higher_order_cd_and_squeezing.ipynb cell 7
+COMPLETED higher_order_cd_and_squeezing.ipynb cell 7 4 / 7
+START higher_order_cd_and_squeezing.ipynb cell 9
+Sensitivity comparisons: 108 points; 1944 columns; 373248 cutoff comparison amplitudes
+COMPLETED higher_order_cd_and_squeezing.ipynb cell 9 5 / 7
+START higher_order_cd_and_squeezing.ipynb cell 11
+COMPLETED higher_order_cd_and_squeezing.ipynb cell 11 6 / 7
+START higher_order_cd_and_squeezing.ipynb cell 13
+FRESH INDEPENDENT CD:18columns; 4608 amplitudes;maxdifference 2.8757454971911127e-25 F 0.9937127840681839
+Device I/Q duration 260.0 ns; fixed sideband phase; all pi envelopes30ns
+FRESH INDEPENDENT SQUEEZE:2boundaryinputs; 1536 amplitudes;maxdifference 2.2903921347163597e-15
+COMPLETED higher_order_cd_and_squeezing.ipynb cell 13 7 / 7
+EXECUTED NOTEBOOK {'file': 'higher_order_cd_and_squeezing.ipynb', 'cells': 14, 'executed_code_cells': 7, 'embedded_figures': 6, 'errors': 0}

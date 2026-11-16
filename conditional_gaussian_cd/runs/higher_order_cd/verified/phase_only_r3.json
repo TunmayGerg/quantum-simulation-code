@@ -1,0 +1,27 @@
+{
+  "name": "phase_only_r3",
+  "gate": "cd",
+  "fidelity": 0.9691511578524135,
+  "ideal_device_fidelity": 0.9691472779153621,
+  "accepted": false,
+  "columns": 18,
+  "levels": 96,
+  "independent_amplitudes": 3456,
+  "independent_max_difference": 5.552085744643404e-16,
+  "command_us": 0.20500000000000002,
+  "RFDC_window_us": 0.24921875000000002,
+  "qubit_frame_Rz": 0.0,
+  "cutoff_history": [
+    {
+      "levels": 64
+    },
+    {
+      "levels": 96,
+      "output_change": 0.0,
+      "target_change": 7.74340002005588e-16
+    }
+  ],
+  "worst_basis_fidelity": 0.8907871892224569,
+  "word_sha256": "bcd0c3a23aa90a424dd3496c5638b80366fca402bd44cd2ec8c725aeb1fac027",
+  "source_record": "phase_only_r3.json"
+}

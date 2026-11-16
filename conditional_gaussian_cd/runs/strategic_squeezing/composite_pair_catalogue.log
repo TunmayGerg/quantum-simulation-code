@@ -1,0 +1,4 @@
+COMPLETED COMPOSITE CHIRALITY-PAIR:96blocks; 96 properpositiveSQblocks
+COMPOSITE PAIR 2 word 2 ordering 1 {'first_norm': 3.1855445653672842e-15, 'second_squeeze': 0.005352912877900324, 'second_chi': 2.6020852139652106e-17, 'second_unwanted_norm': 8.347421174627066e-16, 'cubic_norm': 0.01796486343098355, 'quartic_norm': 0.002617269706428922}
+COMPOSITE PAIR 3 word 2 ordering -1 {'first_norm': 1.4584276442024555e-15, 'second_squeeze': 0.017510390202668, 'second_chi': -4.336808689942018e-18, 'second_unwanted_norm': 9.505409597239362e-16, 'cubic_norm': 0.015982676910777056, 'quartic_norm': 0.003467054147013928}
+COMPOSITE PAIR 4 word 0 ordering 1 {'first_norm': 1.1648726667630148e-15, 'second_squeeze': 0.023319234835194037, 'second_chi': -2.0383000842727483e-17, 'second_unwanted_norm': 1.310373316046025e-15, 'cubic_norm': 0.025856864820189486, 'quartic_norm': 0.004084228341194615}

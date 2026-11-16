@@ -1,0 +1,44 @@
+{
+  "gates_compared": 2,
+  "coefficient_amplitudes_compared": 576,
+  "results": [
+    {
+      "word": [
+        3,
+        2,
+        3,
+        2,
+        1,
+        0,
+        1,
+        0
+      ],
+      "index": 43,
+      "first_second_third_max_errors": [
+        8.640480766763941e-17,
+        1.3639222337429578e-16,
+        7.213316067823003e-18
+      ],
+      "coefficient_amplitudes_compared": 288
+    },
+    {
+      "word": [
+        3,
+        2,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "index": 0,
+      "first_second_third_max_errors": [
+        5.1537467573021534e-17,
+        1.3123181970083807e-16,
+        1.3093426421739911e-17
+      ],
+      "coefficient_amplitudes_compared": 288
+    }
+  ]
+}

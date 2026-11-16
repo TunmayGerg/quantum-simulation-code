@@ -1,0 +1,37 @@
+{
+  "name": "baseline_cd",
+  "gate": "cd",
+  "fidelity": 0.9922779449668537,
+  "accepted": true,
+  "hardware_eligible": true,
+  "ideal_device_fidelity": 0.9922547627726578,
+  "command_us": 0.37,
+  "qubit_frame_Rz": 0.0,
+  "columns": 18,
+  "levels": 96,
+  "independent_amplitudes": 3456,
+  "independent_max_difference": 1.0339757656912846e-25,
+  "cutoff_history": [
+    {
+      "levels": 64
+    },
+    {
+      "levels": 96,
+      "output_change": 1.367021108500673e-72,
+      "target_change": 7.74340002005588e-16
+    }
+  ],
+  "hard_min_swap_ns": 200.0,
+  "peak_g_rad_per_us": 5.583422710925654,
+  "actual_min_swap_ns": 281.33215200080747,
+  "programmed_peak_g_rad_per_us": 5.546476830271693,
+  "played_peak_g_rad_per_us": 5.583422710925654,
+  "worst_basis_fidelity": 0.9799962457296741,
+  "pump_phase_constant": true,
+  "word_sha256": "09840da137021778c7a5debba115372dc219f02c0aa8cd8229c83a2c449f1e9d",
+  "compiled": {
+    "arbitrary_commands": 2,
+    "triggers": 1,
+    "int16_values_compared": 1184
+  }
+}

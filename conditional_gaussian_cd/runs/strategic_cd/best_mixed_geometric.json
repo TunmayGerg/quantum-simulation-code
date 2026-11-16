@@ -1,0 +1,121 @@
+{
+  "gate": "cd",
+  "strength": 1.0,
+  "name": "best_mixed_geometric",
+  "pulses": [
+    {
+      "start_sample": 7,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": -0.09422276029231343,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 31,
+      "samples": 24,
+      "angle_fraction": 0.5,
+      "phase_rad": -0.205424054846632,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 55,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": -0.24653401271693448,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 84,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 2.9089682686058147,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 108,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.034312462322353,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 132,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 6.175905115912146,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 156,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 6.050560922195608,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 185,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 2.8950586408728585,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 209,
+      "samples": 24,
+      "angle_fraction": 0.5,
+      "phase_rad": 2.936168598743161,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 233,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.0473698932974798,
+      "reversed_envelope": false
+    }
+  ],
+  "qubit_frame_Rz": 0.0,
+  "g": 6.298188092059523,
+  "nominal_swap_ns": 249.4044801194945,
+  "pump_phase_rad": -1.744926825510338,
+  "centered_envelopes": true,
+  "command_us": 0.33,
+  "source": "code/strategic_cd.py",
+  "all_input_columns": 18,
+  "certified": false,
+  "seed_index": 0,
+  "half_phases": [
+    -0.09422276029231343,
+    -0.205424054846632,
+    -0.24653401271693448,
+    2.9089682686058147,
+    3.034312462322353
+  ],
+  "half_fractions": [
+    1.0,
+    0.5,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "idle_samples": [
+    3,
+    0,
+    0,
+    5,
+    0,
+    0,
+    0,
+    5,
+    0,
+    0,
+    3
+  ],
+  "pump_phase": -1.744926825510338,
+  "native_fidelity": 0.974385796951008,
+  "first_direction_error": 7.486470860056218e-07,
+  "first_beta": 1.0186228292939066,
+  "evaluations": 57,
+  "optimizer_message": "Optimization terminated successfully",
+  "cells": 10
+}

@@ -1,0 +1,47 @@
+{
+  "name": "corrected_squeeze_n96_seed200",
+  "gate": "squeeze",
+  "fidelity": 0.9726348993358719,
+  "ideal_device_fidelity": 0.972585169459033,
+  "accepted": false,
+  "columns": 18,
+  "levels": 320,
+  "independent_amplitudes": 11520,
+  "independent_max_difference": 6.393188222769893e-15,
+  "command_us": 2.89,
+  "RFDC_window_us": 2.93421875,
+  "qubit_frame_Rz": -4.075680721922624,
+  "cutoff_history": [
+    {
+      "levels": 64
+    },
+    {
+      "levels": 96,
+      "output_change": 0.018877604578518923,
+      "target_change": 0.14484428431184065
+    },
+    {
+      "levels": 128,
+      "output_change": 3.726277424253934e-08,
+      "target_change": 0.004855427499729388
+    },
+    {
+      "levels": 192,
+      "output_change": 2.4993987711923794e-21,
+      "target_change": 9.434631670509811e-05
+    },
+    {
+      "levels": 256,
+      "output_change": 4.5868924743993423e-66,
+      "target_change": 1.7076982799674414e-08
+    },
+    {
+      "levels": 320,
+      "output_change": 1.211274064572416e-125,
+      "target_change": 1.8958399991252324e-12
+    }
+  ],
+  "worst_basis_fidelity": 0.8982713192335472,
+  "word_sha256": "23918039453e79bf43cb540caa432bf8513431f1181ce1937374e85939196274",
+  "source_record": "corrected_squeeze_n96_seed200.json"
+}

@@ -1,0 +1,5 @@
+START RESEARCH CERTIFICATION 3 gates;all18inputs
+RESEARCH CERTIFIED arc_sym_n12_magnus4 F 0.9930522391712645 worstbasis 0.980838595022819 timeus 0.37 18columns; 3456 amplitudes;error 8.889251888226118e-16 mode phase_arc accepted True
+RESEARCH CERTIFIED arc_free_n10_all5_1 F 0.9850030556148859 worstbasis 0.9542296577400051 timeus 0.355 18columns; 3456 amplitudes;error 8.045527044939628e-16 mode phase_arc accepted False
+RESEARCH CERTIFIED central_arc_gap50_half3_word0 F 0.9764956454748386 worstbasis 0.943453396430301 timeus 0.36 18columns; 3456 amplitudes;error 5.594315114139762e-16 mode phase_arc accepted False
+FINAL RESEARCH COMPARISONS 3 gates; 54 columns; 10368 amplitudes

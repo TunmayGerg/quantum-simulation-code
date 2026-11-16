@@ -1,0 +1,14 @@
+START NEW-STUDY VERIFICATION 12 records;all18inputs
+CHECKED corrected_squeeze_n96_seed200 F 0.9726348993358719 ideal_deviceF 0.972585169459033 columns18;amplitudes 11520 cutoff 320 independenterror 6.393188222769893e-15 accepted False
+CHECKED corrected_squeeze_n96_seed225 F 0.9799081539244033 ideal_deviceF 0.9798335361875363 columns18;amplitudes 11520 cutoff 320 independenterror 4.361302187826122e-15 accepted False
+CHECKED corrected_squeeze_n96_seed250 F 0.9845158981159399 ideal_deviceF 0.9844867691192155 columns18;amplitudes 11520 cutoff 320 independenterror 4.4997442958899385e-15 accepted False
+CHECKED phasecycle_strang_r3_s35_a0.08 F 0.9691935086304714 ideal_deviceF 0.9691895845594067 columns18;amplitudes 3456 cutoff 96 independenterror 6.106448400037552e-16 accepted False
+CHECKED phasecycle_strang_r3_s50_a0.08 F 0.9746889838888108 ideal_deviceF 0.9746875222208465 columns18;amplitudes 3456 cutoff 96 independenterror 6.668652496727995e-16 accepted False
+CHECKED phasecycle_strang_r3_s35_a0.3 F 0.9710194199934901 ideal_deviceF 0.9710154297620205 columns18;amplitudes 3456 cutoff 96 independenterror 6.666784482770346e-16 accepted False
+CHECKED phasecycle_strang_r3_s50_a0.3 F 0.9748430363047667 ideal_deviceF 0.9748416000475538 columns18;amplitudes 3456 cutoff 96 independenterror 5.584879035383624e-16 accepted False
+CHECKED phasecycle_strang_r3_s75_a0.3 F 0.9748458703489028 ideal_deviceF 0.974845189864905 columns18;amplitudes 3456 cutoff 96 independenterror 6.675719140794705e-16 accepted False
+CHECKED phasecycle_strang_r3_s75_a0.08 F 0.9748268729540008 ideal_deviceF 0.9748261650052993 columns18;amplitudes 3456 cutoff 96 independenterror 7.220178573658765e-16 accepted False
+CHECKED phasecycle_strang_r4_s35_a0.08 F 0.994197813409997 ideal_deviceF 0.9941960207656702 columns18;amplitudes 3456 cutoff 96 independenterror 7.363936633046926e-16 accepted True
+CHECKED phasecycle_strang_r4_s35_a0.3 F 0.994539014065208 ideal_deviceF 0.9945371240896957 columns18;amplitudes 3456 cutoff 96 independenterror 5.89285334990759e-16 accepted True
+CHECKED compressed_squeeze_n112 F 0.9859220038904241 ideal_deviceF 0.9858786831697627 columns18;amplitudes 11520 cutoff 320 independenterror 5.667343454458583e-15 accepted False
+FINAL NEW-STUDY COMPARISONS 12 records; 216 columns; 73728 amplitudes; 2 above99%

@@ -1,0 +1,3 @@
+INDEPENDENT COSINE {'timestep_ns': 0.01, 'amplitudes': 96, 'max_difference': 3.898025555118309e-06}
+INDEPENDENT COSINE {'timestep_ns': 0.005, 'amplitudes': 96, 'max_difference': 2.4544856408955917e-07}
+INDEPENDENT COSINE {'timestep_ns': 0.0025, 'amplitudes': 96, 'max_difference': 5.519529636932204e-08}

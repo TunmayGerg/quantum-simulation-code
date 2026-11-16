@@ -1,0 +1,10 @@
+LAYOUT: 77 sources; 72 Python files parsed; 10 notebooks in notebooks/
+ALL NOTEBOOKS:10 current/historical books;85 executed cells;138 embedded figures;0 saved errors
+CURRENT GATE: cd_constant_reference 18 columns; 3456 amplitudes;F 0.9922779449668537 weakest basis 0.9799962457296741 independent error 1.0339757656912846e-25
+CURRENT GATE: squeeze_constant_reference 18 columns; 11520 amplitudes;F 0.9901830898553813 weakest basis 0.9592830622288462 independent error 3.1207747653061754e-15
+SAME BETA: 5 gates;90 columns;11520 independently compared amplitudes;F range 0.9922770473990025 0.9996725701520867
+BETA SCALING:20 targets;360 columns; 71424 amplitudes;minimumF 0.9910375042425945
+OPEN-Z: 50895104 endpoint pairs;0 zero-first-moment paths;4096 independent coefficient amplitudes
+NOTEBOOK: fast_conditional_displacement.ipynb 7 executed cells; 6 embedded figures;0 errors
+NOTEBOOK: conditional_gaussian_gates.ipynb 6 executed cells; 5 embedded figures;0 errors
+CURRENT AUDIT:2 references;13 executed code cells;11 figures;SDK unchanged

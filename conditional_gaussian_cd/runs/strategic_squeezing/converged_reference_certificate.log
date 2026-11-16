@@ -1,0 +1,9 @@
+START STRUCTURED CERTIFICATE:levels 128 18inputcolumns 100731 RFDCsamples;SDKwords 50224
+STRUCTURED CUTOFF COMPARISON {'levels': 128, 'input_columns': 18, 'fidelity': 0.9919157240186469, 'worst_input_fidelity': 0.9716987581804368}
+START STRUCTURED CERTIFICATE:levels 192 18inputcolumns 100731 RFDCsamples;SDKwords 50224
+STRUCTURED CUTOFF COMPARISON {'levels': 192, 'input_columns': 18, 'fidelity': 0.991915724019963, 'worst_input_fidelity': 0.971698758204504, 'output_column_norm_change': 8.156157297680864e-07, 'target_column_norm_change': 9.434631670509811e-05}
+START STRUCTURED CERTIFICATE:levels 256 18inputcolumns 100731 RFDCsamples;SDKwords 50224
+STRUCTURED CUTOFF COMPARISON {'levels': 256, 'input_columns': 18, 'fidelity': 0.9919157240199625, 'worst_input_fidelity': 0.9716987582045036, 'output_column_norm_change': 7.07472308785586e-14, 'target_column_norm_change': 1.7076982799674414e-08}
+START STRUCTURED CERTIFICATE:levels 320 18inputcolumns 100731 RFDCsamples;SDKwords 50224
+STRUCTURED CUTOFF COMPARISON {'levels': 320, 'input_columns': 18, 'fidelity': 0.991915724019965, 'worst_input_fidelity': 0.9716987582045084, 'output_column_norm_change': 8.587710028371071e-23, 'target_column_norm_change': 1.8958399991252324e-12}
+COMPLETED STRUCTURED CERTIFICATE:SDKwords 50224 cutoff18columncomparisons 54 independentamplitudes 11520 maxerror 1.1035579438806941e-14 F 0.991915724019965

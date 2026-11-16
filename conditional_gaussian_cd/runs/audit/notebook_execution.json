@@ -1,0 +1,41 @@
+[
+  {
+    "file": "conditional_gaussian_gates.ipynb",
+    "cells": 14,
+    "executed_code_cells": 7,
+    "embedded_figures": 6,
+    "errors": 0
+  },
+  {
+    "file": "fast_conditional_displacement.ipynb",
+    "cells": 16,
+    "executed_code_cells": 8,
+    "embedded_figures": 7,
+    "errors": 0
+  },
+  {
+    "file": "higher_order_cd_and_squeezing.ipynb",
+    "cells": 14,
+    "executed_code_cells": 7,
+    "embedded_figures": 6,
+    "errors": 0,
+    "notebook_sha256": "26a65517b39013766acf380781f24eaf67a40315bf8889fb5ba1d0414e95e579",
+    "execution_log": "runs/swap200/notebook_execution.log"
+  },
+  {
+    "file": "coupler_phase_transients.ipynb",
+    "cells": 19,
+    "executed_code_cells": 9,
+    "embedded_figures": 7,
+    "errors": 0,
+    "notebook_sha256": "6c64fa30cabbd182fb48fa6cf22b136920ed97d6027e4a990c51c0de9a25aa5a",
+    "execution_log": "runs/audit/coupler_notebook_execution.log"
+  },
+  {
+    "file": "phase_controlled_cd.ipynb",
+    "cells": 12,
+    "executed_code_cells": 6,
+    "embedded_figures": 5,
+    "errors": 0
+  }
+]

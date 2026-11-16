@@ -1,0 +1,13 @@
+LIBRARY ARTIFACT COMPARISONS:16gates;320columns;90240amplitudes;16word hashes
+SHARED FAMILY ARTIFACT COMPARISONS:40gates;880columns;174592amplitudes;40word hashes
+MICROSCOPIC ARTIFACT constant rawF 0.9771801111754685 correctedF 0.9936437929589557 columns18;rawandcorrectedamplitudes11520
+MICROSCOPIC ARTIFACT cartesian rawF 0.9739662374979522 correctedF 0.9928514468002668 columns18;rawandcorrectedamplitudes11520
+SHORT GATE ARTIFACT COUNTS 31 records; 558 columns; 147456 amplitudes; 30 unique word hashes
+BINARY CD FAMILY COUNTS 20 strengths; 360 columns; 71424 amplitudes;minimumF 0.9910375042425945
+PLOT CHECK COUNTS:176fixed-sequence strength points;63retuned/screenedpoints;32idealcommutatorpoints
+ACTUAL400ns CHECK:18columns;4608amplitudes;F 0.9922779408792164 remainingtailoperatornorm 7.801061008863723e-07
+NOTEBOOK OUTPUT CHECK {'file': 'conditional_gaussian_gates.ipynb', 'cells': 12, 'executed_code_cells': 6, 'embedded_figures': 5, 'errors': 0, 'notebook_sha256': 'e7f0a389ad124e40b2880af8a8c41bbe2c597ba41dda08cdf7b15efa14947fc1', 'execution_log': 'runs/fixed_sideband/notebook_execution.log'}
+NOTEBOOK OUTPUT CHECK {'file': 'fast_conditional_displacement.ipynb', 'cells': 14, 'executed_code_cells': 7, 'embedded_figures': 6, 'errors': 0, 'notebook_sha256': '816a408d316cbc2a30fa34c02d7d02ccaacbd408dc851b796c7e3e3df57d124f', 'execution_log': 'runs/fixed_sideband/notebook_execution.log'}
+NOTEBOOK OUTPUT CHECK {'file': 'higher_order_cd_and_squeezing.ipynb', 'cells': 14, 'executed_code_cells': 7, 'embedded_figures': 6, 'errors': 0, 'notebook_sha256': '26a65517b39013766acf380781f24eaf67a40315bf8889fb5ba1d0414e95e579', 'execution_log': 'runs/swap200/notebook_execution.log'}
+NOTEBOOK OUTPUT CHECK {'file': 'coupler_phase_transients.ipynb', 'cells': 19, 'executed_code_cells': 9, 'embedded_figures': 7, 'errors': 0, 'notebook_sha256': '6c64fa30cabbd182fb48fa6cf22b136920ed97d6027e4a990c51c0de9a25aa5a', 'execution_log': 'runs/audit/coupler_notebook_execution.log'}
+FINAL COUNTS:2 current notebooks,13 code cells,11 figures;2 historical appendices,16 code cells,13 figures;SDK unchanged

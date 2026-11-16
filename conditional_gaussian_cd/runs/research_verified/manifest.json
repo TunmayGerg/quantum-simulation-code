@@ -1,0 +1,307 @@
+{
+  "gates": 8,
+  "columns": 144,
+  "independent_amplitudes": 35712,
+  "results": [
+    {
+      "name": "best_proper10",
+      "gate": "cd",
+      "strength": 1.0,
+      "fidelity": 0.9823705342094754,
+      "worst_basis_fidelity": 0.950496915373023,
+      "accepted": false,
+      "sideband_mode": "fixed",
+      "command_us": 0.315,
+      "columns": 18,
+      "levels": 96,
+      "complex_amplitudes": 3456,
+      "independent_max_difference": 1.0339757656912846e-24,
+      "peak_g": 6.603731358460819,
+      "peak_swap_ns": 237.86496474941612,
+      "qubit_frame_Rz": 0.0,
+      "cutoff_history": [
+        {
+          "levels": 64
+        },
+        {
+          "levels": 96,
+          "output_change": 1.520605559836286e-75,
+          "target_change": 7.74340002005588e-16
+        }
+      ],
+      "recipe_file": "runs/research_verified/best_proper10_recipe.json",
+      "controls_file": "runs/strategic_cd/best_proper10.npz",
+      "word_sha256": "cf0edc17ad4f9e12b569a6fe43fc5ab8c5aa33a3a3288f9587051e8cac884718",
+      "compiled": {
+        "arbitrary_commands": 2,
+        "triggers": 1,
+        "int16_values_compared": 1008
+      }
+    },
+    {
+      "name": "best_mixed_geometric",
+      "gate": "cd",
+      "strength": 1.0,
+      "fidelity": 0.974376572115986,
+      "worst_basis_fidelity": 0.9262940123000586,
+      "accepted": false,
+      "sideband_mode": "fixed",
+      "command_us": 0.33,
+      "columns": 18,
+      "levels": 96,
+      "complex_amplitudes": 3456,
+      "independent_max_difference": 9.464979401424364e-16,
+      "peak_g": 6.317390248446922,
+      "peak_swap_ns": 248.64639748685204,
+      "qubit_frame_Rz": 0.0,
+      "cutoff_history": [
+        {
+          "levels": 64
+        },
+        {
+          "levels": 96,
+          "output_change": 4.65090385913483e-80,
+          "target_change": 7.74340002005588e-16
+        }
+      ],
+      "recipe_file": "runs/research_verified/best_mixed_geometric_recipe.json",
+      "controls_file": "runs/strategic_cd/best_mixed_geometric.npz",
+      "word_sha256": "9be9d3b6fc95e627402aeffd1b7bb4d2d8c6b96dbc72cc3f08c470954e47081e",
+      "compiled": {
+        "arbitrary_commands": 2,
+        "triggers": 1,
+        "int16_values_compared": 1056
+      }
+    },
+    {
+      "name": "arc_sym_n12_magnus4",
+      "gate": "cd",
+      "strength": 1.0,
+      "fidelity": 0.9930522391712645,
+      "worst_basis_fidelity": 0.980838595022819,
+      "accepted": true,
+      "sideband_mode": "phase_arc",
+      "command_us": 0.37,
+      "columns": 18,
+      "levels": 96,
+      "complex_amplitudes": 3456,
+      "independent_max_difference": 8.889251888226118e-16,
+      "peak_g": 5.894399388856859,
+      "peak_swap_ns": 266.4896324745873,
+      "qubit_frame_Rz": 0.0,
+      "cutoff_history": [
+        {
+          "levels": 64
+        },
+        {
+          "levels": 96,
+          "output_change": 1.5237036285087922e-71,
+          "target_change": 7.74340002005588e-16
+        }
+      ],
+      "recipe_file": "runs/phase_arc_cd/arc_sym_n12_magnus4_recipe.json",
+      "controls_file": "runs/phase_arc_cd/arc_sym_n12_magnus4_controls.npz",
+      "word_sha256": "d06239e8863fd404d155ea6d7433c0230ee52677fb0836b921ce3f48ff88fd84",
+      "compiled": {
+        "arbitrary_commands": 2,
+        "triggers": 1,
+        "int16_values_compared": 1184
+      }
+    },
+    {
+      "name": "arc_free_n10_all5_1",
+      "gate": "cd",
+      "strength": 1.0,
+      "fidelity": 0.9850030556148859,
+      "worst_basis_fidelity": 0.9542296577400051,
+      "accepted": false,
+      "sideband_mode": "phase_arc",
+      "command_us": 0.355,
+      "columns": 18,
+      "levels": 96,
+      "complex_amplitudes": 3456,
+      "independent_max_difference": 8.045527044939628e-16,
+      "peak_g": 5.91895429039456,
+      "peak_swap_ns": 265.38409484662304,
+      "qubit_frame_Rz": 0.0,
+      "cutoff_history": [
+        {
+          "levels": 64
+        },
+        {
+          "levels": 96,
+          "output_change": 7.419585752941448e-77,
+          "target_change": 7.74340002005588e-16
+        }
+      ],
+      "recipe_file": "runs/phase_arc_cd/arc_free_n10_all5_1_recipe.json",
+      "controls_file": "runs/phase_arc_cd/arc_free_n10_all5_1_controls.npz",
+      "word_sha256": "9a6289d1abde2264589fff3ac1ea46dda0c115e4b3411dd4bac4cf1c17e17ecb",
+      "compiled": {
+        "arbitrary_commands": 2,
+        "triggers": 1,
+        "int16_values_compared": 1136
+      }
+    },
+    {
+      "name": "arc_lifted_n12",
+      "gate": "cd",
+      "strength": 1.0,
+      "fidelity": 0.9935748649951442,
+      "worst_basis_fidelity": 0.9809548969203411,
+      "accepted": true,
+      "sideband_mode": "phase_arc",
+      "command_us": 0.37,
+      "columns": 18,
+      "levels": 96,
+      "complex_amplitudes": 3456,
+      "independent_max_difference": 1.002958247892506e-15,
+      "peak_g": 5.887875906523343,
+      "peak_swap_ns": 266.7848901255828,
+      "qubit_frame_Rz": -0.07039512763572828,
+      "cutoff_history": [
+        {
+          "levels": 64
+        },
+        {
+          "levels": 96,
+          "output_change": 1.1831735877433737e-70,
+          "target_change": 7.74340002005588e-16
+        }
+      ],
+      "recipe_file": "runs/phase_arc_cd/arc_lifted_n12_recipe.json",
+      "controls_file": "runs/phase_arc_cd/arc_lifted_n12_controls.npz",
+      "word_sha256": "a30574af7b8b0ae5b4af6ed9c3c8aa041220b63d838256216407af974792991a",
+      "compiled": {
+        "arbitrary_commands": 2,
+        "triggers": 1,
+        "int16_values_compared": 1184
+      }
+    },
+    {
+      "name": "central_arc_gap50_half3_word0",
+      "gate": "cd",
+      "strength": 1.0,
+      "fidelity": 0.9764956454748386,
+      "worst_basis_fidelity": 0.943453396430301,
+      "accepted": false,
+      "sideband_mode": "phase_arc",
+      "command_us": 0.36,
+      "columns": 18,
+      "levels": 96,
+      "complex_amplitudes": 3456,
+      "independent_max_difference": 5.594315114139762e-16,
+      "peak_g": 6.636688750600726,
+      "peak_swap_ns": 236.6837418212078,
+      "qubit_frame_Rz": 0.0,
+      "cutoff_history": [
+        {
+          "levels": 64
+        },
+        {
+          "levels": 96,
+          "output_change": 4.0142871243298104e-80,
+          "target_change": 7.74340002005588e-16
+        }
+      ],
+      "recipe_file": "runs/central_arc_cd/central_arc_gap50_half3_word0_recipe.json",
+      "controls_file": "runs/central_arc_cd/central_arc_gap50_half3_word0_controls.npz",
+      "word_sha256": "928563b2718f55064f150ae52fcb01357317c47f25f7e76457ab25c8fe63e98c",
+      "compiled": {
+        "arbitrary_commands": 2,
+        "triggers": 1,
+        "int16_values_compared": 1152
+      }
+    },
+    {
+      "name": "squeeze_constant_reference",
+      "gate": "squeeze",
+      "strength": 0.9210340371976182,
+      "fidelity": 0.9901830898553813,
+      "worst_basis_fidelity": 0.9592830622288462,
+      "accepted": true,
+      "sideband_mode": "fixed",
+      "command_us": 4.8100000000000005,
+      "columns": 18,
+      "levels": 320,
+      "complex_amplitudes": 11520,
+      "independent_max_difference": 3.1207747653061754e-15,
+      "peak_g": 4.467943141696048,
+      "peak_swap_ns": 351.57034836361333,
+      "qubit_frame_Rz": -3.331687648435443,
+      "cutoff_history": [
+        {
+          "levels": 64
+        },
+        {
+          "levels": 96,
+          "output_change": 0.08437399712245382,
+          "target_change": 0.14484428431184065
+        },
+        {
+          "levels": 128,
+          "output_change": 0.001340038099075812,
+          "target_change": 0.004855427499729388
+        },
+        {
+          "levels": 192,
+          "output_change": 2.7677204462957378e-06,
+          "target_change": 9.434631670509811e-05
+        },
+        {
+          "levels": 256,
+          "output_change": 5.479622813046652e-25,
+          "target_change": 1.7076982799674414e-08
+        },
+        {
+          "levels": 320,
+          "output_change": 1.3046841630254699e-73,
+          "target_change": 1.8958399991252324e-12
+        }
+      ],
+      "recipe_file": "runs/research_verified/squeeze_constant_reference_recipe.json",
+      "controls_file": "runs/research_verified/squeeze_constant_reference_controls.npz",
+      "word_sha256": "fa1d3d531426553463789b8ff41b6f9003bac08d30312419b5d3c5058ee63ebb",
+      "compiled": {
+        "arbitrary_commands": 2,
+        "triggers": 1,
+        "int16_values_compared": 15392
+      }
+    },
+    {
+      "name": "cd_constant_reference",
+      "gate": "cd",
+      "strength": 1.0,
+      "fidelity": 0.9922779449668537,
+      "worst_basis_fidelity": 0.9799962457296741,
+      "accepted": true,
+      "sideband_mode": "fixed",
+      "command_us": 0.37,
+      "columns": 18,
+      "levels": 96,
+      "complex_amplitudes": 3456,
+      "independent_max_difference": 1.0339757656912846e-25,
+      "peak_g": 5.583422710925654,
+      "peak_swap_ns": 281.33215200080747,
+      "qubit_frame_Rz": 0.0,
+      "cutoff_history": [
+        {
+          "levels": 64
+        },
+        {
+          "levels": 96,
+          "output_change": 1.367021108500673e-72,
+          "target_change": 7.74340002005588e-16
+        }
+      ],
+      "recipe_file": "runs/research_verified/cd_constant_reference_recipe.json",
+      "controls_file": "runs/research_verified/cd_constant_reference_controls.npz",
+      "word_sha256": "09840da137021778c7a5debba115372dc219f02c0aa8cd8229c83a2c449f1e9d",
+      "compiled": {
+        "arbitrary_commands": 2,
+        "triggers": 1,
+        "int16_values_compared": 1184
+      }
+    }
+  ]
+}

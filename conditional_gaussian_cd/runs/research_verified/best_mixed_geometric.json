@@ -1,0 +1,35 @@
+{
+  "name": "best_mixed_geometric",
+  "gate": "cd",
+  "strength": 1.0,
+  "fidelity": 0.974376572115986,
+  "worst_basis_fidelity": 0.9262940123000586,
+  "accepted": false,
+  "sideband_mode": "fixed",
+  "command_us": 0.33,
+  "columns": 18,
+  "levels": 96,
+  "complex_amplitudes": 3456,
+  "independent_max_difference": 9.464979401424364e-16,
+  "peak_g": 6.317390248446922,
+  "peak_swap_ns": 248.64639748685204,
+  "qubit_frame_Rz": 0.0,
+  "cutoff_history": [
+    {
+      "levels": 64
+    },
+    {
+      "levels": 96,
+      "output_change": 4.65090385913483e-80,
+      "target_change": 7.74340002005588e-16
+    }
+  ],
+  "recipe_file": "runs/research_verified/best_mixed_geometric_recipe.json",
+  "controls_file": "runs/strategic_cd/best_mixed_geometric.npz",
+  "word_sha256": "9be9d3b6fc95e627402aeffd1b7bb4d2d8c6b96dbc72cc3f08c470954e47081e",
+  "compiled": {
+    "arbitrary_commands": 2,
+    "triggers": 1,
+    "int16_values_compared": 1056
+  }
+}

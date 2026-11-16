@@ -1,0 +1,20 @@
+[
+  {
+    "pattern": "alternating X/Xbar",
+    "fidelity": 0.5968445309973759,
+    "unwanted_first_moment": 0.38829336409169624,
+    "quadratic_diagnostic": 1.1565877693844658e-15
+  },
+  {
+    "pattern": "all X",
+    "fidelity": 0.888793922264226,
+    "unwanted_first_moment": 0.01386164165337514,
+    "quadratic_diagnostic": 0.05930595985315853
+  },
+  {
+    "pattern": "XX Xbar Xbar",
+    "fidelity": 0.9922779449668537,
+    "unwanted_first_moment": 0.013860757581488008,
+    "quadratic_diagnostic": 2.6632129913547656e-16
+  }
+]

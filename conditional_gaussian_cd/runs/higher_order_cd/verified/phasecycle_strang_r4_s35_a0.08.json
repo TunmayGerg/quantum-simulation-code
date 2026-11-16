@@ -1,0 +1,33 @@
+{
+  "name": "phasecycle_strang_r4_s35_a0.08",
+  "gate": "cd",
+  "fidelity": 0.994197813409997,
+  "ideal_device_fidelity": 0.9941960207656702,
+  "accepted": true,
+  "columns": 18,
+  "levels": 96,
+  "independent_amplitudes": 3456,
+  "independent_max_difference": 7.363936633046926e-16,
+  "command_us": 0.26,
+  "RFDC_window_us": 0.30421875,
+  "qubit_frame_Rz": 0.0,
+  "cutoff_history": [
+    {
+      "levels": 64
+    },
+    {
+      "levels": 96,
+      "output_change": 6.668276248455232e-162,
+      "target_change": 7.74340002005588e-16
+    }
+  ],
+  "worst_basis_fidelity": 0.9781861503712844,
+  "word_sha256": "c96ce9110b2835170af073f84701cc523800b981bbc0aee383e41430838eeba7",
+  "source_record": "phasecycle_strang_r4_s35_a0.08.json",
+  "compiled": {
+    "arbitrary_commands": 2,
+    "triggers": 1,
+    "int16_values_compared": 832
+  },
+  "pump_peak_DAC_magnitude": 0.7748790736270958
+}

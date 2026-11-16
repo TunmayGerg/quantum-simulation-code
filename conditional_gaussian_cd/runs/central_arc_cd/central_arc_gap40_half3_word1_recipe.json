@@ -1,0 +1,97 @@
+{
+  "name": "central_arc_gap40_half3_word1",
+  "gate": "cd",
+  "strength": 1.0,
+  "sideband_mode": "phase_arc",
+  "qubit_frame_Rz": 0.0,
+  "controls_file": "runs/central_arc_cd/central_arc_gap40_half3_word1_controls.npz",
+  "magnus_justification": "Mirrored finite qubit path cancels Omega2; a signed central JC dwell targets weighted cubic error.",
+  "phase_arcs": [
+    {
+      "center_sample": 127,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius",
+      "start_phase_rad": -0.9983412525840067,
+      "end_phase_rad": 0.8093443355939789
+    },
+    {
+      "center_sample": 152,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius",
+      "start_phase_rad": 0.8093443355939789,
+      "end_phase_rad": -0.9983412525840067
+    }
+  ],
+  "pulses": [
+    {
+      "start_sample": 4,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 0.0696963217932236,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 28,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 0.3897706829428234,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 52,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 0.7570015286834034,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 76,
+      "samples": 24,
+      "angle_fraction": 0.5,
+      "phase_rad": 0.8326984978959192,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 100,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 1.237771280000124,
+      "reversed_envelope": false
+    },
+    {
+      "start_sample": 156,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 4.379363933589917,
+      "reversed_envelope": true
+    },
+    {
+      "start_sample": 180,
+      "samples": 24,
+      "angle_fraction": 0.5,
+      "phase_rad": 3.9742911514857124,
+      "reversed_envelope": true
+    },
+    {
+      "start_sample": 204,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.8985941822731967,
+      "reversed_envelope": true
+    },
+    {
+      "start_sample": 228,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.5313633365326167,
+      "reversed_envelope": true
+    },
+    {
+      "start_sample": 252,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.2112889753830167,
+      "reversed_envelope": true
+    }
+  ]
+}

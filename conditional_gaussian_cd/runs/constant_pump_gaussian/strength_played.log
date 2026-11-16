@@ -1,0 +1,86 @@
+START SHAPED PLAYBACK FITS 44 jobs;10ns transitions;all18inputs
+PLAYBACK RESULT strength_cd_n10_pump0_swap275 F 0.8230610065436796 command 0.31 RFDCwindow 0.35421875 evaluations 24 seconds 5.531023949035443
+PLAYBACK FIT strength_cd_n10_pump0_swap225 eval 40 bestF 0.9743190885616995
+PLAYBACK FIT strength_cd_n10_pump0_swap250 eval 40 bestF 0.9535319156180944
+PLAYBACK FIT strength_cd_n10_pump0_swap200 eval 40 bestF 0.9266213786692248
+PLAYBACK FIT strength_cd_n10_pump0_swap175 eval 40 bestF 0.8707759873661862
+PLAYBACK FIT strength_cd_n10_pump0_swap150 eval 40 bestF 0.678850169450638
+PLAYBACK RESULT strength_cd_n10_pump0_swap250 F 0.9535319156180944 command 0.31 RFDCwindow 0.35421875 evaluations 43 seconds 9.180811582016759
+PLAYBACK RESULT strength_cd_n10_pump0_swap150 F 0.678850169450638 command 0.31 RFDCwindow 0.35421875 evaluations 51 seconds 11.08954239205923
+PLAYBACK RESULT strength_cd_n10_pump0_swap200 F 0.9266213786692248 command 0.31 RFDCwindow 0.35421875 evaluations 54 seconds 11.897819189005531
+PLAYBACK RESULT strength_cd_n10_pump0_swap300 F 0.6540514178901295 command 0.31 RFDCwindow 0.35421875 evaluations 34 seconds 7.3803569820011035
+PLAYBACK RESULT strength_cd_n10_pump0_swap350 F 0.35962443369952446 command 0.31 RFDCwindow 0.35421875 evaluations 19 seconds 3.9278787249932066
+PLAYBACK RESULT strength_cd_n10_pump0_swap175 F 0.8764829857513962 command 0.31 RFDCwindow 0.35421875 evaluations 68 seconds 13.995875858003274
+PLAYBACK RESULT strength_cd_n10_pump0_swap225 F 0.9743191289341656 command 0.31 RFDCwindow 0.35421875 evaluations 74 seconds 15.45498768100515
+PLAYBACK RESULT strength_cd_n10_pump0_swap400 F 0.17770827567078318 command 0.31 RFDCwindow 0.35421875 evaluations 20 seconds 4.6954085300676525
+PLAYBACK RESULT strength_cd_n10_pump0_swap500 F 0.04701793657359332 command 0.31 RFDCwindow 0.35421875 evaluations 36 seconds 8.321981213986874
+PLAYBACK FIT strength_cd_n10_pump1_swap150 eval 40 bestF 0.8503555135119286
+PLAYBACK FIT strength_cd_n10_pump0_swap600 eval 40 bestF 0.027011405833503477
+PLAYBACK FIT strength_cd_n10_pump1_swap175 eval 40 bestF 0.9070417509460837
+PLAYBACK RESULT strength_cd_n10_pump0_swap600 F 0.027011405833503477 command 0.31 RFDCwindow 0.35421875 evaluations 44 seconds 10.808570518973283
+PLAYBACK FIT strength_cd_n10_pump1_swap225 eval 40 bestF 0.9761435833200894
+PLAYBACK FIT strength_cd_n10_pump1_swap200 eval 40 bestF 0.9511748163431678
+PLAYBACK FIT strength_cd_n10_pump1_swap250 eval 40 bestF 0.9535388994190994
+PLAYBACK RESULT strength_cd_n10_pump1_swap225 F 0.9781714742521697 command 0.31 RFDCwindow 0.35421875 evaluations 67 seconds 14.444529500906356
+PLAYBACK FIT strength_cd_n10_pump1_swap150 eval 80 bestF 0.8833909879639886
+PLAYBACK FIT strength_cd_n10_pump1_swap175 eval 80 bestF 0.9487283867884159
+PLAYBACK RESULT strength_cd_n10_pump1_swap275 F 0.8231400937445943 command 0.31 RFDCwindow 0.35421875 evaluations 37 seconds 8.193828623043373
+PLAYBACK RESULT strength_cd_n10_pump1_swap150 F 0.8835723760365529 command 0.31 RFDCwindow 0.35421875 evaluations 90 seconds 19.871231225901283
+PLAYBACK RESULT strength_cd_n10_pump1_swap250 F 0.9535388994190994 command 0.31 RFDCwindow 0.35421875 evaluations 62 seconds 12.845893196994439
+PLAYBACK RESULT strength_cd_n10_pump1_swap175 F 0.961690663682644 command 0.31 RFDCwindow 0.35421875 evaluations 90 seconds 19.405779880005866
+PLAYBACK FIT strength_cd_n10_pump1_swap200 eval 80 bestF 0.9694351605189443
+PLAYBACK RESULT strength_cd_n10_pump1_swap200 F 0.9731727446099475 command 0.31 RFDCwindow 0.35421875 evaluations 90 seconds 21.24180503305979
+PLAYBACK RESULT strength_cd_n10_pump1_swap400 F 0.17752479989166248 command 0.31 RFDCwindow 0.35421875 evaluations 24 seconds 5.0325920030009
+PLAYBACK RESULT strength_cd_n10_pump1_swap350 F 0.3595552276233567 command 0.31 RFDCwindow 0.35421875 evaluations 31 seconds 6.721965030999854
+PLAYBACK FIT strength_cd_n10_pump1_swap300 eval 40 bestF 0.6540719106511342
+PLAYBACK RESULT strength_cd_n10_pump1_swap300 F 0.6540719106511342 command 0.31 RFDCwindow 0.35421875 evaluations 50 seconds 10.583042087964714
+PLAYBACK FIT strength_cd_n10_pump1_swap500 eval 40 bestF 0.04789554229628257
+PLAYBACK FIT strength_cd_n10_pump1_swap600 eval 40 bestF 0.027379276741747338
+PLAYBACK FIT strength_cd_n12_pump0_swap150 eval 40 bestF 0.6673784869326481
+PLAYBACK FIT strength_cd_n12_pump0_swap175 eval 40 bestF 0.8398739981188983
+PLAYBACK RESULT strength_cd_n10_pump1_swap500 F 0.04789554639485494 command 0.31 RFDCwindow 0.35421875 evaluations 68 seconds 15.27845789596904
+PLAYBACK FIT strength_cd_n12_pump0_swap200 eval 40 bestF 0.8775171640539758
+PLAYBACK RESULT strength_cd_n10_pump1_swap600 F 0.027382941810735417 command 0.31 RFDCwindow 0.35421875 evaluations 71 seconds 15.108863426954485
+PLAYBACK RESULT strength_cd_n12_pump0_swap225 F 0.9362226838786697 command 0.37 RFDCwindow 0.41421875 evaluations 37 seconds 9.442027923068963
+PLAYBACK RESULT strength_cd_n12_pump0_swap150 F 0.6673784869326481 command 0.37 RFDCwindow 0.41421875 evaluations 63 seconds 15.504457572009414
+PLAYBACK RESULT strength_cd_n12_pump0_swap200 F 0.8784290085628221 command 0.37 RFDCwindow 0.41421875 evaluations 67 seconds 16.13467292697169
+PLAYBACK RESULT strength_cd_n12_pump0_swap175 F 0.8563739440145757 command 0.37 RFDCwindow 0.41421875 evaluations 73 seconds 17.603926245938055
+PLAYBACK FIT strength_cd_n12_pump0_swap250 eval 40 bestF 0.9801494714165792
+PLAYBACK FIT strength_cd_n12_pump0_swap275 eval 40 bestF 0.9922649736638021
+PLAYBACK RESULT strength_cd_n12_pump0_swap300 F 0.9660061619754062 command 0.37 RFDCwindow 0.41421875 evaluations 36 seconds 8.844982989947312
+PLAYBACK RESULT strength_cd_n12_pump0_swap350 F 0.7180734528850611 command 0.37 RFDCwindow 0.41421875 evaluations 34 seconds 8.316688018967398
+PLAYBACK RESULT strength_cd_n12_pump0_swap500 F 0.13743552309071527 command 0.37 RFDCwindow 0.41421875 evaluations 22 seconds 5.748931898036972
+PLAYBACK RESULT strength_cd_n12_pump0_swap400 F 0.44796033505286714 command 0.37 RFDCwindow 0.41421875 evaluations 29 seconds 7.319810287910514
+PLAYBACK RESULT strength_cd_n12_pump0_swap275 F 0.9922655701128076 command 0.37 RFDCwindow 0.41421875 evaluations 73 seconds 18.03259485703893
+PLAYBACK FIT strength_cd_n12_pump0_swap250 eval 80 bestF 0.982912322722194
+PLAYBACK RESULT strength_cd_n12_pump0_swap250 F 0.982912322722194 command 0.37 RFDCwindow 0.41421875 evaluations 81 seconds 19.395005687954836
+PLAYBACK RESULT strength_cd_n12_pump0_swap600 F 0.04708682752793403 command 0.37 RFDCwindow 0.41421875 evaluations 35 seconds 8.968906777910888
+PLAYBACK FIT strength_cd_n12_pump1_swap150 eval 40 bestF 0.9307717725958834
+PLAYBACK FIT strength_cd_n12_pump1_swap175 eval 40 bestF 0.9555942828373389
+PLAYBACK FIT strength_cd_n12_pump1_swap200 eval 40 bestF 0.9678695007530359
+PLAYBACK FIT strength_cd_n12_pump1_swap225 eval 40 bestF 0.9848853007108108
+PLAYBACK FIT strength_cd_n12_pump1_swap275 eval 40 bestF 0.9932519127252308
+PLAYBACK FIT strength_cd_n12_pump1_swap250 eval 40 bestF 0.9911960581816578
+PLAYBACK FIT strength_cd_n12_pump1_swap150 eval 80 bestF 0.9405477976732853
+PLAYBACK RESULT strength_cd_n12_pump1_swap275 F 0.9932519127252308 command 0.37 RFDCwindow 0.41421875 evaluations 56 seconds 13.188188177999109
+PLAYBACK FIT strength_cd_n12_pump1_swap175 eval 80 bestF 0.9623707013389957
+PLAYBACK FIT strength_cd_n12_pump1_swap200 eval 80 bestF 0.9780972443627673
+PLAYBACK RESULT strength_cd_n12_pump1_swap150 F 0.9426213288926579 command 0.37 RFDCwindow 0.41421875 evaluations 90 seconds 21.816993582993746
+PLAYBACK RESULT strength_cd_n12_pump1_swap250 F 0.9912013051529698 command 0.37 RFDCwindow 0.41421875 evaluations 63 seconds 15.691707190941088
+PLAYBACK RESULT strength_cd_n12_pump1_swap175 F 0.9640629660895247 command 0.37 RFDCwindow 0.41421875 evaluations 90 seconds 22.29989431798458
+PLAYBACK RESULT strength_cd_n12_pump1_swap200 F 0.9807940904222543 command 0.37 RFDCwindow 0.41421875 evaluations 90 seconds 22.379285856964998
+PLAYBACK FIT strength_cd_n12_pump1_swap225 eval 80 bestF 0.9875885109972646
+PLAYBACK RESULT strength_cd_n12_pump1_swap225 F 0.9879315761065849 command 0.37 RFDCwindow 0.41421875 evaluations 90 seconds 22.871419258997776
+PLAYBACK RESULT strength_cd_n12_pump1_swap500 F 0.1375186702109562 command 0.37 RFDCwindow 0.41421875 evaluations 29 seconds 7.3903937980066985
+PLAYBACK FIT strength_cd_n12_pump1_swap300 eval 40 bestF 0.9658955703591038
+PLAYBACK FIT strength_cd_n12_pump1_swap350 eval 40 bestF 0.7178791103161362
+PLAYBACK FIT strength_cd_n12_pump1_swap400 eval 40 bestF 0.44786010613741434
+PLAYBACK FIT strength_cd_n12_pump1_swap600 eval 40 bestF 0.04760684995071962
+PLAYBACK RESULT strength_cd_n12_pump1_swap600 F 0.04760686322782026 command 0.37 RFDCwindow 0.41421875 evaluations 65 seconds 16.496880674967542
+PLAYBACK FIT strength_cd_n12_pump1_swap300 eval 80 bestF 0.9659849015849205
+PLAYBACK RESULT strength_cd_n12_pump1_swap300 F 0.9659849015849205 command 0.37 RFDCwindow 0.41421875 evaluations 84 seconds 20.837650638073683
+PLAYBACK FIT strength_cd_n12_pump1_swap350 eval 80 bestF 0.7179342374975364
+PLAYBACK FIT strength_cd_n12_pump1_swap400 eval 80 bestF 0.447885003364759
+PLAYBACK RESULT strength_cd_n12_pump1_swap400 F 0.447885003364759 command 0.37 RFDCwindow 0.41421875 evaluations 80 seconds 20.298211610061117
+PLAYBACK RESULT strength_cd_n12_pump1_swap350 F 0.7179342374975364 command 0.37 RFDCwindow 0.41421875 evaluations 90 seconds 23.395822281949222
+FINAL SHAPED FIT COUNTS 44 jobs; 2524 actualplaybackevaluations

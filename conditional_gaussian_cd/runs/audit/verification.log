@@ -1,0 +1,19 @@
+FUNDAMENTALS {'independent_target_amplitudes': 1728, 'cell_vs_direct_amplitudes': 576, 'cell_vs_direct_max_difference': 1.2165050633956079e-14, 'gradient_directions': 12, 'gradient_max_difference': 2.9250379895984224e-11}
+START AUDIT 16 complete gates, four CPU workers
+AUDITED 1 / 16 final 3 F 0.9995488184824812 levels 256 columns 18 amplitudes 9216 maxdiff 1.1611273459543844e-14
+AUDITED 2 / 16 final 1 F 0.9968800671882325 levels 256 columns 18 amplitudes 9216 maxdiff 6.0785700729133435e-15
+AUDITED 3 / 16 final 4 F 0.9996815610497007 levels 96 columns 18 amplitudes 3456 maxdiff 9.360174372633698e-15
+AUDITED 4 / 16 final 0 F 0.9993040026384101 levels 256 columns 18 amplitudes 9216 maxdiff 7.740699757211915e-15
+AUDITED 5 / 16 final 2 F 0.9944384104156853 levels 256 columns 18 amplitudes 9216 maxdiff 1.1195500192315882e-15
+AUDITED 6 / 16 cd_final 0 F 0.9993256710424002 levels 96 columns 22 amplitudes 4224 maxdiff 1.3345526589318008e-15
+AUDITED 7 / 16 cd_final 1 F 0.9965620473468699 levels 96 columns 22 amplitudes 4224 maxdiff 1.1046797549572284e-15
+AUDITED 8 / 16 cd_final 2 F 0.9993323929374771 levels 96 columns 22 amplitudes 4224 maxdiff 1.3494152894624619e-15
+AUDITED 9 / 16 final 7 F 0.9998244992381216 levels 96 columns 18 amplitudes 3456 maxdiff 6.786905133705689e-15
+AUDITED 10 / 16 cd_final 3 F 0.9932877255133397 levels 96 columns 22 amplitudes 4224 maxdiff 1.2351231148954867e-15
+AUDITED 11 / 16 final 5 F 0.9959729862425999 levels 96 columns 18 amplitudes 3456 maxdiff 1.0431961803302743e-14
+AUDITED 12 / 16 cd_final 4 F 0.9999617054633285 levels 96 columns 22 amplitudes 4224 maxdiff 3.751651677682203e-15
+AUDITED 13 / 16 cd_final 5 F 0.9989017837521021 levels 96 columns 22 amplitudes 4224 maxdiff 1.3340734093775518e-15
+AUDITED 14 / 16 cd_final 7 F 0.995082373171894 levels 96 columns 22 amplitudes 4224 maxdiff 1.4684411169619839e-15
+AUDITED 15 / 16 cd_final 6 F 0.9997022218270855 levels 96 columns 22 amplitudes 4224 maxdiff 2.6808050882226297e-15
+AUDITED 16 / 16 final 6 F 0.9992862573064768 levels 256 columns 18 amplitudes 9216 maxdiff 6.798753113497235e-15
+FINAL AUDIT COUNTS 16 gates; 320 columns; 90240 independent amplitudes; 223232 int16 entries

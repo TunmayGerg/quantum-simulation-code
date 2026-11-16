@@ -1,0 +1,28 @@
+[
+ {
+  "name": "squeeze_8db",
+  "levels": 256,
+  "fidelity": 0.990723654530072,
+  "worst_input": 0.9619710754047207,
+  "samples": 23387,
+  "time_us": 3.65421875,
+  "filtered_peak_g": 5.579536752378762,
+  "peak_equivalent_swap_ns": 281.52809032491956,
+  "norm_error": 1.5787371410169726e-13,
+  "codex_fidelity": 0.9907236545300745,
+  "codex_peak_swap_ns": 281.52809032491956
+ },
+ {
+  "name": "squeeze_8db",
+  "levels": 288,
+  "fidelity": 0.9907236545300714,
+  "worst_input": 0.9619710754047245,
+  "samples": 23387,
+  "time_us": 3.65421875,
+  "filtered_peak_g": 5.579536752378762,
+  "peak_equivalent_swap_ns": 281.52809032491956,
+  "norm_error": 1.5654144647214707e-13,
+  "codex_fidelity": 0.9907236545300745,
+  "codex_peak_swap_ns": 281.52809032491956
+ }
+]

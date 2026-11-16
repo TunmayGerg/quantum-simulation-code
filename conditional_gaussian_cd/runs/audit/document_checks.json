@@ -1,0 +1,44 @@
+[
+  {
+    "file": "README.md",
+    "equations": 8,
+    "display_equations": 8,
+    "local_links_checked": 20,
+    "html_files_written": 0
+  },
+  {
+    "file": "conditional_gaussian_gates.ipynb",
+    "equations": 5,
+    "display_equations": 2,
+    "local_links_checked": 5,
+    "html_files_written": 0
+  },
+  {
+    "file": "fast_conditional_displacement.ipynb",
+    "equations": 10,
+    "display_equations": 6,
+    "local_links_checked": 3,
+    "html_files_written": 0
+  },
+  {
+    "file": "coupler_phase_transients.ipynb",
+    "equations": 26,
+    "display_equations": 4,
+    "local_links_checked": 2,
+    "html_files_written": 0
+  },
+  {
+    "file": "modulated_swap200.ipynb",
+    "equations": 8,
+    "display_equations": 4,
+    "local_links_checked": 3,
+    "html_files_written": 0
+  },
+  {
+    "file": "phase_controlled_cd.ipynb",
+    "equations": 4,
+    "display_equations": 4,
+    "local_links_checked": 8,
+    "html_files_written": 0
+  }
+]

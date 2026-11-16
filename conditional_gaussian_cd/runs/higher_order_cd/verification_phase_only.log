@@ -1,0 +1,4 @@
+START NEW-STUDY VERIFICATION 2 records;all18inputs
+CHECKED phase_only_r3 F 0.9691511578524135 ideal_deviceF 0.9691472779153621 columns18;amplitudes 3456 cutoff 96 independenterror 5.552085744643404e-16 accepted False
+CHECKED phase_only_r4 F 0.993774990576139 ideal_deviceF 0.9937732334648065 columns18;amplitudes 3456 cutoff 96 independenterror 1.1111387977708232e-15 accepted True
+FINAL NEW-STUDY COMPARISONS 2 records; 36 columns; 6912 amplitudes; 1 above99%

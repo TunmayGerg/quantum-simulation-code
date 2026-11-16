@@ -1,0 +1,33 @@
+{
+  "name": "overlap_strang_r5_s50",
+  "gate": "cd",
+  "fidelity": 0.9976895766255565,
+  "ideal_device_fidelity": 0.9976891741196934,
+  "accepted": true,
+  "columns": 18,
+  "levels": 96,
+  "independent_amplitudes": 3456,
+  "independent_max_difference": 5.169878840984842e-26,
+  "command_us": 0.335,
+  "RFDC_window_us": 0.37921875,
+  "qubit_frame_Rz": 0.0,
+  "cutoff_history": [
+    {
+      "levels": 64
+    },
+    {
+      "levels": 96,
+      "output_change": 4.5964375236095067e-156,
+      "target_change": 7.74340002005588e-16
+    }
+  ],
+  "worst_basis_fidelity": 0.9913996550422383,
+  "word_sha256": "2bc057bd019851b4e55f23fa9b83ce6d549ffbb3bfd8f09b0c9ea2a7f1b4e95b",
+  "source_record": "overlap_strang_r5_s50.json",
+  "compiled": {
+    "arbitrary_commands": 2,
+    "triggers": 1,
+    "int16_values_compared": 1072
+  },
+  "pump_peak_DAC_magnitude": 0.515228271484375
+}

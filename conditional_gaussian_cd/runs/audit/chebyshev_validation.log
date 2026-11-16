@@ -1,0 +1,2 @@
+START SAME-HAMILTONIAN Chebyshev/Taylor comparison, full cosine
+CHEBYSHEV COMPARISON {'amplitudes': 96, 'columns': 4, 'max_difference': 1.9801062767612408e-12, 'Taylor_seconds': 1.2151419060537592, 'Chebyshev_seconds': 0.4825278059579432, 'Taylor_order': 12, 'Chebyshev_order': 12}

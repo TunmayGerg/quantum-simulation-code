@@ -1,0 +1,23 @@
+{
+  "independent_cosine_matrix_elements": 576,
+  "cosine_max_difference": 2.220446049250313e-16,
+  "DOP853_derivative_evaluations": 407210,
+  "checks": [
+    {
+      "timestep_ns": 0.01,
+      "amplitudes": 96,
+      "max_difference": 3.898025555118309e-06
+    },
+    {
+      "timestep_ns": 0.005,
+      "amplitudes": 96,
+      "max_difference": 2.4544856408955917e-07
+    },
+    {
+      "timestep_ns": 0.0025,
+      "amplitudes": 96,
+      "max_difference": 5.519529636932204e-08
+    }
+  ],
+  "elapsed_seconds": 11.228115299949422
+}

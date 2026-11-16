@@ -1,0 +1,4 @@
+START NEW-STUDY VERIFICATION 2 records;all18inputs
+CHECKED dcg_generator_weight0.005 F 0.9931405992217037 ideal_deviceF 0.9931390013361877 columns18;amplitudes 3456 cutoff 96 independenterror 2.7465248559510297e-25 accepted True
+CHECKED dcg_generator_weight0.02 F 0.9898660219483529 ideal_deviceF 0.9898647450317817 columns18;amplitudes 3456 cutoff 96 independenterror 4.345930445895684e-25 accepted False
+FINAL NEW-STUDY COMPARISONS 2 records; 36 columns; 6912 amplitudes; 1 above99%

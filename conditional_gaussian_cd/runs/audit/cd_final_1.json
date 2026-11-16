@@ -1,0 +1,34 @@
+{
+  "fidelity": 0.9965620473468699,
+  "worst_input_fidelity": 0.9877449689100279,
+  "levels": 96,
+  "cutoff_history": [
+    {
+      "levels": 64,
+      "fidelity": 0.9965620473468704,
+      "columns": 22
+    },
+    {
+      "levels": 96,
+      "fidelity": 0.9965620473468699,
+      "columns": 22,
+      "output_column_change": 4.799528992897155e-56,
+      "target_column_change": 8.791502922121676e-16
+    }
+  ],
+  "command_time_us": 0.49,
+  "simulated_time_us": 0.53421875,
+  "columns": 22,
+  "complex_amplitudes": 4224,
+  "RFDC_samples": 3419,
+  "group": "cd_final",
+  "index": 1,
+  "independent_max_difference": 1.1046797549572284e-15,
+  "compiled": {
+    "arbitrary_commands": 2,
+    "triggers": 1,
+    "int16_values_compared": 1568
+  },
+  "qubit_DAC_phase_sign": -1,
+  "word_sha256": "17cacde7bc893e2db7abf78c7ff09a616c7c22aca55c55316e237aa588917e5e"
+}

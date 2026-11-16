@@ -1,0 +1,55 @@
+{
+  "fidelity": 0.9944384104156853,
+  "worst_input_fidelity": 0.9775204046100686,
+  "levels": 256,
+  "cutoff_history": [
+    {
+      "levels": 128,
+      "fidelity": 0.9944384104312061,
+      "columns": 18
+    },
+    {
+      "levels": 160,
+      "fidelity": 0.9944384104156848,
+      "columns": 18,
+      "output_column_change": 2.49672138575222e-06,
+      "target_column_change": 9.434355667122615e-05
+    },
+    {
+      "levels": 192,
+      "fidelity": 0.9944384104156857,
+      "columns": 18,
+      "output_column_change": 1.6753575862476735e-11,
+      "target_column_change": 1.3834121761600571e-06
+    },
+    {
+      "levels": 224,
+      "fidelity": 0.9944384104156853,
+      "columns": 18,
+      "output_column_change": 2.928686906284322e-28,
+      "target_column_change": 1.707654535259484e-08
+    },
+    {
+      "levels": 256,
+      "fidelity": 0.9944384104156853,
+      "columns": 18,
+      "output_column_change": 5.291052608459671e-57,
+      "target_column_change": 1.8763683261109632e-10
+    }
+  ],
+  "command_time_us": 7.61,
+  "simulated_time_us": 7.65421875,
+  "columns": 18,
+  "complex_amplitudes": 9216,
+  "RFDC_samples": 48987,
+  "group": "final",
+  "index": 2,
+  "independent_max_difference": 1.1195500192315882e-15,
+  "compiled": {
+    "arbitrary_commands": 2,
+    "triggers": 1,
+    "int16_values_compared": 24352
+  },
+  "qubit_DAC_phase_sign": -1,
+  "word_sha256": "dae80a462c2f511e2719c62a422419426fc9b9e158a0e8ec30dfae25d8f4f4ae"
+}

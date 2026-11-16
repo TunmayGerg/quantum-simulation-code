@@ -1,0 +1,33 @@
+{
+  "name": "dcg_generator_weight0.005",
+  "gate": "cd",
+  "fidelity": 0.9931405992217037,
+  "ideal_device_fidelity": 0.9931390013361877,
+  "accepted": true,
+  "columns": 18,
+  "levels": 96,
+  "independent_amplitudes": 3456,
+  "independent_max_difference": 2.7465248559510297e-25,
+  "command_us": 0.26,
+  "RFDC_window_us": 0.30421875,
+  "qubit_frame_Rz": 0.0,
+  "cutoff_history": [
+    {
+      "levels": 64
+    },
+    {
+      "levels": 96,
+      "output_change": 2.2227587494850775e-162,
+      "target_change": 7.74340002005588e-16
+    }
+  ],
+  "worst_basis_fidelity": 0.9732697602193777,
+  "word_sha256": "3848fc5001a9f39591e0781af763c10d5158851030c52d1bf10068ada127c0f4",
+  "source_record": "dcg_generator_weight0.005.json",
+  "compiled": {
+    "arbitrary_commands": 2,
+    "triggers": 1,
+    "int16_values_compared": 832
+  },
+  "pump_peak_DAC_magnitude": 0.7440185546875
+}

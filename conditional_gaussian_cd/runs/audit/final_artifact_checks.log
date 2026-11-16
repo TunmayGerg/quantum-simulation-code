@@ -1,0 +1,8 @@
+LIBRARY ARTIFACT COMPARISONS:16gates;320columns;90240amplitudes;16word hashes
+SHARED FAMILY ARTIFACT COMPARISONS:40gates;880columns;174592amplitudes;40word hashes
+MICROSCOPIC ARTIFACT constant rawF 0.9771801111754685 correctedF 0.9936437929589557 columns18;rawandcorrectedamplitudes11520
+MICROSCOPIC ARTIFACT cartesian rawF 0.9739662374979522 correctedF 0.9928514468002668 columns18;rawandcorrectedamplitudes11520
+NOTEBOOK OUTPUT CHECK {'file': 'conditional_gaussian_gates.ipynb', 'cells': 34, 'executed_code_cells': 15, 'embedded_figures': 46, 'errors': 0, 'notebook_sha256': 'd2bafb2a46dc2d05e1a0a4608d4555cf638db94c8e0d3dfa9ed651407028c71e', 'execution_log': 'notebook_execution.log'}
+NOTEBOOK OUTPUT CHECK {'file': 'fast_conditional_displacement.ipynb', 'cells': 34, 'executed_code_cells': 16, 'embedded_figures': 47, 'errors': 0, 'notebook_sha256': 'b1526d8709deac6dfaf010d89b89652094a1cb48addfb52d2058b9d8d2aadef4', 'execution_log': 'cd_notebook_execution.log'}
+NOTEBOOK OUTPUT CHECK {'file': 'coupler_phase_transients.ipynb', 'cells': 19, 'executed_code_cells': 9, 'embedded_figures': 7, 'errors': 0, 'notebook_sha256': '191a4c2025f2e5f4256e7f2a3910b1f454deb43640f01cc3f9157686e92a8267', 'execution_log': 'coupler_notebook_execution.log'}
+FINAL COUNTS:16library+40shared+2microscopicgates;3executednotebooks;40codecells;100figures;SDKhashunchanged

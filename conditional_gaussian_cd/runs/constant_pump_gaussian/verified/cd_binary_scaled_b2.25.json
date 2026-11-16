@@ -1,0 +1,40 @@
+{
+  "name": "cd_binary_scaled_b2.25",
+  "gate": "cd",
+  "strength": 2.25,
+  "fidelity": 0.993641107986031,
+  "worst_basis_fidelity": 0.9848036868215733,
+  "columns": 18,
+  "levels": 96,
+  "complex_amplitudes": 3456,
+  "independent_max_difference": 3.1554436208840472e-30,
+  "command_us": 1.45,
+  "RFDC_window_us": 1.49421875,
+  "qubit_frame_Rz": 0.0,
+  "cutoff_history": [
+    {
+      "levels": 64,
+      "fidelity": 0.993641107986031
+    },
+    {
+      "levels": 96,
+      "fidelity": 0.993641107986031,
+      "output_change": 6.378261788386903e-23,
+      "target_change": 5.517415243865559e-15
+    }
+  ],
+  "compiled": {
+    "arbitrary_commands": 2,
+    "triggers": 1,
+    "int16_values_compared": 4640
+  },
+  "pump_phase_constant": true,
+  "pump_transition_ns": 0,
+  "word_sha256": "9e311dc4d237aad1241ddcaa8d34b166c9c9c462443e8c84c0e52ed1014018ff",
+  "source_record": "cd_binary_scaled_b2.25.json",
+  "g_rad_per_us": 3.1264848564279126,
+  "equivalent_swap_ns": 502.4160995264089,
+  "qubit_pi_DAC_scale": 0.43779166666666675,
+  "pump_plateau_DAC_scale": 0.05374031609546535,
+  "programmed_NCO_changes": false
+}

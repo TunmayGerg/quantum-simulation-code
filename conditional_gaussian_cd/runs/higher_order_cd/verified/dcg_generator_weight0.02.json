@@ -1,0 +1,27 @@
+{
+  "name": "dcg_generator_weight0.02",
+  "gate": "cd",
+  "fidelity": 0.9898660219483529,
+  "ideal_device_fidelity": 0.9898647450317817,
+  "accepted": false,
+  "columns": 18,
+  "levels": 96,
+  "independent_amplitudes": 3456,
+  "independent_max_difference": 4.345930445895684e-25,
+  "command_us": 0.26,
+  "RFDC_window_us": 0.30421875,
+  "qubit_frame_Rz": 0.0,
+  "cutoff_history": [
+    {
+      "levels": 64
+    },
+    {
+      "levels": 96,
+      "output_change": 0.0,
+      "target_change": 7.74340002005588e-16
+    }
+  ],
+  "worst_basis_fidelity": 0.962704574364418,
+  "word_sha256": "26ceaba6ba921b51d17fe58c2266bc4ad14e1e00befb670568e6cb1d887a63df",
+  "source_record": "dcg_generator_weight0.02.json"
+}

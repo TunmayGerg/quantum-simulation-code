@@ -1,0 +1,35 @@
+{
+  "name": "central_arc_gap50_half3_word0",
+  "gate": "cd",
+  "strength": 1.0,
+  "fidelity": 0.9764956454748386,
+  "worst_basis_fidelity": 0.943453396430301,
+  "accepted": false,
+  "sideband_mode": "phase_arc",
+  "command_us": 0.36,
+  "columns": 18,
+  "levels": 96,
+  "complex_amplitudes": 3456,
+  "independent_max_difference": 5.594315114139762e-16,
+  "peak_g": 6.636688750600726,
+  "peak_swap_ns": 236.6837418212078,
+  "qubit_frame_Rz": 0.0,
+  "cutoff_history": [
+    {
+      "levels": 64
+    },
+    {
+      "levels": 96,
+      "output_change": 4.0142871243298104e-80,
+      "target_change": 7.74340002005588e-16
+    }
+  ],
+  "recipe_file": "runs/central_arc_cd/central_arc_gap50_half3_word0_recipe.json",
+  "controls_file": "runs/central_arc_cd/central_arc_gap50_half3_word0_controls.npz",
+  "word_sha256": "928563b2718f55064f150ae52fcb01357317c47f25f7e76457ab25c8fe63e98c",
+  "compiled": {
+    "arbitrary_commands": 2,
+    "triggers": 1,
+    "int16_values_compared": 1152
+  }
+}
