@@ -1,0 +1,575 @@
+{
+  "waveforms": 63,
+  "random_waveforms": 60,
+  "max_ratio": 0.9917714627840281,
+  "rows": [
+    {
+      "trial": 0,
+      "pulses": 10,
+      "arcs": 12,
+      "dips": 0,
+      "displacement": 0.13588071821116757,
+      "half_area": 0.41768738575578435,
+      "ratio": 0.32531678677654635
+    },
+    {
+      "trial": 1,
+      "pulses": 12,
+      "arcs": 16,
+      "dips": 0,
+      "displacement": 0.07150274458367435,
+      "half_area": 1.112503047237061,
+      "ratio": 0.06427195391621969
+    },
+    {
+      "trial": 2,
+      "pulses": 4,
+      "arcs": 6,
+      "dips": 0,
+      "displacement": 0.13406904007334872,
+      "half_area": 0.37170820064579874,
+      "ratio": 0.3606835680257248
+    },
+    {
+      "trial": 3,
+      "pulses": 10,
+      "arcs": 12,
+      "dips": 0,
+      "displacement": 0.17270504581086238,
+      "half_area": 0.7523723672389554,
+      "ratio": 0.2295473004207381
+    },
+    {
+      "trial": 4,
+      "pulses": 6,
+      "arcs": 9,
+      "dips": 0,
+      "displacement": 0.48455644753648613,
+      "half_area": 0.8090397745496326,
+      "ratio": 0.5989278435738511
+    },
+    {
+      "trial": 5,
+      "pulses": 12,
+      "arcs": 14,
+      "dips": 0,
+      "displacement": 0.1238895646766425,
+      "half_area": 0.890938740396281,
+      "ratio": 0.1390550876949605
+    },
+    {
+      "trial": 6,
+      "pulses": 12,
+      "arcs": 12,
+      "dips": 0,
+      "displacement": 0.23243773896194206,
+      "half_area": 1.1576348744159524,
+      "ratio": 0.20078674554376316
+    },
+    {
+      "trial": 7,
+      "pulses": 6,
+      "arcs": 10,
+      "dips": 0,
+      "displacement": 0.10487983696275444,
+      "half_area": 0.2683248922850543,
+      "ratio": 0.3908688309519029
+    },
+    {
+      "trial": 8,
+      "pulses": 12,
+      "arcs": 13,
+      "dips": 0,
+      "displacement": 0.05510448936286449,
+      "half_area": 0.6325343265196562,
+      "ratio": 0.08711699437097996
+    },
+    {
+      "trial": 9,
+      "pulses": 6,
+      "arcs": 9,
+      "dips": 0,
+      "displacement": 0.15545934332497285,
+      "half_area": 0.4631556581313089,
+      "ratio": 0.3356524757836354
+    },
+    {
+      "trial": 10,
+      "pulses": 4,
+      "arcs": 5,
+      "dips": 0,
+      "displacement": 0.11173362864842043,
+      "half_area": 0.23155966909270118,
+      "ratio": 0.48252629262347785
+    },
+    {
+      "trial": 11,
+      "pulses": 8,
+      "arcs": 10,
+      "dips": 1,
+      "displacement": 0.024519693954730932,
+      "half_area": 0.4113613468483015,
+      "ratio": 0.059606217605498814
+    },
+    {
+      "trial": 12,
+      "pulses": 10,
+      "arcs": 10,
+      "dips": 0,
+      "displacement": 0.16065899716344972,
+      "half_area": 0.47838442769834616,
+      "ratio": 0.335836594716156
+    },
+    {
+      "trial": 13,
+      "pulses": 12,
+      "arcs": 13,
+      "dips": 0,
+      "displacement": 0.02575479582973649,
+      "half_area": 0.4261510648901877,
+      "ratio": 0.06043583590803201
+    },
+    {
+      "trial": 14,
+      "pulses": 10,
+      "arcs": 10,
+      "dips": 1,
+      "displacement": 0.15932517008889793,
+      "half_area": 0.8204399930283163,
+      "ratio": 0.19419478748325603
+    },
+    {
+      "trial": 15,
+      "pulses": 10,
+      "arcs": 15,
+      "dips": 0,
+      "displacement": 0.045711432755664,
+      "half_area": 0.4137881661122483,
+      "ratio": 0.11047061394999842
+    },
+    {
+      "trial": 16,
+      "pulses": 10,
+      "arcs": 12,
+      "dips": 0,
+      "displacement": 0.1751513590078139,
+      "half_area": 1.229774168092838,
+      "ratio": 0.1424256286659872
+    },
+    {
+      "trial": 17,
+      "pulses": 10,
+      "arcs": 11,
+      "dips": 0,
+      "displacement": 0.27129220523532505,
+      "half_area": 1.206091200581965,
+      "ratio": 0.22493506718598122
+    },
+    {
+      "trial": 18,
+      "pulses": 10,
+      "arcs": 10,
+      "dips": 0,
+      "displacement": 0.2994827984970794,
+      "half_area": 1.1388687634653811,
+      "ratio": 0.2629651528818869
+    },
+    {
+      "trial": 19,
+      "pulses": 12,
+      "arcs": 18,
+      "dips": 0,
+      "displacement": 0.13019799123587036,
+      "half_area": 0.8219124883707466,
+      "ratio": 0.1584085813003743
+    },
+    {
+      "trial": 20,
+      "pulses": 8,
+      "arcs": 9,
+      "dips": 0,
+      "displacement": 0.18114899772744378,
+      "half_area": 0.7937224992383541,
+      "ratio": 0.22822711703557857
+    },
+    {
+      "trial": 21,
+      "pulses": 8,
+      "arcs": 10,
+      "dips": 0,
+      "displacement": 0.2876143772643795,
+      "half_area": 0.7097641636386729,
+      "ratio": 0.4052252734061653
+    },
+    {
+      "trial": 22,
+      "pulses": 4,
+      "arcs": 6,
+      "dips": 0,
+      "displacement": 0.1409678058235539,
+      "half_area": 0.2286758929849678,
+      "ratio": 0.6164524121168318
+    },
+    {
+      "trial": 23,
+      "pulses": 4,
+      "arcs": 4,
+      "dips": 0,
+      "displacement": 0.19193005650031486,
+      "half_area": 0.4362378106895255,
+      "ratio": 0.43996657739719236
+    },
+    {
+      "trial": 24,
+      "pulses": 6,
+      "arcs": 8,
+      "dips": 0,
+      "displacement": 0.16285556490062875,
+      "half_area": 0.4612984319434012,
+      "ratio": 0.35303732599856363
+    },
+    {
+      "trial": 25,
+      "pulses": 6,
+      "arcs": 9,
+      "dips": 0,
+      "displacement": 0.14940688678998074,
+      "half_area": 0.6179186399420293,
+      "ratio": 0.2417905483543877
+    },
+    {
+      "trial": 26,
+      "pulses": 6,
+      "arcs": 9,
+      "dips": 0,
+      "displacement": 0.1807539724226234,
+      "half_area": 0.645431188831809,
+      "ratio": 0.2800514997575141
+    },
+    {
+      "trial": 27,
+      "pulses": 6,
+      "arcs": 11,
+      "dips": 0,
+      "displacement": 0.20668829549093473,
+      "half_area": 0.7283489196789785,
+      "ratio": 0.2837764839165727
+    },
+    {
+      "trial": 28,
+      "pulses": 10,
+      "arcs": 16,
+      "dips": 0,
+      "displacement": 0.021227869694456603,
+      "half_area": 0.5041776085127222,
+      "ratio": 0.04210395173454227
+    },
+    {
+      "trial": 29,
+      "pulses": 4,
+      "arcs": 7,
+      "dips": 0,
+      "displacement": 0.15321460025702652,
+      "half_area": 0.2822280784547677,
+      "ratio": 0.542875113971277
+    },
+    {
+      "trial": 30,
+      "pulses": 6,
+      "arcs": 9,
+      "dips": 0,
+      "displacement": 0.14749168826371745,
+      "half_area": 0.5446322272768048,
+      "ratio": 0.2708096966666573
+    },
+    {
+      "trial": 31,
+      "pulses": 10,
+      "arcs": 16,
+      "dips": 0,
+      "displacement": 0.3681935591794835,
+      "half_area": 1.1801202896103034,
+      "ratio": 0.3119966349371618
+    },
+    {
+      "trial": 32,
+      "pulses": 6,
+      "arcs": 7,
+      "dips": 0,
+      "displacement": 0.14128488439900463,
+      "half_area": 0.6634411439502664,
+      "ratio": 0.21295767633247023
+    },
+    {
+      "trial": 33,
+      "pulses": 4,
+      "arcs": 6,
+      "dips": 0,
+      "displacement": 0.14622046367293495,
+      "half_area": 0.2567447193736959,
+      "ratio": 0.5695169272794616
+    },
+    {
+      "trial": 34,
+      "pulses": 6,
+      "arcs": 9,
+      "dips": 0,
+      "displacement": 0.15793659446990357,
+      "half_area": 0.3754811203985956,
+      "ratio": 0.4206245957246651
+    },
+    {
+      "trial": 35,
+      "pulses": 10,
+      "arcs": 9,
+      "dips": 0,
+      "displacement": 0.12613676473586322,
+      "half_area": 0.3973078978952298,
+      "ratio": 0.31747862401951427
+    },
+    {
+      "trial": 36,
+      "pulses": 10,
+      "arcs": 11,
+      "dips": 0,
+      "displacement": 0.022180041011670926,
+      "half_area": 0.7263847341932977,
+      "ratio": 0.030534839139073386
+    },
+    {
+      "trial": 37,
+      "pulses": 12,
+      "arcs": 12,
+      "dips": 0,
+      "displacement": 0.2594028534472933,
+      "half_area": 1.1649107440373228,
+      "ratio": 0.22268045408205306
+    },
+    {
+      "trial": 38,
+      "pulses": 4,
+      "arcs": 6,
+      "dips": 0,
+      "displacement": 0.1148390043187037,
+      "half_area": 0.541340695487835,
+      "ratio": 0.21213813274321688
+    },
+    {
+      "trial": 39,
+      "pulses": 6,
+      "arcs": 9,
+      "dips": 0,
+      "displacement": 0.16763027522592952,
+      "half_area": 0.6897980186782917,
+      "ratio": 0.24301356438674984
+    },
+    {
+      "trial": 40,
+      "pulses": 10,
+      "arcs": 14,
+      "dips": 0,
+      "displacement": 0.10252247556036347,
+      "half_area": 0.6902870785986248,
+      "ratio": 0.14852150465933364
+    },
+    {
+      "trial": 41,
+      "pulses": 8,
+      "arcs": 8,
+      "dips": 0,
+      "displacement": 0.10204491930699951,
+      "half_area": 0.9123792376381684,
+      "ratio": 0.11184485036195936
+    },
+    {
+      "trial": 42,
+      "pulses": 10,
+      "arcs": 13,
+      "dips": 0,
+      "displacement": 0.05441982555385911,
+      "half_area": 0.39921487271069156,
+      "ratio": 0.13631712963083117
+    },
+    {
+      "trial": 43,
+      "pulses": 6,
+      "arcs": 5,
+      "dips": 0,
+      "displacement": 0.06895900382026682,
+      "half_area": 0.5006049231426323,
+      "ratio": 0.1377513496818309
+    },
+    {
+      "trial": 44,
+      "pulses": 4,
+      "arcs": 6,
+      "dips": 0,
+      "displacement": 0.14284856401572257,
+      "half_area": 0.469070999110185,
+      "ratio": 0.3045350582037739
+    },
+    {
+      "trial": 45,
+      "pulses": 8,
+      "arcs": 11,
+      "dips": 0,
+      "displacement": 0.3703652261179185,
+      "half_area": 0.8814318570681579,
+      "ratio": 0.42018588634842086
+    },
+    {
+      "trial": 46,
+      "pulses": 4,
+      "arcs": 4,
+      "dips": 0,
+      "displacement": 0.08924801718207151,
+      "half_area": 0.18603034126368062,
+      "ratio": 0.47974979014617186
+    },
+    {
+      "trial": 47,
+      "pulses": 8,
+      "arcs": 7,
+      "dips": 0,
+      "displacement": 0.4312665046713578,
+      "half_area": 0.997439271688482,
+      "ratio": 0.4323736962364662
+    },
+    {
+      "trial": 48,
+      "pulses": 12,
+      "arcs": 19,
+      "dips": 0,
+      "displacement": 0.1031597640300466,
+      "half_area": 0.7225967640703107,
+      "ratio": 0.1427625601988011
+    },
+    {
+      "trial": 49,
+      "pulses": 8,
+      "arcs": 10,
+      "dips": 0,
+      "displacement": 0.11095531064748206,
+      "half_area": 0.6803740580670948,
+      "ratio": 0.163079866629101
+    },
+    {
+      "trial": 50,
+      "pulses": 10,
+      "arcs": 11,
+      "dips": 0,
+      "displacement": 0.09216309450867256,
+      "half_area": 0.7341018428441342,
+      "ratio": 0.12554537957785894
+    },
+    {
+      "trial": 51,
+      "pulses": 4,
+      "arcs": 6,
+      "dips": 0,
+      "displacement": 0.09779047635770104,
+      "half_area": 0.2357829845028877,
+      "ratio": 0.41474780957530616
+    },
+    {
+      "trial": 52,
+      "pulses": 8,
+      "arcs": 11,
+      "dips": 0,
+      "displacement": 0.07869705896621669,
+      "half_area": 0.31309250908370523,
+      "ratio": 0.2513540141746957
+    },
+    {
+      "trial": 53,
+      "pulses": 4,
+      "arcs": 3,
+      "dips": 0,
+      "displacement": 0.1394242898857255,
+      "half_area": 0.49112614411580113,
+      "ratio": 0.28388692305667823
+    },
+    {
+      "trial": 54,
+      "pulses": 12,
+      "arcs": 11,
+      "dips": 0,
+      "displacement": 0.3457194277843361,
+      "half_area": 1.5531364776199803,
+      "ratio": 0.22259436486490555
+    },
+    {
+      "trial": 55,
+      "pulses": 6,
+      "arcs": 6,
+      "dips": 0,
+      "displacement": 0.14199984795942275,
+      "half_area": 0.7571610706918426,
+      "ratio": 0.1875424575509051
+    },
+    {
+      "trial": 56,
+      "pulses": 4,
+      "arcs": 4,
+      "dips": 0,
+      "displacement": 0.23136354586961144,
+      "half_area": 0.5138395393130163,
+      "ratio": 0.4502641937187932
+    },
+    {
+      "trial": 57,
+      "pulses": 8,
+      "arcs": 13,
+      "dips": 0,
+      "displacement": 0.14833766025272951,
+      "half_area": 0.4117058197550367,
+      "ratio": 0.3603001296920938
+    },
+    {
+      "trial": 58,
+      "pulses": 4,
+      "arcs": 5,
+      "dips": 0,
+      "displacement": 0.1710106639555573,
+      "half_area": 0.5182531737059057,
+      "ratio": 0.3299751407843787
+    },
+    {
+      "trial": 59,
+      "pulses": 4,
+      "arcs": 5,
+      "dips": 0,
+      "displacement": 0.20559100607066835,
+      "half_area": 0.39402909468915726,
+      "ratio": 0.5217660544403594
+    },
+    {
+      "trial": "rotary_n8_cap",
+      "pulses": 8,
+      "arcs": 0,
+      "dips": 0,
+      "displacement": 0.9442286379166264,
+      "half_area": 0.952062721452034,
+      "ratio": 0.9917714627840281
+    },
+    {
+      "trial": "rotary_n10_cap",
+      "pulses": 10,
+      "arcs": 0,
+      "dips": 0,
+      "displacement": 1.1728051085224505,
+      "half_area": 1.1851958432775704,
+      "ratio": 0.9895454115660292
+    },
+    {
+      "trial": "rotary_n12_cap",
+      "pulses": 12,
+      "arcs": 0,
+      "dips": 0,
+      "displacement": 1.3995996341167456,
+      "half_area": 1.418328965103107,
+      "ratio": 0.9867947905971166
+    }
+  ],
+  "statement": "|<a>(T)| <= (1/2) int |s| dt, exact consequence of d<a>/dt = -i s* <sigma-> and |<sigma->| <= 1/2"
+}

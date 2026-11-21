@@ -1,0 +1,4 @@
+START 1 fits; all 18 inputs; workers 1
+FIT sq_n144_maxfree_cont: F 0.98330 -> 0.98721  evaluations 500  350 s  (`callback` raised `StopIteration`.)
+SQUEEZE JOB sq_n144_maxfree_cont T 4330.0 design F 0.9872117318332235 full RFDC F 0.9872500020034725 swap 330.53407770139603
+DONE 1 fits; 500 full SDK/RFDC evaluations (each 18 input columns)

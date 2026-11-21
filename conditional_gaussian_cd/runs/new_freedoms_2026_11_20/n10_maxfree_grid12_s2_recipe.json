@@ -1,0 +1,267 @@
+{
+  "name": "n10_maxfree_grid12_s2",
+  "gate": "cd",
+  "strength": 1.0,
+  "controls_file": "runs/new_freedoms_2026_11_20/n10_maxfree_grid12_s2_controls.npz",
+  "g_nominal": 7.269988630441135,
+  "nominal_swap_ns": 216.065857409681,
+  "psi0_rad": -1.9800146097293196,
+  "phase_arcs": [
+    {
+      "centre_sample": 12,
+      "step_rad": 0.47297034022650425,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "centre_sample": 20,
+      "step_rad": -0.16723626148908233,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "centre_sample": 28,
+      "step_rad": 0.10618640340340076,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "centre_sample": 36,
+      "step_rad": -0.21808212659582205,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "centre_sample": 44,
+      "step_rad": 0.666220791706043,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "centre_sample": 52,
+      "step_rad": -0.2851974376221659,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "centre_sample": 60,
+      "step_rad": -0.18057378448586522,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "centre_sample": 68,
+      "step_rad": -0.12509536142781766,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "centre_sample": 76,
+      "step_rad": -0.26327230042818445,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "centre_sample": 84,
+      "step_rad": 0.17397289284390716,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "centre_sample": 92,
+      "step_rad": 0.01045638395061811,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "centre_sample": 100,
+      "step_rad": 0.24160253772244528,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "centre_sample": 108,
+      "step_rad": 0.5814427233390922,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "centre_sample": 116,
+      "step_rad": -0.46220178219551533,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "centre_sample": 124,
+      "step_rad": -0.312131036013345,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "centre_sample": 132,
+      "step_rad": 0.7457646017468605,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "centre_sample": 140,
+      "step_rad": 0.11200316934174911,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "centre_sample": 148,
+      "step_rad": -0.872420139569422,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "centre_sample": 156,
+      "step_rad": 0.13527584594475026,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "centre_sample": 164,
+      "step_rad": -0.28278075777489664,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "centre_sample": 172,
+      "step_rad": -0.1352301642843004,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "centre_sample": 180,
+      "step_rad": 0.3511838145146164,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "centre_sample": 188,
+      "step_rad": 0.9567396790850775,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "centre_sample": 196,
+      "step_rad": 0.10827119815173847,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "centre_sample": 204,
+      "step_rad": 0.6047881743110439,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "centre_sample": 212,
+      "step_rad": -1.9819014830630821,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "centre_sample": 220,
+      "step_rad": 0.05444504089571143,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "centre_sample": 228,
+      "step_rad": 1.3512511871295556,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "centre_sample": 236,
+      "step_rad": -2.331191292908956,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    }
+  ],
+  "dips": [],
+  "pulses": [
+    {
+      "start_sample": 4,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 0.06384448161160386
+    },
+    {
+      "start_sample": 28,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 0.17093020178225451
+    },
+    {
+      "start_sample": 52,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.072054961485541
+    },
+    {
+      "start_sample": 76,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 2.9251435535341277
+    },
+    {
+      "start_sample": 100,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": -0.02138553171993219
+    },
+    {
+      "start_sample": 124,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 0.18063854883826014
+    },
+    {
+      "start_sample": 148,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.1277816626309
+    },
+    {
+      "start_sample": 172,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.340232300028257
+    },
+    {
+      "start_sample": 196,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 0.34772907657714724
+    },
+    {
+      "start_sample": 220,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": -0.25322135634953463
+    }
+  ],
+  "gaps_samples": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "research_fit": {
+    "design_fidelity": 0.9861592185113166,
+    "evaluations": 129,
+    "qubit_frame_Rz": -5.749334261172924,
+    "family": "maxfree"
+  },
+  "qubit_frame_Rz": -5.749334261172924
+}

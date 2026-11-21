@@ -1,0 +1,214 @@
+{
+  "name": "n10_bumps_fixed_s1",
+  "gate": "cd",
+  "strength": 1.0,
+  "controls_file": "runs/new_freedoms_2026_11_20/n10_bumps_fixed_s1_controls.npz",
+  "g_nominal": 7.77894766617077,
+  "nominal_swap_ns": 201.92915471407582,
+  "psi0_rad": -1.4882708355988057,
+  "phase_arcs": [
+    {
+      "centre_sample": 12,
+      "step_rad": -0.4168732017265871,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "centre_sample": 20,
+      "step_rad": 0.4168732017265871,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "centre_sample": 36,
+      "step_rad": -1.133004246054071,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "centre_sample": 44,
+      "step_rad": 1.133004246054071,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "centre_sample": 60,
+      "step_rad": -0.3611978957454476,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "centre_sample": 68,
+      "step_rad": 0.3611978957454476,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "centre_sample": 84,
+      "step_rad": -0.5968901798977868,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "centre_sample": 92,
+      "step_rad": 0.5968901798977868,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "centre_sample": 108,
+      "step_rad": 2.3949363240777024,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "centre_sample": 116,
+      "step_rad": -2.3949363240777024,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "centre_sample": 132,
+      "step_rad": 2.3949363240777024,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "centre_sample": 140,
+      "step_rad": -2.3949363240777024,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "centre_sample": 156,
+      "step_rad": -0.5968901798977868,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "centre_sample": 164,
+      "step_rad": 0.5968901798977868,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "centre_sample": 180,
+      "step_rad": -0.3611978957454476,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "centre_sample": 188,
+      "step_rad": 0.3611978957454476,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "centre_sample": 204,
+      "step_rad": -1.133004246054071,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "centre_sample": 212,
+      "step_rad": 1.133004246054071,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "centre_sample": 228,
+      "step_rad": -0.4168732017265871,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    },
+    {
+      "centre_sample": 236,
+      "step_rad": 0.4168732017265871,
+      "duration_ns": 10.0,
+      "shape": "quintic constant-radius"
+    }
+  ],
+  "dips": [],
+  "pulses": [
+    {
+      "start_sample": 4,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 0.0
+    },
+    {
+      "start_sample": 28,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 0.0
+    },
+    {
+      "start_sample": 52,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.141592653589793
+    },
+    {
+      "start_sample": 76,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.141592653589793
+    },
+    {
+      "start_sample": 100,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 0.0
+    },
+    {
+      "start_sample": 124,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.141592653589793
+    },
+    {
+      "start_sample": 148,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 0.0
+    },
+    {
+      "start_sample": 172,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 0.0
+    },
+    {
+      "start_sample": 196,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.141592653589793
+    },
+    {
+      "start_sample": 220,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.141592653589793
+    }
+  ],
+  "gaps_samples": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "research_fit": {
+    "design_fidelity": 0.9703195284259665,
+    "evaluations": 90,
+    "qubit_frame_Rz": -0.0009390896880246621,
+    "family": "bumps_fixed",
+    "free_parameters": 7
+  },
+  "qubit_frame_Rz": -0.0009390896880246621
+}

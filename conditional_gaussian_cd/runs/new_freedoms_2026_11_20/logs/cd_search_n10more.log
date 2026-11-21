@@ -1,0 +1,20 @@
+START 9 fits; all 18 inputs; workers 3
+FIT n10_maxfree_grid12_s4: F 0.49695 -> 0.98960  evaluations 700  159 s  (`callback` raised `StopIteration`.)
+CD JOB n10_maxfree_grid12_s4 params 41 T 310.0 F 0.9896038999520086 vacuum 0.9985544089240741 0.9992918322271487 swap 200.60463851589273
+FIT n10_maxfree_grid12_s3: F 0.23477 -> 0.99010  evaluations 700  160 s  (`callback` raised `StopIteration`.)
+CD JOB n10_maxfree_grid12_s3 params 41 T 310.0 F 0.9901017526723815 vacuum 0.9985130047234222 0.9990889766745705 swap 200.61572112759703
+FIT n10_maxfree_grid8_s3: F 0.22521 -> 0.99395  evaluations 700  163 s  (`callback` raised `StopIteration`.)
+CD JOB n10_maxfree_grid8_s3 params 41 T 310.0 F 0.9939451599044502 vacuum 0.999151919098946 0.9992311496203046 swap 200.5957935290975
+FIT n10_bumps_fixed_s2: F 0.92903 -> 0.97032  evaluations 73  13 s  (CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH)
+CD JOB n10_bumps_fixed_s2 params 7 T 310.0 F 0.9703225526366156 vacuum 0.9938646525238617 0.9938161220846747 swap 200.57707887048025
+FIT n10_bumps_fixed_s1: F 0.90406 -> 0.97032  evaluations 90  17 s  (CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH)
+CD JOB n10_bumps_fixed_s1 params 7 T 310.0 F 0.9703225526366156 vacuum 0.9938646525238617 0.9938161220846747 swap 200.57707887048025
+FIT n10_bumps_free_s1: F 0.86595 -> 0.97380  evaluations 114  23 s  (CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH)
+CD JOB n10_bumps_free_s1 params 12 T 310.0 F 0.9737974058945696 vacuum 0.9939101181247184 0.9922327891552453 swap 200.58221230268828
+FIT n10_bumps_free_s2: F 0.72820 -> 0.97380  evaluations 88  17 s  (CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH)
+CD JOB n10_bumps_free_s2 params 12 T 310.0 F 0.9737974058945696 vacuum 0.9939101181247184 0.9922327891552453 swap 200.58221230268828
+FIT n8_gap24_maxfree_s1: F 0.26619 -> 0.95154  evaluations 500  83 s  (`callback` raised `StopIteration`.)
+CD JOB n8_gap24_maxfree_s1 params 36 T 280.0 F 0.9515467522731216 vacuum 0.9896757344864222 0.9922129022922102 swap 200.59838414788007
+FIT n8_gap24_maxfree_s2: F 0.64679 -> 0.95245  evaluations 500  81 s  (`callback` raised `StopIteration`.)
+CD JOB n8_gap24_maxfree_s2 params 36 T 280.0 F 0.9524560056940299 vacuum 0.9884000195591903 0.99091429705164 swap 200.59612640982402
+DONE 9 fits; 3465 full SDK/RFDC evaluations (each 18 input columns)

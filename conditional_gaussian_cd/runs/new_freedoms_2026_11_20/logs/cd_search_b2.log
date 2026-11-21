@@ -1,0 +1,6 @@
+START 2 fits; all 18 inputs; workers 2
+FIT b2_n24_maxfree_s1: F 0.00120 -> 0.96668  evaluations 500  320 s  (`callback` raised `StopIteration`.)
+CD JOB b2_n24_maxfree_s1 params 97 T 730.0 F 0.9666844412296285 vacuum 0.9923913586072837 0.9921687195392892 swap 200.60244246482182
+FIT b2_n28_maxfree_s1: F 0.01602 -> 0.99102  evaluations 500  358 s  (`callback` raised `StopIteration`.)
+CD JOB b2_n28_maxfree_s1 params 113 T 850.0 F 0.9910168949851718 vacuum 0.997650283685052 0.998072971630728 swap 289.437016394518
+DONE 2 fits; 1000 full SDK/RFDC evaluations (each 18 input columns)

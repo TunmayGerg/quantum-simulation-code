@@ -4,6 +4,11 @@ Open the populated notebooks:
 
 - [Fast conditional displacement](notebooks/fast_conditional_displacement.ipynb): pulse sequence, same-beta strength comparison, signed-beta scaling, cancellation analysis and fresh full-input replay.
 - [Conditional squeezing](notebooks/conditional_gaussian_gates.ipynb): 8 dB target, complete pulse recipe, tested cancellation mechanisms, photon-dependent errors and fresh boundary-input replay.
+- [Single-mode squeezing](notebooks/single_mode_squeezing.ipynb) (2026-11-20): vacuum to 8 dB with the qubit starting and ending in g.
+  - The conditional squeeze on |g> gives 0.9989 in 4.81 us, from verified columns.
+  - The Singh/Royer/Girvin GCR gadget with ideal CDs gives 0.9971 in 4.42 us.
+  - The same gadget with the real 130 ns CDs, replayed at pulse level, gives 0.9974 in 5.46 us, after 21 gadgets on a fixed schedule.
+  - Setting each step from the state's measured <x^2> stalls near 4 dB.
 
 Python and C++ sources live in [code/](code/). Current notebooks live in
 [notebooks/](notebooks/), historical notebooks in
@@ -16,6 +21,34 @@ Current priority is gate speed and pulse-spacing dependence. The historical
 [phase-refinement study](notebooks/phase_controlled_cd.ipynb) is retained for
 its derivations; its small same-duration fidelity gains are not a current
 recommendation and are not being optimized further.
+
+## New fastest CD with the 2026-11-20 sideband freedoms (310 ns)
+
+The user now allows 10 ns constant-radius sideband phase arcs at any time,
+or 30 ns down-up dips. With these, a certified CD β=1 takes **310 ns at
+99.3064 %** process fidelity on all 18 inputs. The vacuum inputs give
+99.914 % (g0) and 99.932 % (e0).
+
+- **Pulses:** ten identical 30 ns π pulses with one phase each.
+- **Sideband:** constant scale, g = 7.779 rad/µs. The filtered peak corresponds
+  to a 200.6 ns swap.
+- **Phase moves:** 29 contiguous 10 ns arcs, each turning by at most π. The
+  filtered plateau ripple is ±0.04 %.
+- **Frame:** one declared final qubit Rz.
+- **Verification:** cutoff converged at 96 levels, independent order-16 check,
+  SDK compile.
+- **Limitation:** it is a compiled 41-parameter table, not a few-parameter
+  block.
+
+The same freedoms give β=2 in 850 ns (99.10 %, certified). The rule below needs
+1090 ns. Repeating the 310 ns gate twice gives β=2 from vacuum at 99.67 %.
+
+The bound β ≤ ½∫|g|dt holds for any qubit control or sideband phase. It
+forbids 8 π pulses (250 ns), and 280 ns with waits reaches only 95.2 %. No
+squeeze shorter than 4.81 µs reached 99 %.
+
+Details, the table and failures:
+[runs/new_freedoms_2026_11_20/README.md](runs/new_freedoms_2026_11_20/README.md).
 
 ## Pulse spacing: same target, same total duration
 

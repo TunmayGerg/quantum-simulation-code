@@ -1,0 +1,109 @@
+{
+  "name": "n10_dips09_s0",
+  "gate": "cd",
+  "strength": 1.0,
+  "controls_file": "runs/new_freedoms_2026_11_20/n10_dips09_s0_controls.npz",
+  "g_nominal": 7.366526300060366,
+  "nominal_swap_ns": 213.23433363456863,
+  "psi0_rad": -1.5707963267948966,
+  "phase_arcs": [],
+  "dips": [
+    {
+      "pulse": 0,
+      "start_sample": 4,
+      "zero_sample": 16,
+      "jump_rad": 2.1248013666253949e-19,
+      "duration_ns": 30.0,
+      "shape": "cos^2 down-up"
+    },
+    {
+      "pulse": 9,
+      "start_sample": 220,
+      "zero_sample": 232,
+      "jump_rad": -3.359087075623637e-19,
+      "duration_ns": 30.0,
+      "shape": "cos^2 down-up"
+    }
+  ],
+  "pulses": [
+    {
+      "start_sample": 4,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 6.674797246292358e-19
+    },
+    {
+      "start_sample": 28,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": -3.7525704412568025e-19
+    },
+    {
+      "start_sample": 52,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.141592653589793
+    },
+    {
+      "start_sample": 76,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.141592653589793
+    },
+    {
+      "start_sample": 100,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": -3.3172112594204608e-19
+    },
+    {
+      "start_sample": 124,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 2.007303292788853e-18
+    },
+    {
+      "start_sample": 148,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.141592653589793
+    },
+    {
+      "start_sample": 172,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 3.141592653589793
+    },
+    {
+      "start_sample": 196,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": 8.406784168222302e-18
+    },
+    {
+      "start_sample": 220,
+      "samples": 24,
+      "angle_fraction": 1.0,
+      "phase_rad": -1.2356340034910611e-17
+    }
+  ],
+  "gaps_samples": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "research_fit": {
+    "design_fidelity": 0.9527167288380873,
+    "evaluations": 19,
+    "qubit_frame_Rz": -6.283185307179586,
+    "family": "dips"
+  },
+  "qubit_frame_Rz": -6.283185307179586
+}

@@ -1,0 +1,10 @@
+START 4 fits; all 18 inputs; workers 2
+FIT sq_n144_qubit_only: F 0.98040 -> 0.98060  evaluations 150  124 s  (`callback` raised `StopIteration`.)
+SQUEEZE JOB sq_n144_qubit_only T 4330.0 design F 0.9805989202220075 full RFDC F 0.9806463268284017 swap 330.16990979407484
+FIT sq_n128_qubit_only: F 0.96977 -> 0.97063  evaluations 150  89 s  (`callback` raised `StopIteration`.)
+SQUEEZE JOB sq_n128_qubit_only T 3850.0 design F 0.970631692757115 full RFDC F 0.9706959087795518 swap 307.7461484677348
+FIT sq_n144_maxfree: F 0.01092 -> 0.98330  evaluations 300  222 s  (`callback` raised `StopIteration`.)
+SQUEEZE JOB sq_n144_maxfree T 4330.0 design F 0.9832988861126357 full RFDC F 0.9833397967495591 swap 330.6179773925075
+FIT sq_n128_maxfree: F 0.02487 -> 0.89305  evaluations 300  226 s  (`callback` raised `StopIteration`.)
+SQUEEZE JOB sq_n128_maxfree T 3850.0 design F 0.8930539769636194 full RFDC F 0.8932982138055559 swap 294.0812704734027
+DONE 4 fits; 900 full SDK/RFDC evaluations (each 18 input columns)

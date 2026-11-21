@@ -476,3 +476,46 @@ an8pulseTrotter cycle. Proposed windows:CD370ns/730ns, squeezing4.81us;
 spacing decreases to the hard30ns minimum. All points use SDK words, fullRFDC
 and automatic output/target cutoff checks. Pilot running offline; no board,
 calibration, runtime, NCO or SDK changes.
+
+## New sideband freedoms (user, 2026-11-20) — Claude subagent of add8a6b3
+
+Rules: 10 ns constant-radius phase arcs at ANY time, or a 30 ns down-up dip
+under one qubit pulse (phase may jump at its zero); constant sideband scale
+otherwise; filtered peak |g| ≤ π/(2·200 ns); identical 30 ns π pulses whose
+only per-pulse freedom is the phase. Code `code/new_freedoms_cd.py`, results
+and full table `runs/new_freedoms_2026_11_20/README.md`.
+
+- Reference 370 ns replayed with verify_research.certify: F 0.9922779449668537
+  (difference 0.0), vacuum g0/e0 99.920/99.902 %.
+- Bound: d<a>/dt = −i s*<σ−>, |<σ−>| ≤ 1/2 ⇒ β ≤ ½∫|g|dt for any qubit
+  control and sideband phase (arcs keep |s|, dips lower it). Checked on 63
+  waveforms (max ratio 0.9918). At the cap β=1 needs ≈263 ns with ramps; only
+  a second coupling (blue sideband) could beat it. Identical π pulses force an
+  even count, so 250 ns (8 π, |<a>|=0.944) is impossible and 280 ns (8 π +
+  waits) reaches only 95.2 %.
+- ACCEPTED (certified, 96 levels, order-16 check 1.2e-15, SDK compile):
+  CD β=1 in **310 ns**, 99.3064 %, vacuum 99.914/99.932 %, ten π pulses at
+  g=7.779 (filtered peak = 200.6 ns swap) with 29 contiguous 10 ns arcs each
+  ≤ π, declared final Rz 4.74095 rad, filtered ripple ±0.04 %. An unbounded
+  variant (some arcs 5.5 rad/10 ns) certified 99.3945 % but ripples ±0.5 %.
+  Same optimizer with qubit phases only: 97.924 %.
+- CD β=2 certified at **850 ns**, 99.1017 % (28 π + 83 arcs ≤ π), vacuum
+  99.77/99.81 %; the folder rule needs 1090 ns. Zero-refit generalization:
+  CD(β)^k = CD(kβ); two copies of the 310 ns gate give β=2 in 620 ns at
+  95.90 % process but 99.67/99.72 % from vacuum; three copies 84.1 % (β=3).
+- Physics: every gate shows a monotone photon-number displacement shortfall
+  (Re<a>(+,n) 1.01→0.95 at 310 ns); ⟨σx⟩≤1 keeps its sign. Mid-pulse arcs
+  act, in the sideband frame, as intra-pulse drive-phase changes that make each
+  π a shaped composite rotation; the gate spends 16 % of the bound's force
+  (β/(½∫|g|)=0.84) to cancel the direction error and part of the shortfall.
+  Arcs at qubit zeros are only qubit phase shifts plus a frame — why the
+  earlier zeros-only study gained little.
+- Failed: no ≥99 % CD below 310 ns; few-parameter structured families
+  (symmetric bumps 97.0–97.4 %, repeated 2-/5-pulse motifs ≤91.9/98.7 %);
+  dips (95.3–97.2 %). The accepted gate is a compiled 41-parameter table,
+  not a Magnus-derived block.
+- Squeeze 8 dB: 144 π (4.33 µs) qubit phases only 98.065 %; with contiguous
+  arcs 98.334 % → 98.725 % after 800 evaluations (design, 80 levels, full
+  RFDC re-score), still rising slowly; 128 π (3.85 µs) 97.07 % qubit-only,
+  random-arc cold start 89.3 %. No squeeze shorter than the 4.81 µs reference
+  reached 99 % within the ~1.1 CPU-h budget. Nothing running.
